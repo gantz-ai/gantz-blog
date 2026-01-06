@@ -21,18 +21,22 @@
                     {{- $Srcset := "" -}}
 
                     {{- if (default true $page.Page.Site.Params.imageProcessing.cover.enabled) -}}
-                        {{/* Output WebP at appropriate sizes for article cards */}}
-                        {{- $thumbnail := $image.resource.Resize "720x webp q80" -}}
-                        {{- $thumbnailRetina := $image.resource.Resize "1440x webp q80" -}}
-                        {{- $Srcset = printf "%s 720w, %s 1440w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
-                        {{- $Width = $thumbnail.Width -}}
-                        {{- $Height = $thumbnail.Height -}}
+                        {{/* Output WebP at 3 sizes optimized for common displays:
+                             - 400w: mobile 1x (400px) or small mobile 2x (200px)
+                             - 800w: mobile 2x (400px) or tablet 1x (800px)
+                             - 1200w: tablet 2x (600px) or desktop (1200px) */}}
+                        {{- $small := $image.resource.Resize "400x webp q80" -}}
+                        {{- $medium := $image.resource.Resize "800x webp q80" -}}
+                        {{- $large := $image.resource.Resize "1200x webp q80" -}}
+                        {{- $Srcset = printf "%s 400w, %s 800w, %s 1200w" $small.RelPermalink $medium.RelPermalink $large.RelPermalink -}}
+                        {{- $Permalink = $medium.RelPermalink -}}
+                        {{- $Width = $medium.Width -}}
+                        {{- $Height = $medium.Height -}}
                     {{- end -}}
 
                     {{/* LCP image: fetchpriority=high. Above-fold images: no lazy. Others: lazy load */}}
                     <img src="{{ $Permalink }}"
-                        {{ with $Srcset }}srcset="{{ . }}" sizes="(max-width: 768px) 100vw, 720px"{{ end }}
+                        {{ with $Srcset }}srcset="{{ . }}" sizes="(max-width: 600px) 100vw, 800px"{{ end }}
                         width="{{ $Width }}"
                         height="{{ $Height }}"
                         {{ if $isLCP }}fetchpriority="high"{{ end }}
