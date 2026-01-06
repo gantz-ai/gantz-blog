@@ -5,6 +5,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<!-- Preload critical fonts to reduce FOUT -->
+<link rel="preload" href="https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHvxw6WQev.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVewqFHi_o.woff2" as="font" type="font/woff2" crossorigin>
+
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
 {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
