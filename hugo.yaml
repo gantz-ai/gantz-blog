@@ -15,10 +15,10 @@ params:
     since: 2025
 
   sidebar:
-    emoji: 🤖
     subtitle: AI Agents, MCP, and beyond
     avatar:
-      enabled: false
+      enabled: true
+      src: img/avatar.png
 
   article:
     toc: true
