@@ -29,6 +29,65 @@
 {{ with .Params.image }}<meta name="twitter:image" content="https://gantz.ai/blog/{{ . }}">{{ end }}
 {{ end }}
 
+<!-- JSON-LD Structured Data -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Gantz Blog",
+  "description": "Learn how to build AI agents with MCP (Model Context Protocol). Tutorials, patterns, and best practices for tool use, RAG, and agent development.",
+  "url": "https://gantz.ai/blog/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gantz",
+    "url": "https://gantz.ai",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gantz.ai/blog/img/avatar.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://gantz.ai/blog/search/?keyword={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ else if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}",
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Gantz",
+    "url": "https://gantz.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gantz",
+    "url": "https://gantz.ai",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gantz.ai/blog/img/avatar.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }{{ with .Params.image }},
+  "image": "https://gantz.ai/blog/{{ . }}"{{ end }}{{ with .Params.tags }},
+  "keywords": "{{ delimit . ", " }}"{{ end }}
+}
+</script>
+{{ end }}
+
 <style>
 /* Code block styling - full width */
 .article-content .highlight {
