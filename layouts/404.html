@@ -1,0 +1,101 @@
+{{ define "main" }}
+<div class="not-found">
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>The page you're looking for doesn't exist or has been moved.</p>
+    <div class="not-found-actions">
+        <a href="{{ "/" | relURL }}" class="btn">Go Home</a>
+        <a href="{{ "/search/" | relURL }}" class="btn btn-outline">Search</a>
+    </div>
+    <div class="not-found-suggestions">
+        <h3>Popular Posts</h3>
+        <ul>
+            {{ range first 5 (where .Site.RegularPages "Params.featured" true) }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+<style>
+.not-found {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.not-found h1 {
+    font-size: 120px;
+    margin: 0;
+    color: #0066cc;
+    line-height: 1;
+}
+.not-found h2 {
+    font-size: 28px;
+    margin: 10px 0 20px;
+    color: #333;
+}
+.not-found p {
+    color: #666;
+    margin-bottom: 30px;
+}
+.not-found-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.not-found .btn {
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.not-found .btn:not(.btn-outline) {
+    background: #0066cc;
+    color: #fff;
+}
+.not-found .btn:not(.btn-outline):hover {
+    background: #0055aa;
+}
+.not-found .btn-outline {
+    border: 2px solid #0066cc;
+    color: #0066cc;
+}
+.not-found .btn-outline:hover {
+    background: #0066cc;
+    color: #fff;
+}
+.not-found-suggestions {
+    text-align: left;
+    background: #f8f9fa;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.not-found-suggestions h3 {
+    font-size: 16px;
+    margin: 0 0 15px;
+    color: #333;
+}
+.not-found-suggestions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.not-found-suggestions li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+.not-found-suggestions li:last-child {
+    border-bottom: none;
+}
+.not-found-suggestions a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.not-found-suggestions a:hover {
+    text-decoration: underline;
+}
+</style>
+{{ end }}
