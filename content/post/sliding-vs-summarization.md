@@ -5,6 +5,7 @@ description = "Compare sliding window and summarization approaches for managing 
 image = "images/warrior-rain-city-07.webp"
 draft = false
 tags = ['memory', 'patterns', 'comparison']
+voice = false
 +++
 
 

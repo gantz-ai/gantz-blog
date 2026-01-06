@@ -22,6 +22,7 @@ answer = "Use defense in depth: mark untrusted content clearly, add system promp
 [[faqs]]
 question = "Can prompt injection be completely prevented?"
 answer = "No single defense prevents all prompt injection. Use multiple layers: system prompts that distinguish data from instructions, tool restrictions, input validation, output filtering, human confirmation for dangerous actions, and sandboxed execution environments."
+voice = false
 +++
 
 

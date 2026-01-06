@@ -5,6 +5,7 @@ description = "Build AI agents that improve themselves with caution. Patterns fo
 image = "images/warrior-rain-city-06.webp"
 draft = false
 tags = ['patterns', 'architecture', 'deep-dive']
+voice = false
 +++
 
 

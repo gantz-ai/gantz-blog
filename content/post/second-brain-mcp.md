@@ -5,6 +5,7 @@ description = "Build a personal knowledge assistant with MCP. Search and connect
 image = "images/agent-city-04.webp"
 draft = false
 tags = ['mcp', 'tutorial', 'automation']
+voice = false
 +++
 
 

@@ -5,6 +5,7 @@ description = "Chain of thought prompting improves reasoning but adds latency an
 image = "images/agent-arctic-aurora.webp"
 draft = false
 tags = ['prompting', 'patterns', 'best-practices']
+voice = false
 +++
 
 

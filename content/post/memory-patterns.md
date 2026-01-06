@@ -5,6 +5,7 @@ description = "Give AI agents persistent memory across conversations. Patterns f
 image = "images/robot-billboard-03.webp"
 draft = false
 tags = ['memory', 'patterns', 'architecture']
+voice = false
 +++
 
 

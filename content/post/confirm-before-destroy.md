@@ -5,6 +5,7 @@ description = "Prevent AI agents from destructive actions with confirmation patt
 image = "images/soldier-battlefield-fire.webp"
 draft = false
 tags = ['patterns', 'security', 'best-practices']
+voice = false
 +++
 
 

@@ -5,6 +5,7 @@ description = "Model AI agents as state machines for clearer design. Learn state
 image = "images/cyborg-bridge-drones.webp"
 draft = false
 tags = ['architecture', 'patterns', 'deep-dive']
+voice = false
 +++
 
 

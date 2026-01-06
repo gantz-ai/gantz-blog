@@ -5,6 +5,7 @@ description = "Handle AI agent failures gracefully. Implement retry strategies, 
 image = "images/warrior-rain-city-01.webp"
 draft = false
 tags = ['patterns', 'architecture', 'best-practices']
+voice = false
 +++
 
 

@@ -6,6 +6,7 @@ image = "images/agent-train-03.webp"
 draft = false
 featured = true
 tags = ['patterns', 'architecture', 'deep-dive']
+voice = false
 +++
 
 

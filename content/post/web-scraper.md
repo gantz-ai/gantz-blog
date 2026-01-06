@@ -5,6 +5,7 @@ description = "Build a web scraper where AI finds CSS selectors for you. Describ
 image = "images/agent-train-05.webp"
 draft = false
 tags = ['tutorial', 'python', 'automation']
+voice = false
 +++
 
 

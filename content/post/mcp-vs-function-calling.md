@@ -6,6 +6,7 @@ image = "images/warrior-rain-city-03.webp"
 draft = false
 featured = true
 tags = ['mcp', 'tool-use', 'comparison']
+voice = true
 
 [[faqs]]
 question = "What is the difference between MCP and function calling?"

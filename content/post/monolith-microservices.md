@@ -5,6 +5,7 @@ description = "One agent or many? Compare monolithic vs multi-agent architecture
 image = "images/robot-billboard-04.webp"
 draft = false
 tags = ['architecture', 'scaling', 'comparison']
+voice = false
 +++
 
 

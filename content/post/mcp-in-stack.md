@@ -5,6 +5,7 @@ description = "Understand where Model Context Protocol fits in your AI architect
 image = "images/agent-platform-logo.webp"
 draft = false
 tags = ['mcp', 'architecture', 'deep-dive']
+voice = false
 +++
 
 

@@ -5,6 +5,7 @@ description = "Boost RAG accuracy with rerankers. Learn how reranking improves r
 image = "images/agent-neon-05.webp"
 draft = false
 tags = ['rag', 'patterns', 'deep-dive']
+voice = false
 +++
 
 

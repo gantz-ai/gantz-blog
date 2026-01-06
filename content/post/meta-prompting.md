@@ -5,6 +5,7 @@ description = "Use AI to generate better prompts automatically. Meta-prompting t
 image = "images/agent-neon-03.webp"
 draft = false
 tags = ['prompting', 'patterns', 'deep-dive']
+voice = false
 +++
 
 

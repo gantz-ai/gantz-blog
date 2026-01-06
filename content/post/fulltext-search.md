@@ -5,6 +5,7 @@ description = "Skip vector databases and try full-text search first. Compare Pos
 image = "images/agent-city-01.webp"
 draft = false
 tags = ['rag', 'architecture', 'comparison']
+voice = false
 +++
 
 

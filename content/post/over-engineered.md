@@ -5,6 +5,7 @@ description = "Lessons from over-engineering an AI agent. Why simpler architectu
 image = "images/robot-billboard-05.webp"
 draft = false
 tags = ['best-practices', 'architecture', 'patterns']
+voice = false
 +++
 
 

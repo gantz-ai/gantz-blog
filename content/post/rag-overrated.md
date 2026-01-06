@@ -5,6 +5,7 @@ description = "RAG is overkill for most AI apps. Learn when simpler alternatives
 image = "images/agent-city-03.webp"
 draft = false
 tags = ['rag', 'architecture', 'comparison']
+voice = false
 +++
 
 

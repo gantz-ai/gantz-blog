@@ -5,6 +5,7 @@ description = "Write tool descriptions that AI agents understand. Best practices
 image = "images/robot-billboard-09.webp"
 draft = false
 tags = ['tool-use', 'prompting', 'best-practices']
+voice = false
 +++
 
 

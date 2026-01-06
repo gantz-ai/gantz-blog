@@ -5,6 +5,7 @@ description = "Debug AI agent decisions with thought logging, trace analysis, an
 image = "images/agent-jungle-green.webp"
 draft = false
 tags = ['debugging', 'patterns', 'best-practices']
+voice = false
 +++
 
 

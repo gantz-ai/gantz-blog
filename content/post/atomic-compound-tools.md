@@ -5,6 +5,7 @@ description = "Should AI tools do one thing or many? Compare atomic vs compound 
 image = "images/logo-metal-armor.webp"
 draft = false
 tags = ['tool-use', 'architecture', 'patterns']
+voice = false
 +++
 
 

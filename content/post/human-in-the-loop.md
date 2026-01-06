@@ -5,6 +5,7 @@ description = "Design AI agents that know when to ask for help. Patterns for hum
 image = "images/agent-asian-street.webp"
 draft = false
 tags = ['patterns', 'security', 'architecture']
+voice = false
 +++
 
 

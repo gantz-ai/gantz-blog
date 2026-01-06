@@ -5,6 +5,7 @@ description = "Handle long-running AI agent tasks without HTTP timeouts. Impleme
 image = "images/city-drones-crowd.webp"
 draft = false
 tags = ['architecture', 'scaling', 'patterns']
+voice = false
 +++
 
 

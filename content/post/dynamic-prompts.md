@@ -5,6 +5,7 @@ description = "Update AI agent system prompts during conversations. Learn dynami
 image = "images/agent-train-jump.webp"
 draft = false
 tags = ['prompting', 'patterns', 'architecture']
+voice = false
 +++
 
 

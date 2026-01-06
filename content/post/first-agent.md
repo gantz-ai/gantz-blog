@@ -22,6 +22,7 @@ answer = "The agent loop is: 1) Send user request to LLM with available tools, 2
 [[faqs]]
 question = "How long does it take to build an AI agent?"
 answer = "You can build a working agent with file reading, code search, and command execution in about 30 minutes. The basic structure is simple - most time goes into defining useful tools and handling edge cases."
+voice = false
 +++
 
 

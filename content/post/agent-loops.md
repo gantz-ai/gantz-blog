@@ -5,6 +5,7 @@ description = "AI agents stuck in infinite loops? Learn detection strategies and
 image = "images/agent-neon-standing.webp"
 draft = false
 tags = ['patterns', 'debugging', 'architecture']
+voice = false
 +++
 
 

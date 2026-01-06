@@ -5,6 +5,7 @@ description = "Prompt engineering crafts inputs. Agent engineering builds system
 image = "images/agent-neon-04.webp"
 draft = false
 tags = ['prompting', 'architecture', 'comparison']
+voice = false
 +++
 
 

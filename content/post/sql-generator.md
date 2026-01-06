@@ -5,6 +5,7 @@ description = "Convert plain English to SQL queries with AI. Tutorial for buildi
 image = "images/robot-billboard-08.webp"
 draft = false
 tags = ['tutorial', 'tool-use', 'python']
+voice = false
 +++
 
 

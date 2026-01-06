@@ -5,6 +5,7 @@ description = "Build an AI email assistant with MCP. Connect Claude to Gmail or 
 image = "images/cafe-interior.webp"
 draft = false
 tags = ['tutorial', 'automation', 'mcp']
+voice = false
 +++
 
 

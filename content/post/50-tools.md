@@ -5,6 +5,7 @@ description = "More tools don't mean better AI agents. Learn why 5 well-designed
 image = "images/agent-drones-hud.webp"
 draft = false
 tags = ['tool-use', 'best-practices', 'architecture']
+voice = false
 +++
 
 

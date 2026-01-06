@@ -5,6 +5,7 @@ description = "Understand the difference between MCP and ReAct. MCP is a protoco
 image = "images/agent-train-02.webp"
 draft = false
 tags = ['mcp', 'patterns', 'comparison']
+voice = true
 +++
 
 

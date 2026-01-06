@@ -21,6 +21,7 @@ answer = "Use Tool Use when data is real-time, users want actions taken, computa
 [[faqs]]
 question = "Can I use both RAG and Tool Use together?"
 answer = "Yes, most real applications need both. For example, a support bot uses RAG for policies and Tool Use for actions. A research assistant uses Tool Use to search and RAG to read results."
+voice = false
 +++
 
 

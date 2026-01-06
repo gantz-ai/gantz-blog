@@ -5,6 +5,7 @@ description = "Control smart home devices with Claude and MCP. Tutorial for ligh
 image = "images/diner-exterior.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']
+voice = true
 +++
 
 

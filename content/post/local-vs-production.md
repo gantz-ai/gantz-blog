@@ -5,6 +5,7 @@ description = "Debug common AI agent deployment issues: environment variables, f
 image = "images/warrior-rain-city-02.webp"
 draft = false
 tags = ['deployment', 'debugging', 'best-practices']
+voice = false
 +++
 
 

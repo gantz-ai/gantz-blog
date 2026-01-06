@@ -5,6 +5,7 @@ description = "Prediction: MCP servers will be as common as local dev servers. L
 image = "images/agent-misc-01.webp"
 draft = false
 tags = ['mcp', 'architecture', 'deep-dive']
+voice = true
 
 [[faqs]]
 question = "What is MCP (Model Context Protocol)?"

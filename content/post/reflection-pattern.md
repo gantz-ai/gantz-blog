@@ -5,6 +5,7 @@ description = "Build self-correcting AI agents with the Reflection pattern. Impl
 image = "images/agent-train-04.webp"
 draft = false
 tags = ['patterns', 'architecture', 'deep-dive']
+voice = false
 +++
 
 

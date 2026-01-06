@@ -5,6 +5,7 @@ description = "Fix AI agents that refuse to use tools. Debug over-cautious behav
 image = "images/agent-tokyo-neon.webp"
 draft = false
 tags = ['prompting', 'debugging', 'best-practices']
+voice = false
 +++
 
 

@@ -5,6 +5,7 @@ description = "Create a Slack bot connected to local MCP tools. Run scripts, que
 image = "images/robot-billboard-07.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']
+voice = false
 +++
 
 

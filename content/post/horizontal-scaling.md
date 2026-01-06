@@ -5,6 +5,7 @@ description = "Learn how to scale AI agents horizontally while managing conversa
 image = "images/robot-billboard-02.webp"
 draft = false
 tags = ['scaling', 'architecture', 'deployment']
+voice = false
 +++
 
 

@@ -6,6 +6,7 @@ image = "images/agent-neon-02.webp"
 draft = false
 featured = true
 tags = ['rag', 'mcp', 'tutorial']
+voice = false
 +++
 
 

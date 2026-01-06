@@ -5,6 +5,7 @@ description = "Analysis of whether Model Context Protocol will become the indust
 image = "images/astronaut-space-station.webp"
 draft = false
 tags = ['mcp', 'deep-dive', 'architecture']
+voice = true
 +++
 
 

@@ -5,6 +5,7 @@ description = "Stop AI agents from making up information. One prompt technique f
 image = "images/agent-electric-sparks.webp"
 draft = false
 tags = ['prompting', 'best-practices', 'debugging']
+voice = false
 +++
 
 

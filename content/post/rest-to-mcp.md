@@ -5,6 +5,7 @@ description = "REST was built for apps, MCP for AI. Compare API paradigms and un
 image = "images/robot-billboard-06.webp"
 draft = false
 tags = ['mcp', 'architecture', 'comparison']
+voice = true
 +++
 
 

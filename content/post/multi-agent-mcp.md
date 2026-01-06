@@ -5,6 +5,7 @@ description = "Build multi-agent systems with MCP. Tutorial on agent specializat
 image = "images/warrior-rain-city-04.webp"
 draft = false
 tags = ['mcp', 'architecture', 'tutorial']
+voice = false
 +++
 
 

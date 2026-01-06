@@ -5,6 +5,7 @@ description = "Build voice-controlled AI agents with speech-to-text and text-to-
 image = "images/robot-billboard-10.webp"
 draft = false
 tags = ['tutorial', 'architecture', 'deep-dive']
+voice = false
 +++
 
 

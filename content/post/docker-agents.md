@@ -5,6 +5,7 @@ description = "Deploy AI agents with Docker in 5 files. Minimal Dockerfile, dock
 image = "images/robot-billboard.webp"
 draft = false
 tags = ['docker', 'deployment', 'tutorial']
+voice = false
 +++
 
 

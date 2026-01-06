@@ -5,6 +5,7 @@ description = "Expose local MCP servers without ngrok or port forwarding. Gantz 
 image = "images/agent-city-02.webp"
 draft = false
 tags = ['mcp', 'deployment', 'tutorial']
+voice = true
 +++
 
 
