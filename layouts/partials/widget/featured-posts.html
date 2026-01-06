@@ -22,7 +22,7 @@
                     {{ $img = resources.Get $imgPath }}
                 {{ end }}
                 {{ if $img }}
-                    {{ $thumb := $img.Resize "120x90 webp q80" }}
+                    {{ $thumb := $img.Resize "120x90 webp q75" }}
                     <img src="{{ $thumb.RelPermalink }}" width="60" height="45" alt="{{ $.Title }}" loading="lazy">
                 {{ end }}
             {{ end }}

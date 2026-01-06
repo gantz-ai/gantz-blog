@@ -25,9 +25,9 @@
                              - 400w: mobile 1x (400px) or small mobile 2x (200px)
                              - 800w: mobile 2x (400px) or tablet 1x (800px)
                              - 1200w: tablet 2x (600px) or desktop (1200px) */}}
-                        {{- $small := $image.resource.Resize "400x webp q80" -}}
-                        {{- $medium := $image.resource.Resize "800x webp q80" -}}
-                        {{- $large := $image.resource.Resize "1200x webp q80" -}}
+                        {{- $small := $image.resource.Resize "400x webp q75" -}}
+                        {{- $medium := $image.resource.Resize "800x webp q75" -}}
+                        {{- $large := $image.resource.Resize "1200x webp q75" -}}
                         {{- $Srcset = printf "%s 400w, %s 800w, %s 1200w" $small.RelPermalink $medium.RelPermalink $large.RelPermalink -}}
                         {{- $Permalink = $medium.RelPermalink -}}
                         {{- $Width = $medium.Width -}}
