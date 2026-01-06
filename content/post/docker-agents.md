@@ -6,6 +6,25 @@ image = "images/robot-billboard.webp"
 draft = false
 tags = ['docker', 'deployment', 'tutorial']
 voice = false
+
+[howto]
+name = "Deploy AI Agents with Docker"
+totalTime = 15
+[[howto.steps]]
+name = "Create the Dockerfile"
+text = "Write a Dockerfile using python:3.11-slim base image with your agent dependencies."
+[[howto.steps]]
+name = "Create docker-compose.yml"
+text = "Define your service configuration with environment variables and restart policies."
+[[howto.steps]]
+name = "Set up environment variables"
+text = "Create a .env file with API keys and configuration, keeping secrets out of code."
+[[howto.steps]]
+name = "Build and run the container"
+text = "Run docker-compose up -d to build and start your containerized agent."
+[[howto.steps]]
+name = "Verify deployment"
+text = "Check logs and test the agent to ensure it's running correctly in Docker."
 +++
 
 

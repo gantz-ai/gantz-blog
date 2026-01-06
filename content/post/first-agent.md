@@ -23,6 +23,25 @@ answer = "The agent loop is: 1) Send user request to LLM with available tools, 2
 question = "How long does it take to build an AI agent?"
 answer = "You can build a working agent with file reading, code search, and command execution in about 30 minutes. The basic structure is simple - most time goes into defining useful tools and handling edge cases."
 voice = false
+
+[howto]
+name = "Build Your First AI Agent"
+totalTime = 30
+[[howto.steps]]
+name = "Get an API key"
+text = "Sign up for OpenAI or Anthropic API access and get your API key."
+[[howto.steps]]
+name = "Install dependencies"
+text = "Install Python and the required libraries: openai or anthropic SDK."
+[[howto.steps]]
+name = "Define your tools"
+text = "Create tool definitions for file reading, code search, and command execution."
+[[howto.steps]]
+name = "Build the agent loop"
+text = "Implement the core loop: send message, check for tool calls, execute tools, repeat."
+[[howto.steps]]
+name = "Test your agent"
+text = "Run the agent with a simple task to verify it works correctly."
 +++
 
 

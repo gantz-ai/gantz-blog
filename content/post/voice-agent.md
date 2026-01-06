@@ -6,6 +6,25 @@ image = "images/robot-billboard-10.webp"
 draft = false
 tags = ['tutorial', 'architecture', 'deep-dive']
 voice = false
+
+[howto]
+name = "Build a Voice-Controlled AI Agent"
+totalTime = 45
+[[howto.steps]]
+name = "Set up speech-to-text"
+text = "Install and configure Whisper or another STT library for voice input."
+[[howto.steps]]
+name = "Set up text-to-speech"
+text = "Configure pyttsx3, ElevenLabs, or another TTS service for voice output."
+[[howto.steps]]
+name = "Build the agent loop"
+text = "Create the core loop: listen for voice, process with AI, speak response."
+[[howto.steps]]
+name = "Add wake word detection"
+text = "Implement wake word detection so the agent only responds when addressed."
+[[howto.steps]]
+name = "Connect to MCP tools"
+text = "Integrate your existing MCP tools so the voice agent can take actions."
 +++
 
 

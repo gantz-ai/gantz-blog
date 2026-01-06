@@ -6,6 +6,25 @@ image = "images/agent-city-04.webp"
 draft = false
 tags = ['mcp', 'tutorial', 'automation']
 voice = false
+
+[howto]
+name = "Build a Second Brain with MCP"
+totalTime = 30
+[[howto.steps]]
+name = "Organize your notes"
+text = "Create a folder structure for ideas, projects, books, and random notes."
+[[howto.steps]]
+name = "Create search tools"
+text = "Write scripts to search notes by content, tags, or creation date."
+[[howto.steps]]
+name = "Add connection finder"
+text = "Build a tool that finds related notes based on content similarity."
+[[howto.steps]]
+name = "Define MCP config"
+text = "Create gantz.yaml with tools for searching and connecting your notes."
+[[howto.steps]]
+name = "Query your brain"
+text = "Ask Claude questions like 'what did I write about pricing strategies?'"
 +++
 
 

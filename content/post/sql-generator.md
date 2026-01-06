@@ -6,6 +6,25 @@ image = "images/robot-billboard-08.webp"
 draft = false
 tags = ['tutorial', 'tool-use', 'python']
 voice = false
+
+[howto]
+name = "Build a Natural Language to SQL Generator"
+totalTime = 30
+[[howto.steps]]
+name = "Connect to your database"
+text = "Set up a connection to your PostgreSQL, MySQL, or SQLite database."
+[[howto.steps]]
+name = "Extract schema information"
+text = "Create a tool that reads table names, columns, and relationships."
+[[howto.steps]]
+name = "Build the SQL generator"
+text = "Create an AI prompt that converts natural language to SQL using schema context."
+[[howto.steps]]
+name = "Add safety checks"
+text = "Implement validation to prevent destructive queries and SQL injection."
+[[howto.steps]]
+name = "Test with queries"
+text = "Ask questions like 'show me top customers by revenue' and verify results."
 +++
 
 

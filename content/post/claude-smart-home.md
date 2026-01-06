@@ -6,6 +6,25 @@ image = "images/diner-exterior.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']
 voice = true
+
+[howto]
+name = "Control Smart Home with Claude and MCP"
+totalTime = 30
+[[howto.steps]]
+name = "Identify your devices"
+text = "List smart home devices with API access: Hue lights, thermostats, sensors."
+[[howto.steps]]
+name = "Create control scripts"
+text = "Write shell scripts or Python to control each device via their APIs."
+[[howto.steps]]
+name = "Define MCP tools"
+text = "Create gantz.yaml mapping natural language commands to device controls."
+[[howto.steps]]
+name = "Set up the MCP server"
+text = "Run Gantz on a device connected to your home network (Raspberry Pi works great)."
+[[howto.steps]]
+name = "Talk to Claude"
+text = "Use natural language commands like 'dim the lights' through Claude."
 +++
 
 

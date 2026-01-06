@@ -7,6 +7,25 @@ draft = false
 featured = true
 tags = ['rag', 'mcp', 'tutorial']
 voice = false
+
+[howto]
+name = "Build Local RAG with MCP"
+totalTime = 30
+[[howto.steps]]
+name = "Organize your documents"
+text = "Place your markdown, text, or PDF files in a searchable folder structure."
+[[howto.steps]]
+name = "Create search scripts"
+text = "Write Python scripts for searching documents using grep-style or vector search."
+[[howto.steps]]
+name = "Define MCP tools"
+text = "Create gantz.yaml with tools for searching and reading your documents."
+[[howto.steps]]
+name = "Start the MCP server"
+text = "Run gantz run to start your local RAG server."
+[[howto.steps]]
+name = "Query your documents"
+text = "Ask Claude questions about your documents through the MCP connection."
 +++
 
 

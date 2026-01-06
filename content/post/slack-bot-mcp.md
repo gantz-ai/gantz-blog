@@ -6,6 +6,25 @@ image = "images/robot-billboard-07.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']
 voice = false
+
+[howto]
+name = "Build a Slack Bot with MCP Tools"
+totalTime = 30
+[[howto.steps]]
+name = "Set up local tools"
+text = "Create a gantz.yaml file defining the tools your Slack bot can use."
+[[howto.steps]]
+name = "Create a Slack app"
+text = "Go to api.slack.com, create a new app, and configure bot permissions."
+[[howto.steps]]
+name = "Write the bot code"
+text = "Create a Python script that listens for Slack messages and calls Claude with MCP."
+[[howto.steps]]
+name = "Start the MCP server"
+text = "Run gantz run --auth to start your local MCP server with a secure tunnel."
+[[howto.steps]]
+name = "Connect and test"
+text = "Add the bot to a Slack channel and test commands to verify the integration."
 +++
 
 

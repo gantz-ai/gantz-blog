@@ -6,6 +6,25 @@ image = "images/agent-city-02.webp"
 draft = false
 tags = ['mcp', 'deployment', 'tutorial']
 voice = true
+
+[howto]
+name = "Expose Local MCP Servers Without ngrok"
+totalTime = 10
+[[howto.steps]]
+name = "Install Gantz CLI"
+text = "Download and install the Gantz CLI from gantz.run."
+[[howto.steps]]
+name = "Create your MCP config"
+text = "Define your tools in a gantz.yaml file."
+[[howto.steps]]
+name = "Run with tunnel"
+text = "Execute gantz run --auth to start your server with a secure tunnel."
+[[howto.steps]]
+name = "Get your URL"
+text = "Copy the generated tunnel URL (e.g., cool-penguin.gantz.run)."
+[[howto.steps]]
+name = "Connect to Claude"
+text = "Use the tunnel URL in Claude Desktop or API to access your tools."
 +++
 
 

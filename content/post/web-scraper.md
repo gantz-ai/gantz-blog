@@ -6,6 +6,25 @@ image = "images/agent-train-05.webp"
 draft = false
 tags = ['tutorial', 'python', 'automation']
 voice = false
+
+[howto]
+name = "Build an AI-Powered Web Scraper"
+totalTime = 25
+[[howto.steps]]
+name = "Set up the project"
+text = "Install required libraries: requests, beautifulsoup4, and your AI SDK."
+[[howto.steps]]
+name = "Create the fetch tool"
+text = "Build a tool that fetches and parses HTML from any URL."
+[[howto.steps]]
+name = "Build the selector finder"
+text = "Create an AI prompt that analyzes HTML structure and identifies CSS selectors."
+[[howto.steps]]
+name = "Implement data extraction"
+text = "Use the AI-identified selectors to extract structured data from pages."
+[[howto.steps]]
+name = "Test with real websites"
+text = "Run the scraper against different websites to verify it handles various structures."
 +++
 
 

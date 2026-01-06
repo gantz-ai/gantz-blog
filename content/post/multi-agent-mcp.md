@@ -6,6 +6,25 @@ image = "images/warrior-rain-city-04.webp"
 draft = false
 tags = ['mcp', 'architecture', 'tutorial']
 voice = false
+
+[howto]
+name = "Build a Multi-Agent System with MCP"
+totalTime = 60
+[[howto.steps]]
+name = "Design agent roles"
+text = "Define specialized roles: researcher, writer, editor, or domain-specific agents."
+[[howto.steps]]
+name = "Create shared MCP tools"
+text = "Build tools that multiple agents can access through a single MCP server."
+[[howto.steps]]
+name = "Implement coordinator"
+text = "Create a coordinator agent that routes tasks to specialist agents."
+[[howto.steps]]
+name = "Set up communication"
+text = "Define how agents pass context and results between each other."
+[[howto.steps]]
+name = "Test the workflow"
+text = "Run a complex task through the multi-agent system and verify coordination."
 +++
 
 

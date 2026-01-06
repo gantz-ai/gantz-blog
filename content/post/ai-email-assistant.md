@@ -6,6 +6,25 @@ image = "images/cafe-interior.webp"
 draft = false
 tags = ['tutorial', 'automation', 'mcp']
 voice = false
+
+[howto]
+name = "Build an AI Email Assistant with MCP"
+totalTime = 30
+[[howto.steps]]
+name = "Set up Gmail API"
+text = "Create a Google Cloud project, enable Gmail API, and download OAuth credentials."
+[[howto.steps]]
+name = "Create email scripts"
+text = "Write Python scripts for listing, reading, searching, and sending emails."
+[[howto.steps]]
+name = "Create MCP config"
+text = "Define your email tools in a gantz.yaml configuration file."
+[[howto.steps]]
+name = "Run the MCP server"
+text = "Start Gantz with gantz run --auth to expose your email tools securely."
+[[howto.steps]]
+name = "Connect to Claude"
+text = "Use the MCP server URL with Claude or any AI agent to interact with your email."
 +++
 
 
