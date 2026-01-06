@@ -3,7 +3,7 @@ title = "Build a local RAG with MCP"
 date = 2025-12-16
 image = "/images/agent-neon-02.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['rag', 'mcp', 'tutorial']
 +++
 
 

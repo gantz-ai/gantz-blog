@@ -3,7 +3,7 @@ title = "The Voice-First Agent: No Typing Required"
 date = 2025-11-19
 image = "/images/robot-billboard-10.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['tutorial', 'architecture', 'deep-dive']
 +++
 
 

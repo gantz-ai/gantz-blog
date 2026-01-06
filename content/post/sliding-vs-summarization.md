@@ -3,7 +3,7 @@ title = "The Sliding Window vs Summarization Trade-off"
 date = 2025-11-24
 image = "/images/warrior-rain-city-07.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['memory', 'patterns', 'comparison']
 +++
 
 

@@ -3,7 +3,7 @@ title = "Building a Multi-Agent System with MCP"
 date = 2025-12-07
 image = "/images/warrior-rain-city-04.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['mcp', 'architecture', 'tutorial']
 +++
 
 

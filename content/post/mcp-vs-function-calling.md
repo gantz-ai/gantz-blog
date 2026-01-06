@@ -3,7 +3,7 @@ title = "MCP vs Function Calling — What's the difference?"
 date = 2025-12-12
 image = "/images/warrior-rain-city-03.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['mcp', 'tool-use', 'comparison']
 +++
 
 

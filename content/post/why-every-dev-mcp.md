@@ -3,7 +3,7 @@ title = "Why every dev will run an MCP server"
 date = 2025-11-17
 image = "/images/agent-misc-01.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['mcp', 'architecture', 'deep-dive']
 +++
 
 

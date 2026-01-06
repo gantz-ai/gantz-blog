@@ -3,7 +3,7 @@ title = "Why Agents Get Stuck in Loops (And How to Prevent It)"
 date = 2026-01-04
 image = "/images/agent-neon-standing.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['patterns', 'debugging', 'architecture']
 +++
 
 

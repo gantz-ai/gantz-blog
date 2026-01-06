@@ -3,7 +3,7 @@ title = "Where does MCP fit in your stack?"
 date = 2025-12-14
 image = "/images/agent-platform-logo.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['mcp', 'architecture', 'deep-dive']
 +++
 
 

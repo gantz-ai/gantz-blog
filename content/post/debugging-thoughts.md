@@ -3,7 +3,7 @@ title = "How to Read an Agent's Mind: Debugging Thought Processes"
 date = 2025-12-25
 image = "/images/agent-jungle-green.png"
 draft = false
-tags = ['agents', 'ai', 'mcp']
+tags = ['debugging', 'patterns', 'best-practices']
 +++
 
 
