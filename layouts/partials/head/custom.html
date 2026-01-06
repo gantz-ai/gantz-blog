@@ -1,22 +1,30 @@
 <style>
 /* Dark code blocks */
 .highlight {
-  background: #282a36 !important;
+  background: #1e1e2e !important;
   border-radius: 8px;
   padding: 1rem;
   margin: 1rem 0;
 }
 
 .highlight pre {
-  background: #282a36 !important;
-  color: #f8f8f2 !important;
+  background: #1e1e2e !important;
+  color: #cdd6f4 !important;
   margin: 0;
 }
 
 .highlight code {
   background: transparent !important;
-  color: #f8f8f2 !important;
+  color: #cdd6f4 !important;
 }
+
+/* Syntax highlighting - brighter colors */
+.highlight .c, .highlight .c1, .highlight .cm { color: #9399b2 !important; } /* comments - brighter */
+.highlight .k, .highlight .kd, .highlight .kn { color: #cba6f7 !important; } /* keywords - purple */
+.highlight .s, .highlight .s1, .highlight .s2 { color: #a6e3a1 !important; } /* strings - green */
+.highlight .n, .highlight .nf, .highlight .nx { color: #89b4fa !important; } /* names - blue */
+.highlight .o, .highlight .p { color: #cdd6f4 !important; } /* operators */
+.highlight .mi, .highlight .mf { color: #fab387 !important; } /* numbers - orange */
 
 /* Inline code */
 :not(pre) > code {
