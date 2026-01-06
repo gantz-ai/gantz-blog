@@ -1,13 +1,30 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-<!-- Preconnect hints - must be early for performance -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<!-- Preload critical fonts to reduce FOUT -->
-<link rel="preload" href="https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHvxw6WQev.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVewqFHi_o.woff2" as="font" type="font/woff2" crossorigin>
+<!-- Self-hosted Lato font - eliminates FOUT from external fonts -->
+<style>
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/blog/fonts/lato-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/blog/fonts/lato-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/blog/fonts/lato-700.woff2') format('woff2');
+}
+</style>
 
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
