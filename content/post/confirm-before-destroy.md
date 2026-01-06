@@ -1,7 +1,7 @@
 +++
 title = "The Confirm-Before-Destroy Pattern"
 date = 2025-12-27
-image = "images/soldier-battlefield-fire.png"
+image = "images/soldier-battlefield-fire.webp"
 draft = false
 tags = ['patterns', 'security', 'best-practices']
 +++

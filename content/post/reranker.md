@@ -1,7 +1,7 @@
 +++
 title = "    # The Reranker: RAG's Secret Weapon"
 date = 2025-11-29
-image = "images/agent-neon-05.png"
+image = "images/agent-neon-05.webp"
 draft = false
 tags = ['rag', 'patterns', 'deep-dive']
 +++

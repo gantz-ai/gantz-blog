@@ -1,7 +1,7 @@
 +++
 title = "The Self-Improving Agent (Careful Now)"
 date = 2025-11-26
-image = "images/warrior-rain-city-06.png"
+image = "images/warrior-rain-city-06.webp"
 draft = false
 tags = ['patterns', 'architecture', 'deep-dive']
 +++

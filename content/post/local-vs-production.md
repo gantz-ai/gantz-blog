@@ -1,7 +1,7 @@
 +++
 title = "Why Your Agent Works Locally But Fails in Production"
 date = 2025-12-15
-image = "images/warrior-rain-city-02.png"
+image = "images/warrior-rain-city-02.webp"
 draft = false
 tags = ['deployment', 'debugging', 'best-practices']
 +++

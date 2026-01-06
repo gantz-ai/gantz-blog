@@ -1,7 +1,7 @@
 +++
 title = "Dynamic Prompts: Changing Instructions Mid-Conversation"
 date = 2025-12-23
-image = "images/agent-train-jump.png"
+image = "images/agent-train-jump.webp"
 draft = false
 tags = ['prompting', 'patterns', 'architecture']
 +++

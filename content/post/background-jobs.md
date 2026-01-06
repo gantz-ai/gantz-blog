@@ -1,7 +1,7 @@
 +++
 title = "Background Jobs for Long-Running Tasks"
 date = 2025-12-30
-image = "images/city-drones-crowd.png"
+image = "images/city-drones-crowd.webp"
 draft = false
 tags = ['architecture', 'scaling', 'patterns']
 +++

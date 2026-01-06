@@ -1,7 +1,7 @@
 +++
 title = "From REST to MCP: what's changing"
 date = 2025-11-28
-image = "images/robot-billboard-06.png"
+image = "images/robot-billboard-06.webp"
 draft = false
 tags = ['mcp', 'architecture', 'comparison']
 +++

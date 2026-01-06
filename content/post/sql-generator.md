@@ -1,7 +1,7 @@
 +++
 title = "Build a SQL Query Generator from Natural Language"
 date = 2025-11-23
-image = "images/robot-billboard-08.png"
+image = "images/robot-billboard-08.webp"
 draft = false
 tags = ['tutorial', 'tool-use', 'python']
 +++

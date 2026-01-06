@@ -1,7 +1,7 @@
 +++
 title = "The Minimal Docker Setup for Agents"
 date = 2025-12-24
-image = "images/robot-billboard.png"
+image = "images/robot-billboard.webp"
 draft = false
 tags = ['docker', 'deployment', 'tutorial']
 +++

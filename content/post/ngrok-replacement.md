@@ -1,7 +1,7 @@
 +++
 title = "I got tired of ngrok just to test MCP tools, so I built this"
 date = 2025-12-06
-image = "images/agent-city-02.png"
+image = "images/agent-city-02.webp"
 draft = false
 tags = ['mcp', 'deployment', 'tutorial']
 +++

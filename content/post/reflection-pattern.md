@@ -1,7 +1,7 @@
 +++
 title = "The Reflection pattern: AI that checks its own work"
 date = 2025-11-30
-image = "images/agent-train-04.png"
+image = "images/agent-train-04.webp"
 draft = false
 tags = ['patterns', 'architecture', 'deep-dive']
 +++

@@ -1,7 +1,7 @@
 +++
 title = "MCP vs ReAct: Protocol vs Pattern"
 date = 2025-12-11
-image = "images/agent-train-02.png"
+image = "images/agent-train-02.webp"
 draft = false
 tags = ['mcp', 'patterns', 'comparison']
 +++

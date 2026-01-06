@@ -1,7 +1,7 @@
 +++
 title = "Why Agents Get Stuck in Loops (And How to Prevent It)"
 date = 2026-01-04
-image = "images/agent-neon-standing.png"
+image = "images/agent-neon-standing.webp"
 draft = false
 tags = ['patterns', 'debugging', 'architecture']
 +++

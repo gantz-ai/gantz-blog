@@ -1,7 +1,7 @@
 +++
 title = "Build a Local Web Scraper with AI Selectors"
 date = 2025-11-18
-image = "images/agent-train-05.png"
+image = "images/agent-train-05.webp"
 draft = false
 tags = ['tutorial', 'python', 'automation']
 +++

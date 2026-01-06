@@ -1,7 +1,7 @@
 +++
 title = "Tool Use vs RAG: picking the right approach"
 date = 2025-11-20
-image = "images/warrior-rain-city-09.png"
+image = "images/warrior-rain-city-09.webp"
 draft = false
 tags = ['tool-use', 'rag', 'comparison']
 +++

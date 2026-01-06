@@ -1,7 +1,7 @@
 +++
 title = "How to Read an Agent's Mind: Debugging Thought Processes"
 date = 2025-12-25
-image = "images/agent-jungle-green.png"
+image = "images/agent-jungle-green.webp"
 draft = false
 tags = ['debugging', 'patterns', 'best-practices']
 +++
