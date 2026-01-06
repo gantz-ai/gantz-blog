@@ -1,21 +1,15 @@
 <footer class="article-footer">
     {{ partial "article/components/tags" . }}
 
-    {{/* View count */}}
-    <div class="article-views">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-            <circle cx="12" cy="12" r="3"></circle>
-        </svg>
-        <span id="view-count">-</span> views
-    </div>
+    {{/* Load view count */}}
     <script>
     (function() {
         var r = new XMLHttpRequest();
         r.addEventListener('load', function() {
             try {
                 var count = JSON.parse(this.responseText).count;
-                document.getElementById('view-count').textContent = count;
+                var el = document.getElementById('view-count');
+                if (el) el.textContent = count;
             } catch(e) {}
         });
         r.open('GET', 'https://gantz.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');

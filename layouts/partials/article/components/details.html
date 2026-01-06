@@ -1,0 +1,72 @@
+<div class="article-details">
+    {{ if .Params.categories }}
+    <header class="article-category">
+        {{ range (.GetTerms "categories") }}
+            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                {{ .LinkTitle }}
+            </a>
+        {{ end }}
+    </header>
+    {{ end }}
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="{{ .RelPermalink }}">
+                {{- .Title -}}
+            </a>
+        </h2>
+
+        {{ with .Params.description }}
+        <h3 class="article-subtitle">
+            {{ . }}
+        </h3>
+        {{ end }}
+    </div>
+
+    {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+    {{ $showDate := not .Date.IsZero }}
+    {{ $showFooter := or $showDate $showReadingTime }}
+    {{ if $showFooter }}
+    <footer class="article-time">
+        {{ if $showDate }}
+            <div>
+                {{ partial "helper/icon" "date" }}
+                <time class="article-time--published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                    {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            </div>
+        {{ end }}
+
+        {{ if $showReadingTime }}
+            <div>
+                {{ partial "helper/icon" "clock" }}
+                <time class="article-time--reading">
+                    {{ T "article.readingTime" .ReadingTime }}
+                </time>
+            </div>
+        {{ end }}
+
+        {{/* View count - only on single post pages */}}
+        {{ if and .IsPage (eq .Section "post") }}
+        <div class="article-views">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+            <span id="view-count">-</span> views
+        </div>
+        {{ end }}
+    </footer>
+    {{ end }}
+
+    {{ if .IsTranslated }}
+        <footer class="article-translations">
+            {{ partial "helper/icon" "language" }}
+            <div>
+                {{ range .Translations }}
+                    <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+                {{ end }}
+            </div>
+        </footer>
+    {{ end }}
+</div>
