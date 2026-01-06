@@ -1,0 +1,26 @@
+/* Dark code blocks */
+.highlight {
+  background: #282a36 !important;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.highlight pre {
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
+}
+
+.highlight code {
+  background: transparent !important;
+  color: #f8f8f2 !important;
+}
+
+/* Inline code - keep light */
+:not(pre) > code {
+  background: #f1f1f1;
+  color: #e91e63;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
