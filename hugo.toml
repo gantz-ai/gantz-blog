@@ -1,4 +1,4 @@
-baseURL = 'https://blog.gantz.run/'
+baseURL = 'https://blog.gantz.ai/'
 languageCode = 'en-us'
 title = 'Gantz Blog'
 theme = 'paper'
