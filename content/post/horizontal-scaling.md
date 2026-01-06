@@ -1,6 +1,7 @@
 +++
 title = "Horizontal Scaling for Stateful Agents"
 date = 2025-12-18
+description = "Learn how to scale AI agents horizontally while managing conversation state. Covers sticky sessions, Redis, PostgreSQL, client-side state, and hybrid approaches with code examples."
 image = "images/robot-billboard-02.webp"
 draft = false
 tags = ['scaling', 'architecture', 'deployment']
@@ -630,6 +631,12 @@ Tools are stateless. Conversations live in Redis/Postgres.
 For most cases: **Redis for conversations, PostgreSQL for long-term storage.**
 
 Start simple. Add complexity when you need it.
+
+## Related reading
+
+- [Why Your Agent Works Locally But Fails in Production](/post/local-vs-production/) - Common deployment pitfalls
+- [Memory Patterns for AI Agents](/post/memory-patterns/) - How to implement agent memory
+- [Running AI Agents in Docker](/post/docker-agents/) - Container deployment strategies
 
 ---
 

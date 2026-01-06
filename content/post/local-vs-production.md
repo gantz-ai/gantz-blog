@@ -1,6 +1,7 @@
 +++
 title = "Why Your Agent Works Locally But Fails in Production"
 date = 2025-12-15
+description = "Debug common AI agent deployment issues: environment variables, file paths, network topology, rate limits, timeouts, and memory limits. Includes fixes and best practices."
 image = "images/warrior-rain-city-02.webp"
 draft = false
 tags = ['deployment', 'debugging', 'best-practices']
@@ -572,6 +573,12 @@ Your agent fails in production because:
 - Load testing before deploy
 
 The agent isn't broken. The environment is different.
+
+## Related reading
+
+- [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - Scale without losing conversations
+- [Running AI Agents in Docker](/post/docker-agents/) - Containerize your agents
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handle failures gracefully
 
 ---
 

@@ -1,6 +1,7 @@
 +++
 title = "MCP vs ReAct: Protocol vs Pattern"
 date = 2025-12-11
+description = "Understand the difference between MCP and ReAct. MCP is a protocol for tool communication, ReAct is a reasoning pattern. Learn when to use each in your AI agents."
 image = "images/agent-train-02.webp"
 draft = false
 tags = ['mcp', 'patterns', 'comparison']

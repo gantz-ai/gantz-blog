@@ -1,6 +1,7 @@
 +++
 title = "Tool Use vs RAG: picking the right approach"
 date = 2025-11-20
+description = "When to use RAG vs Tool Use in AI applications. RAG retrieves knowledge, Tool Use executes actions. Decision framework with practical examples."
 image = "images/warrior-rain-city-09.webp"
 draft = false
 tags = ['tool-use', 'rag', 'comparison']

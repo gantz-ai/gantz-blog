@@ -1,6 +1,7 @@
 +++
 title = "The Sliding Window vs Summarization Trade-off"
 date = 2025-11-24
+description = "Compare sliding window and summarization approaches for managing AI agent context. Learn the trade-offs in accuracy, cost, and latency for each method."
 image = "images/warrior-rain-city-07.webp"
 draft = false
 tags = ['memory', 'patterns', 'comparison']

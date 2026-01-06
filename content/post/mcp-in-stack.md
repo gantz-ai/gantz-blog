@@ -1,6 +1,7 @@
 +++
 title = "Where does MCP fit in your stack?"
 date = 2025-12-14
+description = "Understand where Model Context Protocol fits in your AI architecture. Visual guide to MCP's role between LLMs, tools, and your application layer."
 image = "images/agent-platform-logo.webp"
 draft = false
 tags = ['mcp', 'architecture', 'deep-dive']
@@ -354,6 +355,12 @@ It's not the decision maker (orchestration).
 It's not the data (external systems).
 
 It's the nervous system — carrying signals between brain and body.
+
+## Related reading
+
+- [Will MCP become a standard?](/post/mcp-standard/) - The future of MCP adoption
+- [MCP vs ReAct: Protocol vs Pattern](/post/mcp-vs-react/) - Understanding the difference
+- [Why every dev will run an MCP server](/post/why-every-dev-mcp/) - MCP in developer workflows
 
 ---
 

@@ -1,6 +1,7 @@
 +++
 title = "Will MCP become a standard?"
 date = 2025-12-13
+description = "Analysis of whether Model Context Protocol will become the industry standard for AI tool integration. Examines MCP's advantages, adoption trajectory, and competition."
 image = "images/astronaut-space-station.webp"
 draft = false
 tags = ['mcp', 'deep-dive', 'architecture']
