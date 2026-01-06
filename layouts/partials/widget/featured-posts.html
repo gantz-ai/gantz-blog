@@ -14,7 +14,17 @@
         {{ range first $limit $featured }}
         <a href="{{ .RelPermalink }}" class="featured-post-item">
             {{ with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+                {{ $imgPath := . }}
+                {{/* Handle both .webp and .png extensions */}}
+                {{ $img := resources.Get $imgPath }}
+                {{ if not $img }}
+                    {{ $imgPath = replace $imgPath ".webp" ".png" }}
+                    {{ $img = resources.Get $imgPath }}
+                {{ end }}
+                {{ if $img }}
+                    {{ $thumb := $img.Resize "120x90 q80" }}
+                    <img src="{{ $thumb.RelPermalink }}" width="60" height="45" alt="{{ $.Title }}" loading="lazy">
+                {{ end }}
             {{ end }}
             <span class="featured-post-title">{{ .Title | truncate 40 }}</span>
         </a>
