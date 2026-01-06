@@ -34,16 +34,15 @@
                         {{- $Height = $medium.Height -}}
                     {{- end -}}
 
-                    {{/* LCP image: fetchpriority=high. Above-fold images: no lazy. Others: lazy load */}}
+                    {{/* Above-fold images: fetchpriority=high, no lazy. Others: lazy load */}}
                     <img src="{{ $Permalink }}"
                         {{ with $Srcset }}srcset="{{ . }}" sizes="(max-width: 600px) 100vw, 800px"{{ end }}
                         width="{{ $Width }}"
                         height="{{ $Height }}"
-                        {{ if $isLCP }}fetchpriority="high"{{ end }}
-                        {{ if not $isAboveFold }}loading="lazy"{{ end }}
+                        {{ if $isAboveFold }}fetchpriority="high"{{ else }}loading="lazy"{{ end }}
                         alt="Featured image of post {{ $page.Title }}" />
                 {{ else }}
-                    <img src="{{ $image.permalink }}" {{ if $isLCP }}fetchpriority="high"{{ end }} {{ if not $isAboveFold }}loading="lazy"{{ end }} alt="Featured image of post {{ $page.Title }}" />
+                    <img src="{{ $image.permalink }}" {{ if $isAboveFold }}fetchpriority="high"{{ else }}loading="lazy"{{ end }} alt="Featured image of post {{ $page.Title }}" />
                 {{ end }}
             </a>
         </div>
