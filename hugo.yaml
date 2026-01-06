@@ -39,8 +39,8 @@ params:
       - type: toc
 
   colorScheme:
-    toggle: true
-    default: auto
+    toggle: false
+    default: light
 
 menu:
   main:
