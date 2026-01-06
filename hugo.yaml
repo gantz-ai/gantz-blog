@@ -1,0 +1,75 @@
+baseurl: https://blog.gantz.ai/
+languageCode: en-us
+theme: stack
+title: Gantz Blog
+
+pagination:
+  pagerSize: 10
+
+params:
+  mainSections:
+    - post
+  favicon: /favicon.ico
+
+  footer:
+    since: 2025
+
+  sidebar:
+    emoji: 🤖
+    subtitle: AI Agents, MCP, and beyond
+    avatar:
+      enabled: false
+
+  article:
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+
+  comments:
+    enabled: false
+
+  widgets:
+    homepage:
+      - type: search
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+
+  colorScheme:
+    toggle: true
+    default: auto
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /post/
+      weight: 2
+    - identifier: gantz
+      name: Gantz
+      url: https://gantz.ai
+      weight: 3
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/gantz-ai
+      params:
+        icon: brand-github
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
