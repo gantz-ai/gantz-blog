@@ -1,12 +1,8 @@
 baseURL = 'https://blog.gantz.ai/'
 languageCode = 'en-us'
 title = 'Gantz Blog'
-theme = 'paper'
-
-[params]
-  color = 'linen'
-  github = 'https://github.com/phukon'
-  twitter = ''
+theme = 'lowkey'
+paginate = 10
 
 [markup]
   [markup.highlight]
@@ -27,5 +23,5 @@ theme = 'paper'
   [[menu.main]]
     identifier = 'gantz'
     name = 'Gantz'
-    url = 'https://gantz.run'
+    url = 'https://gantz.ai'
     weight = 3
