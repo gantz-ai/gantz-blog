@@ -3,6 +3,7 @@
 {{- $index := 0 -}}
 {{- $pageNumber := 1 -}}
 {{- $isLCP := false -}}
+{{- $isAboveFold := false -}}
 
 {{- if reflect.IsMap . -}}
     {{- $page = .Page -}}
@@ -10,10 +11,11 @@
     {{- $pageNumber = default 1 .PageNumber -}}
 {{- end -}}
 
-{{/* First article on first page is the LCP element */}}
+{{/* First article gets fetchpriority=high, first 3 articles on page 1 skip lazy loading */}}
 {{- $isLCP = and (eq $index 0) (eq $pageNumber 1) -}}
+{{- $isAboveFold = and (le $index 2) (eq $pageNumber 1) -}}
 
 {{ $image := partialCached "helper/image" (dict "Context" $page "Type" "articleList") $page.RelPermalink "articleList" }}
 <article class="{{ if $image.exists }}has-image{{ end }}">
-    {{ partial "article/components/header" (dict "Page" $page "IsLCP" $isLCP) }}
+    {{ partial "article/components/header" (dict "Page" $page "IsLCP" $isLCP "IsAboveFold" $isAboveFold) }}
 </article>

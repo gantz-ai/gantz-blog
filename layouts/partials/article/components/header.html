@@ -1,10 +1,12 @@
-{{/* Support both direct page context and dict with Page/IsLCP */}}
+{{/* Support both direct page context and dict with Page/IsLCP/IsAboveFold */}}
 {{- $page := . -}}
 {{- $isLCP := false -}}
+{{- $isAboveFold := false -}}
 
 {{- if reflect.IsMap . -}}
     {{- $page = .Page -}}
     {{- $isLCP = default false .IsLCP -}}
+    {{- $isAboveFold = default false .IsAboveFold -}}
 {{- end -}}
 
 <header class="article-header">
@@ -28,15 +30,16 @@
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}
 
-                    {{/* LCP image: eager load with high priority. Others: lazy load */}}
+                    {{/* LCP image: fetchpriority=high. Above-fold images: no lazy. Others: lazy load */}}
                     <img src="{{ $Permalink }}"
                         {{ with $Srcset }}srcset="{{ . }}" sizes="(max-width: 768px) 100vw, 720px"{{ end }}
                         width="{{ $Width }}"
                         height="{{ $Height }}"
-                        {{ if $isLCP }}fetchpriority="high"{{ else }}loading="lazy"{{ end }}
+                        {{ if $isLCP }}fetchpriority="high"{{ end }}
+                        {{ if not $isAboveFold }}loading="lazy"{{ end }}
                         alt="Featured image of post {{ $page.Title }}" />
                 {{ else }}
-                    <img src="{{ $image.permalink }}" {{ if $isLCP }}fetchpriority="high"{{ else }}loading="lazy"{{ end }} alt="Featured image of post {{ $page.Title }}" />
+                    <img src="{{ $image.permalink }}" {{ if $isLCP }}fetchpriority="high"{{ end }} {{ if not $isAboveFold }}loading="lazy"{{ end }} alt="Featured image of post {{ $page.Title }}" />
                 {{ end }}
             </a>
         </div>
