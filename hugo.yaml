@@ -20,6 +20,11 @@ outputs:
   home:
     - HTML
     - RSS
+  page:
+    - HTML
+    - JSON
+  section:
+    - HTML
     - JSON
 
 sitemap:
