@@ -1,6 +1,7 @@
 +++
 title = "Let Claude control your smart home"
 date = 2025-12-28
+description = "Control smart home devices with Claude and MCP. Tutorial for lights, thermostats, and sensors using natural language through local shell scripts."
 image = "images/diner-exterior.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']

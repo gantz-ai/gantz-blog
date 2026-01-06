@@ -1,6 +1,7 @@
 +++
 title = "Build a Local Web Scraper with AI Selectors"
 date = 2025-11-18
+description = "Build a web scraper where AI finds CSS selectors for you. Describe what data you want, and the agent extracts it from any webpage structure."
 image = "images/agent-train-05.webp"
 draft = false
 tags = ['tutorial', 'python', 'automation']

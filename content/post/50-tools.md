@@ -1,6 +1,7 @@
 +++
 title = "Why Your 50-Tool Agent is Worse Than a 5-Tool One"
 date = 2026-01-06
+description = "More tools don't mean better AI agents. Learn why 5 well-designed tools outperform 50 mediocre ones in accuracy, speed, and cost."
 image = "images/agent-drones-hud.webp"
 draft = false
 tags = ['tool-use', 'best-practices', 'architecture']

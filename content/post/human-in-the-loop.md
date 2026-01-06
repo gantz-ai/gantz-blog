@@ -1,6 +1,7 @@
 +++
 title = "Human-in-the-Loop: When AI Agents Should Stop and Ask"
 date = 2025-12-17
+description = "Design AI agents that know when to ask for help. Patterns for human oversight, approval workflows, and balancing autonomy with safety."
 image = "images/agent-asian-street.webp"
 draft = false
 tags = ['patterns', 'security', 'architecture']

@@ -1,6 +1,7 @@
 +++
 title = "Context Window Budgeting for Multi-Turn Agents"
 date = 2025-12-26
+description = "Manage context window limits in multi-turn AI agents. Strategies for token budgeting, message pruning, and avoiding context overflow."
 image = "images/agent-arctic-white.webp"
 draft = false
 tags = ['memory', 'architecture', 'patterns']

@@ -1,6 +1,7 @@
 +++
 title = "Build a SQL Query Generator from Natural Language"
 date = 2025-11-23
+description = "Convert plain English to SQL queries with AI. Tutorial for building a natural language database interface with schema awareness and safety checks."
 image = "images/robot-billboard-08.webp"
 draft = false
 tags = ['tutorial', 'tool-use', 'python']

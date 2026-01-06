@@ -1,6 +1,7 @@
 +++
 title = "Monolith vs Microservices for Agents"
 date = 2025-12-08
+description = "One agent or many? Compare monolithic vs multi-agent architectures. When to use specialized agents and how to coordinate them effectively."
 image = "images/robot-billboard-04.webp"
 draft = false
 tags = ['architecture', 'scaling', 'comparison']

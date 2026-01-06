@@ -1,6 +1,7 @@
 +++
 title = "    # The Reranker: RAG's Secret Weapon"
 date = 2025-11-29
+description = "Boost RAG accuracy with rerankers. Learn how reranking improves retrieval quality by reordering vector search results before LLM generation."
 image = "images/agent-neon-05.webp"
 draft = false
 tags = ['rag', 'patterns', 'deep-dive']

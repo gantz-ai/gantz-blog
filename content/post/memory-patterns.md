@@ -1,6 +1,7 @@
 +++
 title = "Memory Patterns for AI Agents"
 date = 2025-12-10
+description = "Give AI agents persistent memory across conversations. Patterns for short-term, long-term, and episodic memory with implementation examples."
 image = "images/robot-billboard-03.webp"
 draft = false
 tags = ['memory', 'patterns', 'architecture']

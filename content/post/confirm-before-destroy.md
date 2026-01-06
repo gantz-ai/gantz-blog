@@ -1,6 +1,7 @@
 +++
 title = "The Confirm-Before-Destroy Pattern"
 date = 2025-12-27
+description = "Prevent AI agents from destructive actions with confirmation patterns. Implement safety checks for delete, drop, and irreversible operations."
 image = "images/soldier-battlefield-fire.webp"
 draft = false
 tags = ['patterns', 'security', 'best-practices']

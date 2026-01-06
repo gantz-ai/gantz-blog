@@ -1,6 +1,7 @@
 +++
 title = "Why My Agent Kept Apologizing Instead of Acting"
 date = 2026-01-01
+description = "Fix AI agents that refuse to use tools. Debug over-cautious behavior caused by system prompts, tool descriptions, and model training patterns."
 image = "images/agent-tokyo-neon.webp"
 draft = false
 tags = ['prompting', 'debugging', 'best-practices']

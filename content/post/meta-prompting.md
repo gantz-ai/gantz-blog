@@ -1,6 +1,7 @@
 +++
 title = "Meta-Prompting: Prompts That Write Prompts"
 date = 2025-12-09
+description = "Use AI to generate better prompts automatically. Meta-prompting techniques for prompt optimization, customization, and self-improvement."
 image = "images/agent-neon-03.webp"
 draft = false
 tags = ['prompting', 'patterns', 'deep-dive']

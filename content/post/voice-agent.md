@@ -1,6 +1,7 @@
 +++
 title = "The Voice-First Agent: No Typing Required"
 date = 2025-11-19
+description = "Build voice-controlled AI agents with speech-to-text and text-to-speech. Tutorial for hands-free interaction with MCP tools and local commands."
 image = "images/robot-billboard-10.webp"
 draft = false
 tags = ['tutorial', 'architecture', 'deep-dive']

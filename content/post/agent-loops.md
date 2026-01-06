@@ -1,6 +1,7 @@
 +++
 title = "Why Agents Get Stuck in Loops (And How to Prevent It)"
 date = 2026-01-04
+description = "AI agents stuck in infinite loops? Learn detection strategies and prevention patterns including failure memory, diversity forcing, and escalation."
 image = "images/agent-neon-standing.webp"
 draft = false
 tags = ['patterns', 'debugging', 'architecture']

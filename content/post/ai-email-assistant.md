@@ -1,6 +1,7 @@
 +++
 title = "Let AI agents read and respond to your emails"
 date = 2026-01-02
+description = "Build an AI email assistant with MCP. Connect Claude to Gmail or Outlook to read, draft, and send emails through natural conversation."
 image = "images/cafe-interior.webp"
 draft = false
 tags = ['tutorial', 'automation', 'mcp']

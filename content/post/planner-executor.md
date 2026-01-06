@@ -1,6 +1,7 @@
 +++
 title = "The Planner-Executor pattern explained"
 date = 2025-12-04
+description = "Master the Planner-Executor pattern for complex AI tasks. Separate planning from execution for better reliability and easier debugging."
 image = "images/agent-train-03.webp"
 draft = false
 featured = true

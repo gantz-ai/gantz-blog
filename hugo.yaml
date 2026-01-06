@@ -31,6 +31,15 @@ sitemap:
   changefreq: weekly
   priority: 0.5
 
+# Enable git info for lastmod dates in sitemap
+enableGitInfo: true
+
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - date
+
 author:
   name: Gantz
   link: https://gantz.ai

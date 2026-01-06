@@ -1,6 +1,7 @@
 +++
 title = "Build a second brain with MCP"
 date = 2025-11-27
+description = "Build a personal knowledge assistant with MCP. Search and connect your notes, documents, and ideas using Claude on your local machine."
 image = "images/agent-city-04.webp"
 draft = false
 tags = ['mcp', 'tutorial', 'automation']

@@ -1,6 +1,7 @@
 +++
 title = "Build a Slack bot that uses your local tools"
 date = 2025-11-25
+description = "Create a Slack bot connected to local MCP tools. Run scripts, query databases, and execute commands from Slack using Claude and Gantz."
 image = "images/robot-billboard-07.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']

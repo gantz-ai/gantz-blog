@@ -1,6 +1,7 @@
 +++
 title = "RAG Is Overrated for Most Use Cases"
 date = 2025-12-01
+description = "RAG is overkill for most AI apps. Learn when simpler alternatives like context stuffing or full-text search work better than vector databases."
 image = "images/agent-city-03.webp"
 draft = false
 tags = ['rag', 'architecture', 'comparison']

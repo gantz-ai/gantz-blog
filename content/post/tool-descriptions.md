@@ -1,6 +1,7 @@
 +++
 title = "The Art of Tool Descriptions"
 date = 2025-11-21
+description = "Write tool descriptions that AI agents understand. Best practices for clear, actionable descriptions that improve tool selection accuracy."
 image = "images/robot-billboard-09.webp"
 draft = false
 tags = ['tool-use', 'prompting', 'best-practices']

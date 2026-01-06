@@ -1,6 +1,7 @@
 +++
 title = "How to Handle Tools That Return Too Much Data"
 date = 2025-11-22
+description = "Manage AI agent tools that return massive outputs. Strategies for truncation, pagination, summarization, and streaming large tool results."
 image = "images/warrior-rain-city-08.webp"
 draft = false
 tags = ['tool-use', 'patterns', 'best-practices']

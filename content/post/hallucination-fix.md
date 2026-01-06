@@ -1,6 +1,7 @@
 +++
 title = "One Prompt Change That Stopped My Agent Hallucinating"
 date = 2025-12-19
+description = "Stop AI agents from making up information. One prompt technique forces tool use instead of hallucination when agents lack knowledge."
 image = "images/agent-electric-sparks.webp"
 draft = false
 tags = ['prompting', 'best-practices', 'debugging']

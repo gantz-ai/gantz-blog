@@ -1,6 +1,7 @@
 +++
 title = "Prompt Engineering vs Agent Engineering"
 date = 2025-12-02
+description = "Prompt engineering crafts inputs. Agent engineering builds systems. Learn how these disciplines differ and where they overlap in AI development."
 image = "images/agent-neon-04.webp"
 draft = false
 tags = ['prompting', 'architecture', 'comparison']

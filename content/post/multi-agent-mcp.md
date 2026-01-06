@@ -1,6 +1,7 @@
 +++
 title = "Building a Multi-Agent System with MCP"
 date = 2025-12-07
+description = "Build multi-agent systems with MCP. Tutorial on agent specialization, coordination patterns, and shared tool access for complex workflows."
 image = "images/warrior-rain-city-04.webp"
 draft = false
 tags = ['mcp', 'architecture', 'tutorial']

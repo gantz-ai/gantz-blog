@@ -1,6 +1,7 @@
 +++
 title = "I got tired of ngrok just to test MCP tools, so I built this"
 date = 2025-12-06
+description = "Expose local MCP servers without ngrok or port forwarding. Gantz CLI creates secure tunnels for testing AI tools with Claude instantly."
 image = "images/agent-city-02.webp"
 draft = false
 tags = ['mcp', 'deployment', 'tutorial']

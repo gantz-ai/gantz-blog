@@ -1,6 +1,7 @@
 +++
 title = "The Self-Improving Agent (Careful Now)"
 date = 2025-11-26
+description = "Build AI agents that improve themselves with caution. Patterns for prompt optimization, tool learning, and essential guardrails for self-modification."
 image = "images/warrior-rain-city-06.webp"
 draft = false
 tags = ['patterns', 'architecture', 'deep-dive']

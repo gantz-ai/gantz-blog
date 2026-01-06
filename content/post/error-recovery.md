@@ -1,6 +1,7 @@
 +++
 title = "Error Recovery in AI Agents: Graceful Degradation and Retry Strategies"
 date = 2025-12-22
+description = "Handle AI agent failures gracefully. Implement retry strategies, fallbacks, and graceful degradation for tools, APIs, and model errors."
 image = "images/warrior-rain-city-01.webp"
 draft = false
 tags = ['patterns', 'architecture', 'best-practices']

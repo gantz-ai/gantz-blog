@@ -1,6 +1,7 @@
 +++
 title = "Build a local RAG with MCP"
 date = 2025-12-16
+description = "Build local RAG in 30 minutes with MCP. Search your documents with Claude without cloud services. Tutorial with Python and Gantz CLI."
 image = "images/agent-neon-02.webp"
 draft = false
 featured = true

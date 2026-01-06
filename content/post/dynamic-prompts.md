@@ -1,6 +1,7 @@
 +++
 title = "Dynamic Prompts: Changing Instructions Mid-Conversation"
 date = 2025-12-23
+description = "Update AI agent system prompts during conversations. Learn dynamic prompting patterns that adapt to user preferences and discovered context."
 image = "images/agent-train-jump.webp"
 draft = false
 tags = ['prompting', 'patterns', 'architecture']
