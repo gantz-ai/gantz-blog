@@ -5,6 +5,22 @@ description = "When to use RAG vs Tool Use in AI applications. RAG retrieves kno
 image = "images/warrior-rain-city-09.webp"
 draft = false
 tags = ['tool-use', 'rag', 'comparison']
+
+[[faqs]]
+question = "What is the difference between RAG and Tool Use?"
+answer = "RAG (Retrieval Augmented Generation) gives AI access to knowledge by retrieving relevant documents. Tool Use gives AI the ability to take actions by calling external systems. RAG is about knowing things, Tool Use is about doing things."
+
+[[faqs]]
+question = "When should I use RAG instead of Tool Use?"
+answer = "Use RAG when information exists in documents, users want knowledge not actions, data is static, and reading is enough. Examples: company policies, documentation, FAQs, historical data."
+
+[[faqs]]
+question = "When should I use Tool Use instead of RAG?"
+answer = "Use Tool Use when data is real-time, users want actions taken, computation is needed, or you need to interact with external systems. Examples: account balances, sending emails, database queries, API calls."
+
+[[faqs]]
+question = "Can I use both RAG and Tool Use together?"
+answer = "Yes, most real applications need both. For example, a support bot uses RAG for policies and Tool Use for actions. A research assistant uses Tool Use to search and RAG to read results."
 +++
 
 

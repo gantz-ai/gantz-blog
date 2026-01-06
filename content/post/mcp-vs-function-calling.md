@@ -1,10 +1,27 @@
 +++
 title = "MCP vs Function Calling — What's the difference?"
 date = 2025-12-12
+description = "MCP vs Function Calling explained. MCP servers execute tools remotely, function calling returns tool calls for your code to handle. When to use each approach."
 image = "images/warrior-rain-city-03.webp"
 draft = false
 featured = true
 tags = ['mcp', 'tool-use', 'comparison']
+
+[[faqs]]
+question = "What is the difference between MCP and function calling?"
+answer = "Function calling returns tool calls for your code to execute, while MCP connects AI to a server that executes tools directly. With function calling, you handle execution; with MCP, the server handles it."
+
+[[faqs]]
+question = "When should I use MCP instead of function calling?"
+answer = "Use MCP when tools need specific environments (local machine, VPC), you want to share tools across multiple apps, or you need dynamic tool discovery. Use function calling for simple integrations with 2-3 tools."
+
+[[faqs]]
+question = "Can MCP and function calling work together?"
+answer = "Yes. Many applications use both - function calling for simple, app-integrated tools and MCP for complex tools that need to run in specific environments or be shared across applications."
+
+[[faqs]]
+question = "Is MCP harder to set up than function calling?"
+answer = "MCP requires running a server, but tools like Gantz make setup simple with YAML configuration. Function calling requires more code but no separate server. Choose based on your use case, not setup difficulty."
 +++
 
 

@@ -5,6 +5,22 @@ description = "Prediction: MCP servers will be as common as local dev servers. L
 image = "images/agent-misc-01.webp"
 draft = false
 tags = ['mcp', 'architecture', 'deep-dive']
+
+[[faqs]]
+question = "What is MCP (Model Context Protocol)?"
+answer = "MCP is a standard protocol that lets AI connect to tool servers. Instead of copy-pasting between AI and your apps, AI connects to your MCP server and uses tools directly - querying databases, running scripts, calling APIs."
+
+[[faqs]]
+question = "Is running an MCP server a security risk?"
+answer = "You control what tools you expose. MCP can be read-only with no access to production. It's actually more secure than copy-pasting sensitive data into web chats because your data stays on your machine."
+
+[[faqs]]
+question = "Is MCP hard to set up?"
+answer = "No. With tools like Gantz, you write a YAML config and run one command. Your MCP server is live. No complex deployment or code maintenance required."
+
+[[faqs]]
+question = "Why use MCP instead of cloud AI tools?"
+answer = "Your data stays local. Your database has real user data, your codebase has proprietary code, your logs have sensitive info. MCP lets AI access all of this without uploading anything to the cloud."
 +++
 
 

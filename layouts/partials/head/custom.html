@@ -122,6 +122,28 @@
 </script>
 {{ end }}
 
+{{/* FAQ Schema for posts with faqs in front matter */}}
+{{ if .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $index, $faq := .Params.faqs }}{{ if $index }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.question }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $faq.answer }}
+      }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
 <style>
 /* Code block styling - full width */
 .article-content .highlight {

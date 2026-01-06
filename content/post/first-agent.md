@@ -1,10 +1,27 @@
 +++
 title = "Your First Agent: From Zero to Working in 30 Minutes"
 date = 2025-12-21
+description = "Build your first AI agent in 30 minutes with Python. Step-by-step tutorial covering tool use, the agent loop, and practical examples."
 image = "images/hero-cyberpunk-city.webp"
 draft = false
 featured = true
 tags = ['tutorial', 'python', 'tool-use']
+
+[[faqs]]
+question = "What is an AI agent?"
+answer = "An AI agent is an LLM that can use tools to take actions - reading files, searching code, running commands, calling APIs. Unlike a chatbot that only generates text, an agent can actually do things in the real world."
+
+[[faqs]]
+question = "What do I need to build an AI agent?"
+answer = "You need an API key (OpenAI or Anthropic), Python installed, and about 50 lines of code. No machine learning expertise required. The core agent loop is surprisingly simple."
+
+[[faqs]]
+question = "What is the agent loop?"
+answer = "The agent loop is: 1) Send user request to LLM with available tools, 2) If LLM returns a tool call, execute it, 3) Send result back to LLM, 4) Repeat until LLM returns a final response. This loop lets agents work autonomously."
+
+[[faqs]]
+question = "How long does it take to build an AI agent?"
+answer = "You can build a working agent with file reading, code search, and command execution in about 30 minutes. The basic structure is simple - most time goes into defining useful tools and handling edge cases."
 +++
 
 

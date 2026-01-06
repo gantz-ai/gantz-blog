@@ -1,10 +1,27 @@
 +++
 title = "Prompt Injection: Your Agent's Biggest Vulnerability"
 date = 2025-12-03
+description = "What is prompt injection and how to prevent it. Defense strategies for AI agents including input sanitization, sandboxing, and tool allowlisting."
 image = "images/warrior-rain-city-05.webp"
 draft = false
 featured = true
 tags = ['security', 'prompting', 'best-practices']
+
+[[faqs]]
+question = "What is prompt injection?"
+answer = "Prompt injection is when untrusted input (files, URLs, database content, API responses) contains instructions that hijack your AI agent's behavior. The agent follows malicious instructions embedded in data instead of legitimate user commands."
+
+[[faqs]]
+question = "Why are AI agents more vulnerable to prompt injection than chatbots?"
+answer = "Regular chatbots can only produce text output. AI agents have tools that take real actions - deleting files, querying databases, running commands. A successful injection against an agent can cause real damage, not just weird responses."
+
+[[faqs]]
+question = "How do I protect my AI agent from prompt injection?"
+answer = "Use defense in depth: mark untrusted content clearly, add system prompt warnings, allowlist safe commands, separate data from commands, filter outputs for injection patterns, require confirmation for destructive actions, and sandbox tool execution."
+
+[[faqs]]
+question = "Can prompt injection be completely prevented?"
+answer = "No single defense prevents all prompt injection. Use multiple layers: system prompts that distinguish data from instructions, tool restrictions, input validation, output filtering, human confirmation for dangerous actions, and sandboxed execution environments."
 +++
 
 
