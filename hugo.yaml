@@ -59,7 +59,22 @@ params:
       enabled: false
 
   comments:
-    enabled: false
+    enabled: true
+    provider: giscus
+    giscus:
+      repo: gantz-ai/gantz-blog
+      repoID: R_kgDOQ0W0yQ
+      category: Announcements
+      categoryID: DIC_kwDOQ0W0yc4C0oG3
+      mapping: pathname
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: top
+      lightTheme: light
+      darkTheme: dark_dimmed
+      lang: en
+      loading: lazy
 
   widgets:
     homepage:
