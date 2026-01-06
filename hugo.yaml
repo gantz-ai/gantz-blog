@@ -16,6 +16,12 @@ keywords:
 
 enableRobotsTXT: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 sitemap:
   changefreq: weekly
   priority: 0.5
@@ -89,11 +95,10 @@ menu:
       weight: 3
       params:
         icon: link
-
-  social:
     - identifier: github
       name: GitHub
       url: https://github.com/gantz-ai
+      weight: 4
       params:
         icon: brand-github
 
