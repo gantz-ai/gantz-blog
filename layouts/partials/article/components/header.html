@@ -1,15 +1,24 @@
+{{/* Support both direct page context and dict with Page/IsLCP */}}
+{{- $page := . -}}
+{{- $isLCP := false -}}
+
+{{- if reflect.IsMap . -}}
+    {{- $page = .Page -}}
+    {{- $isLCP = default false .IsLCP -}}
+{{- end -}}
+
 <header class="article-header">
-    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
+    {{- $image := partialCached "helper/image" (dict "Context" $page "Type" "article") $page.RelPermalink "article" -}}
     {{ if $image.exists }}
         <div class="article-image">
-            <a href="{{ .RelPermalink }}">
+            <a href="{{ $page.RelPermalink }}">
                 {{ if $image.resource }}
                     {{- $Permalink := $image.resource.RelPermalink -}}
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
                     {{- $Srcset := "" -}}
 
-                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                    {{- if (default true $page.Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{/* Output WebP at appropriate sizes for article cards */}}
                         {{- $thumbnail := $image.resource.Resize "720x webp q80" -}}
                         {{- $thumbnailRetina := $image.resource.Resize "1440x webp q80" -}}
@@ -19,18 +28,19 @@
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}
 
+                    {{/* LCP image: eager load with high priority. Others: lazy load */}}
                     <img src="{{ $Permalink }}"
                         {{ with $Srcset }}srcset="{{ . }}" sizes="(max-width: 768px) 100vw, 720px"{{ end }}
                         width="{{ $Width }}"
                         height="{{ $Height }}"
-                        loading="lazy"
-                        alt="Featured image of post {{ .Title }}" />
+                        {{ if $isLCP }}fetchpriority="high"{{ else }}loading="lazy"{{ end }}
+                        alt="Featured image of post {{ $page.Title }}" />
                 {{ else }}
-                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                    <img src="{{ $image.permalink }}" {{ if $isLCP }}fetchpriority="high"{{ else }}loading="lazy"{{ end }} alt="Featured image of post {{ $page.Title }}" />
                 {{ end }}
             </a>
         </div>
     {{ end }}
 
-    {{ partialCached "article/components/details" . .RelPermalink }}
+    {{ partialCached "article/components/details" $page $page.RelPermalink }}
 </header>

@@ -1,0 +1,19 @@
+{{/* Support both direct page context and dict with Page/Index/PageNumber */}}
+{{- $page := . -}}
+{{- $index := 0 -}}
+{{- $pageNumber := 1 -}}
+{{- $isLCP := false -}}
+
+{{- if reflect.IsMap . -}}
+    {{- $page = .Page -}}
+    {{- $index = default 0 .Index -}}
+    {{- $pageNumber = default 1 .PageNumber -}}
+{{- end -}}
+
+{{/* First article on first page is the LCP element */}}
+{{- $isLCP = and (eq $index 0) (eq $pageNumber 1) -}}
+
+{{ $image := partialCached "helper/image" (dict "Context" $page "Type" "articleList") $page.RelPermalink "articleList" }}
+<article class="{{ if $image.exists }}has-image{{ end }}">
+    {{ partial "article/components/header" (dict "Page" $page "IsLCP" $isLCP) }}
+</article>
