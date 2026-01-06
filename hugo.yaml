@@ -1,7 +1,7 @@
 baseurl: https://gantz.ai/blog/
 languageCode: en-us
 theme: stack
-title: Gantz Blog - AI Agents, MCP & Tool Use
+title: Gantz Blog
 description: Learn how to build AI agents with MCP (Model Context Protocol). Tutorials, patterns, and best practices for tool use, RAG, and agent development.
 keywords:
   - AI agents
