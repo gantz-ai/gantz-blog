@@ -45,7 +45,7 @@
                         el.textContent = JSON.parse(this.responseText).count;
                     } catch(e) {}
                 });
-                r.open('GET', 'https://gantz.ai/gc/counter/' + encodeURIComponent(path) + '.json');
+                r.open('GET', 'https://gantz.ai/gc/counter' + path + '.json');
                 r.send();
             });
         });
