@@ -56,9 +56,6 @@ params:
       - type: featured-posts
         params:
           limit: 5
-      - type: recent-posts
-        params:
-          limit: 5
       - type: tag-cloud
         params:
           limit: 15
