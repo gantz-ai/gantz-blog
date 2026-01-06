@@ -34,18 +34,14 @@ jobs:
           sudo apt-get install -y webp pngquant jpegoptim
       - name: Optimize images
         run: |
-          # Convert PNG to WebP (keep originals for fallback)
-          find static/images -name "*.png" -exec sh -c 'cwebp -q 80 "$1" -o "${1%.png}.webp"' _ {} \;
-          # Convert JPG to WebP
-          find static/images -name "*.jpg" -exec sh -c 'cwebp -q 80 "$1" -o "${1%.jpg}.webp"' _ {} \;
-          find static/images -name "*.jpeg" -exec sh -c 'cwebp -q 80 "$1" -o "${1%.jpeg}.webp"' _ {} \;
-          # Compress original PNGs
-          find static/images -name "*.png" -exec pngquant --quality=65-80 --skip-if-larger --force --ext .png {} \;
+          # Images are now in assets/images for Hugo processing
+          # Compress original PNGs before Hugo processes them
+          find assets/images -name "*.png" -exec pngquant --quality=65-80 --skip-if-larger --force --ext .png {} \; 2>/dev/null || true
           # Compress original JPGs
-          find static/images -name "*.jpg" -exec jpegoptim --max=80 --strip-all {} \;
-          find static/images -name "*.jpeg" -exec jpegoptim --max=80 --strip-all {} \;
+          find assets/images -name "*.jpg" -exec jpegoptim --max=80 --strip-all {} \; 2>/dev/null || true
+          find assets/images -name "*.jpeg" -exec jpegoptim --max=80 --strip-all {} \; 2>/dev/null || true
           echo "Image optimization complete"
-          ls -la static/images/ | head -20
+          ls -la assets/images/ | head -20
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
