@@ -10,14 +10,45 @@
     </div>
     <h2 class="widget-title section-title">Featured</h2>
 
-    <div class="widget-archive--list">
+    <div class="featured-posts-list">
         {{ range first $limit $featured }}
-        <div class="archives-year">
-            <a href="{{ .RelPermalink }}">
-                <span class="year" style="flex: 1;">{{ .Title | truncate 35 }}</span>
-            </a>
-        </div>
+        <a href="{{ .RelPermalink }}" class="featured-post-item">
+            {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+            {{ end }}
+            <span class="featured-post-title">{{ .Title | truncate 40 }}</span>
+        </a>
         {{ end }}
     </div>
 </section>
+
+<style>
+.featured-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.featured-post-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: inherit;
+}
+.featured-post-item img {
+    width: 60px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+.featured-post-title {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+.featured-post-item:hover .featured-post-title {
+    color: #0066cc;
+}
+</style>
 {{- end -}}
