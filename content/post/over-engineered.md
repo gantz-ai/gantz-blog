@@ -1,6 +1,7 @@
 +++
 title = "I Over-Engineered My Agent (Here's What I Learned)"
 date = 2025-12-05
+image = "/images/robot-billboard-05.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

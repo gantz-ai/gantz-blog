@@ -1,6 +1,7 @@
 +++
 title = "Chain of Thought: When It Helps, When It Hurts"
 date = 2025-12-29
+image = "/images/agent-arctic-aurora.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

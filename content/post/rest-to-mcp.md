@@ -1,6 +1,7 @@
 +++
 title = "From REST to MCP: what's changing"
 date = 2025-11-28
+image = "/images/robot-billboard-06.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

@@ -1,6 +1,7 @@
 +++
 title = "Atomic vs Compound Tools: Design Trade-offs"
 date = 2025-12-31
+image = "/images/logo-metal-armor.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

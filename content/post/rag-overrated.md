@@ -1,6 +1,7 @@
 +++
 title = "RAG Is Overrated for Most Use Cases"
 date = 2025-12-01
+image = "/images/agent-city-03.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

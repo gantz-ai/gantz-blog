@@ -1,6 +1,7 @@
 +++
 title = "Tool Use vs RAG: picking the right approach"
 date = 2025-11-20
+image = "/images/warrior-rain-city-09.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

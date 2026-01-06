@@ -1,6 +1,7 @@
 +++
 title = "Build a Slack bot that uses your local tools"
 date = 2025-11-25
+image = "/images/robot-billboard-07.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

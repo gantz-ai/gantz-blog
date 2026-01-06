@@ -1,6 +1,7 @@
 +++
 title = "Background Jobs for Long-Running Tasks"
 date = 2025-12-30
+image = "/images/city-drones-crowd.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

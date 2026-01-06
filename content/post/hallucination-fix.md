@@ -1,6 +1,7 @@
 +++
 title = "One Prompt Change That Stopped My Agent Hallucinating"
 date = 2025-12-19
+image = "/images/agent-electric-sparks.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

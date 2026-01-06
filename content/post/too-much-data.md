@@ -1,6 +1,7 @@
 +++
 title = "How to Handle Tools That Return Too Much Data"
 date = 2025-11-22
+image = "/images/warrior-rain-city-08.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

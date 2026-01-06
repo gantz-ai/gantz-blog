@@ -1,6 +1,7 @@
 +++
 title = "Prompt Engineering vs Agent Engineering"
 date = 2025-12-02
+image = "/images/agent-neon-04.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

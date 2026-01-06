@@ -1,6 +1,7 @@
 +++
 title = "Dynamic Prompts: Changing Instructions Mid-Conversation"
 date = 2025-12-23
+image = "/images/agent-train-jump.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

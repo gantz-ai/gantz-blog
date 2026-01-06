@@ -1,6 +1,7 @@
 +++
 title = "The Confirm-Before-Destroy Pattern"
 date = 2025-12-27
+image = "/images/soldier-battlefield-fire.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

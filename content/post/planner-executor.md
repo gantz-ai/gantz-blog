@@ -1,6 +1,7 @@
 +++
 title = "The Planner-Executor pattern explained"
 date = 2025-12-04
+image = "/images/agent-train-03.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

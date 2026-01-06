@@ -1,6 +1,7 @@
 +++
 title = "Let AI agents read and respond to your emails"
 date = 2026-01-02
+image = "/images/cafe-interior.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

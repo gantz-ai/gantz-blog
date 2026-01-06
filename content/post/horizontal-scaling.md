@@ -1,6 +1,7 @@
 +++
 title = "Horizontal Scaling for Stateful Agents"
 date = 2025-12-18
+image = "/images/robot-billboard-02.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

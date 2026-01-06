@@ -1,6 +1,7 @@
 +++
 title = "    # The Reranker: RAG's Secret Weapon"
 date = 2025-11-29
+image = "/images/agent-neon-05.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

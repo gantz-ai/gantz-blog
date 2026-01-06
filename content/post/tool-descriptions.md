@@ -1,6 +1,7 @@
 +++
 title = "The Art of Tool Descriptions"
 date = 2025-11-21
+image = "/images/robot-billboard-09.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++

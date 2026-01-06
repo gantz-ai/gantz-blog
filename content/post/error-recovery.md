@@ -1,6 +1,7 @@
 +++
 title = "Error Recovery in AI Agents: Graceful Degradation and Retry Strategies"
 date = 2025-12-22
+image = "/images/warrior-rain-city-01.png"
 draft = false
 tags = ['agents', 'ai', 'mcp']
 +++
