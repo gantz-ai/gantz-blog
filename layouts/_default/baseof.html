@@ -39,14 +39,10 @@
         document.addEventListener('DOMContentLoaded', function() {
             document.querySelectorAll('.view-count[data-path]').forEach(function(el) {
                 var path = el.getAttribute('data-path');
-                var r = new XMLHttpRequest();
-                r.addEventListener('load', function() {
-                    try {
-                        el.textContent = JSON.parse(this.responseText).count;
-                    } catch(e) {}
-                });
-                r.open('GET', 'https://gantz.ai/gc/counter' + path + '.json');
-                r.send();
+                fetch('https://gantz.ai/gc/counter' + path + '.json')
+                    .then(function(r) { return r.json(); })
+                    .then(function(data) { el.textContent = data.count || '0'; })
+                    .catch(function() { el.textContent = '0'; });
             });
         });
         </script>
