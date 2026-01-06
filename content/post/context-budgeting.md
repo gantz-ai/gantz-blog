@@ -1,7 +1,7 @@
 +++
 title = "Context Window Budgeting for Multi-Turn Agents"
 date = 2025-12-26
-image = "/images/agent-arctic-white.png"
+image = "images/agent-arctic-white.png"
 draft = false
 tags = ['memory', 'architecture', 'patterns']
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Will MCP become a standard?"
 date = 2025-12-13
-image = "/images/astronaut-space-station.png"
+image = "images/astronaut-space-station.png"
 draft = false
 tags = ['mcp', 'deep-dive', 'architecture']
 +++

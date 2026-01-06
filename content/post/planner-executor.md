@@ -1,7 +1,7 @@
 +++
 title = "The Planner-Executor pattern explained"
 date = 2025-12-04
-image = "/images/agent-train-03.png"
+image = "images/agent-train-03.png"
 draft = false
 featured = true
 tags = ['patterns', 'architecture', 'deep-dive']

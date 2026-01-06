@@ -10,12 +10,12 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Gantz Blog - AI Agents, MCP & Tool Use">
 <meta property="og:description" content="Learn how to build AI agents with MCP. Tutorials, patterns, and best practices.">
-<meta property="og:image" content="https://blog.gantz.ai/images/hero-cyberpunk-city.png">
+<meta property="og:image" content="https://gantz.ai/blog/images/hero-cyberpunk-city.png">
 {{ else }}
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}">
-{{ with .Params.image }}<meta property="og:image" content="https://blog.gantz.ai{{ . }}">{{ end }}
+{{ with .Params.image }}<meta property="og:image" content="https://gantz.ai/blog/{{ . }}">{{ end }}
 {{ end }}
 <meta property="og:url" content="{{ .Permalink }}">
 
@@ -24,9 +24,9 @@
 <meta name="twitter:title" content="{{ if .IsHome }}Gantz Blog - AI Agents, MCP & Tool Use{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsHome }}Learn how to build AI agents with MCP.{{ else }}{{ .Summary | truncate 160 }}{{ end }}{{ end }}">
 {{ if .IsHome }}
-<meta name="twitter:image" content="https://blog.gantz.ai/images/hero-cyberpunk-city.png">
+<meta name="twitter:image" content="https://gantz.ai/blog/images/hero-cyberpunk-city.png">
 {{ else }}
-{{ with .Params.image }}<meta name="twitter:image" content="https://blog.gantz.ai{{ . }}">{{ end }}
+{{ with .Params.image }}<meta name="twitter:image" content="https://gantz.ai/blog/{{ . }}">{{ end }}
 {{ end }}
 
 <style>

@@ -1,7 +1,7 @@
 +++
 title = "Your First Agent: From Zero to Working in 30 Minutes"
 date = 2025-12-21
-image = "/images/hero-cyberpunk-city.png"
+image = "images/hero-cyberpunk-city.png"
 draft = false
 featured = true
 tags = ['tutorial', 'python', 'tool-use']

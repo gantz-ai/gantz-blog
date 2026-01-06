@@ -1,7 +1,7 @@
 +++
 title = "Human-in-the-Loop: When AI Agents Should Stop and Ask"
 date = 2025-12-17
-image = "/images/agent-asian-street.png"
+image = "images/agent-asian-street.png"
 draft = false
 tags = ['patterns', 'security', 'architecture']
 +++

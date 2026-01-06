@@ -1,7 +1,7 @@
 +++
 title = "Meta-Prompting: Prompts That Write Prompts"
 date = 2025-12-09
-image = "/images/agent-neon-03.png"
+image = "images/agent-neon-03.png"
 draft = false
 tags = ['prompting', 'patterns', 'deep-dive']
 +++

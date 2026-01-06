@@ -1,7 +1,7 @@
 +++
 title = "Monolith vs Microservices for Agents"
 date = 2025-12-08
-image = "/images/robot-billboard-04.png"
+image = "images/robot-billboard-04.png"
 draft = false
 tags = ['architecture', 'scaling', 'comparison']
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Let Claude control your smart home"
 date = 2025-12-28
-image = "/images/diner-exterior.png"
+image = "images/diner-exterior.png"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']
 +++

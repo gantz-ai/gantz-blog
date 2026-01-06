@@ -1,7 +1,7 @@
 +++
 title = "Build a second brain with MCP"
 date = 2025-11-27
-image = "/images/agent-city-04.png"
+image = "images/agent-city-04.png"
 draft = false
 tags = ['mcp', 'tutorial', 'automation']
 +++

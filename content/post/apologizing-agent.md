@@ -1,7 +1,7 @@
 +++
 title = "Why My Agent Kept Apologizing Instead of Acting"
 date = 2026-01-01
-image = "/images/agent-tokyo-neon.png"
+image = "images/agent-tokyo-neon.png"
 draft = false
 tags = ['prompting', 'debugging', 'best-practices']
 +++

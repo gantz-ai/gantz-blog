@@ -1,7 +1,7 @@
 +++
 title = "Agents as State Machines"
 date = 2026-01-03
-image = "/images/cyborg-bridge-drones.png"
+image = "images/cyborg-bridge-drones.png"
 draft = false
 tags = ['architecture', 'patterns', 'deep-dive']
 +++

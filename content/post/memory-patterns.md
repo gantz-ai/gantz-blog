@@ -1,7 +1,7 @@
 +++
 title = "Memory Patterns for AI Agents"
 date = 2025-12-10
-image = "/images/robot-billboard-03.png"
+image = "images/robot-billboard-03.png"
 draft = false
 tags = ['memory', 'patterns', 'architecture']
 +++

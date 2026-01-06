@@ -1,7 +1,7 @@
 +++
 title = "Full-Text Search: The RAG Alternative Nobody Tries"
 date = 2025-12-20
-image = "/images/agent-city-01.png"
+image = "images/agent-city-01.png"
 draft = false
 tags = ['rag', 'architecture', 'comparison']
 +++
