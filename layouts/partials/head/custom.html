@@ -79,4 +79,73 @@
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
 }
+
+/* Table of Contents styling */
+.widget--toc {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.widget--toc .widget-title {
+  font-size: 12px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888 !important;
+  margin-bottom: 12px !important;
+}
+
+#TableOfContents {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 20px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+#TableOfContents ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+#TableOfContents > ul > li {
+  margin: 0 !important;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#TableOfContents > ul > li:last-child {
+  border-bottom: none;
+}
+
+#TableOfContents ul ul {
+  padding-left: 16px !important;
+  margin-top: 6px !important;
+  border-left: 2px solid #e8e8e8;
+}
+
+#TableOfContents ul ul li {
+  margin: 0 !important;
+  padding: 4px 0 4px 12px !important;
+}
+
+#TableOfContents a {
+  color: #444 !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  transition: color 0.2s;
+}
+
+#TableOfContents a:hover {
+  color: #0066cc !important;
+}
+
+#TableOfContents > ul > li > a {
+  font-weight: 500;
+}
+
+#TableOfContents ul ul a {
+  font-size: 13px !important;
+  color: #666 !important;
+}
 </style>
