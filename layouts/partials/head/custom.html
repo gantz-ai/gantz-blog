@@ -329,6 +329,19 @@
   width: 20px;
   height: 20px;
 }
+
+/* Article view count */
+.article-views {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+.article-views svg {
+  opacity: 0.6;
+}
 </style>
 
 {{ if and .IsPage (eq .Section "post") }}
