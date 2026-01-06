@@ -491,6 +491,12 @@ To debug agent thoughts:
 
 You can't fix what you can't see. Make the thinking visible.
 
+## Related reading
+
+- [Why Agents Get Stuck in Loops](/post/agent-loops/) - Common agent failure patterns
+- [Chain of Thought: When It Helps, When It Hurts](/post/chain-of-thought/) - Making reasoning visible
+- [Why My Agent Kept Apologizing Instead of Acting](/post/apologizing-agent/) - Another debugging story
+
 ---
 
 *What's the weirdest thing you've caught an agent thinking?*

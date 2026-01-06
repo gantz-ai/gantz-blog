@@ -659,6 +659,12 @@ Pattern:
 
 Don't make users wait. Queue it.
 
+## Related reading
+
+- [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - Managing state at scale
+- [Running AI Agents in Docker](/post/docker-agents/) - Container deployment strategies
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handling job failures
+
 ---
 
 *How do you handle long-running tasks in your agents?*

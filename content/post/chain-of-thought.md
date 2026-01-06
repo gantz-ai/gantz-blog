@@ -547,6 +547,12 @@ The rule: **Use CoT when thinking helps. Skip it when it doesn't.**
 
 Don't add "think step by step" to everything. Be selective.
 
+## Related reading
+
+- [Debugging Agent Thoughts](/post/debugging-thoughts/) - Understanding what your agent is thinking
+- [The Meta-Prompting Pattern](/post/meta-prompting/) - Advanced prompting techniques
+- [The Reflection Pattern](/post/reflection-pattern/) - Teaching agents to self-correct
+
 ---
 
 *Do you use chain of thought in your prompts? When does it help most?*

@@ -623,6 +623,12 @@ tools:
 
 Design your tools around risk, not convenience.
 
+## Related reading
+
+- [Why Your 50-Tool Agent is Worse Than a 5-Tool One](/post/50-tools/) - The case for fewer tools
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Making tool selection easier
+- [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Focus on what matters
+
 ---
 
 *How do you design your tools? Atomic, compound, or hybrid?*

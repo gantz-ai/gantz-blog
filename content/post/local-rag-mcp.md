@@ -428,6 +428,12 @@ Good for:
 - No API costs
 - Full control
 
+## Related reading
+
+- [Full-Text Search: The RAG Alternative Nobody Tries](/post/fulltext-search/) - Simpler search solutions
+- [Tool Use vs RAG: When to Retrieve, When to Act](/post/tool-use-vs-rag/) - Choosing the right approach
+- [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - Understanding MCP architecture
+
 ---
 
 *What would you index? I'm using this for my personal notes and it's already saving me tons of time.*

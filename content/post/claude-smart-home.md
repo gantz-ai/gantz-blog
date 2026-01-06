@@ -308,6 +308,12 @@ It's not just on/off commands — it's reasoning about your home.
 - Consider read-only tools first
 - Be careful with locks/garage doors
 
+## Related reading
+
+- [Let AI Agents Read and Respond to Your Emails](/post/ai-email-assistant/) - Another automation tutorial
+- [Build a Slack Bot with MCP](/post/slack-bot-mcp/) - Team communication automation
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started with agents
+
 ---
 
 *What would you connect Claude to? I'm thinking coffee machine next.*

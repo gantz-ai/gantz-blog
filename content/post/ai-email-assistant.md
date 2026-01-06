@@ -476,6 +476,12 @@ Your emails stay on your machine. The AI connects to your local MCP server, whic
 
 And you control what tools are available. Don't want AI sending emails? Don't include the send tool.
 
+## Related reading
+
+- [Build a Slack Bot with MCP](/post/slack-bot-mcp/) - Another automation tutorial
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started with agents
+- [When to Use Human-in-the-Loop](/post/human-in-the-loop/) - Adding human oversight
+
 ---
 
 _What email tasks would you automate? I'm thinking auto-unsubscribe next._

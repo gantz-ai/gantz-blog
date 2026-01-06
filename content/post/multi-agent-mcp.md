@@ -644,6 +644,12 @@ Key principles:
 
 Start simple. One coordinator, two specialists. Add complexity as needed.
 
+## Related reading
+
+- [The Planner-Executor Pattern](/post/planner-executor/) - Task orchestration pattern
+- [Monolith vs Microservices for Agents](/post/monolith-microservices/) - Architecture decisions
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handling failures
+
 ---
 
 *Building multi-agent systems? What patterns have worked for you?*

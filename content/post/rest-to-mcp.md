@@ -239,6 +239,12 @@ Different problems, different protocols.
 
 But if you're building for an AI-first world, MCP is the interface that matters.
 
+## Related reading
+
+- [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - MCP architecture explained
+- [MCP vs Function Calling — What's the difference?](/post/mcp-vs-function-calling/) - Choosing between approaches
+- [Why Every Dev Will Run an MCP Server](/post/why-every-dev-mcp/) - The future of local tools
+
 ---
 
 *Already wrapping REST APIs with MCP? What's been your experience?*

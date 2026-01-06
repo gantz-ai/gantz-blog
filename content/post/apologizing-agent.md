@@ -480,6 +480,12 @@ Stop building agents that apologize.
 
 Build agents that act.
 
+## Related reading
+
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Clear, action-oriented descriptions
+- [Debugging Agent Thoughts](/post/debugging-thoughts/) - Understanding agent behavior
+- [Defending Against Prompt Injection](/post/prompt-injection/) - When caution is warranted
+
 ---
 
 *Has your agent ever apologized its way out of doing work? What fixed it?*

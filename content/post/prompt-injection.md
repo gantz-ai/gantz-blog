@@ -490,6 +490,12 @@ Key principles:
 
 Your agent is powerful. Make sure only you control it.
 
+## Related reading
+
+- [The Confirm-Before-Destroy Pattern](/post/confirm-before-destroy/) - Adding safety checks
+- [When to Use Human-in-the-Loop](/post/human-in-the-loop/) - Human oversight patterns
+- [Why My Agent Kept Apologizing Instead of Acting](/post/apologizing-agent/) - When caution goes wrong
+
 ---
 
 *Have you tested your agent for prompt injection? What did you find?*

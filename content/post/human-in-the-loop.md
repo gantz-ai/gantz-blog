@@ -554,6 +554,12 @@ Build confirmation into your tools from the start. It's easier than explaining w
 
 The goal isn't to eliminate human oversight. It's to put it in the right places.
 
+## Related reading
+
+- [The Confirm-Before-Destroy Pattern](/post/confirm-before-destroy/) - Confirmation patterns in detail
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handling failures gracefully
+- [Agents as State Machines](/post/agents-state-machines/) - Modeling agent states
+
 ---
 
 *How do you handle human-in-the-loop in your agents? Where do you draw the line on autonomy?*

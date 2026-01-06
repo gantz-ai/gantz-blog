@@ -636,6 +636,12 @@ docker-compose up -d
 
 Your agent is now portable.
 
+## Related reading
+
+- [Why Your Agent Works Locally But Fails in Production](/post/local-vs-production/) - Deployment pitfalls
+- [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - When you need more instances
+- [Background Jobs for Long-Running Tasks](/post/background-jobs/) - Handling timeouts
+
 ---
 
 *What's your Docker setup for agents? Any tricks I missed?*

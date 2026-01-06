@@ -622,6 +622,12 @@ Total: 30 minutes to a working agent.
 
 Stop reading tutorials. Start building.
 
+## Related reading
+
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Better tool design
+- [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Focus on what matters
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - When things go wrong
+
 ---
 
 *What was the hardest part of building your first agent?*

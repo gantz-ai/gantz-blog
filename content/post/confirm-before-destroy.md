@@ -520,6 +520,12 @@ The Confirm-Before-Destroy pattern:
 
 Give users control. Catch mistakes before they happen.
 
+## Related reading
+
+- [When to Use Human-in-the-Loop](/post/human-in-the-loop/) - Adding human oversight
+- [Defending Against Prompt Injection](/post/prompt-injection/) - Security considerations
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handling failures gracefully
+
 ---
 
 *What's the worst thing your agent deleted without asking?*

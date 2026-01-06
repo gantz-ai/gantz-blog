@@ -157,6 +157,12 @@ That's actually why I built [Gantz](https://gantz.run) — it creates a tunnel s
 
 Both have their place. Function calling isn't going away. But MCP makes certain things way easier — especially when you want AI to use tools that live somewhere specific.
 
+## Related reading
+
+- [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - MCP architecture deep-dive
+- [Why Every Dev Will Run an MCP Server](/post/why-every-dev-mcp/) - The future of MCP
+- [MCP vs ReAct: Protocol vs Pattern](/post/mcp-vs-react/) - Understanding the layers
+
 ---
 
 *Building with MCP? I'd love to hear what tools you're exposing to AI agents.*

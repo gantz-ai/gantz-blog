@@ -480,6 +480,12 @@ Task → Act → Output → Reflect → Fix → Verified Output
 
 For anything that matters, reflection is worth it.
 
+## Related reading
+
+- [Chain of Thought: When It Helps, When It Hurts](/post/chain-of-thought/) - Related reasoning pattern
+- [Debugging Agent Thoughts](/post/debugging-thoughts/) - Understanding agent reasoning
+- [Why Agents Get Stuck in Loops](/post/agent-loops/) - When reflection goes wrong
+
 ---
 
 *Using reflection in your agents? What patterns work best for you?*

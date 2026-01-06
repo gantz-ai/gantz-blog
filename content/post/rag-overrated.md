@@ -454,6 +454,12 @@ Don't build RAG because it's trendy. Build it because you actually need it.
 
 Most of you don't.
 
+## Related reading
+
+- [Full-Text Search: The RAG Alternative Nobody Tries](/post/fulltext-search/) - Simple search solutions
+- [Tool Use vs RAG: When to Retrieve, When to Act](/post/tool-use-vs-rag/) - Making the right choice
+- [Build a Local RAG Pipeline with MCP](/post/local-rag-mcp/) - When you do need RAG
+
 ---
 
 *Have you built RAG when you didn't need it? What simpler solution worked instead?*

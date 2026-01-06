@@ -539,6 +539,12 @@ When to skip:
 
 Let the AI write its own instructions. It often knows better.
 
+## Related reading
+
+- [Dynamic Prompts: Changing Instructions Mid-Conversation](/post/dynamic-prompts/) - Adaptive prompting
+- [Chain of Thought: When It Helps, When It Hurts](/post/chain-of-thought/) - Reasoning patterns
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Optimizing tool prompts
+
 ---
 
 *Have you used meta-prompting? What worked best?*

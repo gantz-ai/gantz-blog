@@ -248,6 +248,12 @@ The MCP server stays on your laptop. Slack and Claude are in the cloud. The tunn
 
 No deploying code. No cloud functions. Just local scripts exposed through Slack.
 
+## Related reading
+
+- [Let AI Agents Read and Respond to Your Emails](/post/ai-email-assistant/) - Similar automation tutorial
+- [Control Your Smart Home with Claude and MCP](/post/claude-smart-home/) - Another local automation example
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started with agents
+
 ---
 
 *What tools would you add to your Slack bot? I'm curious what people would find useful.*

@@ -208,6 +208,12 @@ Tools like [Gantz](https://gantz.run) let you spin up an MCP server in one comma
 
 Once you have AI that can actually see your world, you won't go back to copy-paste.
 
+## Related reading
+
+- [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - Architecture deep-dive
+- [Will MCP Become the Standard?](/post/mcp-standard/) - The future of MCP adoption
+- [MCP vs ReAct: Protocol vs Pattern](/post/mcp-vs-react/) - Understanding the layers
+
 ---
 
 *Running an MCP server yet? What tools would you expose first?*

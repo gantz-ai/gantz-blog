@@ -578,6 +578,12 @@ Start static. Add dynamics where they help.
 
 Your prompt should grow smarter, just like your agent.
 
+## Related reading
+
+- [The Meta-Prompting Pattern](/post/meta-prompting/) - Prompts that write prompts
+- [Context Window Budgeting](/post/context-budgeting/) - Managing token limits
+- [Memory Patterns for AI Agents](/post/memory-patterns/) - What to remember
+
 ---
 
 *What context do you inject into your agent's prompts?*

@@ -527,6 +527,12 @@ The rule: **Start monolith. Split when you feel the pain.**
 
 Don't architect for problems you don't have.
 
+## Related reading
+
+- [I Over-Engineered My Agent](/post/over-engineered/) - When to simplify
+- [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - Scaling considerations
+- [Why Your 50-Tool Agent is Worse Than a 5-Tool One](/post/50-tools/) - Tool consolidation
+
 ---
 
 *Are your agents monoliths or microservices? What drove the decision?*

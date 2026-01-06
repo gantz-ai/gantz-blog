@@ -476,6 +476,12 @@ What I learned:
 
 The best agent is the one that gets out of the way.
 
+## Related reading
+
+- [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Focus on what matters
+- [Why Your 50-Tool Agent is Worse Than a 5-Tool One](/post/50-tools/) - Less is more
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Start simple
+
 ---
 
 *Have you over-engineered an agent? What did you cut?*

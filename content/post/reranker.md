@@ -544,6 +544,12 @@ tags = ['rag', 'patterns', 'deep-dive']
 
     The best RAG pipelines always rerank.
 
+## Related reading
+
+- [RAG Is Overrated for Most Use Cases](/post/rag-overrated/) - When you don't need RAG at all
+- [Full-Text Search: The RAG Alternative Nobody Tries](/post/fulltext-search/) - Simpler search solutions
+- [Tool Use vs RAG: When to Retrieve, When to Act](/post/tool-use-vs-rag/) - Choosing the right approach
+
     ---
 
     *Have you added reranking to your RAG? What improvement did you see?*

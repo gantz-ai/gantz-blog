@@ -505,6 +505,12 @@ It's the one with the right tools.
 
 Start with 5. Add only what you prove you need.
 
+## Related reading
+
+- [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Focus on what actually matters
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Better descriptions for fewer tools
+- [Atomic vs Compound Tools](/post/atomic-compound-tools/) - When to combine functionality
+
 ---
 
 *How many tools does your agent have? Have you tried cutting them down?*

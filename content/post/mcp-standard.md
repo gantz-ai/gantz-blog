@@ -168,6 +168,12 @@ Tools like [Gantz](https://gantz.run) make this easy — spin up an MCP server i
 
 The cost of experimenting is low. The cost of being late is high.
 
+## Related reading
+
+- [Where does MCP fit in your stack?](/post/mcp-in-stack/) - Architecture deep-dive
+- [MCP vs Function Calling](/post/mcp-vs-function-calling/) - When to use each
+- [Why every dev will run an MCP server](/post/why-every-dev-mcp/) - The future of development
+
 ---
 
 *Betting on MCP? Or waiting to see how it plays out? I'm curious what others think.*

@@ -691,6 +691,12 @@ Start with short-term (conversation buffer). Add long-term when you need persist
 
 Give agents memory tools so they can manage their own storage. Run them with [Gantz](https://gantz.run) for easy MCP integration.
 
+## Related reading
+
+- [Context Window Budgeting](/post/context-budgeting/) - Managing token limits
+- [Sliding Window vs Summarization](/post/sliding-vs-summarization/) - Context management strategies
+- [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - State persistence at scale
+
 ---
 
 *How do you handle memory in your agents? What patterns have worked for you?*

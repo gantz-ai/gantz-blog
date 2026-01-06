@@ -318,6 +318,12 @@ Don't choose between them. Use both.
 
 ReAct for thinking. MCP for doing.
 
+## Related reading
+
+- [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - MCP fundamentals
+- [Why Agents Get Stuck in Loops](/post/agent-loops/) - Understanding agent reasoning
+- [The Planner-Executor Pattern](/post/planner-executor/) - Another orchestration approach
+
 ---
 
 *Building AI agents? How do you handle orchestration and tool calling?*

@@ -551,6 +551,12 @@ Agents fail. Good agents recover.
 
 Build error handling in from the start. It's not optional.
 
+## Related reading
+
+- [Why Agents Get Stuck in Loops](/post/agent-loops/) - Detecting and breaking loops
+- [The Confirm-Before-Destroy Pattern](/post/confirm-before-destroy/) - Preventing mistakes
+- [Background Jobs for Long-Running Tasks](/post/background-jobs/) - Handling timeouts
+
 ---
 
 *How do you handle failures in your agents? What strategies have saved you?*

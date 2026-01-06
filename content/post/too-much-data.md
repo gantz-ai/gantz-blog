@@ -552,6 +552,12 @@ When tools return too much data:
 
 Don't let a single tool call blow up your context window.
 
+## Related reading
+
+- [Context Window Budgeting](/post/context-budgeting/) - Managing token limits
+- [Sliding Window vs Summarization](/post/sliding-vs-summarization/) - Context management strategies
+- [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Focus on what matters
+
 ---
 
 *What's the largest tool result you've had to handle?*

@@ -344,6 +344,12 @@ Don't overthink it. Start with what the user needs:
 - Need to do? → Tools
 - Need both? → Use both
 
+## Related reading
+
+- [RAG Is Overrated for Most Use Cases](/post/rag-overrated/) - When simpler solutions work
+- [Full-Text Search: The RAG Alternative Nobody Tries](/post/fulltext-search/) - Alternative retrieval methods
+- [Build a Local RAG Pipeline with MCP](/post/local-rag-mcp/) - Practical RAG implementation
+
 ---
 
 *How do you decide between RAG and tools in your projects?*

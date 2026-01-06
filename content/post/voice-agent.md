@@ -597,6 +597,12 @@ The same agent loop, different I/O, different UX.
 
 Talk to your code.
 
+## Related reading
+
+- [Let AI Agents Read and Respond to Your Emails](/post/ai-email-assistant/) - Another automation interface
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started with agents
+- [When to Use Human-in-the-Loop](/post/human-in-the-loop/) - Adding confirmations
+
 ---
 
 *Have you built a voice interface for development tools? What worked?*

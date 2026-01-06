@@ -461,6 +461,12 @@ planner.create(
 
 Think first, then act.
 
+## Related reading
+
+- [MCP vs ReAct: Protocol vs Pattern](/post/mcp-vs-react/) - Understanding orchestration patterns
+- [Agents as State Machines](/post/agents-state-machines/) - Another way to model agents
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handling failures in plans
+
 ---
 
 *Using Planner-Executor in your agents? What's worked for you?*

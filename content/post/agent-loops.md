@@ -520,6 +520,12 @@ Detection + prevention + good prompts = loop-free agents.
 
 Don't let your agent spin forever. Build in the guardrails.
 
+## Related reading
+
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - When things go wrong
+- [The Reflection Pattern](/post/reflection-pattern/) - Teaching agents to self-correct
+- [Debugging Agent Thoughts](/post/debugging-thoughts/) - Understanding what your agent is thinking
+
 ---
 
 *What's the longest loop you've seen an agent get stuck in?*

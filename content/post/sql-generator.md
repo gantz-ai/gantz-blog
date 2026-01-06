@@ -601,6 +601,12 @@ Run your tools with [Gantz](https://gantz.run) to connect AI agents to your data
 
 No more SQL syntax struggles. Just ask in plain English.
 
+## Related reading
+
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started with agents
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Better tool design
+- [The Confirm-Before-Destroy Pattern](/post/confirm-before-destroy/) - Safety for database tools
+
 ---
 
 *What database queries do you wish you could ask in plain English?*

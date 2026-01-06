@@ -550,6 +550,12 @@ Before you build RAG:
 
 Stop overengineering. Try the simple thing first.
 
+## Related reading
+
+- [Tool Use vs RAG: When to Retrieve, When to Act](/post/tool-use-vs-rag/) - Choosing the right approach
+- [RAG is Overrated](/post/rag-overrated/) - When simpler solutions work
+- [Build a Local RAG Pipeline with MCP](/post/local-rag-mcp/) - If you do need RAG
+
 ---
 
 *Have you tried full-text search before reaching for vectors? What was your experience?*

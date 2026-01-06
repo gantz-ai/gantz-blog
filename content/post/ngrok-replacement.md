@@ -107,6 +107,12 @@ Website: https://gantz.run
 
 Still early and probably has bugs. Let me know what breaks or what features would actually be useful.
 
+## Related reading
+
+- [Why Every Dev Will Run an MCP Server](/post/why-every-dev-mcp/) - The future of local tools
+- [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - MCP architecture
+- [Running AI Agents in Docker](/post/docker-agents/) - Container deployment
+
 ---
 
 *What local tools would you want to expose to AI agents? Curious what use cases people have.*

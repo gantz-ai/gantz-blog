@@ -552,6 +552,12 @@ class AgentWithManagedContext:
 
 There's no perfect answer. Match your strategy to your use case.
 
+## Related reading
+
+- [Memory Patterns for AI Agents](/post/memory-patterns/) - Overview of memory strategies
+- [Context Window Budgeting](/post/context-budgeting/) - Managing token limits
+- [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - State persistence at scale
+
 ---
 
 *Which approach do you use for context management?*

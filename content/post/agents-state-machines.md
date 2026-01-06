@@ -613,6 +613,12 @@ Benefits:
 
 Stop treating agents as magic. Start treating them as state machines.
 
+## Related reading
+
+- [Why Agents Get Stuck in Loops](/post/agent-loops/) - Preventing infinite loops
+- [The Planner-Executor Pattern](/post/planner-executor/) - Separating planning from execution
+- [Error Recovery Patterns for AI Agents](/post/error-recovery/) - Handling failures gracefully
+
 ---
 
 *Do you model your agents as state machines? What states do you use?*

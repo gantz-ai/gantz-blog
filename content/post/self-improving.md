@@ -608,6 +608,12 @@ The best self-improving agent is one that knows when NOT to improve itself.
 
 Careful now.
 
+## Related reading
+
+- [The Reflection Pattern](/post/reflection-pattern/) - Teaching agents to self-correct
+- [Why Agents Get Stuck in Loops](/post/agent-loops/) - Common failure patterns
+- [I Over-Engineered My Agent](/post/over-engineered/) - When to simplify
+
 ---
 
 *Have you built a self-improving agent? What went wrong?*

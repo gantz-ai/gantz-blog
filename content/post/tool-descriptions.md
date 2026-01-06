@@ -441,6 +441,12 @@ Write descriptions for AI, not for documentation. AI needs to decide in millisec
 
 Make that decision easy.
 
+## Related reading
+
+- [Why Your 50-Tool Agent is Worse Than a 5-Tool One](/post/50-tools/) - When to consolidate tools
+- [Atomic vs Compound Tools](/post/atomic-compound-tools/) - Tool design patterns
+- [The Meta-Prompting Pattern](/post/meta-prompting/) - Let AI write descriptions
+
 ---
 
 *What's the worst tool description you've seen? The best?*

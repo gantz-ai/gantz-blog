@@ -509,6 +509,12 @@ Budget your context like money:
 
 Measure constantly. Compress proactively. Don't wait for overflow.
 
+## Related reading
+
+- [Sliding Window vs Summarization](/post/sliding-vs-summarization/) - Context management strategies
+- [Memory Patterns for AI Agents](/post/memory-patterns/) - Long-term memory systems
+- [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Optimizing your prompts
+
 ---
 
 *How do you manage context in your multi-turn agents?*

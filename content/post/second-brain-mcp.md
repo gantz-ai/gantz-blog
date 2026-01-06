@@ -518,6 +518,12 @@ With this setup:
 - No syncing to cloud services
 - Full privacy
 
+## Related reading
+
+- [Build a Local RAG Pipeline with MCP](/post/local-rag-mcp/) - More advanced retrieval
+- [Memory Patterns for AI Agents](/post/memory-patterns/) - How agents remember
+- [Sliding Window vs Summarization](/post/sliding-vs-summarization/) - Context management
+
 ---
 
 *What would you put in your second brain? I'm thinking of adding my browser bookmarks next.*

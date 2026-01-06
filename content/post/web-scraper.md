@@ -768,6 +768,12 @@ Run locally with [Gantz](https://gantz.run). No cloud APIs, no rate limits, your
 
 Just say "get the prices" and let AI figure out the selectors.
 
+## Related reading
+
+- [Build a SQL Query Generator from Natural Language](/post/sql-generator/) - Another AI-assisted tool
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started with agents
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Better tool design
+
 ---
 
 *What websites do you wish you could scrape more easily?*

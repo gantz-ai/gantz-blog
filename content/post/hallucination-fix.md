@@ -398,6 +398,12 @@ After this rule:
 
 Stop guessing. Start verifying.
 
+## Related reading
+
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Help AI use tools correctly
+- [Debugging Agent Thoughts](/post/debugging-thoughts/) - Understanding agent behavior
+- [The Reflection Pattern](/post/reflection-pattern/) - Teaching agents to verify
+
 ---
 
 *What's the worst thing your agent confidently made up?*

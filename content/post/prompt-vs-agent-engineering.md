@@ -367,6 +367,12 @@ If you only know prompt engineering, you're limited to what AI can do in one tur
 
 If you know agent engineering, you can build AI that actually does things in the world.
 
+## Related reading
+
+- [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Prompt engineering for tools
+- [The Meta-Prompting Pattern](/post/meta-prompting/) - Advanced prompting
+- [Your First AI Agent in 15 Minutes](/post/first-agent/) - Getting started
+
 ---
 
 *Are you more of a prompt engineer or agent engineer? Where do you spend most of your time?*
