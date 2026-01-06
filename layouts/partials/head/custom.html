@@ -308,6 +308,7 @@
 }
 </style>
 
+{{ if and .IsPage (eq .Section "post") }}
 <!-- Reading Progress Bar -->
 <div class="reading-progress" id="reading-progress"></div>
 
@@ -350,3 +351,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+{{ end }}
