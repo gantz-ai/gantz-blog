@@ -33,5 +33,22 @@
 
         {{/* Goatcounter analytics (proxied to avoid ad blockers) */}}
         <script data-goatcounter="https://gantz.ai/gc/count" async src="https://gantz.ai/gc/count.js"></script>
+
+        {{/* Load view counts for all posts on page */}}
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.view-count[data-path]').forEach(function(el) {
+                var path = el.getAttribute('data-path');
+                var r = new XMLHttpRequest();
+                r.addEventListener('load', function() {
+                    try {
+                        el.textContent = JSON.parse(this.responseText).count;
+                    } catch(e) {}
+                });
+                r.open('GET', 'https://gantz.ai/gc/counter/' + encodeURIComponent(path) + '.json');
+                r.send();
+            });
+        });
+        </script>
     </body>
 </html>

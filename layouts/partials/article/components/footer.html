@@ -1,22 +1,6 @@
 <footer class="article-footer">
     {{ partial "article/components/tags" . }}
 
-    {{/* Load view count */}}
-    <script>
-    (function() {
-        var r = new XMLHttpRequest();
-        r.addEventListener('load', function() {
-            try {
-                var count = JSON.parse(this.responseText).count;
-                var el = document.getElementById('view-count');
-                if (el) el.textContent = count;
-            } catch(e) {}
-        });
-        r.open('GET', 'https://gantz.ai/gc/counter/' + encodeURIComponent(location.pathname) + '.json');
-        r.send();
-    })();
-    </script>
-
     {{/* Social sharing buttons */}}
     {{ partial "article/components/share" . }}
 
