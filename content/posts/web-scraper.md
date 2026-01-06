@@ -1,5 +1,5 @@
 +++
-title = 'Build a Local Web Scraper with AI Selectors'
+title = "Build a Local Web Scraper with AI Selectors"
 date = 2025-11-18
 draft = false
 tags = ['agents', 'ai', 'mcp']

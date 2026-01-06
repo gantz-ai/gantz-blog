@@ -1,5 +1,5 @@
 +++
-title = 'One Prompt Change That Stopped My Agent Hallucinating'
+title = "One Prompt Change That Stopped My Agent Hallucinating"
 date = 2025-12-19
 draft = false
 tags = ['agents', 'ai', 'mcp']

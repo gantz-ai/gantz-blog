@@ -1,5 +1,5 @@
 +++
-title = 'Build a second brain with MCP'
+title = "Build a second brain with MCP"
 date = 2025-11-27
 draft = false
 tags = ['agents', 'ai', 'mcp']

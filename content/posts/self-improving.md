@@ -1,5 +1,5 @@
 +++
-title = 'The Self-Improving Agent (Careful Now)'
+title = "The Self-Improving Agent (Careful Now)"
 date = 2025-11-26
 draft = false
 tags = ['agents', 'ai', 'mcp']

@@ -1,5 +1,5 @@
 +++
-title = 'MCP vs Function Calling — What's the difference?'
+title = "MCP vs Function Calling — What's the difference?"
 date = 2025-12-12
 draft = false
 tags = ['agents', 'ai', 'mcp']

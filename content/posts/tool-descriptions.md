@@ -1,5 +1,5 @@
 +++
-title = 'The Art of Tool Descriptions'
+title = "The Art of Tool Descriptions"
 date = 2025-11-21
 draft = false
 tags = ['agents', 'ai', 'mcp']

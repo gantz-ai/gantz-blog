@@ -1,5 +1,5 @@
 +++
-title = 'Where does MCP fit in your stack?'
+title = "Where does MCP fit in your stack?"
 date = 2025-12-14
 draft = false
 tags = ['agents', 'ai', 'mcp']

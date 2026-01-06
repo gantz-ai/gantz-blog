@@ -1,5 +1,5 @@
 +++
-title = 'The Voice-First Agent: No Typing Required'
+title = "The Voice-First Agent: No Typing Required"
 date = 2025-11-19
 draft = false
 tags = ['agents', 'ai', 'mcp']

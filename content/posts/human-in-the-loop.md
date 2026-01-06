@@ -1,5 +1,5 @@
 +++
-title = 'Human-in-the-Loop: When AI Agents Should Stop and Ask'
+title = "Human-in-the-Loop: When AI Agents Should Stop and Ask"
 date = 2025-12-17
 draft = false
 tags = ['agents', 'ai', 'mcp']

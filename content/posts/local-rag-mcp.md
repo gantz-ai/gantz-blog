@@ -1,5 +1,5 @@
 +++
-title = 'Build a local RAG with MCP'
+title = "Build a local RAG with MCP"
 date = 2025-12-16
 draft = false
 tags = ['agents', 'ai', 'mcp']

@@ -1,5 +1,5 @@
 +++
-title = 'How to Handle Tools That Return Too Much Data'
+title = "How to Handle Tools That Return Too Much Data"
 date = 2025-11-22
 draft = false
 tags = ['agents', 'ai', 'mcp']

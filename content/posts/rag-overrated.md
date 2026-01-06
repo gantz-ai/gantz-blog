@@ -1,5 +1,5 @@
 +++
-title = 'RAG Is Overrated for Most Use Cases'
+title = "RAG Is Overrated for Most Use Cases"
 date = 2025-12-01
 draft = false
 tags = ['agents', 'ai', 'mcp']

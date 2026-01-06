@@ -1,5 +1,5 @@
 +++
-title = 'I got tired of ngrok just to test MCP tools, so I built this'
+title = "I got tired of ngrok just to test MCP tools, so I built this"
 date = 2025-12-06
 draft = false
 tags = ['agents', 'ai', 'mcp']

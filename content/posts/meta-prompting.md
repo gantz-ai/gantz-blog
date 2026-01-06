@@ -1,5 +1,5 @@
 +++
-title = 'Meta-Prompting: Prompts That Write Prompts'
+title = "Meta-Prompting: Prompts That Write Prompts"
 date = 2025-12-09
 draft = false
 tags = ['agents', 'ai', 'mcp']

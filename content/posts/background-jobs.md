@@ -1,5 +1,5 @@
 +++
-title = 'Background Jobs for Long-Running Tasks'
+title = "Background Jobs for Long-Running Tasks"
 date = 2025-12-30
 draft = false
 tags = ['agents', 'ai', 'mcp']

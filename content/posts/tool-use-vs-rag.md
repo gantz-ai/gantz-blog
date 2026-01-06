@@ -1,5 +1,5 @@
 +++
-title = 'Tool Use vs RAG: picking the right approach'
+title = "Tool Use vs RAG: picking the right approach"
 date = 2025-11-20
 draft = false
 tags = ['agents', 'ai', 'mcp']

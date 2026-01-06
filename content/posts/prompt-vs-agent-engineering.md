@@ -1,5 +1,5 @@
 +++
-title = 'Prompt Engineering vs Agent Engineering'
+title = "Prompt Engineering vs Agent Engineering"
 date = 2025-12-02
 draft = false
 tags = ['agents', 'ai', 'mcp']

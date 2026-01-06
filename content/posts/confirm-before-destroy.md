@@ -1,5 +1,5 @@
 +++
-title = 'The Confirm-Before-Destroy Pattern'
+title = "The Confirm-Before-Destroy Pattern"
 date = 2025-12-27
 draft = false
 tags = ['agents', 'ai', 'mcp']

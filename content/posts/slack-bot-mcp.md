@@ -1,5 +1,5 @@
 +++
-title = 'Build a Slack bot that uses your local tools'
+title = "Build a Slack bot that uses your local tools"
 date = 2025-11-25
 draft = false
 tags = ['agents', 'ai', 'mcp']

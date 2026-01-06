@@ -1,5 +1,5 @@
 +++
-title = 'Error Recovery in AI Agents: Graceful Degradation and Retry Strategies'
+title = "Error Recovery in AI Agents: Graceful Degradation and Retry Strategies"
 date = 2025-12-22
 draft = false
 tags = ['agents', 'ai', 'mcp']

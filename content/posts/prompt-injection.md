@@ -1,5 +1,5 @@
 +++
-title = 'Prompt Injection: Your Agent's Biggest Vulnerability'
+title = "Prompt Injection: Your Agent's Biggest Vulnerability"
 date = 2025-12-03
 draft = false
 tags = ['agents', 'ai', 'mcp']

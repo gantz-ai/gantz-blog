@@ -1,5 +1,5 @@
 +++
-title = 'The Planner-Executor pattern explained'
+title = "The Planner-Executor pattern explained"
 date = 2025-12-04
 draft = false
 tags = ['agents', 'ai', 'mcp']

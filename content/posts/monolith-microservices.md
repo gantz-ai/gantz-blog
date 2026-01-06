@@ -1,5 +1,5 @@
 +++
-title = 'Monolith vs Microservices for Agents'
+title = "Monolith vs Microservices for Agents"
 date = 2025-12-08
 draft = false
 tags = ['agents', 'ai', 'mcp']

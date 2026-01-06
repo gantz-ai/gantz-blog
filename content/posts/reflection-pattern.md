@@ -1,5 +1,5 @@
 +++
-title = 'The Reflection pattern: AI that checks its own work'
+title = "The Reflection pattern: AI that checks its own work"
 date = 2025-11-30
 draft = false
 tags = ['agents', 'ai', 'mcp']

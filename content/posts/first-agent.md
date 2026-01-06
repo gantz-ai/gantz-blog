@@ -1,5 +1,5 @@
 +++
-title = 'Your First Agent: From Zero to Working in 30 Minutes'
+title = "Your First Agent: From Zero to Working in 30 Minutes"
 date = 2025-12-21
 draft = false
 tags = ['agents', 'ai', 'mcp']

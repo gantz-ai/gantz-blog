@@ -1,5 +1,5 @@
 +++
-title = 'Why My Agent Kept Apologizing Instead of Acting'
+title = "Why My Agent Kept Apologizing Instead of Acting"
 date = 2026-01-01
 draft = false
 tags = ['agents', 'ai', 'mcp']

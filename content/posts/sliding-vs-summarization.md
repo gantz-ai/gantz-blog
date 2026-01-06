@@ -1,5 +1,5 @@
 +++
-title = 'The Sliding Window vs Summarization Trade-off'
+title = "The Sliding Window vs Summarization Trade-off"
 date = 2025-11-24
 draft = false
 tags = ['agents', 'ai', 'mcp']

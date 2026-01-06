@@ -1,5 +1,5 @@
 +++
-title = 'Build a SQL Query Generator from Natural Language'
+title = "Build a SQL Query Generator from Natural Language"
 date = 2025-11-23
 draft = false
 tags = ['agents', 'ai', 'mcp']

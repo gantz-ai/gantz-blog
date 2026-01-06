@@ -1,5 +1,5 @@
 +++
-title = 'Why Your 50-Tool Agent is Worse Than a 5-Tool One'
+title = "Why Your 50-Tool Agent is Worse Than a 5-Tool One"
 date = 2026-01-06
 draft = false
 tags = ['agents', 'ai', 'mcp']

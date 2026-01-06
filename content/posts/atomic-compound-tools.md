@@ -1,5 +1,5 @@
 +++
-title = 'Atomic vs Compound Tools: Design Trade-offs'
+title = "Atomic vs Compound Tools: Design Trade-offs"
 date = 2025-12-31
 draft = false
 tags = ['agents', 'ai', 'mcp']

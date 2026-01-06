@@ -1,5 +1,5 @@
 +++
-title = 'Will MCP become a standard?'
+title = "Will MCP become a standard?"
 date = 2025-12-13
 draft = false
 tags = ['agents', 'ai', 'mcp']

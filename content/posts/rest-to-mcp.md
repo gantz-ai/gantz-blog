@@ -1,5 +1,5 @@
 +++
-title = 'From REST to MCP: what's changing'
+title = "From REST to MCP: what's changing"
 date = 2025-11-28
 draft = false
 tags = ['agents', 'ai', 'mcp']

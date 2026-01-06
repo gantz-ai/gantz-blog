@@ -1,5 +1,5 @@
 +++
-title = 'I Over-Engineered My Agent (Here's What I Learned)'
+title = "I Over-Engineered My Agent (Here's What I Learned)"
 date = 2025-12-05
 draft = false
 tags = ['agents', 'ai', 'mcp']

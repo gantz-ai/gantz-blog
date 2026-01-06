@@ -1,5 +1,5 @@
 +++
-title = 'Horizontal Scaling for Stateful Agents'
+title = "Horizontal Scaling for Stateful Agents"
 date = 2025-12-18
 draft = false
 tags = ['agents', 'ai', 'mcp']

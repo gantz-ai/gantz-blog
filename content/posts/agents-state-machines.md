@@ -1,5 +1,5 @@
 +++
-title = 'Agents as State Machines'
+title = "Agents as State Machines"
 date = 2026-01-03
 draft = false
 tags = ['agents', 'ai', 'mcp']

@@ -1,5 +1,5 @@
 +++
-title = 'How to Read an Agent's Mind: Debugging Thought Processes'
+title = "How to Read an Agent's Mind: Debugging Thought Processes"
 date = 2025-12-25
 draft = false
 tags = ['agents', 'ai', 'mcp']

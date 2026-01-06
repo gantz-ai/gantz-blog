@@ -1,5 +1,5 @@
 +++
-title = '    # The Reranker: RAG's Secret Weapon'
+title = "    # The Reranker: RAG's Secret Weapon"
 date = 2025-11-29
 draft = false
 tags = ['agents', 'ai', 'mcp']

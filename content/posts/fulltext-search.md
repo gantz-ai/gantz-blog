@@ -1,5 +1,5 @@
 +++
-title = 'Full-Text Search: The RAG Alternative Nobody Tries'
+title = "Full-Text Search: The RAG Alternative Nobody Tries"
 date = 2025-12-20
 draft = false
 tags = ['agents', 'ai', 'mcp']

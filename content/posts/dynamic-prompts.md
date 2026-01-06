@@ -1,5 +1,5 @@
 +++
-title = 'Dynamic Prompts: Changing Instructions Mid-Conversation'
+title = "Dynamic Prompts: Changing Instructions Mid-Conversation"
 date = 2025-12-23
 draft = false
 tags = ['agents', 'ai', 'mcp']

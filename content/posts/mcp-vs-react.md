@@ -1,5 +1,5 @@
 +++
-title = 'MCP vs ReAct: Protocol vs Pattern'
+title = "MCP vs ReAct: Protocol vs Pattern"
 date = 2025-12-11
 draft = false
 tags = ['agents', 'ai', 'mcp']

@@ -1,5 +1,5 @@
 +++
-title = 'Memory Patterns for AI Agents'
+title = "Memory Patterns for AI Agents"
 date = 2025-12-10
 draft = false
 tags = ['agents', 'ai', 'mcp']

@@ -1,5 +1,5 @@
 +++
-title = 'Why Agents Get Stuck in Loops (And How to Prevent It)'
+title = "Why Agents Get Stuck in Loops (And How to Prevent It)"
 date = 2026-01-04
 draft = false
 tags = ['agents', 'ai', 'mcp']

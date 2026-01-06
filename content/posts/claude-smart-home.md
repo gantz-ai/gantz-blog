@@ -1,5 +1,5 @@
 +++
-title = 'Let Claude control your smart home'
+title = "Let Claude control your smart home"
 date = 2025-12-28
 draft = false
 tags = ['agents', 'ai', 'mcp']

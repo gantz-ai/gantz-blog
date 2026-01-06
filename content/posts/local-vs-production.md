@@ -1,5 +1,5 @@
 +++
-title = 'Why Your Agent Works Locally But Fails in Production'
+title = "Why Your Agent Works Locally But Fails in Production"
 date = 2025-12-15
 draft = false
 tags = ['agents', 'ai', 'mcp']

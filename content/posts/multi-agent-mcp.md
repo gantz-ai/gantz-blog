@@ -1,5 +1,5 @@
 +++
-title = 'Building a Multi-Agent System with MCP'
+title = "Building a Multi-Agent System with MCP"
 date = 2025-12-07
 draft = false
 tags = ['agents', 'ai', 'mcp']

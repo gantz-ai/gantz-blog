@@ -1,5 +1,5 @@
 +++
-title = 'Chain of Thought: When It Helps, When It Hurts'
+title = "Chain of Thought: When It Helps, When It Hurts"
 date = 2025-12-29
 draft = false
 tags = ['agents', 'ai', 'mcp']

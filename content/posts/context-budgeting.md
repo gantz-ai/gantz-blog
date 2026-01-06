@@ -1,5 +1,5 @@
 +++
-title = 'Context Window Budgeting for Multi-Turn Agents'
+title = "Context Window Budgeting for Multi-Turn Agents"
 date = 2025-12-26
 draft = false
 tags = ['agents', 'ai', 'mcp']

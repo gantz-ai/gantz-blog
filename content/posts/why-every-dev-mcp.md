@@ -1,5 +1,5 @@
 +++
-title = 'Why every dev will run an MCP server'
+title = "Why every dev will run an MCP server"
 date = 2025-11-17
 draft = false
 tags = ['agents', 'ai', 'mcp']
