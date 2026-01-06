@@ -4,6 +4,9 @@ title = 'Gantz Blog'
 theme = 'lowkey'
 paginate = 10
 
+[params]
+  favicon = "favicon.ico"
+
 [markup]
   [markup.highlight]
     style = 'dracula'
