@@ -76,4 +76,4 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: false
-    style: dracula
+    style: monokai
