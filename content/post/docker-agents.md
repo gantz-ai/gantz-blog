@@ -11,7 +11,11 @@ voice = false
 
 You built an agent. It works on your machine.
 
-Now you need to run it somewhere else.
+Now you need to run it somewhere else. A server. A Kubernetes cluster. Your colleague's machine. Anywhere.
+
+This is where most agent projects stall. The code works locally, but "deployment" feels like a whole other project. Docker configs, environment management, secrets handling, networking — it adds up.
+
+I've done this enough times that I've settled on a minimal setup that just works. Not over-engineered. Not under-powered. Just the files you need to go from local to deployed.
 
 Docker is the answer. Here's the simplest setup that works.
 
@@ -617,6 +621,47 @@ docker-compose exec agent bash
 docker stats
 ```
 
+## Troubleshooting
+
+### Container exits immediately
+
+Check the logs:
+```bash
+docker-compose logs agent
+```
+
+Common causes:
+- Missing environment variables
+- Python import errors (missing dependencies)
+- API key issues
+
+### Can't connect to Redis
+
+Make sure Redis is healthy before starting the agent:
+```yaml
+depends_on:
+  redis:
+    condition: service_healthy
+```
+
+### Out of memory
+
+Agents can use a lot of memory during inference. Increase limits:
+```yaml
+deploy:
+  resources:
+    limits:
+      memory: 1G  # or more
+```
+
+### Slow startup
+
+The first run downloads models/embeddings. Subsequent runs use cached data. Use volumes to persist caches:
+```yaml
+volumes:
+  - huggingface_cache:/root/.cache/huggingface
+```
+
 ## Summary
 
 Minimal Docker setup for agents:
@@ -630,13 +675,15 @@ Minimal Docker setup for agents:
 | healthcheck | Know when things break |
 | resource limits | Don't eat all the RAM |
 
-Start minimal. Add complexity when you need it.
+The key insight: **start minimal, add complexity when you need it**. You don't need Kubernetes on day one. You don't need multi-stage builds for a prototype.
 
 ```bash
 docker-compose up -d
 ```
 
-Your agent is now portable.
+Your agent is now portable. It runs the same everywhere Docker runs.
+
+This setup handles 90% of use cases. When you need to scale further (Kubernetes, multiple replicas, auto-scaling), you'll have a solid foundation to build on.
 
 ## Related reading
 

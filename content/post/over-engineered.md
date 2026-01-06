@@ -478,6 +478,8 @@ What I learned:
 
 The best agent is the one that gets out of the way.
 
+Build the simplest version first. Ship it. See what actually breaks. Then add complexity only where needed. Most of the fancy features you want to add will never be used.
+
 ## Related reading
 
 - [The 80/20 Rule for AI Agents](/post/80-20-rule/) - Focus on what matters

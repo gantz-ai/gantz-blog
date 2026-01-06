@@ -10,11 +10,18 @@ voice = false
 +++
 
 
-RAG (Retrieval Augmented Generation) is usually a whole production — vector databases, embeddings APIs, chunking strategies, the works.
+RAG (Retrieval Augmented Generation) is usually a whole production — vector databases, embeddings APIs, chunking strategies, the works. A typical RAG pipeline involves:
 
-But what if you just want Claude to search your local docs and answer questions? No cloud services, no complex setup.
+- Pinecone or Weaviate for vector storage
+- OpenAI embeddings API ($0.0001 per 1K tokens adds up)
+- Chunking logic that's half science, half art
+- A retrieval pipeline that queries, ranks, and filters
 
-Here's how I built a local RAG in about 30 minutes using MCP.
+For production systems with millions of documents, this makes sense. But what if you just want Claude to search your local docs and answer questions? Your notes. Your codebase. Your personal knowledge base.
+
+You don't need cloud services for that. You don't need complex infrastructure.
+
+Here's how I built a local RAG in about 30 minutes using MCP. Everything runs on your machine. No external APIs except the AI model itself.
 
 ## The idea
 
@@ -420,15 +427,57 @@ Add to your gantz.yaml:
 - **Chat history** — Remember previous questions
 - **Auto-reindex** — Watch for file changes
 
+## Troubleshooting
+
+### "No results found"
+
+If searches return nothing:
+- Check DOCS_DIR points to the right location
+- Verify files have supported extensions (.md, .txt)
+- Try simpler search terms
+
+### Vector search is slow
+
+First search loads the model (~30 seconds). Subsequent searches are fast. To speed up:
+- Use a smaller model: `all-MiniLM-L6-v2` (fast) vs `all-mpnet-base-v2` (better quality)
+- Pre-load the model in a long-running process
+
+### Index out of date
+
+Re-run indexing when documents change:
+```bash
+python scripts/index_docs.py
+```
+
+Or set up a cron job / file watcher to auto-reindex.
+
+### Memory issues with large doc sets
+
+For >10K documents, use batch processing:
+```python
+# Index in batches of 1000
+for i in range(0, len(chunks), 1000):
+    batch = chunks[i:i+1000]
+    embeddings = model.encode(batch)
+    index.add(np.array(embeddings).astype('float32'))
+```
+
 ## Why local?
 
 Your documents never leave your machine. No uploading to Pinecone, no OpenAI embeddings API. Everything runs locally.
 
-Good for:
-- Private/sensitive docs
-- Offline access
-- No API costs
-- Full control
+**Good for:**
+- Private/sensitive docs (company wikis, personal notes)
+- Offline access (works on a plane)
+- No API costs (embeddings APIs charge per token)
+- Full control (your index, your rules)
+
+**Trade-offs:**
+- Less scalable than cloud solutions
+- Need to manage your own hardware
+- Model quality varies (but good enough for most cases)
+
+For most personal and small team use cases, local is plenty. You can always migrate to cloud later if you outgrow it.
 
 ## Related reading
 

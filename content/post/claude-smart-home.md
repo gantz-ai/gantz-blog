@@ -11,7 +11,11 @@ voice = true
 
 Last weekend I got Claude to turn off my lights. Not through some official integration — just MCP and a few shell scripts.
 
-Here's the setup.
+No Alexa. No Google Home. No proprietary app. Just Claude understanding natural language and executing commands on my local network.
+
+The cool part? It actually understands context. "Make it cozy" dims the lights and maybe turns on a scene. "I'm leaving" turns everything off. It's not just mapping keywords to commands — it's reasoning about what you want.
+
+Here's the complete setup.
 
 ## The goal
 
@@ -26,19 +30,41 @@ No special apps. No voice assistant. Just Claude with access to my local tools.
 
 ## How it works
 
-Most smart home stuff has APIs or CLI tools. If you can control it from terminal, Claude can control it through MCP.
+Most smart home devices have APIs or CLI tools. Philips Hue has a local REST API. Home Assistant has a REST API and CLI. Even cheap WiFi plugs often have local control if you flash them with Tasmota.
+
+The key insight: **if you can control it from terminal, Claude can control it through MCP.**
 
 ```
 You → Claude → MCP Server (your machine) → Smart home API → Device
+         │                 │                      │
+    Natural language   Gantz tunnel      curl/API calls
 ```
+
+The MCP server runs on your home network (or any machine that can reach your devices). Gantz creates a tunnel so Claude can reach it. Claude figures out which tools to call based on your request.
 
 ## What you'll need
 
-- Smart home devices with API access (Hue, Home Assistant, etc.)
-- [Gantz CLI](https://gantz.run)
-- 30 minutes
+- Smart home devices with API access (Hue, Home Assistant, MQTT, etc.)
+- A computer on your home network (Raspberry Pi works great)
+- [Gantz CLI](https://gantz.run) installed
+- About 30 minutes for initial setup
 
-I'll show examples for Philips Hue and Home Assistant, but this works with anything that has an API.
+I'll show examples for Philips Hue and Home Assistant, but this works with any device that has an API. The pattern is always the same: wrap the API call in a Gantz tool.
+
+## Before you start
+
+Make sure you can control your devices from the command line first. Try:
+
+```bash
+# For Hue (after getting token)
+curl http://192.168.1.100/api/YOUR_TOKEN/lights
+
+# For Home Assistant
+curl -H "Authorization: Bearer YOUR_TOKEN" \
+  http://homeassistant.local:8123/api/states
+```
+
+If these work, you're ready to wrap them in MCP tools.
 
 ## Option 1: Philips Hue
 
@@ -303,12 +329,108 @@ And because it's Claude, you can ask things naturally:
 
 It's not just on/off commands — it's reasoning about your home.
 
+## Troubleshooting
+
+### "Connection refused" or "No route to host"
+
+Your MCP server can't reach the smart home device. Check:
+- Is the device on the same network as your MCP server?
+- Is the IP address correct? (Devices sometimes change IPs)
+- Is there a firewall blocking local traffic?
+
+### Claude uses wrong tool
+
+Your tool descriptions might be ambiguous. Be specific:
+
+```yaml
+# Bad - Claude might confuse these
+- name: turn_on
+  description: Turn on
+
+# Good - Clear when to use each
+- name: turn_on_light
+  description: Turn on a light. Use when user asks to turn on, switch on, or enable a light.
+
+- name: turn_on_outlet
+  description: Turn on a smart outlet/plug. Use for non-light devices like fans or appliances.
+```
+
+### Hue bridge not responding
+
+Hue bridges sometimes go to sleep. Try:
+1. Access the bridge directly: `curl http://BRIDGE_IP/api`
+2. Check your token is still valid
+3. Press the bridge button and regenerate token if needed
+
+### Home Assistant "401 Unauthorized"
+
+Your long-lived access token might have expired. Generate a new one:
+1. Go to your HA profile
+2. Scroll to "Long-Lived Access Tokens"
+3. Create new token and update your environment variable
+
+## Running 24/7
+
+For a permanent setup, run Gantz as a service.
+
+### On Raspberry Pi / Linux
+
+Create `/etc/systemd/system/smart-home-mcp.service`:
+
+```ini
+[Unit]
+Description=Smart Home MCP Server
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/smart-home
+EnvironmentFile=/home/pi/smart-home/.env
+ExecStart=/usr/local/bin/gantz run --auth
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Enable and start:
+
+```bash
+sudo systemctl enable smart-home-mcp
+sudo systemctl start smart-home-mcp
+```
+
+### Using Docker
+
+```dockerfile
+FROM golang:alpine AS builder
+RUN go install github.com/gantz-ai/gantz-cli/cmd/gantz@latest
+
+FROM alpine
+COPY --from=builder /go/bin/gantz /usr/local/bin/
+COPY gantz.yaml /app/
+WORKDIR /app
+CMD ["gantz", "run", "--auth"]
+```
+
 ## Security notes
 
-- Always use `--auth` flag
-- Keep your tunnel URL private
-- Consider read-only tools first
-- Be careful with locks/garage doors
+Smart home control requires extra care. You're exposing physical device control.
+
+### Do this:
+- **Always use `--auth` flag** — Don't let random people control your home
+- **Keep your tunnel URL private** — Don't share it publicly
+- **Start with read-only tools** — Get states before controlling
+- **Limit destructive actions** — Maybe don't expose "unlock front door"
+- **Run on isolated network** — Consider a separate VLAN for IoT devices
+
+### Don't do this:
+- Don't expose garage door or lock controls without careful thought
+- Don't share your tunnel URL in public channels
+- Don't run without authentication
+- Don't use this for security-critical automation (alarms, etc.)
 
 ## Related reading
 

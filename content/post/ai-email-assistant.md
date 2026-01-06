@@ -476,7 +476,9 @@ The MCP server doesn't care who's calling it.
 
 Your emails stay on your machine. The AI connects to your local MCP server, which talks to Gmail. No emails sent to third-party services (beyond Google, obviously).
 
-And you control what tools are available. Don't want AI sending emails? Don't include the send tool.
+And you control what tools are available. Don't want AI sending emails? Don't include the send tool. Start read-only until you trust the system.
+
+This is the beauty of local-first automation: you're in control. No third-party service deciding what your AI can access. No data leaving your machine except to Gmail.
 
 ## Related reading
 

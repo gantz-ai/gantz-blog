@@ -11,7 +11,9 @@ voice = false
 
 Everyone's building RAG. Vector databases. Embeddings. Chunking strategies. Retrieval pipelines.
 
-For most use cases, it's overkill.
+It's become the default architecture for any AI app that needs knowledge. Tutorial after tutorial assumes you need Pinecone and embeddings before you can do anything useful.
+
+For most use cases, it's overkill. I say this as someone who's built RAG systems — the complexity is worth it sometimes, but far less often than people think.
 
 ## The RAG hype
 
@@ -455,6 +457,10 @@ RAG is a tool for a specific problem: semantic search over large unstructured da
 Don't build RAG because it's trendy. Build it because you actually need it.
 
 Most of you don't.
+
+The best architecture is the simplest one that solves your problem. Start simple, measure where you hit limits, then add complexity only when justified.
+
+When you do need RAG, you'll know it. The simpler approaches will hit obvious walls. Until then, save yourself the infrastructure headache.
 
 ## Related reading
 

@@ -10,11 +10,13 @@ voice = false
 +++
 
 
-Most AI agents use ReAct: think, act, observe, repeat. Simple and effective.
+Most AI agents use ReAct: think, act, observe, repeat. Simple and effective for many cases.
 
-But for complex tasks, there's a better pattern: **Planner-Executor**.
+But for complex, high-stakes tasks — deployments, data migrations, multi-step workflows — ReAct can be dangerous. The AI makes decisions one step at a time without seeing the full picture.
 
-Here's how it works.
+That's where **Planner-Executor** comes in. Separate planning from execution. Think first, then act.
+
+Here's how it works and when to use it.
 
 ## The problem with ReAct
 
@@ -462,6 +464,20 @@ planner.create(
 - Easier to debug, review, parallelize
 
 Think first, then act.
+
+The pattern adds overhead for simple tasks, but for anything with consequences (deployments, data changes, multi-step workflows), that overhead pays for itself in reliability and debuggability.
+
+## Implementation tips
+
+A few things I've learned implementing this pattern:
+
+1. **Give the planner the tool list** — It can't plan what it doesn't know exists
+2. **Include verification steps** — Every critical action should be followed by a check
+3. **Plan rollback upfront** — Don't figure out rollback after something breaks
+4. **Log everything** — Plans and execution traces are invaluable for debugging
+5. **Start with human approval** — Remove it only when you trust the system
+
+The pattern works best when plans are structured (JSON), execution is deterministic (follow the plan), and failures trigger replanning rather than blind retries.
 
 ## Related reading
 

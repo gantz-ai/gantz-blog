@@ -400,6 +400,10 @@ After this rule:
 
 Stop guessing. Start verifying.
 
+The tools are there. Use them. Every time your agent guesses instead of checking, you're risking user trust. And trust, once lost, is hard to rebuild.
+
+Give your agent the tools to verify. Make verification the default behavior. Your users will thank you.
+
 ## Related reading
 
 - [Writing Tool Descriptions That Work](/post/tool-descriptions/) - Help AI use tools correctly

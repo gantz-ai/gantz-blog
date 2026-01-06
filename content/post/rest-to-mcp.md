@@ -9,65 +9,109 @@ voice = true
 +++
 
 
-REST has been the standard for 20 years. Every API you use, every integration you build — it's probably REST.
+REST has been the standard for 20 years. Every API you use, every integration you build — it's probably REST. The pattern is everywhere: resources with URLs, HTTP verbs for actions, JSON responses.
 
-But something's shifting. AI doesn't want to call endpoints. It wants to call tools.
+But something's shifting. AI doesn't think in endpoints and HTTP verbs. It thinks in actions and goals. When you ask Claude to "get the user's recent orders," it doesn't naturally map that to `GET /api/v2/users/123/orders?limit=10&sort=desc`. That translation layer is friction.
 
-That's where MCP comes in.
+MCP (Model Context Protocol) takes a different approach. Instead of exposing resources and operations, you expose tools with descriptions. The AI reads the description, understands the purpose, and decides when to use it.
+
+This isn't about REST being bad. REST is great for apps. But AI is a different kind of client, and it needs a different interface.
 
 ## REST was built for apps
 
-REST is great for what it was designed for: apps talking to servers.
+REST (Representational State Transfer) was designed for applications talking to servers. The model is clean:
+
+- **Resources** have URLs (`/users/123`, `/orders`, `/products/456`)
+- **HTTP verbs** define actions (GET reads, POST creates, PUT updates, DELETE removes)
+- **Responses** are structured data (usually JSON)
+- **State** is maintained by the client, not the server
 
 ```
-GET /users/123
-POST /orders
-PUT /products/456
-DELETE /comments/789
+GET /users/123           → Read user 123
+POST /orders             → Create new order
+PUT /products/456        → Update product 456
+DELETE /comments/789     → Delete comment 789
 ```
 
-Predictable. Stateless. Works everywhere.
+This works brilliantly for apps. A frontend developer knows exactly what data they need. They write code that calls specific endpoints with specific parameters. The structure is fixed at compile time.
 
-But REST assumes the caller knows exactly what it wants. You write code that calls specific endpoints with specific parameters. The structure is fixed.
+The REST contract is explicit: the server documents its endpoints, the client implements calls to those endpoints. Both sides know the interface.
+
+But this assumes the caller knows exactly what it wants before the request. The entire interaction is predetermined.
 
 ## AI doesn't work that way
 
-When you ask Claude to "get me the user's recent orders," it doesn't think in endpoints. It thinks in actions:
+When you ask Claude to "get me the user's recent orders," it doesn't naturally think:
 
-- What do I need to do? → Get orders
-- What information do I need? → User ID
-- What constraints? → Recent ones
+```
+"I need to call GET /api/v2/users/123/orders with query parameters
+limit=10 and sort=created_at&order=desc, using Bearer token authentication
+in the Authorization header..."
+```
 
-REST forces AI to map natural language to rigid endpoints. It can work, but it's awkward.
+It thinks in goals and actions:
+
+- **Goal:** Get orders for this user
+- **Constraint:** Recent ones (what does "recent" mean? Last 10? Last week?)
+- **Action:** Use whatever tool gets user orders
+
+The mismatch is fundamental. REST is designed around **resources and operations**. AI thinks in **goals and capabilities**.
+
+To make REST work with AI, you need a translation layer — either prompt engineering that teaches the AI your API structure, or code that maps AI intent to REST calls. Both add friction. Both break when APIs change.
+
+REST forces AI to map natural language to rigid endpoints. It can work, but it's fighting against the grain.
 
 ## MCP is built for AI
 
-MCP flips the model. Instead of endpoints, you expose tools:
+MCP flips the model. Instead of endpoints that the caller must know in advance, you expose **tools** that describe themselves:
 
 ```yaml
 tools:
   - name: get_user_orders
-    description: Get orders for a user, optionally filtered by date
+    description: >
+      Get orders for a user, optionally filtered by date.
+      Use this when someone asks about a customer's purchase history,
+      recent orders, or order status. Returns up to 100 orders.
     parameters:
       - name: user_id
         type: string
+        description: The user's unique identifier
         required: true
       - name: since
         type: string
-        description: ISO date to filter orders from
+        description: ISO date to filter orders from (e.g., "2024-01-01")
+      - name: status
+        type: string
+        description: Filter by order status (pending, shipped, delivered)
 ```
 
-The AI reads the description, understands the parameters, and decides when to use it.
+The key differences:
 
-No documentation parsing. No endpoint memorization. Just tools with clear descriptions.
+1. **Self-describing:** The AI reads the description and understands when to use this tool
+2. **Intent-focused:** The description explains the *purpose*, not just the mechanics
+3. **Discoverable:** AI asks "what tools do you have?" and gets this list automatically
+
+No documentation parsing. No memorizing URL patterns. No teaching the AI your API version structure. Just tools with clear descriptions that explain their purpose.
+
+The AI reads the description, understands the parameters, and makes intelligent decisions about when to use each tool.
 
 ## Key differences
 
+Let's break down the fundamental differences between REST and MCP.
+
 ### Discovery
 
-**REST:** You read docs, find endpoints, hardcode them.
+**REST approach:**
+1. Developer reads API documentation
+2. Developer finds relevant endpoints
+3. Developer hardcodes those endpoints into their app
+4. If the API changes, the app breaks
 
-**MCP:** AI connects to server, asks "what tools do you have?", gets a list with descriptions.
+**MCP approach:**
+1. AI connects to MCP server
+2. AI calls `tools/list` — "what tools do you have?"
+3. Server returns all available tools with descriptions
+4. AI picks the right tool based on the user's request
 
 ```json
 // MCP tools/list response
@@ -75,19 +119,26 @@ No documentation parsing. No endpoint memorization. Just tools with clear descri
   "tools": [
     {
       "name": "get_user_orders",
-      "description": "Get orders for a user",
-      "inputSchema": { ... }
+      "description": "Get orders for a user. Use when someone asks about purchase history.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "user_id": { "type": "string" },
+          "limit": { "type": "number" }
+        },
+        "required": ["user_id"]
+      }
     },
     {
       "name": "create_order",
-      "description": "Create a new order",
+      "description": "Create a new order. Use when processing a purchase.",
       "inputSchema": { ... }
     }
   ]
 }
 ```
 
-AI discovers what's available at runtime. No hardcoding.
+The AI discovers what's available at runtime. If you add a new tool, the AI can use it immediately — no code changes needed on the client side.
 
 ### Intent vs structure
 
@@ -206,40 +257,130 @@ You can:
 
 ## The transition
 
-We're early. Most APIs are still REST. But the pattern is emerging:
+We're early in this shift. Most APIs are still REST-only. But the pattern is emerging.
 
-1. **Now:** Developers manually integrate REST APIs with AI
-2. **Soon:** MCP wrappers for popular APIs (Stripe, GitHub, etc.)
-3. **Later:** APIs ship with MCP servers alongside REST
+### Where we are today
 
-Tools like [Gantz](https://gantz.run) already let you wrap REST APIs as MCP tools:
+**2024-2025: Manual integration**
+- Developers manually teach AI about their REST APIs via prompts
+- Custom code translates AI intent to REST calls
+- Lots of prompt engineering to get reliable API usage
+
+### Where we're heading
+
+**2025-2026: MCP wrappers emerge**
+- Popular APIs get community-built MCP wrappers (Stripe, GitHub, Slack)
+- Tools like [Gantz](https://gantz.run) make wrapping REST APIs trivial
+- Companies start exposing MCP alongside REST for AI integration
+
+**2026+: MCP becomes standard**
+- Major APIs ship with official MCP servers
+- "AI-native" replaces "mobile-first" as a design principle
+- MCP support is expected, like REST support today
+
+### Wrapping REST APIs today
+
+You don't have to wait. Tools like Gantz let you wrap existing REST APIs as MCP tools right now:
 
 ```yaml
 tools:
   - name: get_weather
-    description: Get current weather for a city
+    description: >
+      Get current weather for a city.
+      Use when someone asks about weather, temperature, or conditions.
     parameters:
       - name: city
         type: string
+        description: City name (e.g., "London", "New York")
         required: true
     http:
       method: GET
       url: "https://api.weather.com/current"
       query:
         q: "{{city}}"
+      headers:
+        Authorization: "Bearer ${WEATHER_API_KEY}"
+
+  - name: create_github_issue
+    description: >
+      Create a new issue in a GitHub repository.
+      Use when someone wants to file a bug or feature request.
+    parameters:
+      - name: repo
+        type: string
+        description: Repository in owner/repo format
+        required: true
+      - name: title
+        type: string
+        required: true
+      - name: body
+        type: string
+    http:
+      method: POST
+      url: "https://api.github.com/repos/{{repo}}/issues"
+      headers:
+        Authorization: "Bearer ${GITHUB_TOKEN}"
+        Accept: "application/vnd.github.v3+json"
+      body:
+        title: "{{title}}"
+        body: "{{body}}"
 ```
 
-Your REST API becomes AI-accessible in a few lines.
+Your REST API becomes AI-accessible with a few lines of YAML. The AI doesn't need to know it's REST under the hood — it just sees tools with descriptions.
+
+### Migration pattern
+
+If you're building APIs today, consider this pattern:
+
+1. **Build your REST API** as normal (it's still what apps need)
+2. **Add an MCP layer** that wraps your most common operations
+3. **Write good descriptions** that explain when to use each tool
+4. **Test with AI** to see if the descriptions are clear enough
+
+You're not replacing REST. You're adding an AI-friendly interface on top.
+
+## When to use which
+
+This isn't a binary choice. Different clients need different interfaces.
+
+### Use REST when:
+
+- **Building traditional web/mobile apps** — Your frontend knows exactly what data it needs
+- **Server-to-server communication** — Microservices talking to each other
+- **Public APIs for developers** — You need stable, versioned endpoints
+- **High-performance scenarios** — REST is well-optimized, every framework supports it
+- **The client is deterministic** — Same input always needs same endpoint
+
+### Use MCP when:
+
+- **AI is the client** — Claude, GPT, or other LLMs need to use your service
+- **The interaction is dynamic** — You don't know in advance what the AI will need
+- **You want self-describing tools** — AI should understand capabilities without documentation
+- **Multiple AI providers** — You want one interface that works with any MCP-compatible AI
+- **Building AI agents** — Autonomous systems that decide which tools to use
+
+### Use both when:
+
+Most realistic scenarios need both:
+
+```
+Mobile App    →  REST API  →  Your Backend
+AI Agent      →  MCP Server → Your Backend
+```
+
+Your backend stays the same. You just expose different interfaces for different clients.
 
 ## Not either/or
 
 This isn't REST vs MCP. It's REST + MCP.
 
-REST handles app-to-server communication. MCP handles AI-to-tools communication.
+REST handles app-to-server communication. It's mature, well-understood, supported everywhere. Your apps will use REST for years to come.
+
+MCP handles AI-to-tools communication. It's designed for a new kind of client — one that reasons about capabilities rather than hardcoding endpoints.
 
 Different problems, different protocols.
 
-But if you're building for an AI-first world, MCP is the interface that matters.
+If you're building for the future, you'll want both. REST for your apps, MCP for AI integration. Start with REST (you probably already have it), add MCP when AI support matters.
 
 ## Related reading
 

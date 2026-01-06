@@ -11,9 +11,11 @@ voice = false
 
 Two years ago, everyone was a "prompt engineer." Now everyone's building "AI agents."
 
-Are these the same thing? No. But they're related.
+Are these the same thing? No. But they're related — and confusing the two leads to bad architecture decisions.
 
-Let me break down the difference.
+I've seen teams spend weeks perfecting prompts when they needed agents. I've seen others build complex agent systems when a good prompt would have sufficed.
+
+Let me break down the difference and when to use each.
 
 ## Prompt Engineering: Talking to AI
 
@@ -368,6 +370,27 @@ Good agents make AI 10x more capable.
 If you only know prompt engineering, you're limited to what AI can do in one turn.
 
 If you know agent engineering, you can build AI that actually does things in the world.
+
+Learn both. Start with prompts (they're foundational), then level up to agents when you hit the limits of single-turn interactions.
+
+## The career path
+
+Right now, the job market is shifting:
+
+**2023:** "Prompt engineer" was a hot job title. Companies hired people to write better prompts.
+
+**2024-2025:** "AI engineer" or "agent developer" is the emerging role. Companies need people who can build systems, not just write text.
+
+If you're building skills, focus on:
+1. Prompt engineering basics (everyone needs this)
+2. System design for AI applications
+3. Tool and API integration
+4. Error handling and reliability
+5. Testing and evaluation
+
+The people who can do both — write great prompts AND build robust systems — are the most valuable.
+
+Your existing software engineering skills transfer directly. If you can design APIs, handle errors gracefully, and build maintainable systems, you're already halfway to being an agent engineer.
 
 ## Related reading
 

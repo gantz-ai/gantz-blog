@@ -575,6 +575,10 @@ Your agent fails in production because:
 
 The agent isn't broken. The environment is different.
 
+Most "production bugs" are actually environment configuration issues. Fix the environment, and the agent works exactly like it did locally. The challenge is making sure you've caught all the differences before your users do.
+
+A good practice: keep a checklist of common differences (env vars, paths, limits, network) and verify each before every deployment.
+
 ## Related reading
 
 - [Horizontal Scaling for Stateful Agents](/post/horizontal-scaling/) - Scale without losing conversations

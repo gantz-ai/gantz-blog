@@ -27,6 +27,10 @@ answer = "Your data stays local. Your database has real user data, your codebase
 
 Hot take: In a couple years, running an MCP server will be as normal as running a local dev server.
 
+This isn't wishful thinking. It's following the pattern of how developer tools evolve. We went from FTP to local servers. From manual deployments to Docker. From copy-pasting code to AI assistants.
+
+The next step is obvious: AI that can actually interact with your tools, not just talk about them.
+
 Let me explain.
 
 ## The shift that's happening
@@ -220,10 +224,96 @@ Start simple:
 - A tool that searches your codebase
 - A tool that queries your dev database
 - A tool that reads your notes
+- A tool that runs your test suite
+
+Here's a minimal setup to try today:
+
+```yaml
+# gantz.yaml
+name: dev-tools
+description: My local development tools
+
+tools:
+  - name: search_code
+    description: Search codebase for a pattern
+    parameters:
+      - name: pattern
+        type: string
+        required: true
+    script:
+      shell: grep -r "{{pattern}}" ./src --include="*.ts" | head -20
+
+  - name: git_status
+    description: Check git status and recent commits
+    script:
+      shell: |
+        echo "=== Status ==="
+        git status --short
+        echo ""
+        echo "=== Recent Commits ==="
+        git log --oneline -5
+
+  - name: run_tests
+    description: Run the test suite
+    script:
+      shell: npm test
+      timeout: 120s
+
+  - name: query_db
+    description: Run a read-only query on dev database
+    parameters:
+      - name: query
+        type: string
+        required: true
+    script:
+      shell: psql -d myapp_dev -c "{{query}}"
+```
+
+```bash
+gantz run
+```
+
+That's it. Now Claude can search your code, check git status, run tests, and query your database.
 
 Tools like [Gantz](https://gantz.run) let you spin up an MCP server in one command — define tools in YAML, run `gantz run`, and you're live.
 
 Once you have AI that can actually see your world, you won't go back to copy-paste.
+
+## The comparison to past shifts
+
+Think about how Docker changed things:
+
+**Before Docker:**
+- "It works on my machine"
+- Complex setup docs
+- Environment drift
+- Works different in prod
+
+**After Docker:**
+- Consistent environments
+- One command to run anything
+- Share setups easily
+- Infrastructure as code
+
+MCP is doing the same for AI:
+
+**Before MCP:**
+- Copy-paste context to AI
+- AI can only suggest, not do
+- No access to your actual tools
+- Generic advice, not specific help
+
+**After MCP:**
+- AI directly accesses your tools
+- AI can query, test, check
+- Context-aware assistance
+- Personalized to your setup
+
+Same shift. Different layer of the stack.
+
+The developers who adopt MCP early will have a significant advantage. Their AI tools will be context-aware. Their workflows will be more efficient. They'll iterate faster.
+
+The rest will catch up eventually. They always do.
 
 ## Related reading
 

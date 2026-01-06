@@ -11,6 +11,10 @@ voice = false
 
 You've heard about MCP. You know it connects AI to tools. But where does it actually sit in your architecture?
 
+This is a common source of confusion. People ask: "Is MCP like LangChain? Is it a replacement for function calling? Does it replace my RAG pipeline?"
+
+The answer to all of these is no. MCP fills a specific gap in the AI stack — and understanding where it fits helps you use it effectively.
+
 Let me draw you a map.
 
 ## The modern AI stack
@@ -35,9 +39,20 @@ Here's a typical AI application stack, top to bottom:
 └─────────────────────────────────────┘
 ```
 
-MCP sits between your AI layer and your external systems. It's the bridge.
+MCP sits between your AI layer and your external systems. It's the bridge that standardizes how AI talks to tools.
+
+Notice what MCP is NOT in this diagram:
+- It's not the UI
+- It's not your application logic
+- It's not the AI model
+- It's not the orchestration layer
+- It's not your databases or services
+
+It's specifically the **tool communication protocol** — nothing more, nothing less.
 
 ## Layer by layer
+
+Let's walk through each layer to understand what it does and how it relates to MCP.
 
 ### Layer 1: User Interface
 
@@ -337,6 +352,59 @@ mcp_client.call_tool(tool_name, params)
 # MCP server handles the rest
 ```
 
+## Common misconceptions
+
+Let me address some things I see people get wrong about MCP.
+
+### "MCP replaces LangChain"
+
+No. LangChain is an orchestration framework — it handles chains, agents, memory, and routing. MCP is a protocol for tool communication. You can use MCP **with** LangChain:
+
+```python
+from langchain_mcp import MCPToolkit
+
+# LangChain orchestrates, MCP handles tool calls
+toolkit = MCPToolkit("https://my-tools.gantz.run/sse")
+agent = create_react_agent(llm, toolkit.get_tools())
+```
+
+### "MCP replaces RAG"
+
+No. RAG is for knowledge retrieval — finding relevant documents to inform AI responses. MCP is for tool execution — doing things, not finding things.
+
+You might have both:
+- MCP tool to trigger a search
+- RAG pipeline to retrieve and rank documents
+- AI uses the results
+
+### "MCP is only for Claude"
+
+No. MCP is an open protocol. While Claude has native support, you can use MCP with any AI system that supports tool use. Cursor, Zed, and other tools also support MCP.
+
+### "MCP is only for local tools"
+
+No. MCP servers can run anywhere:
+- On your laptop (for local development)
+- On a server in your VPC (for production)
+- As a cloud service (for shared tools)
+
+The protocol doesn't care where the server lives.
+
+## When to add MCP to your stack
+
+Not every AI application needs MCP. Consider adding it when:
+
+1. **You have tools that need to run in a specific location** — local machine, VPC, air-gapped network
+2. **You want to share tools across multiple applications** — one server, many clients
+3. **Tools change frequently** — update server, not apps
+4. **You want dynamic tool discovery** — AI learns available tools at runtime
+5. **You're building for multiple AI providers** — one tool interface for all
+
+Skip MCP if:
+- You have 2-3 simple tools tightly integrated with your app
+- Tools need access to your application's internal state
+- You're prototyping and want minimal setup
+
 ## Summary
 
 **MCP sits between AI and external systems.**
@@ -356,6 +424,8 @@ It's not the decision maker (orchestration).
 It's not the data (external systems).
 
 It's the nervous system — carrying signals between brain and body.
+
+Understanding this positioning helps you make better architectural decisions. MCP doesn't replace your other tools — it complements them by standardizing one specific part of the stack: how AI communicates with external capabilities.
 
 ## Related reading
 

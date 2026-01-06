@@ -28,6 +28,8 @@ answer = "MCP requires running a server, but tools like Gantz make setup simple 
 
 If you've been building with AI, you've probably seen both "function calling" and "MCP" thrown around. They sound similar — both let AI models use tools. But they're actually solving different problems.
 
+This confusion is understandable. Both involve defining tools, both let AI decide when to use them, and both return results. But the architecture is fundamentally different, and choosing the wrong one for your use case creates unnecessary friction.
+
 Let me break it down.
 
 ## Function Calling (the old way)
@@ -64,6 +66,14 @@ The model returns a tool call, you execute it yourself, send the result back, an
 
 The key thing: **you're responsible for executing the tool**. The model just tells you what it wants to call.
 
+This has implications:
+- Your code needs to handle every tool you define
+- Tool execution happens in your application's environment
+- You need to maintain the tool implementation code
+- Adding new tools requires code changes and redeployment
+
+Function calling is essentially the AI saying "I want to use the `get_weather` tool with these parameters" — and your code has to actually do the work.
+
 ## MCP (Model Context Protocol)
 
 MCP flips this around. Instead of defining tools in your code, tools live on a **server**. The AI connects to that server directly.
@@ -91,19 +101,58 @@ response = client.beta.messages.create(
 
 The key thing: **the server executes the tool**, not your code.
 
+This changes everything:
+- Tools live separately from your application
+- The MCP server handles all execution
+- Adding tools means updating the server config, not your app
+- The same tools can be shared across multiple applications
+
+The AI doesn't just ask for something — it actually gets it done through the MCP server.
+
+## The architecture difference
+
+Let me visualize this more clearly:
+
+**Function Calling Architecture:**
+```
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│   Your App  │────▶│  Claude API │────▶│  Your App   │
+│  (defines   │     │  (returns   │     │  (executes  │
+│   tools)    │     │  tool call) │     │   tools)    │
+└─────────────┘     └─────────────┘     └─────────────┘
+       │                                       │
+       └───────────── same codebase ───────────┘
+```
+
+**MCP Architecture:**
+```
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│   Your App  │────▶│  Claude API │────▶│ MCP Server  │
+│  (just UI)  │     │  (connects  │     │ (executes   │
+│             │     │   to MCP)   │     │  tools)     │
+└─────────────┘     └─────────────┘     └─────────────┘
+                                               │
+                                        separate system
+```
+
+With function calling, your application is both the client AND the tool executor. With MCP, your application just talks to Claude, and Claude talks to the MCP server.
+
 ## Why does this matter?
 
 ### Function calling is good when:
-- Tools are simple and few
-- You want full control over execution
-- Tools need access to your app's state
-- You're building a single application
+- **Tools are simple and few** — You have 2-5 straightforward tools that don't need complex setup
+- **You want full control over execution** — You need to validate, transform, or intercept tool calls before execution
+- **Tools need access to your app's state** — The tool needs to read from your database connection, session data, or in-memory state
+- **You're building a single application** — One app, one set of tools, no sharing needed
+- **You need tight integration** — The tool is core to your application logic, not separable
 
 ### MCP is good when:
-- Tools are complex or numerous
-- You want to share tools across multiple apps
-- Tools need to run in a specific environment (your laptop, a VPC, etc.)
-- You want AI to discover tools dynamically
+- **Tools are complex or numerous** — You have many tools or tools with complex dependencies
+- **You want to share tools across multiple apps** — Same tools used by your web app, Slack bot, and CLI
+- **Tools need to run in a specific environment** — Your laptop, inside a VPC, or on a machine with special software
+- **You want AI to discover tools dynamically** — Tools change frequently, and you don't want to redeploy
+- **Tools are independent of your app** — They operate on external systems, not your app's state
+- **You want separation of concerns** — App development separate from tool development
 
 ## The real difference
 
@@ -158,11 +207,98 @@ tools:
 
 No app to deploy. No code to maintain. Just a config file and a running server.
 
+## Another example: Multi-app scenario
+
+Imagine you have three applications:
+1. A customer support chatbot
+2. A Slack bot for your team
+3. A CLI tool for developers
+
+All three need to query the same database and check the same service health.
+
+**With function calling:**
+- Each app implements the same tools
+- Three codebases to maintain
+- Changes require updating all three
+- Different bugs in different implementations
+
+**With MCP:**
+- One MCP server with the tools
+- All three apps connect to the same server
+- One codebase for tools
+- Change once, all apps get the update
+
+```yaml
+# One gantz.yaml serves all three apps
+tools:
+  - name: query_customers
+    description: Query customer database
+    script:
+      shell: psql -c "{{query}}"
+
+  - name: check_service
+    description: Check if a service is healthy
+    script:
+      shell: curl -s {{url}}/health
+```
+
 ## The catch with MCP
 
 MCP servers need to be accessible. If it's running on your laptop, Claude can't reach it unless you expose it somehow.
 
 That's actually why I built [Gantz](https://gantz.run) — it creates a tunnel so your local MCP server gets a public URL. No port forwarding, no ngrok setup.
+
+## Can you use both?
+
+Yes. In fact, many real-world applications use both:
+
+```python
+response = client.messages.create(
+    model="claude-sonnet-4-5-20250929",
+    messages=[...],
+    # Function calling for app-integrated tools
+    tools=[
+        {
+            "name": "get_user_session",
+            "description": "Get current user's session data",
+            "input_schema": {...}
+        },
+        # MCP for external tools
+        {"type": "mcp_toolset", "mcp_server_name": "infra-tools"}
+    ],
+    mcp_servers=[{
+        "type": "url",
+        "url": "https://infra.example.com/sse",
+        "name": "infra-tools"
+    }]
+)
+```
+
+Use function calling for tools that need your app's context (user sessions, app state, in-memory data). Use MCP for tools that operate independently (database queries, external APIs, system commands).
+
+## Decision framework
+
+Ask yourself these questions:
+
+1. **Does the tool need my app's state?**
+   - Yes → Function calling
+   - No → Either works, MCP might be cleaner
+
+2. **Will multiple apps use this tool?**
+   - Yes → MCP (share once, use everywhere)
+   - No → Function calling is fine
+
+3. **Does the tool need a specific environment?**
+   - Yes → MCP (run the server where it needs to be)
+   - No → Either works
+
+4. **How often do tools change?**
+   - Often → MCP (update server, not apps)
+   - Rarely → Function calling is fine
+
+5. **How many tools do you have?**
+   - Many (10+) → MCP is easier to manage
+   - Few (2-5) → Function calling is simpler
 
 ## TL;DR
 
@@ -171,9 +307,11 @@ That's actually why I built [Gantz](https://gantz.run) — it creates a tunnel s
 | Tools defined in | Your code | MCP server |
 | Tool execution | Your app | MCP server |
 | Discovery | Static (you define) | Dynamic (server provides) |
+| Sharing | Per-app | Across apps |
+| Environment | Your app's environment | Server's environment |
 | Best for | Simple, integrated tools | Complex, shareable, remote tools |
 
-Both have their place. Function calling isn't going away. But MCP makes certain things way easier — especially when you want AI to use tools that live somewhere specific.
+Both have their place. Function calling isn't going away — it's still the simplest approach for basic integrations. But MCP makes certain things way easier — especially when you want AI to use tools that live somewhere specific, or when you want to share tools across applications.
 
 ## Related reading
 

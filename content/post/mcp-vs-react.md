@@ -319,6 +319,10 @@ Don't choose between them. Use both.
 
 ReAct for thinking. MCP for doing.
 
+Understanding this separation makes your architecture cleaner. The orchestration layer (ReAct, Planner-Executor, or your custom loop) decides what to do. The protocol layer (MCP) handles how to communicate with tools. Clean separation of concerns.
+
+When building agents, get the orchestration right first, then optimize the tool communication layer.
+
 ## Related reading
 
 - [What is MCP and Where Does it Fit in Your Stack?](/post/mcp-in-stack/) - MCP fundamentals
