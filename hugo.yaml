@@ -71,7 +71,7 @@ params:
       reactionsEnabled: 1
       emitMetadata: 0
       inputPosition: top
-      lightTheme: light
+      lightTheme: light_tritanopia
       darkTheme: dark_dimmed
       lang: en
       loading: lazy
