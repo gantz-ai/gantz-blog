@@ -3,6 +3,7 @@ title = "Prompt Injection: Your Agent's Biggest Vulnerability"
 date = 2025-12-03
 image = "/images/warrior-rain-city-05.png"
 draft = false
+featured = true
 tags = ['security', 'prompting', 'best-practices']
 +++
 

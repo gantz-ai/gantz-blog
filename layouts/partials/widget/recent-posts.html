@@ -1,0 +1,21 @@
+{{- $context := .Context -}}
+{{- $limit := default 5 .Params.limit -}}
+{{- $pages := where $context.Site.RegularPages "Type" "in" $context.Site.Params.mainSections -}}
+{{- $filtered := where $pages "Params.hidden" "!=" true -}}
+
+<section class="widget archives">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "clock" }}
+    </div>
+    <h2 class="widget-title section-title">Recent Posts</h2>
+
+    <div class="widget-archive--list">
+        {{ range first $limit $filtered.ByDate.Reverse }}
+        <div class="archives-year">
+            <a href="{{ .RelPermalink }}">
+                <span class="year" style="flex: 1;">{{ .Title | truncate 35 }}</span>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</section>

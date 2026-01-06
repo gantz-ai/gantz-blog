@@ -1,0 +1,23 @@
+{{- $context := .Context -}}
+{{- $limit := default 5 .Params.limit -}}
+{{- $pages := where $context.Site.RegularPages "Type" "in" $context.Site.Params.mainSections -}}
+{{- $featured := where $pages "Params.featured" true -}}
+
+{{- if $featured -}}
+<section class="widget archives">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "star" }}
+    </div>
+    <h2 class="widget-title section-title">Featured</h2>
+
+    <div class="widget-archive--list">
+        {{ range first $limit $featured }}
+        <div class="archives-year">
+            <a href="{{ .RelPermalink }}">
+                <span class="year" style="flex: 1;">{{ .Title | truncate 35 }}</span>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{- end -}}

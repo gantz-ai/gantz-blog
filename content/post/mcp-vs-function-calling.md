@@ -3,6 +3,7 @@ title = "MCP vs Function Calling — What's the difference?"
 date = 2025-12-12
 image = "/images/warrior-rain-city-03.png"
 draft = false
+featured = true
 tags = ['mcp', 'tool-use', 'comparison']
 +++
 
