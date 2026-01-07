@@ -1,26 +1,125 @@
-/* Dark code blocks */
+/* Dev.to inspired styling */
+
+/* Main body font - system font stack like dev.to */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Article content styling */
+.article-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #242424;
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+}
+
+.article-content h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #171717;
+}
+
+.article-content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #171717;
+}
+
+/* Code blocks - dark theme like dev.to */
 .highlight {
-  background: #282a36 !important;
-  border-radius: 8px;
+  background: #1e1e1e !important;
+  border-radius: 6px;
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  overflow-x: auto;
 }
 
 .highlight pre {
-  background: #282a36 !important;
-  color: #f8f8f2 !important;
+  background: #1e1e1e !important;
+  color: #d4d4d4 !important;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Monaco, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 .highlight code {
   background: transparent !important;
-  color: #f8f8f2 !important;
+  color: #d4d4d4 !important;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Monaco, monospace;
+  font-size: 14px;
 }
 
-/* Inline code - keep light */
+/* Inline code - light background */
 :not(pre) > code {
-  background: #f1f1f1;
-  color: #e91e63;
-  padding: 0.2rem 0.4rem;
+  background: #f0f0f0;
+  color: #d63384;
+  padding: 0.15rem 0.4rem;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Monaco, monospace;
+  font-size: 0.875em;
+}
+
+/* Main background - clean white/light gray */
+:root {
+  --body-background: #f5f5f5;
+  --card-background: #ffffff;
+}
+
+/* Lists styling */
+.article-content ul,
+.article-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+/* Blockquotes */
+.article-content blockquote {
+  border-left: 4px solid #3b49df;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #525252;
+  font-style: italic;
+}
+
+/* Links */
+.article-content a {
+  color: #3b49df;
+  text-decoration: none;
+}
+
+.article-content a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.article-content th,
+.article-content td {
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.article-content th {
+  background: #f5f5f5;
+  font-weight: 600;
 }
