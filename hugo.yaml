@@ -56,7 +56,8 @@ params:
     since: 2025
 
   sidebar:
-    subtitle: AI Agents, MCP, and beyond
+    emoji: "🤖"
+    subtitle: Build smarter AI agents with MCP
     avatar:
       enabled: true
       src: img/avatar.png
@@ -118,18 +119,42 @@ menu:
       weight: 2
       params:
         icon: archives
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+      params:
+        icon: tag
     - identifier: gantz
       name: Gantz
       url: https://gantz.ai
-      weight: 3
+      weight: 4
       params:
         icon: link
     - identifier: github
       name: GitHub
       url: https://github.com/gantz-ai
-      weight: 4
+      weight: 5
       params:
         icon: brand-github
+    - identifier: rss
+      name: RSS
+      url: /index.xml
+      weight: 6
+      params:
+        icon: rss
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/gantz-ai
+      params:
+        icon: brand-github
+    - identifier: twitter
+      name: Twitter
+      url: https://twitter.com/AiGantz
+      params:
+        icon: brand-twitter
 
 related:
   includeNewer: true
