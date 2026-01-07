@@ -4,24 +4,71 @@
         {{- partial "head/head.html" . -}}
         {{- block "head" . -}}{{ end }}
     </head>
-    <body class="{{ block `body-class` . }}{{ end }}">
+    <body class="{{ block `body-class` . }}{{ end }} has-header">
         {{- partial "head/colorScheme" . -}}
 
-        {{/* The container is wider when there's any activated widget */}}
-        {{- $hasWidget := false -}}
-        {{- range .Site.Params.widgets -}}
-            {{- if gt (len .) 0 -}}
-                {{- $hasWidget = true -}}
-            {{- end -}}
-        {{- end -}}
-        <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
-            {{- block "left-sidebar" . -}}
-                {{ partial "sidebar/left.html" . }}
-            {{- end -}}
-            {{- block "right-sidebar" . -}}{{ end }}
+        <!-- Top header navigation like dev.to -->
+        <header class="top-header">
+            <div class="header-inner">
+                <div class="header-left">
+                    {{ with .Site.Params.sidebar.avatar }}
+                        {{ if (default true .enabled) }}
+                        <a href="{{ $.Site.BaseURL | relLangURL }}" class="header-logo">
+                            {{ if not .local }}
+                                <img src="{{ .src }}" width="40" height="40" alt="Logo">
+                            {{ else }}
+                                {{ $avatar := resources.Get (.src) }}
+                                {{ if $avatar }}
+                                    {{ $avatarResized := $avatar.Resize "80x" }}
+                                    <img src="{{ $avatarResized.RelPermalink }}" width="40" height="40" alt="Logo">
+                                {{ end }}
+                            {{ end }}
+                        </a>
+                        {{ end }}
+                    {{ end }}
+                    <a href="{{ .Site.BaseURL | relLangURL }}" class="header-title">{{ .Site.Title }}</a>
+                </div>
+
+                <nav class="header-nav">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        {{ $active := or (eq $currentPage.RelPermalink .URL) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
+                        <a href='{{ .URL }}' class="nav-link {{ if $active }}active{{ end }}" {{ if eq .Params.newTab true }}target="_blank"{{ end }}>
+                            {{ $icon := default .Pre .Params.Icon }}
+                            {{ with $icon }}
+                                {{ partial "helper/icon" . }}
+                            {{ end }}
+                            <span>{{- .Name -}}</span>
+                        </a>
+                    {{ end }}
+                </nav>
+
+                <div class="header-right">
+                    {{- with .Site.Menus.social -}}
+                        {{ range . }}
+                            <a
+                                href='{{ .URL }}'
+                                class="social-link"
+                                {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
+                                {{ with .Name }}title="{{ . }}"{{ end }}
+                                rel="me"
+                            >
+                                {{ $icon := default "link" .Params.Icon }}
+                                {{ with $icon }}
+                                    {{ partial "helper/icon" . }}
+                                {{ end }}
+                            </a>
+                        {{ end }}
+                    {{- end -}}
+                </div>
+            </div>
+        </header>
+
+        <div class="container main-container flex on-phone--column compact header-layout">
             <main class="main full-width">
                 {{- block "main" . }}{{- end }}
             </main>
+            {{- block "right-sidebar" . -}}{{ end }}
         </div>
         {{ partial "footer/include.html" . }}
 

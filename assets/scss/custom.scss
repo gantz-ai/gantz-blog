@@ -1,22 +1,307 @@
-/* Dev.to inspired styling - Override theme variables */
+/* Dev.to / Medium inspired clean design */
 
 :root {
-  /* Font overrides */
-  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --base-font-family: var(--sys-font-family);
   --article-font-family: var(--sys-font-family);
-  --code-font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Monaco, monospace;
-
-  /* Background */
-  --body-background: #f5f5f5;
+  --code-font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    Monaco, monospace;
+  --body-background: #f9fafb;
   --card-background: #ffffff;
+  --main-top-padding: 0;
+  --section-separation: 1.5rem;
+  --card-padding: 0;
+  --card-border-radius: 12px;
 }
 
-/* Article content styling */
+/* ==================== HEADER ==================== */
+.top-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0 2rem;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-logo img {
+  border-radius: 8px;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+}
+
+.header-title:hover {
+  color: #FF3366;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-nav .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #444;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.header-nav .nav-link:hover {
+  background: #f0f0f0;
+  color: #111;
+}
+
+.header-nav .nav-link.active {
+  background: #ffebef;
+  color: #FF3366;
+}
+
+.header-nav .nav-link svg {
+  width: 22px;
+  height: 22px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.header-right .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #666;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.header-right .social-link:hover {
+  background: #f0f0f0;
+  color: #111;
+}
+
+.header-right .social-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* ==================== LAYOUT ==================== */
+.has-header .left-sidebar {
+  display: none !important;
+}
+
+.has-header .main-container {
+  padding: 45px !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.has-header .main-container.header-layout {
+  display: flex;
+  gap: 45px;
+  align-items: flex-start;
+}
+
+.has-header .main-container.header-layout .main {
+  flex: 1;
+  min-width: 0;
+}
+
+.has-header .main-container.header-layout .right-sidebar {
+  flex: 0 0 350px;
+  width: 350px;
+  position: sticky;
+  top: 80px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ==================== ARTICLE CARD ==================== */
+.has-header .main-article {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.has-header .article-header .article-image img {
+  border-radius: 0;
+}
+
+.has-header .article-header .article-details {
+  padding: 2rem !important;
+}
+
+.has-header .article-content {
+  padding: 0 5rem 2rem !important;
+}
+
+.has-header .article-footer {
+  padding: 0 5rem 2rem !important;
+  margin: 0 !important;
+}
+
+.article-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.article-footer .article-tags {
+  width: 100%;
+}
+
+.article-footer .article-share,
+.article-footer .article-lastmod {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.article-footer .article-lastmod {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Related content */
+.related-content .article-title {
+  color: #fff !important;
+}
+
+/* Scroll to top button */
+.back-to-top {
+  background: #E6194B !important;
+}
+
+.back-to-top:hover {
+  background: #CC0033 !important;
+}
+
+/* ==================== TOC ==================== */
+.has-header .right-sidebar .widget,
+.has-header .right-sidebar .widget:first-child {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.has-header .widget--toc {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  border: 1px solid #f0f0f0;
+  margin: 0 !important;
+}
+
+.widget--toc .widget-title,
+.widget--toc .section-title,
+.widget--toc h2 {
+  display: none !important;
+}
+
+/* Sidebar widget titles */
+.right-sidebar .widget-title,
+.right-sidebar .section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.widget--toc #TableOfContents {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.widget--toc #TableOfContents ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.widget--toc #TableOfContents > ul > li {
+  margin-bottom: 0.5rem;
+}
+
+.widget--toc #TableOfContents a {
+  display: block;
+  padding: 0.4rem 0;
+  color: #555;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.widget--toc #TableOfContents a:hover {
+  color: #FF3366;
+}
+
+.widget--toc #TableOfContents > ul > li > a {
+  font-weight: 600;
+  color: #333;
+}
+
+.widget--toc #TableOfContents ul ul {
+  padding-left: 1rem;
+}
+
+.widget--toc #TableOfContents ul ul a {
+  font-size: 0.9375rem;
+  color: #666;
+}
+
+/* ==================== TYPOGRAPHY ==================== */
+.article-header h1,
+.article-title {
+  font-size: 48px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  color: #111 !important;
+  margin-bottom: 1rem !important;
+}
+
+.article-subtitle,
+.article-header .article-subtitle {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.6;
+}
+
 .article-content {
-  font-size: 18px !important;
-  line-height: 1.8 !important;
-  color: #242424;
+  font-size: 21px !important;
+  line-height: 1.7 !important;
+  color: #171717;
 }
 
 .article-content p {
@@ -24,35 +309,88 @@
 }
 
 .article-content h2 {
-  font-size: 1.75rem !important;
-  font-weight: 700;
+  font-size: 32px !important;
+  font-weight: 700 !important;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  color: #171717;
+  color: #111;
+  line-height: 1.25;
+  border: none !important;
+  padding-left: 0 !important;
 }
 
 .article-content h3 {
-  font-size: 1.4rem !important;
-  font-weight: 600;
+  font-size: 26px !important;
+  font-weight: 600 !important;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
-  color: #171717;
+  color: #111;
+  border: none !important;
+  padding-left: 0 !important;
 }
 
-/* Code blocks - dark theme like dev.to */
+.article-content h4 {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+  border: none !important;
+  padding-left: 0 !important;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  border-left: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* ==================== CODE ==================== */
 .highlight {
-  background: #1e1e1e !important;
-  border-radius: 6px !important;
-  padding: 1rem !important;
-  margin: 1.5rem 0 !important;
+  background: #1a1a2e !important;
+  border-radius: 8px !important;
+  padding: 1rem 1.25rem !important;
+  margin: 1.25rem 0 !important;
   overflow-x: auto;
+  position: relative;
+}
+
+.highlight .copy-button,
+.highlight button {
+  position: absolute !important;
+  top: 0.75rem !important;
+  right: 0.75rem !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 6px !important;
+  font-size: 14px !important;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.highlight:hover .copy-button,
+.highlight:hover button {
+  opacity: 1;
+}
+
+.highlight .copy-button:hover,
+.highlight button:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
 }
 
 .highlight pre {
-  background: #1e1e1e !important;
-  color: #d4d4d4 !important;
+  background: transparent !important;
+  color: #e4e4e7 !important;
   font-family: var(--code-font-family) !important;
-  font-size: 14px !important;
+  font-size: 0.875rem !important;
   line-height: 1.6 !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -60,46 +398,49 @@
 
 .highlight code {
   background: transparent !important;
-  color: #d4d4d4 !important;
-  font-family: var(--code-font-family) !important;
-  font-size: 14px !important;
+  color: inherit !important;
+  font-size: inherit !important;
 }
 
-/* Inline code - light background */
 :not(pre) > code {
-  background: #eff1f3 !important;
-  color: #0550ae !important;
+  background: #f1f5f9 !important;
+  color: #0f172a !important;
   padding: 0.2rem 0.4rem !important;
-  border-radius: 6px !important;
+  border-radius: 4px !important;
   font-family: var(--code-font-family) !important;
   font-size: 0.875em !important;
 }
 
-/* Lists styling */
+/* ==================== LISTS ==================== */
 .article-content ul,
 .article-content ol {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   padding-left: 1.5rem;
 }
 
 .article-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   line-height: 1.7;
 }
 
-/* Blockquotes */
+/* ==================== BLOCKQUOTES ==================== */
 .article-content blockquote {
-  border-left: 4px solid #3b49df !important;
-  padding-left: 1rem;
-  margin: 1.5rem 0;
-  color: #525252;
-  font-style: italic;
-  background: transparent !important;
+  border-left: 3px solid #FF3366 !important;
+  padding: 0.5rem 1rem;
+  margin: 1.25rem 0;
+  background: #f8fafc !important;
+  border-radius: 0 8px 8px 0;
+  color: #475569;
+  font-style: normal;
 }
 
-/* Links in articles */
+.article-content blockquote p {
+  margin-bottom: 0;
+}
+
+/* ==================== LINKS ==================== */
 .article-content a {
-  color: #3b49df;
+  color: #FF3366;
   text-decoration: none;
 }
 
@@ -107,21 +448,92 @@
   text-decoration: underline;
 }
 
-/* Tables */
+/* ==================== TABLES ==================== */
 .article-content table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
+  font-size: 0.9375rem;
 }
 
 .article-content th,
 .article-content td {
-  padding: 0.75rem;
-  border: 1px solid #e0e0e0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
   text-align: left;
 }
 
 .article-content th {
-  background: #f5f5f5;
+  background: #f9fafb;
   font-weight: 600;
+}
+
+/* ==================== POST LIST (Homepage) ==================== */
+.article-list article .article-title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+}
+
+/* Posts archive page */
+.article-list--compact article .article-title {
+  font-size: 2rem !important;
+}
+
+.article-list--tile article .article-title {
+  font-size: 1.75rem !important;
+}
+
+.article-list article .article-details {
+  padding: 2rem !important;
+}
+
+.article-list article {
+  margin-bottom: 2rem !important;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+  .has-header .main-container.header-layout .right-sidebar {
+    display: none !important;
+  }
+
+  .has-header .main-container.header-layout .main {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-header {
+    padding: 0 1rem;
+  }
+
+  .header-nav .nav-link span {
+    display: none;
+  }
+
+  .header-nav .nav-link {
+    padding: 0.5rem;
+  }
+
+  .has-header .main-container {
+    padding: 1rem !important;
+  }
+
+  .has-header .article-header .article-details,
+  .has-header .article-content,
+  .has-header .article-footer {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  .article-header h1,
+  .article-title {
+    font-size: 1.75rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-nav {
+    display: none;
+  }
 }
