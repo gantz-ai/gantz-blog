@@ -22,7 +22,7 @@ text = "Build handlers for NRQL, entities, and alerts"
 [[howto.steps]]
 name = "Add AI capabilities"
 text = "Integrate AI-powered analysis and recommendations"
-[[howto:steps]]
+[[howto.steps]]
 name = "Deploy with Gantz"
 text = "Deploy your observability automation using Gantz CLI"
 +++
