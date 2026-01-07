@@ -56,8 +56,7 @@ params:
     since: 2025
 
   sidebar:
-    emoji: "🤖"
-    subtitle: Build smarter AI agents with MCP
+    subtitle: Build smarter AI agents
     avatar:
       enabled: true
       src: img/avatar.png
