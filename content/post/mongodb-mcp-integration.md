@@ -1,6 +1,6 @@
 +++
 title = "MongoDB MCP Integration: NoSQL Tools for AI Agents"
-image = "/images/mongodb-mcp-integration.png"
+image = "images/mongodb-mcp-integration.webp"
 date = 2025-12-07
 description = "Build MCP tools for MongoDB operations. Document queries, aggregation pipelines, and AI-powered NoSQL interactions."
 draft = false

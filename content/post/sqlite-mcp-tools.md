@@ -1,6 +1,6 @@
 +++
 title = "SQLite MCP Tools: Embedded Database for AI Agents"
-image = "/images/sqlite-mcp-tools.png"
+image = "images/sqlite-mcp-tools.webp"
 date = 2025-12-21
 description = "Build MCP tools for SQLite. Local database operations, in-memory caching, and portable data storage for AI applications."
 draft = false

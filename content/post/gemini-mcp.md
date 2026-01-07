@@ -1,6 +1,6 @@
 +++
 title = "Google Gemini + MCP: Full Integration Tutorial"
-image = "/images/gemini-mcp.png"
+image = "images/gemini-mcp.webp"
 date = 2025-11-05
 description = "Connect Google Gemini to MCP servers. Use function calling with your custom tools through the Model Context Protocol."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Agent Job Queues: Scale AI Workloads"
-image = "/images/agent-queues.png"
+image = "images/agent-queues.webp"
 date = 2025-11-17
 description = "Build job queues for AI agents. Handle high-volume workloads, manage priorities, and scale agent processing using MCP tools."
 draft = false

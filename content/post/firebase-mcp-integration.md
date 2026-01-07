@@ -1,6 +1,6 @@
 +++
 title = "Firebase MCP Integration: Google Cloud for AI Agents"
-image = "/images/firebase-mcp-integration.png"
+image = "images/firebase-mcp-integration.webp"
 date = 2025-12-17
 description = "Build MCP tools for Firebase. Firestore, Authentication, Cloud Storage, and real-time database tools for AI applications."
 draft = false

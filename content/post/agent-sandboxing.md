@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Sandboxing: Isolate Agents for Security"
-image = "/images/agent-sandboxing.png"
+image = "images/agent-sandboxing.webp"
 date = 2025-11-17
 description = "Sandbox AI agents for security. Use containers, VMs, and restricted environments to isolate agent execution and limit blast radius with MCP."
 draft = false

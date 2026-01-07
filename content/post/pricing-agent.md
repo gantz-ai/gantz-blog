@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Pricing Agent with MCP: Dynamic Price Optimization"
-image = "/images/pricing-agent.png"
+image = "images/pricing-agent.webp"
 date = 2025-06-13
 description = "Build intelligent pricing agents with MCP and Gantz. Learn dynamic pricing, competitor analysis, and AI-driven revenue optimization."
 draft = false

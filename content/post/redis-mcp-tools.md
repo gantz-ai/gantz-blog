@@ -1,6 +1,6 @@
 +++
 title = "Redis MCP Tools: Caching and State for AI Agents"
-image = "/images/redis-mcp-tools.png"
+image = "images/redis-mcp-tools.webp"
 date = 2025-12-09
 description = "Build MCP tools for Redis operations. Caching, session management, pub/sub, and real-time state for AI agent systems."
 draft = false

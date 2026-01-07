@@ -1,6 +1,6 @@
 +++
 title = "Speed Up AI Agents with MCP Response Caching"
-image = "/images/mcp-caching.png"
+image = "images/mcp-caching.webp"
 date = 2025-11-13
 description = "Implement caching for MCP tool responses. Reduce latency, cut API costs, and make your AI agents faster with smart caching strategies."
 draft = false

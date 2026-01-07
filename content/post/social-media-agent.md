@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Social Media Agent with MCP: Automated Content and Engagement"
-image = "/images/social-media-agent.png"
+image = "images/social-media-agent.webp"
 date = 2025-06-11
 description = "Build intelligent social media agents with MCP and Gantz. Learn automated posting, engagement analysis, and AI-driven social strategy."
 draft = false

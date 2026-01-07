@@ -1,6 +1,6 @@
 +++
 title = "Intercom MCP Integration: Build AI-Powered Customer Support"
-image = "/images/intercom-mcp-integration.png"
+image = "images/intercom-mcp-integration.webp"
 date = 2025-05-18
 description = "Create intelligent customer support agents with Intercom and MCP. Learn conversation handling, bot automation, and customer insights with Gantz."
 draft = false

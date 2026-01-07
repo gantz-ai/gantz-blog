@@ -1,6 +1,6 @@
 +++
 title = "Django MCP Integration: AI Tools in Web Apps"
-image = "/images/django-mcp-integration.png"
+image = "images/django-mcp-integration.webp"
 date = 2025-11-17
 description = "Integrate MCP tools with Django applications. Build AI-powered web apps with Celery task queues, Django REST framework, and async views."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Sentry MCP Integration: AI-Powered Error Tracking and Analysis"
-image = "/images/sentry-mcp-integration.png"
+image = "images/sentry-mcp-integration.webp"
 date = 2025-05-25
 description = "Build intelligent error tracking agents with Sentry and MCP. Learn issue management, release tracking, and AI-driven debugging with Gantz."
 draft = false

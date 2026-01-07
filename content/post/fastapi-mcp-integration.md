@@ -1,6 +1,6 @@
 +++
 title = "FastAPI MCP Integration: Build AI-Powered APIs"
-image = "/images/fastapi-mcp-integration.png"
+image = "images/fastapi-mcp-integration.webp"
 date = 2025-11-15
 description = "Integrate MCP tools with FastAPI applications. Build AI-powered REST APIs with tool execution, async support, and dependency injection patterns."
 draft = false

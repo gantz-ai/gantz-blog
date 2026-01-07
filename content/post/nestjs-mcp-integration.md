@@ -1,6 +1,6 @@
 +++
 title = "NestJS MCP Integration: Enterprise AI APIs"
-image = "/images/nestjs-mcp-integration.png"
+image = "images/nestjs-mcp-integration.webp"
 date = 2025-11-25
 description = "Integrate MCP tools with NestJS applications. Build enterprise AI APIs with dependency injection, modules, and decorator patterns."
 draft = false

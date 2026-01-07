@@ -1,6 +1,6 @@
 +++
 title = "Helm MCP Integration: AI-Powered Kubernetes Package Management"
-image = "/images/helm-mcp-integration.png"
+image = "images/helm-mcp-integration.webp"
 date = 2025-05-30
 description = "Build intelligent Helm automation with MCP. Learn chart management, release operations, and AI-driven deployments with Gantz."
 draft = false

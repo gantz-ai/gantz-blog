@@ -1,6 +1,6 @@
 +++
 title = "Laravel MCP Integration: PHP AI Applications"
-image = "/images/laravel-mcp-integration.png"
+image = "images/laravel-mcp-integration.webp"
 date = 2025-12-01
 description = "Integrate MCP tools with Laravel. Build AI-powered PHP applications with queues, broadcasting, and elegant syntax."
 draft = false

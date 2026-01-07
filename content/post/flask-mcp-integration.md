@@ -1,6 +1,6 @@
 +++
 title = "Flask MCP Integration: Lightweight AI APIs"
-image = "/images/flask-mcp-integration.png"
+image = "images/flask-mcp-integration.webp"
 date = 2025-11-23
 description = "Integrate MCP tools with Flask applications. Build lightweight AI-powered APIs with blueprints, async support, and extension patterns."
 draft = false

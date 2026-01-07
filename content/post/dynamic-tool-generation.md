@@ -1,6 +1,6 @@
 +++
 title = "Dynamic MCP Tool Generation: Create Tools at Runtime"
-image = "/images/dynamic-tool-generation.png"
+image = "images/dynamic-tool-generation.webp"
 date = 2025-11-12
 description = "Generate MCP tools dynamically at runtime. Use AI to create new tools, generate tool schemas, and adapt toolsets to user needs automatically."
 draft = false

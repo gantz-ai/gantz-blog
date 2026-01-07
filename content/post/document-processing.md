@@ -1,6 +1,6 @@
 +++
 title = "PDF to Structured Data: AI Document Processing"
-image = "/images/document-processing.png"
+image = "images/document-processing.webp"
 date = 2025-11-13
 description = "Build an AI agent that extracts structured data from PDFs, invoices, contracts, and forms. Convert unstructured documents to JSON using MCP tools."
 draft = false

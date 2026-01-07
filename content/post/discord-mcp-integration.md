@@ -1,6 +1,6 @@
 +++
 title = "Discord MCP Integration: Build AI-Powered Discord Bots"
-image = "/images/discord-mcp-integration.png"
+image = "images/discord-mcp-integration.webp"
 date = 2025-05-11
 description = "Create intelligent Discord bots with MCP tools. Learn slash commands, message handling, voice integration, and moderation automation with Gantz."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "MCP Rate Limiting: Prevent API Overload in AI Agents"
-image = "/images/mcp-rate-limiting.png"
+image = "images/mcp-rate-limiting.webp"
 date = 2025-11-14
 description = "Implement rate limiting for MCP servers. Protect your APIs from overload, manage costs, and ensure fair usage across AI agent clients."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Mailchimp MCP Integration: AI-Powered Marketing Automation"
-image = "/images/mailchimp-mcp-integration.png"
+image = "images/mailchimp-mcp-integration.webp"
 date = 2025-05-17
 description = "Build intelligent marketing campaigns with Mailchimp and MCP. Learn audience management, campaign automation, and analytics with Gantz."
 draft = false

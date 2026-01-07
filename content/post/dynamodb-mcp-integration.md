@@ -1,6 +1,6 @@
 +++
 title = "DynamoDB MCP Integration: AWS NoSQL for AI Agents"
-image = "/images/dynamodb-mcp-integration.png"
+image = "images/dynamodb-mcp-integration.webp"
 date = 2025-12-19
 description = "Build MCP tools for Amazon DynamoDB. Key-value operations, queries, and serverless database patterns for AI applications."
 draft = false

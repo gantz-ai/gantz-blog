@@ -1,6 +1,6 @@
 +++
 title = "WhatsApp MCP Integration: Build Business Messaging AI Agents"
-image = "/images/whatsapp-mcp-integration.png"
+image = "images/whatsapp-mcp-integration.webp"
 date = 2025-05-14
 description = "Create AI-powered WhatsApp business bots with MCP tools. Learn Cloud API, message templates, and customer engagement automation with Gantz."
 draft = false

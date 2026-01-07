@@ -1,6 +1,6 @@
 +++
 title = "MCP Security Best Practices: Protect Your AI Tools"
-image = "/images/mcp-security-best-practices.png"
+image = "images/mcp-security-best-practices.webp"
 date = 2025-11-20
 description = "Secure your MCP tools with authentication, authorization, input validation, and secrets management. Complete security guide for AI agent deployments."
 draft = false

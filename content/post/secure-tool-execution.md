@@ -1,6 +1,6 @@
 +++
 title = "Secure MCP Tool Execution: Prevent Command Injection"
-image = "/images/secure-tool-execution.png"
+image = "images/secure-tool-execution.webp"
 date = 2025-11-16
 description = "Execute MCP tools securely. Prevent command injection, validate inputs, use parameterized execution, and audit all tool calls for AI agent safety."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Monday.com MCP Integration: AI-Powered Work Management"
-image = "/images/monday-mcp-integration.png"
+image = "images/monday-mcp-integration.webp"
 date = 2025-06-08
 description = "Build intelligent work management agents with Monday.com and MCP. Learn board automation, workflow optimization, and AI-driven operations with Gantz."
 draft = false

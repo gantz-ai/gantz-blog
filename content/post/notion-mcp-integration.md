@@ -1,6 +1,6 @@
 +++
 title = "Notion MCP Integration: AI-Powered Workspace Automation"
-image = "/images/notion-mcp-integration.png"
+image = "images/notion-mcp-integration.webp"
 date = 2025-06-03
 description = "Build intelligent workspace agents with Notion and MCP. Learn database automation, content generation, and AI-driven knowledge management with Gantz."
 draft = false

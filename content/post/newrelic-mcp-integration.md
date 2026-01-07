@@ -1,6 +1,6 @@
 +++
 title = "New Relic MCP Integration: AI-Powered Application Intelligence"
-image = "/images/newrelic-mcp-integration.png"
+image = "images/newrelic-mcp-integration.webp"
 date = 2025-05-24
 description = "Build intelligent observability agents with New Relic and MCP. Learn NRQL queries, AIOps, and performance optimization with Gantz."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Freshdesk MCP Integration: AI-Powered Help Desk Automation"
-image = "/images/freshdesk-mcp-integration.png"
+image = "images/freshdesk-mcp-integration.webp"
 date = 2025-05-20
 description = "Build intelligent help desk agents with Freshdesk and MCP. Learn ticket automation, canned responses, and analytics integration with Gantz."
 draft = false

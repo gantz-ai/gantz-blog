@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Onboarding Agent with MCP: Automated User Activation"
-image = "/images/onboarding-agent.png"
+image = "images/onboarding-agent.webp"
 date = 2025-06-15
 description = "Build intelligent onboarding agents with MCP and Gantz. Learn personalized onboarding flows, progress tracking, and AI-driven user activation."
 draft = false

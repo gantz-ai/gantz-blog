@@ -1,6 +1,6 @@
 +++
 title = "Jira MCP Integration: AI-Powered Issue Tracking and Agile"
-image = "/images/jira-mcp-integration.png"
+image = "images/jira-mcp-integration.webp"
 date = 2025-06-06
 description = "Build intelligent issue tracking agents with Jira and MCP. Learn sprint automation, backlog management, and AI-driven agile workflows with Gantz."
 draft = false

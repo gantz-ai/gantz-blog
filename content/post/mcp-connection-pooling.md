@@ -1,6 +1,6 @@
 +++
 title = "MCP Connection Pooling: Optimize Resource Usage"
-image = "/images/mcp-connection-pooling.png"
+image = "images/mcp-connection-pooling.webp"
 date = 2025-11-03
 description = "Implement connection pooling for MCP tools. Manage database connections, API clients, and resources efficiently for high-throughput AI agents."
 draft = false

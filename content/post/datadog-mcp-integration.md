@@ -1,6 +1,6 @@
 +++
 title = "Datadog MCP Integration: AI-Powered Observability Platform"
-image = "/images/datadog-mcp-integration.png"
+image = "images/datadog-mcp-integration.webp"
 date = 2025-05-23
 description = "Build intelligent observability agents with Datadog and MCP. Learn metrics, logs, APM, and AI-driven incident response with Gantz."
 draft = false

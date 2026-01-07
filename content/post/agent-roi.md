@@ -1,6 +1,6 @@
 +++
 title = "AI Agent ROI: Calculate the Business Value"
-image = "/images/agent-roi.png"
+image = "images/agent-roi.webp"
 date = 2025-11-08
 description = "Calculate ROI for AI agents. Measure cost savings, productivity gains, and business impact. Build a business case for AI agent investments."
 draft = false

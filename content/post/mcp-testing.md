@@ -1,6 +1,6 @@
 +++
 title = "How to Test MCP Tools Before Production"
-image = "/images/mcp-testing.png"
+image = "images/mcp-testing.webp"
 date = 2025-11-11
 description = "Test MCP tools effectively with unit tests, integration tests, and mock servers. Catch bugs before your AI agents hit production."
 draft = false

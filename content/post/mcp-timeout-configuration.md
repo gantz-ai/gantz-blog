@@ -1,6 +1,6 @@
 +++
 title = "MCP Timeout Configuration: Prevent Hanging Operations"
-image = "/images/mcp-timeout-configuration.png"
+image = "images/mcp-timeout-configuration.webp"
 date = 2025-10-31
 description = "Configure timeouts for MCP tools and AI agents. Connection, read, and operation timeouts for responsive and reliable systems."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Grafana MCP Integration: AI-Powered Dashboard and Visualization"
-image = "/images/grafana-mcp-integration.png"
+image = "images/grafana-mcp-integration.webp"
 date = 2025-05-22
 description = "Build intelligent visualization agents with Grafana and MCP. Learn dashboard automation, alert management, and AI insights with Gantz."
 draft = false

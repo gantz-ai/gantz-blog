@@ -1,6 +1,6 @@
 +++
 title = "AI Data Analyst: Query Databases in Plain English"
-image = "/images/data-analyst-agent.png"
+image = "images/data-analyst-agent.webp"
 date = 2025-11-08
 description = "Build an AI data analyst agent that translates natural language to SQL queries. Chat with your database using plain English."
 draft = false

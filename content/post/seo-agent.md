@@ -1,6 +1,6 @@
 +++
 title = "Building an AI SEO Agent with MCP: Automated Search Optimization"
-image = "/images/seo-agent.png"
+image = "images/seo-agent.webp"
 date = 2025-06-10
 description = "Build intelligent SEO agents with MCP and Gantz. Learn keyword research, content optimization, and automated search rankings improvement."
 draft = false

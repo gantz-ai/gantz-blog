@@ -1,6 +1,6 @@
 +++
 title = "Auto-Generate Documentation with AI Agents"
-image = "/images/documentation-agents.png"
+image = "images/documentation-agents.webp"
 date = 2025-11-07
 description = "Build AI agents that automatically generate and maintain documentation from your codebase. API docs, README files, and more."
 draft = false

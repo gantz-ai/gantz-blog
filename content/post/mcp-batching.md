@@ -1,6 +1,6 @@
 +++
 title = "MCP Batching: Process Multiple Requests Efficiently"
-image = "/images/mcp-batching.png"
+image = "images/mcp-batching.webp"
 date = 2025-11-05
 description = "Implement request batching for MCP tools. Reduce API calls, optimize throughput, and handle bulk operations in AI agent systems."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Orchestration Patterns with MCP: Coordinating Multi-Agent Systems"
-image = "/images/orchestration-patterns.png"
+image = "images/orchestration-patterns.webp"
 date = 2025-06-14
 description = "Master AI agent orchestration patterns with MCP and Gantz. Learn coordination strategies, task distribution, and multi-agent system architecture."
 draft = false

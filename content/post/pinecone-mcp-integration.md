@@ -1,6 +1,6 @@
 +++
 title = "Pinecone MCP Integration: Vector Search for AI Agents"
-image = "/images/pinecone-mcp-integration.png"
+image = "images/pinecone-mcp-integration.webp"
 date = 2025-12-13
 description = "Build MCP tools for Pinecone vector database. Semantic search, RAG pipelines, and embedding management for AI applications."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Kubernetes MCP Integration: AI-Powered Container Orchestration"
-image = "/images/kubernetes-mcp-integration.png"
+image = "images/kubernetes-mcp-integration.webp"
 date = 2025-05-29
 description = "Build intelligent Kubernetes automation with MCP. Learn deployment management, scaling, troubleshooting, and AI-driven cluster operations with Gantz."
 draft = false

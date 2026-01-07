@@ -1,6 +1,6 @@
 +++
 title = "DigitalOcean MCP Integration: Build AI Agents on App Platform"
-image = "/images/digitalocean-mcp-integration.png"
+image = "images/digitalocean-mcp-integration.webp"
 date = 2025-05-09
 description = "Deploy MCP-powered AI agents on DigitalOcean App Platform. Learn container deployment, managed databases, and Kubernetes integration with Gantz."
 draft = false

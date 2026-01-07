@@ -1,6 +1,6 @@
 +++
 title = "Building AI Agents for Media with MCP: Content Automation Solutions"
-image = "/images/media-ai-agents.png"
+image = "images/media-ai-agents.webp"
 date = 2025-05-27
 description = "Build intelligent media AI agents with MCP and Gantz. Learn content personalization, automated production, and audience engagement."
 draft = false

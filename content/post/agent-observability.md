@@ -1,6 +1,6 @@
 +++
 title = "Agent Observability: Debug AI in Production"
-image = "/images/agent-observability.png"
+image = "images/agent-observability.webp"
 date = 2025-11-20
 description = "Monitor and debug AI agents in production. Implement logging, tracing, metrics, and alerting for agent systems using MCP tools."
 draft = false

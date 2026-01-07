@@ -1,6 +1,6 @@
 +++
 title = "Cloudflare Workers MCP Integration: Global AI Agents at the Edge"
-image = "/images/cloudflare-workers-mcp.png"
+image = "images/cloudflare-workers-mcp.webp"
 date = 2025-05-05
 description = "Deploy MCP-powered AI agents on Cloudflare Workers. Learn edge computing, Durable Objects, Workers AI, and KV storage integration with Gantz."
 draft = false

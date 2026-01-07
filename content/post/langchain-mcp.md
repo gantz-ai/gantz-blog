@@ -1,6 +1,6 @@
 +++
 title = "LangChain MCP Integration: Use Any Tool"
-image = "/images/langchain-mcp.png"
+image = "images/langchain-mcp.webp"
 date = 2025-11-04
 description = "Connect LangChain to MCP servers. Use your custom tools with any LLM through the LangChain agent framework."
 draft = false

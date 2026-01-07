@@ -1,6 +1,6 @@
 +++
 title = "Building AI Agents for PropTech with MCP: Real Estate Automation Solutions"
-image = "/images/proptech-ai-agents.png"
+image = "images/proptech-ai-agents.webp"
 date = 2025-05-30
 description = "Build intelligent PropTech AI agents with MCP and Gantz. Learn property valuation, tenant screening, and real estate automation."
 draft = false

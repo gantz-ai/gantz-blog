@@ -1,6 +1,6 @@
 +++
 title = "Multi-Agent Systems: Coordinate AI Workers"
-image = "/images/multi-agent-systems.png"
+image = "images/multi-agent-systems.webp"
 date = 2025-11-18
 description = "Build multi-agent systems where specialized AI agents collaborate. Orchestration patterns, communication, and task delegation using MCP."
 draft = false

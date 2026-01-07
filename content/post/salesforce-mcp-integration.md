@@ -1,6 +1,6 @@
 +++
 title = "Salesforce MCP Integration: AI-Powered CRM Automation"
-image = "/images/salesforce-mcp-integration.png"
+image = "images/salesforce-mcp-integration.webp"
 date = 2025-05-31
 description = "Build intelligent CRM agents with Salesforce and MCP. Learn lead management, opportunity tracking, and AI-driven sales automation with Gantz."
 draft = false

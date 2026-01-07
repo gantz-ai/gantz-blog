@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Error Handling: Build Resilient Systems"
-image = "/images/agent-error-handling.png"
+image = "images/agent-error-handling.webp"
 date = 2025-11-19
 description = "Handle errors gracefully in AI agents. Implement retry logic, graceful degradation, and error recovery patterns for robust MCP tool execution."
 draft = false

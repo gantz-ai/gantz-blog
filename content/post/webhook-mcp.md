@@ -1,6 +1,6 @@
 +++
 title = "Trigger AI Agents from Webhooks with MCP"
-image = "/images/webhook-mcp.png"
+image = "images/webhook-mcp.webp"
 date = 2025-11-03
 description = "Connect webhooks to AI agents using MCP. Trigger automated workflows from GitHub, Stripe, Slack, and other services."
 draft = false

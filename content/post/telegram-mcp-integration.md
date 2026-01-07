@@ -1,6 +1,6 @@
 +++
 title = "Telegram MCP Integration: Build Intelligent Telegram Bots"
-image = "/images/telegram-mcp-integration.png"
+image = "images/telegram-mcp-integration.webp"
 date = 2025-05-13
 description = "Create AI-powered Telegram bots with MCP tools. Learn inline mode, keyboards, payments, and group management with Gantz."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "MCP Debugging: Troubleshoot Tool Failures"
-image = "/images/mcp-debugging.png"
+image = "images/mcp-debugging.webp"
 date = 2025-11-13
 description = "Debug MCP tools and AI agent issues. Logging, tracing, error analysis, and debugging patterns for reliable tool execution."
 draft = false

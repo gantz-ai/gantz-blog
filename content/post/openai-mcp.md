@@ -1,6 +1,6 @@
 +++
 title = "Connect OpenAI GPT to MCP Tools (Step-by-Step)"
-image = "/images/openai-mcp.png"
+image = "images/openai-mcp.webp"
 date = 2025-11-06
 description = "Integrate OpenAI GPT models with MCP servers. Use function calling with your custom tools through the Model Context Protocol."
 draft = false

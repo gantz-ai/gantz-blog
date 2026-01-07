@@ -1,6 +1,6 @@
 +++
 title = "Smart Notifications: AI That Knows When to Alert You"
-image = "/images/smart-notifications.png"
+image = "images/smart-notifications.webp"
 date = 2025-11-15
 description = "Build an AI notification system that filters noise, prioritizes alerts, and knows when to interrupt. Stop notification overload with MCP tools."
 draft = false

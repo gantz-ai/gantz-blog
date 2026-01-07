@@ -1,6 +1,6 @@
 +++
 title = "Testing AI Agents: Strategies That Work"
-image = "/images/agent-testing.png"
+image = "images/agent-testing.webp"
 date = 2025-11-23
 description = "Test AI agents effectively with unit tests, integration tests, and evaluation frameworks. Handle non-determinism and validate agent behavior using MCP."
 draft = false

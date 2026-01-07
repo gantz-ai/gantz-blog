@@ -1,6 +1,6 @@
 +++
 title = "Render MCP Integration: Deploy AI Agents with Managed Infrastructure"
-image = "/images/render-mcp-integration.png"
+image = "images/render-mcp-integration.webp"
 date = 2025-05-08
 description = "Deploy MCP-powered AI agents on Render. Learn web services, background workers, cron jobs, and managed databases with Gantz."
 draft = false

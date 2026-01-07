@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Fallback Strategies: Ensure Service Continuity"
-image = "/images/agent-fallbacks.png"
+image = "images/agent-fallbacks.webp"
 date = 2025-11-18
 description = "Implement fallback strategies for AI agents. Model fallbacks, tool alternatives, cached responses, and graceful degradation patterns with MCP."
 draft = false

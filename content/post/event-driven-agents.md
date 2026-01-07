@@ -1,6 +1,6 @@
 +++
 title = "Event-Driven Agent Architecture for Real-Time Processing"
-image = "/images/event-driven-agents.png"
+image = "images/event-driven-agents.webp"
 date = 2025-11-16
 description = "Build event-driven AI agents that react to events in real-time. Architecture patterns for scalable, responsive agent systems using MCP."
 draft = false

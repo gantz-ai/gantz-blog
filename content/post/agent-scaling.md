@@ -1,6 +1,6 @@
 +++
 title = "Scale AI Agents: From Prototype to Production"
-image = "/images/agent-scaling.png"
+image = "images/agent-scaling.webp"
 date = 2025-11-22
 description = "Scale AI agents from prototype to production traffic. Handle rate limits, optimize costs, implement caching, and manage concurrent requests with MCP."
 draft = false

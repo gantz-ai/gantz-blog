@@ -1,6 +1,6 @@
 +++
 title = "Build a Customer Support Bot with MCP Tools"
-image = "/images/support-bot-mcp.png"
+image = "images/support-bot-mcp.webp"
 date = 2025-11-09
 description = "Create an AI-powered customer support bot that can access your knowledge base, check orders, and resolve issues using MCP tools."
 draft = false

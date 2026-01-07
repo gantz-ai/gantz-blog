@@ -1,6 +1,6 @@
 +++
 title = "Building AI Agents for Healthcare with MCP: Clinical Automation Solutions"
-image = "/images/healthcare-ai-agents.png"
+image = "images/healthcare-ai-agents.webp"
 date = 2025-06-04
 description = "Build intelligent healthcare AI agents with MCP and Gantz. Learn clinical workflow automation, patient engagement, and healthcare compliance."
 draft = false

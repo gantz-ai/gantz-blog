@@ -1,6 +1,6 @@
 +++
 title = "Build an AI Code Reviewer That Actually Works"
-image = "/images/code-review-agents.png"
+image = "images/code-review-agents.webp"
 date = 2025-11-06
 description = "Create an automated code review agent using MCP tools. Analyze PRs for bugs, security issues, and style violations automatically."
 draft = false

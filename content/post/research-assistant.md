@@ -1,6 +1,6 @@
 +++
 title = "Research Assistant AI: Automate Literature Reviews"
-image = "/images/research-assistant.png"
+image = "images/research-assistant.webp"
 date = 2025-11-10
 description = "Build an AI research assistant that searches papers, summarizes findings, and compiles literature reviews automatically using MCP tools."
 draft = false

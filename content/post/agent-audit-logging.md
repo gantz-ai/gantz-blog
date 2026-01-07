@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Audit Logging: Track Every Action"
-image = "/images/agent-audit-logging.png"
+image = "images/agent-audit-logging.webp"
 date = 2025-11-15
 description = "Implement comprehensive audit logging for AI agents. Track tool calls, decisions, and outcomes for compliance, debugging, and security monitoring."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Deploy AI Agents to Production: Complete Guide"
-image = "/images/agent-deployment.png"
+image = "images/agent-deployment.webp"
 date = 2025-11-21
 description = "Deploy AI agents to production safely. Docker, Kubernetes, serverless options, environment configuration, and rollout strategies using MCP."
 draft = false

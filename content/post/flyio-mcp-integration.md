@@ -1,6 +1,6 @@
 +++
 title = "Fly.io MCP Integration: Deploy AI Agents Globally in Seconds"
-image = "/images/flyio-mcp-integration.png"
+image = "images/flyio-mcp-integration.webp"
 date = 2025-05-06
 description = "Deploy MCP-powered AI agents on Fly.io. Learn multi-region deployment, persistent volumes, and container orchestration with Gantz."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Zendesk MCP Integration: Build Enterprise Support AI Agents"
-image = "/images/zendesk-mcp-integration.png"
+image = "images/zendesk-mcp-integration.webp"
 date = 2025-05-19
 description = "Create AI-powered support agents with Zendesk and MCP. Learn ticket automation, knowledge base integration, and analytics with Gantz."
 draft = false

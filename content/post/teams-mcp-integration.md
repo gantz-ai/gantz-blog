@@ -1,6 +1,6 @@
 +++
 title = "Microsoft Teams MCP Integration: Build Enterprise AI Assistants"
-image = "/images/teams-mcp-integration.png"
+image = "images/teams-mcp-integration.webp"
 date = 2025-05-12
 description = "Create intelligent Microsoft Teams bots with MCP tools. Learn adaptive cards, proactive messaging, and enterprise integration with Gantz."
 draft = false

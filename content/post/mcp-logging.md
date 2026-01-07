@@ -1,6 +1,6 @@
 +++
 title = "MCP Logging: Debug AI Agent Tool Calls"
-image = "/images/mcp-logging.png"
+image = "images/mcp-logging.webp"
 date = 2025-11-12
 description = "Implement comprehensive logging for MCP servers. Track tool calls, debug agent behavior, and monitor performance with structured logs."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Elasticsearch MCP Integration: Search Tools for AI Agents"
-image = "/images/elasticsearch-mcp-integration.png"
+image = "images/elasticsearch-mcp-integration.webp"
 date = 2025-12-11
 description = "Build MCP tools for Elasticsearch. Full-text search, aggregations, and AI-powered search experiences."
 draft = false

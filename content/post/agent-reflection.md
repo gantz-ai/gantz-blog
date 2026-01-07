@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Reflection: Build Self-Improving Agents"
-image = "/images/agent-reflection.png"
+image = "images/agent-reflection.webp"
 date = 2025-11-11
 description = "Implement reflection patterns for AI agents. Enable self-critique, error correction, and continuous improvement in agent behavior and outputs."
 draft = false

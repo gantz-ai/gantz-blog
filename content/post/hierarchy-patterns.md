@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Hierarchy Patterns with MCP: Organizational Agent Structures"
-image = "/images/hierarchy-patterns.png"
+image = "images/hierarchy-patterns.webp"
 date = 2025-06-08
 description = "Master AI agent hierarchy patterns with MCP and Gantz. Learn management layers, reporting structures, and organizational agent architectures."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "ASP.NET MCP Integration: .NET AI Applications"
-image = "/images/aspnet-mcp-integration.png"
+image = "images/aspnet-mcp-integration.webp"
 date = 2025-12-03
 description = "Integrate MCP tools with ASP.NET Core. Build AI-powered .NET applications with dependency injection, SignalR streaming, and background services."
 draft = false

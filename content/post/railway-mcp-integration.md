@@ -1,6 +1,6 @@
 +++
 title = "Railway MCP Integration: Deploy AI Agents with Zero Configuration"
-image = "/images/railway-mcp-integration.png"
+image = "images/railway-mcp-integration.webp"
 date = 2025-05-07
 description = "Deploy MCP-powered AI agents on Railway. Learn instant deployments, automatic SSL, database provisioning, and environment management with Gantz."
 draft = false

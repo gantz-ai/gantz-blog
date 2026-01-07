@@ -1,6 +1,6 @@
 +++
 title = "Heroku MCP Integration: Deploy AI Agents with Git Push"
-image = "/images/heroku-mcp-integration.png"
+image = "images/heroku-mcp-integration.webp"
 date = 2025-05-10
 description = "Deploy MCP-powered AI agents on Heroku. Learn dyno management, add-ons integration, pipeline deployments, and review apps with Gantz."
 draft = false

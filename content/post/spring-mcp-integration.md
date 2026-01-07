@@ -1,6 +1,6 @@
 +++
 title = "Spring Boot MCP Integration: Java AI Applications"
-image = "/images/spring-mcp-integration.png"
+image = "images/spring-mcp-integration.webp"
 date = 2025-11-29
 description = "Integrate MCP tools with Spring Boot. Build enterprise Java AI applications with dependency injection, WebFlux streaming, and microservices patterns."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Consensus Patterns with MCP: Distributed Agreement"
-image = "/images/consensus-patterns.png"
+image = "images/consensus-patterns.webp"
 date = 2025-06-11
 description = "Master AI agent consensus patterns with MCP and Gantz. Learn distributed agreement, conflict resolution, and collective decision-making."
 draft = false

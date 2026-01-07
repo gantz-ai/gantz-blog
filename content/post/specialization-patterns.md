@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Specialization Patterns with MCP: Expert Agent Systems"
-image = "/images/specialization-patterns.png"
+image = "images/specialization-patterns.webp"
 date = 2025-06-09
 description = "Master AI agent specialization patterns with MCP and Gantz. Learn domain expertise, skill composition, and specialized agent architectures."
 draft = false

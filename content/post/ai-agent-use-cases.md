@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Use Cases: Real-World Applications"
-image = "/images/ai-agent-use-cases.png"
+image = "images/ai-agent-use-cases.webp"
 date = 2025-11-06
 description = "Explore real-world AI agent use cases. Customer support, DevOps, sales, HR, and more. Practical applications with MCP and Claude."
 draft = false

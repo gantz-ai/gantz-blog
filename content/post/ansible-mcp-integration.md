@@ -1,6 +1,6 @@
 +++
 title = "Ansible MCP Integration: AI-Powered Configuration Management"
-image = "/images/ansible-mcp-integration.png"
+image = "images/ansible-mcp-integration.webp"
 date = 2025-05-28
 description = "Build intelligent automation with Ansible and MCP. Learn playbook generation, inventory management, and AI-driven configuration with Gantz."
 draft = false

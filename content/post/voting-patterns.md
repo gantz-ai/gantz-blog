@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Voting Patterns with MCP: Collective Decision Systems"
-image = "/images/voting-patterns.png"
+image = "images/voting-patterns.webp"
 date = 2025-06-10
 description = "Master AI agent voting patterns with MCP and Gantz. Learn ranked choice, weighted voting, and collective intelligence decision-making."
 draft = false

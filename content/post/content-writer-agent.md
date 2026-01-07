@@ -1,6 +1,6 @@
 +++
 title = "AI Content Writer: Blog Posts on Autopilot"
-image = "/images/content-writer-agent.png"
+image = "images/content-writer-agent.webp"
 date = 2025-11-11
 description = "Build an AI content writer agent that researches topics, creates outlines, and writes SEO-optimized blog posts using MCP tools."
 draft = false

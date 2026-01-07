@@ -1,6 +1,6 @@
 +++
 title = "ClickUp MCP Integration: AI-Powered Productivity Platform"
-image = "/images/clickup-mcp-integration.png"
+image = "images/clickup-mcp-integration.webp"
 date = 2025-06-09
 description = "Build intelligent productivity agents with ClickUp and MCP. Learn task automation, workspace optimization, and AI-driven workflows with Gantz."
 draft = false

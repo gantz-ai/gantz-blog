@@ -1,6 +1,6 @@
 +++
 title = "MCP Compression: Reduce Bandwidth and Latency"
-image = "/images/mcp-compression.png"
+image = "images/mcp-compression.webp"
 date = 2025-11-07
 description = "Implement compression for MCP tools and AI agents. Reduce payload sizes, optimize bandwidth, and improve response times with gzip, brotli, and streaming compression."
 draft = false

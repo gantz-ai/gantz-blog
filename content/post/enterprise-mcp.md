@@ -1,6 +1,6 @@
 +++
 title = "Enterprise MCP: Deploy AI Agents at Scale"
-image = "/images/enterprise-mcp.png"
+image = "images/enterprise-mcp.webp"
 date = 2025-11-07
 description = "Deploy MCP and AI agents in enterprise environments. Governance, compliance, multi-tenant architecture, and enterprise integration patterns."
 draft = false

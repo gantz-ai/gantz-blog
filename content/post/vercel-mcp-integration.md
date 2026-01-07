@@ -1,6 +1,6 @@
 +++
 title = "Vercel MCP Integration: Deploy AI Agents at the Edge"
-image = "/images/vercel-mcp-integration.png"
+image = "images/vercel-mcp-integration.webp"
 date = 2025-05-04
 description = "Build and deploy MCP-powered AI agents on Vercel Edge Functions. Learn serverless deployment, edge computing, and AI SDK integration with Gantz."
 draft = false

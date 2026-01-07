@@ -1,6 +1,6 @@
 +++
 title = "Build a Translation Agent for Any Language"
-image = "/images/translation-agent.png"
+image = "images/translation-agent.webp"
 date = 2025-11-12
 description = "Create an AI translation agent that handles documents, websites, and apps. Support any language pair with context-aware translations using MCP tools."
 draft = false

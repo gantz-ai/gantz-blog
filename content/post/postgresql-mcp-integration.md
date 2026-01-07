@@ -1,6 +1,6 @@
 +++
 title = "PostgreSQL MCP Integration: Database Tools for AI Agents"
-image = "/images/postgresql-mcp-integration.png"
+image = "images/postgresql-mcp-integration.webp"
 date = 2025-12-05
 description = "Build MCP tools for PostgreSQL operations. Query execution, schema introspection, and AI-powered database interactions."
 draft = false

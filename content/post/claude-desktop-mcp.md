@@ -1,6 +1,6 @@
 +++
 title = "Claude Desktop MCP Setup: Complete 2025 Guide"
-image = "/images/claude-desktop-mcp.png"
+image = "images/claude-desktop-mcp.webp"
 date = 2025-11-07
 description = "Connect Claude Desktop to MCP servers step-by-step. Configure local tools, remote servers, and authentication for AI-powered automation."
 draft = false

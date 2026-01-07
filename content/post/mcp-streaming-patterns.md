@@ -1,6 +1,6 @@
 +++
 title = "MCP Streaming Patterns: Real-Time AI Agent Responses"
-image = "/images/mcp-streaming-patterns.png"
+image = "images/mcp-streaming-patterns.webp"
 date = 2025-11-04
 description = "Implement streaming patterns for MCP tools. Server-sent events, chunked responses, and real-time updates for responsive AI agent experiences."
 draft = false

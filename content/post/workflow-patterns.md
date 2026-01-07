@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Workflow Patterns with MCP: Complex Process Automation"
-image = "/images/workflow-patterns.png"
+image = "images/workflow-patterns.webp"
 date = 2025-06-05
 description = "Master AI agent workflow patterns with MCP and Gantz. Learn process orchestration, state machines, and complex business workflow automation."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "MCP Retry Strategies: Handle Transient Failures"
-image = "/images/mcp-retry-strategies.png"
+image = "images/mcp-retry-strategies.webp"
 date = 2025-11-01
 description = "Implement retry strategies for MCP tools. Exponential backoff, jitter, and smart retries for reliable AI agent operations."
 draft = false

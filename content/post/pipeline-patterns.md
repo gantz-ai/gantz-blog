@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Pipeline Patterns with MCP: Sequential Processing Systems"
-image = "/images/pipeline-patterns.png"
+image = "images/pipeline-patterns.webp"
 date = 2025-06-06
 description = "Master AI agent pipeline patterns with MCP and Gantz. Learn sequential processing, stage orchestration, and data transformation pipelines."
 draft = false

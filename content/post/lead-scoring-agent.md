@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Lead Scoring Agent with MCP: Automated Sales Qualification"
-image = "/images/lead-scoring-agent.png"
+image = "images/lead-scoring-agent.webp"
 date = 2025-06-18
 description = "Build intelligent lead scoring agents with MCP and Gantz. Learn automated qualification, predictive scoring, and AI-driven sales prioritization."
 draft = false

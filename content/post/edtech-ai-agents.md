@@ -1,6 +1,6 @@
 +++
 title = "Building AI Agents for EdTech with MCP: Learning Automation Solutions"
-image = "/images/edtech-ai-agents.png"
+image = "images/edtech-ai-agents.webp"
 date = 2025-06-01
 description = "Build intelligent EdTech AI agents with MCP and Gantz. Learn personalized learning, automated grading, and student engagement automation."
 draft = false

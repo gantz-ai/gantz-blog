@@ -1,6 +1,6 @@
 +++
 title = "Next.js MCP Integration: Full-Stack AI Apps"
-image = "/images/nextjs-mcp-integration.png"
+image = "images/nextjs-mcp-integration.webp"
 date = 2025-11-21
 description = "Integrate MCP tools with Next.js applications. Build AI-powered full-stack apps with API routes, server components, and streaming UI patterns."
 draft = false

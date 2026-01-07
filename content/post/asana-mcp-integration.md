@@ -1,6 +1,6 @@
 +++
 title = "Asana MCP Integration: AI-Powered Project Management"
-image = "/images/asana-mcp-integration.png"
+image = "images/asana-mcp-integration.webp"
 date = 2025-06-05
 description = "Build intelligent project management agents with Asana and MCP. Learn task automation, resource planning, and AI-driven workflows with Gantz."
 draft = false

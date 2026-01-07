@@ -1,6 +1,6 @@
 +++
 title = "MCP Concurrency: Parallel Tool Execution"
-image = "/images/mcp-concurrency.png"
+image = "images/mcp-concurrency.webp"
 date = 2025-11-11
 description = "Implement concurrent tool execution for MCP. Parallel processing, thread pools, async patterns, and rate limiting for high-throughput AI agents."
 draft = false

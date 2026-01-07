@@ -1,6 +1,6 @@
 +++
 title = "Rails MCP Integration: Ruby AI Applications"
-image = "/images/rails-mcp-integration.png"
+image = "images/rails-mcp-integration.webp"
 date = 2025-11-27
 description = "Integrate MCP tools with Ruby on Rails. Build AI-powered web applications with Active Job, Action Cable, and Rails conventions."
 draft = false

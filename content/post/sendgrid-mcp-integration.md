@@ -1,6 +1,6 @@
 +++
 title = "SendGrid MCP Integration: Build AI-Powered Email Automation"
-image = "/images/sendgrid-mcp-integration.png"
+image = "images/sendgrid-mcp-integration.webp"
 date = 2025-05-16
 description = "Create intelligent email agents with SendGrid and MCP. Learn email automation, dynamic templates, and analytics integration with Gantz."
 draft = false

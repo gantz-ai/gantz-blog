@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Evaluation: Measure Quality Systematically"
-image = "/images/agent-evaluation.png"
+image = "images/agent-evaluation.webp"
 date = 2025-11-09
 description = "Evaluate AI agents systematically. Build evaluation frameworks, define metrics, create benchmarks, and continuously measure agent quality with MCP."
 draft = false

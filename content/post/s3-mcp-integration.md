@@ -1,6 +1,6 @@
 +++
 title = "S3 MCP Integration: Cloud Storage for AI Agents"
-image = "/images/s3-mcp-integration.png"
+image = "images/s3-mcp-integration.webp"
 date = 2025-12-23
 description = "Build MCP tools for Amazon S3. Object storage, file management, and cloud data operations for AI applications."
 draft = false

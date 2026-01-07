@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Compliance Agent with MCP: Automated Regulatory Monitoring"
-image = "/images/compliance-agent.png"
+image = "images/compliance-agent.webp"
 date = 2025-06-14
 description = "Build intelligent compliance agents with MCP and Gantz. Learn automated policy checking, risk assessment, and regulatory monitoring."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "How to Secure Your MCP Server: Authentication Guide"
-image = "/images/mcp-authentication.png"
+image = "images/mcp-authentication.webp"
 date = 2025-11-15
 description = "Implement authentication for MCP servers. Learn token-based auth, OAuth integration, and security best practices to protect your AI agent tools."
 draft = false

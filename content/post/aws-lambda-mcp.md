@@ -1,6 +1,6 @@
 +++
 title = "AWS Lambda MCP Integration: Build Serverless AI Agents"
-image = "/images/aws-lambda-mcp.png"
+image = "images/aws-lambda-mcp.webp"
 date = 2025-05-01
 description = "Deploy MCP-powered AI agents on AWS Lambda. Learn serverless architecture, cold start optimization, and event-driven AI workflows with Gantz."
 draft = false

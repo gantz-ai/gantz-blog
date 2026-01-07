@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Inventory Agent with MCP: Automated Stock Management"
-image = "/images/inventory-agent.png"
+image = "images/inventory-agent.webp"
 date = 2025-06-12
 description = "Build intelligent inventory agents with MCP and Gantz. Learn automated stock management, demand forecasting, and AI-driven supply chain optimization."
 draft = false

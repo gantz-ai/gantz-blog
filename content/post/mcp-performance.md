@@ -1,6 +1,6 @@
 +++
 title = "Make MCP 10x Faster: Performance Optimization Guide"
-image = "/images/mcp-performance.png"
+image = "images/mcp-performance.webp"
 date = 2025-11-08
 description = "Optimize MCP server performance with connection pooling, async execution, caching, and profiling. Make your AI agent tools lightning fast."
 draft = false

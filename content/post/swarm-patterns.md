@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Swarm Patterns with MCP: Emergent Collective Intelligence"
-image = "/images/swarm-patterns.png"
+image = "images/swarm-patterns.webp"
 date = 2025-06-07
 description = "Master AI agent swarm patterns with MCP and Gantz. Learn emergent behavior, collective intelligence, and decentralized agent coordination."
 draft = false

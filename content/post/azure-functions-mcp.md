@@ -1,6 +1,6 @@
 +++
 title = "Azure Functions MCP Integration: Build AI Agents on Microsoft Cloud"
-image = "/images/azure-functions-mcp.png"
+image = "images/azure-functions-mcp.webp"
 date = 2025-05-03
 description = "Deploy MCP-powered AI agents on Azure Functions. Learn durable functions, event hubs integration, and Azure AI services with Gantz."
 draft = false

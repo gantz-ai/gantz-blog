@@ -1,6 +1,6 @@
 +++
 title = "MCP Versioning: Update Tools Without Breaking Agents"
-image = "/images/mcp-versioning.png"
+image = "images/mcp-versioning.webp"
 date = 2025-11-10
 description = "Version your MCP tools safely. Learn semantic versioning, backward compatibility, and migration strategies for AI agent tool updates."
 draft = false

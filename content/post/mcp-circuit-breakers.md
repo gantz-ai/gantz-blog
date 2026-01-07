@@ -1,6 +1,6 @@
 +++
 title = "MCP Circuit Breakers: Prevent Cascading Failures"
-image = "/images/mcp-circuit-breakers.png"
+image = "images/mcp-circuit-breakers.webp"
 date = 2025-11-02
 description = "Implement circuit breakers for MCP tools. Prevent cascading failures, handle service degradation, and build resilient AI agent systems."
 draft = false

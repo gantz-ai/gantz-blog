@@ -1,6 +1,6 @@
 +++
 title = "The Future of MCP: Where AI Tool Use is Heading"
-image = "/images/mcp-future.png"
+image = "images/mcp-future.webp"
 date = 2025-11-05
 description = "Explore the future of MCP and AI tool use. Emerging patterns, upcoming capabilities, and how to prepare for the next generation of AI agents."
 draft = false

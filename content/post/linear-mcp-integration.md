@@ -1,6 +1,6 @@
 +++
 title = "Linear MCP Integration: AI-Powered Modern Issue Tracking"
-image = "/images/linear-mcp-integration.png"
+image = "images/linear-mcp-integration.webp"
 date = 2025-06-07
 description = "Build intelligent issue tracking agents with Linear and MCP. Learn cycle automation, roadmap planning, and AI-driven development workflows with Gantz."
 draft = false

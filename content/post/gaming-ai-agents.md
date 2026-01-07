@@ -1,6 +1,6 @@
 +++
 title = "Building AI Agents for Gaming with MCP: Game Intelligence Solutions"
-image = "/images/gaming-ai-agents.png"
+image = "images/gaming-ai-agents.webp"
 date = 2025-05-26
 description = "Build intelligent gaming AI agents with MCP and Gantz. Learn NPC behavior, player analytics, and game economy automation."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "Supabase MCP Integration: Backend as a Service for AI"
-image = "/images/supabase-mcp-integration.png"
+image = "images/supabase-mcp-integration.webp"
 date = 2025-12-15
 description = "Build MCP tools for Supabase. Database queries, authentication, storage, and real-time subscriptions for AI agents."
 draft = false

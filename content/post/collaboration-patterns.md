@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Collaboration Patterns with MCP: Multi-Agent Teamwork"
-image = "/images/collaboration-patterns.png"
+image = "images/collaboration-patterns.webp"
 date = 2025-06-12
 description = "Master AI agent collaboration patterns with MCP and Gantz. Learn peer-to-peer communication, shared workspaces, and cooperative problem-solving."
 draft = false

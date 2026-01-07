@@ -1,6 +1,6 @@
 +++
 title = "Automate CI/CD Pipelines with AI Agents"
-image = "/images/cicd-agents.png"
+image = "images/cicd-agents.webp"
 date = 2025-11-02
 description = "Use AI agents in CI/CD pipelines for automated code review, test analysis, deployment decisions, and incident response."
 draft = false

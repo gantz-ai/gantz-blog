@@ -1,6 +1,6 @@
 +++
 title = "Terraform MCP Integration: AI-Powered Infrastructure as Code"
-image = "/images/terraform-mcp-integration.png"
+image = "images/terraform-mcp-integration.webp"
 date = 2025-05-27
 description = "Build intelligent infrastructure automation with Terraform and MCP. Learn IaC generation, drift detection, and cost optimization with Gantz."
 draft = false

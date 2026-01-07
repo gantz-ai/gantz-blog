@@ -1,6 +1,6 @@
 +++
 title = "MCP Server Discovery: Auto-Detect Available Tools"
-image = "/images/mcp-discovery.png"
+image = "images/mcp-discovery.webp"
 date = 2025-11-09
 description = "Implement tool discovery for MCP servers. Let AI agents automatically find and use available tools without hardcoding configurations."
 draft = false

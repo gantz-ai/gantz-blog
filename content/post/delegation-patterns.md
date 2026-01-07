@@ -1,6 +1,6 @@
 +++
 title = "AI Agent Delegation Patterns with MCP: Intelligent Task Assignment"
-image = "/images/delegation-patterns.png"
+image = "images/delegation-patterns.webp"
 date = 2025-06-13
 description = "Master AI agent delegation patterns with MCP and Gantz. Learn task routing, capability matching, and intelligent work distribution."
 draft = false

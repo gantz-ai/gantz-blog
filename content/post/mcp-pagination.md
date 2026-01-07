@@ -1,6 +1,6 @@
 +++
 title = "MCP Pagination: Handle Large Result Sets"
-image = "/images/mcp-pagination.png"
+image = "images/mcp-pagination.webp"
 date = 2025-11-09
 description = "Implement pagination for MCP tools and AI agents. Cursor-based, offset-based, and keyset pagination patterns for large datasets."
 draft = false

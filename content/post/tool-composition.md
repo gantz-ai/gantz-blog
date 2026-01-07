@@ -1,6 +1,6 @@
 +++
 title = "MCP Tool Composition: Combine Tools for Power"
-image = "/images/tool-composition.png"
+image = "images/tool-composition.webp"
 date = 2025-11-13
 description = "Compose MCP tools to create powerful capabilities. Build composite tools, tool pipelines, and orchestration patterns for AI agents."
 draft = false

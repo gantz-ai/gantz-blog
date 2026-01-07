@@ -1,6 +1,6 @@
 +++
 title = "Building AI Agents for LegalTech with MCP: Legal Automation Solutions"
-image = "/images/legaltech-ai-agents.png"
+image = "images/legaltech-ai-agents.webp"
 date = 2025-05-31
 description = "Build intelligent LegalTech AI agents with MCP and Gantz. Learn contract analysis, legal research automation, and compliance monitoring."
 draft = false

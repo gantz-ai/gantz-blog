@@ -1,6 +1,6 @@
 +++
 title = "Prompt Chaining: Build Complex AI Workflows"
-image = "/images/prompt-chaining.png"
+image = "images/prompt-chaining.webp"
 date = 2025-11-14
 description = "Chain prompts to build sophisticated AI workflows. Break complex tasks into steps, pass context between stages, and compose reliable agent pipelines."
 draft = false

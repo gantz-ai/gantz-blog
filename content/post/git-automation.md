@@ -1,6 +1,6 @@
 +++
 title = "Git Automation: Let AI Manage Your Repositories"
-image = "/images/git-automation.png"
+image = "images/git-automation.webp"
 date = 2025-11-01
 description = "Automate Git workflows with AI agents. Auto-generate commit messages, manage branches, resolve conflicts, and maintain repositories."
 draft = false

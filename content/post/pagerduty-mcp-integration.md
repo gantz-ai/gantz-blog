@@ -1,6 +1,6 @@
 +++
 title = "PagerDuty MCP Integration: AI-Powered Incident Response"
-image = "/images/pagerduty-mcp-integration.png"
+image = "images/pagerduty-mcp-integration.webp"
 date = 2025-05-26
 description = "Build intelligent incident management agents with PagerDuty and MCP. Learn automated escalation, incident analysis, and on-call management with Gantz."
 draft = false

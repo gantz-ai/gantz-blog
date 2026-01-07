@@ -1,6 +1,6 @@
 +++
 title = "Building an AI Feedback Agent with MCP: Automated User Insights"
-image = "/images/feedback-agent.png"
+image = "images/feedback-agent.webp"
 date = 2025-06-16
 description = "Build intelligent feedback agents with MCP and Gantz. Learn sentiment analysis, feedback routing, and AI-driven product insights."
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "AI Calendar Assistant: Schedule Meetings Automatically"
-image = "/images/calendar-assistant.png"
+image = "images/calendar-assistant.webp"
 date = 2025-11-14
 description = "Build an AI calendar assistant that schedules meetings, finds optimal times, manages conflicts, and handles rescheduling using MCP tools."
 draft = false
