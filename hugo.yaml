@@ -160,7 +160,7 @@ related:
 
 imaging:
   # Output WebP for better compression
-  quality: 80
+  quality: 70
   hint: photo
   resampleFilter: Lanczos
 
