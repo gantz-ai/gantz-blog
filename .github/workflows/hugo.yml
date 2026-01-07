@@ -28,6 +28,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: |
+            resources/_gen/images
+            resources/_gen/assets
+          key: hugo-resources-${{ hashFiles('assets/images/**', 'assets/**/*.scss') }}
+          restore-keys: |
+            hugo-resources-
       - name: Install image optimization tools
         run: |
           sudo apt-get update
