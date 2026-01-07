@@ -533,7 +533,11 @@
 }
 
 @media (max-width: 480px) {
-  .header-nav {
+  .header-nav .nav-link {
+    padding: 0.5rem;
+  }
+
+  .header-nav .nav-link span {
     display: none;
   }
 }
