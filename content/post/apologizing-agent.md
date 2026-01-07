@@ -182,7 +182,7 @@ messages = [
 
 You have these tools: {tool_names}
 
-Use them to complete tasks. Don't explain what could be done—do it."""},
+Use them to complete tasks. Don't explain what could be done-do it."""},
     {"role": "user", "content": user_input}
 ]
 ```

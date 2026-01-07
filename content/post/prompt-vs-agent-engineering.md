@@ -11,7 +11,7 @@ voice = false
 
 Two years ago, everyone was a "prompt engineer." Now everyone's building "AI agents."
 
-Are these the same thing? No. But they're related — and confusing the two leads to bad architecture decisions.
+Are these the same thing? No. But they're related - and confusing the two leads to bad architecture decisions.
 
 I've seen teams spend weeks perfecting prompts when they needed agents. I've seen others build complex agent systems when a good prompt would have sufficed.
 
@@ -266,20 +266,20 @@ Stages 1-3 are prompt engineering. Stages 4-6 are agent engineering.
 
 ### Prompt engineering skills
 
-- **Writing clearly** — Unambiguous instructions
-- **Understanding AI** — What models can/can't do
-- **Iteration** — Testing and refining prompts
-- **Psychology** — How to frame requests
-- **Domain knowledge** — Subject matter expertise
+- **Writing clearly** - Unambiguous instructions
+- **Understanding AI** - What models can/can't do
+- **Iteration** - Testing and refining prompts
+- **Psychology** - How to frame requests
+- **Domain knowledge** - Subject matter expertise
 
 ### Agent engineering skills
 
-- **System design** — Architecture decisions
-- **Programming** — Building the orchestration
-- **API design** — Creating good tool interfaces
-- **Error handling** — Graceful failures
-- **State management** — Memory and context
-- **Security** — Safe tool execution
+- **System design** - Architecture decisions
+- **Programming** - Building the orchestration
+- **API design** - Creating good tool interfaces
+- **Error handling** - Graceful failures
+- **State management** - Memory and context
+- **Security** - Safe tool execution
 
 ## What you need for each
 
@@ -388,7 +388,7 @@ If you're building skills, focus on:
 4. Error handling and reliability
 5. Testing and evaluation
 
-The people who can do both — write great prompts AND build robust systems — are the most valuable.
+The people who can do both - write great prompts AND build robust systems - are the most valuable.
 
 Your existing software engineering skills transfer directly. If you can design APIs, handle errors gracefully, and build maintainable systems, you're already halfway to being an agent engineer.
 

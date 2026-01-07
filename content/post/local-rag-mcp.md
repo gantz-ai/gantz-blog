@@ -29,7 +29,7 @@ text = "Ask Claude questions about your documents through the MCP connection."
 +++
 
 
-RAG (Retrieval Augmented Generation) is usually a whole production — vector databases, embeddings APIs, chunking strategies, the works. A typical RAG pipeline involves:
+RAG (Retrieval Augmented Generation) is usually a whole production - vector databases, embeddings APIs, chunking strategies, the works. A typical RAG pipeline involves:
 
 - Pinecone or Weaviate for vector storage
 - OpenAI embeddings API ($0.0001 per 1K tokens adds up)
@@ -59,7 +59,7 @@ Your documents stay on your machine. Claude searches them through MCP tools, fin
 
 ## The simple approach (no vectors)
 
-Let's start dead simple — grep-style search. Works surprisingly well for smaller document sets.
+Let's start dead simple - grep-style search. Works surprisingly well for smaller document sets.
 
 **search_docs.py:**
 
@@ -440,11 +440,11 @@ Add to your gantz.yaml:
 
 ## Ideas to extend
 
-- **PDF support** — Add PyPDF2 or pdfplumber
-- **Web scraping** — Index your favorite docs sites
-- **Code search** — Index your codebase
-- **Chat history** — Remember previous questions
-- **Auto-reindex** — Watch for file changes
+- **PDF support** - Add PyPDF2 or pdfplumber
+- **Web scraping** - Index your favorite docs sites
+- **Code search** - Index your codebase
+- **Chat history** - Remember previous questions
+- **Auto-reindex** - Watch for file changes
 
 ## Troubleshooting
 

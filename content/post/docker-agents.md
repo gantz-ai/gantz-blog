@@ -32,7 +32,7 @@ You built an agent. It works on your machine.
 
 Now you need to run it somewhere else. A server. A Kubernetes cluster. Your colleague's machine. Anywhere.
 
-This is where most agent projects stall. The code works locally, but "deployment" feels like a whole other project. Docker configs, environment management, secrets handling, networking — it adds up.
+This is where most agent projects stall. The code works locally, but "deployment" feels like a whole other project. Docker configs, environment management, secrets handling, networking - it adds up.
 
 I've done this enough times that I've settled on a minimal setup that just works. Not over-engineered. Not under-powered. Just the files you need to go from local to deployed.
 

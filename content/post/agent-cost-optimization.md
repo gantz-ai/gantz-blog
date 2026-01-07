@@ -405,4 +405,4 @@ Build cost-efficient AI agents at [gantz.run](https://gantz.run).
 
 AI agents don't have to be expensive. With smart caching, model routing, and prompt optimization, you can cut costs by 90% while maintaining quality.
 
-Start with caching—it's the biggest win for the least effort.
+Start with caching-it's the biggest win for the least effort.

@@ -466,19 +466,19 @@ tools:
 
 ## Why this matters
 
-The bigger picture: AI agents need access to real tools to be useful. Not just web searches and text generation — actual capabilities.
+The bigger picture: AI agents need access to real tools to be useful. Not just web searches and text generation - actual capabilities.
 
 Every developer has local scripts, databases, and services that would be useful for AI to access. But exposing them has historically been painful:
 
-1. **Tunneling complexity** — ngrok, port forwarding, firewall rules
-2. **Protocol translation** — Converting between what AI expects and what your tool provides
-3. **Security concerns** — How do you safely expose local services?
+1. **Tunneling complexity** - ngrok, port forwarding, firewall rules
+2. **Protocol translation** - Converting between what AI expects and what your tool provides
+3. **Security concerns** - How do you safely expose local services?
 
 Gantz solves all three:
 
-1. **One command** — `gantz run` and you have a public URL
-2. **MCP-native** — AI agents speak MCP directly to your tools
-3. **Built-in auth** — Optional authentication keeps your tools private
+1. **One command** - `gantz run` and you have a public URL
+2. **MCP-native** - AI agents speak MCP directly to your tools
+3. **Built-in auth** - Optional authentication keeps your tools private
 
 This isn't about replacing ngrok for generic tunneling. It's about making local tools accessible to AI with minimal friction.
 
@@ -492,7 +492,7 @@ This isn't about replacing ngrok for generic tunneling. It's about making local 
 | Stable URLs | Per session | Paid only | No | Yes |
 | HTTP tools | Built-in | No | No | No |
 
-The key difference: ngrok and alternatives are generic HTTP tunnels. You still need to build the MCP server yourself. Gantz includes the MCP server — you just define tools in YAML.
+The key difference: ngrok and alternatives are generic HTTP tunnels. You still need to build the MCP server yourself. Gantz includes the MCP server - you just define tools in YAML.
 
 ## Try it
 

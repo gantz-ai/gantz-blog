@@ -28,7 +28,7 @@ text = "Use the MCP server URL with Claude or any AI agent to interact with your
 +++
 
 
-I wanted an AI assistant that could actually do stuff with my email. Not just summarize — actually read, draft, and send responses.
+I wanted an AI assistant that could actually do stuff with my email. Not just summarize - actually read, draft, and send responses.
 
 Turns out it's not that hard. Here's how I set it up.
 
@@ -453,10 +453,10 @@ Works the same with GPT, Gemini, or any MCP-compatible agent.
 
 Some tips:
 
-1. **Use drafts first** — Have AI create drafts instead of sending directly
-2. **Review before send** — Add a confirmation step for sending
-3. **Limit scope** — Maybe read-only tools first
-4. **Use `--auth`** — Always protect your tunnel
+1. **Use drafts first** - Have AI create drafts instead of sending directly
+2. **Review before send** - Add a confirmation step for sending
+3. **Limit scope** - Maybe read-only tools first
+4. **Use `--auth`** - Always protect your tunnel
 
 You can also create a "safe mode" config with only read tools:
 
@@ -476,7 +476,7 @@ tools:
 This isn't Claude-specific. Any AI agent that supports MCP can use these tools:
 
 - Claude (Anthropic)
-- GPT (OpenAI) — with MCP support
+- GPT (OpenAI) - with MCP support
 - Gemini (Google)
 - Local models via LangChain/LlamaIndex
 - Your own agents
@@ -485,11 +485,11 @@ The MCP server doesn't care who's calling it.
 
 ## Ideas to extend
 
-- **Summarize daily** — "Give me a summary of today's important emails"
-- **Auto-categorize** — "Label all newsletters as low priority"
-- **Follow-ups** — "Remind me to follow up on unanswered emails"
-- **Templates** — Add common response templates
-- **Calendar integration** — "Schedule a meeting based on this email"
+- **Summarize daily** - "Give me a summary of today's important emails"
+- **Auto-categorize** - "Label all newsletters as low priority"
+- **Follow-ups** - "Remind me to follow up on unanswered emails"
+- **Templates** - Add common response templates
+- **Calendar integration** - "Schedule a meeting based on this email"
 
 ## Why local?
 

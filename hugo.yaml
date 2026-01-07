@@ -175,6 +175,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      typographer:
+        disable: true
   highlight:
     noClasses: true
     codeFences: true

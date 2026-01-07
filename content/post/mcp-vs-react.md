@@ -9,7 +9,7 @@ voice = true
 +++
 
 
-Two terms you'll hear when building AI agents: MCP and ReAct. They sound similar — both involve AI using tools. But they're solving different problems at different layers.
+Two terms you'll hear when building AI agents: MCP and ReAct. They sound similar - both involve AI using tools. But they're solving different problems at different layers.
 
 Understanding the difference will save you a lot of confusion.
 
@@ -43,7 +43,7 @@ AI [Think]: I have all the information I need.
 AI [Answer]: The capital of France is Paris, with a population of approximately 2.1 million people.
 ```
 
-ReAct is about **orchestration** — how the AI decides what to do, when to use tools, and how to combine results.
+ReAct is about **orchestration** - how the AI decides what to do, when to use tools, and how to combine results.
 
 Frameworks like LangChain, AutoGPT, and CrewAI implement this pattern.
 
@@ -67,7 +67,7 @@ AI                          MCP Server
  |<-- [result] ------------------|
 ```
 
-MCP is about **communication** — the wire protocol between AI and tools.
+MCP is about **communication** - the wire protocol between AI and tools.
 
 It doesn't care how the AI decides to use tools. It just provides the pipe.
 
@@ -81,8 +81,8 @@ Think of it like web development:
 | Protocol | HTTP | MCP |
 | Transport | TCP/IP | stdio, SSE |
 
-ReAct is like MVC — a pattern for organizing logic.
-MCP is like HTTP — a protocol for communication.
+ReAct is like MVC - a pattern for organizing logic.
+MCP is like HTTP - a protocol for communication.
 
 You don't choose between them. You use both.
 

@@ -13,7 +13,7 @@ Everyone's building RAG. Vector databases. Embeddings. Chunking strategies. Retr
 
 It's become the default architecture for any AI app that needs knowledge. Tutorial after tutorial assumes you need Pinecone and embeddings before you can do anything useful.
 
-For most use cases, it's overkill. I say this as someone who's built RAG systems — the complexity is worth it sometimes, but far less often than people think.
+For most use cases, it's overkill. I say this as someone who's built RAG systems - the complexity is worth it sometimes, but far less often than people think.
 
 ## The RAG hype
 

@@ -13,7 +13,7 @@ You've heard about MCP. You know it connects AI to tools. But where does it actu
 
 This is a common source of confusion. People ask: "Is MCP like LangChain? Is it a replacement for function calling? Does it replace my RAG pipeline?"
 
-The answer to all of these is no. MCP fills a specific gap in the AI stack — and understanding where it fits helps you use it effectively.
+The answer to all of these is no. MCP fills a specific gap in the AI stack - and understanding where it fits helps you use it effectively.
 
 Let me draw you a map.
 
@@ -48,7 +48,7 @@ Notice what MCP is NOT in this diagram:
 - It's not the orchestration layer
 - It's not your databases or services
 
-It's specifically the **tool communication protocol** — nothing more, nothing less.
+It's specifically the **tool communication protocol** - nothing more, nothing less.
 
 ## Layer by layer
 
@@ -173,7 +173,7 @@ Exposes your tools to AI.
 - Executes against external systems
 - Returns results
 
-This is what [Gantz](https://gantz.run) gives you — an easy way to run MCP servers.
+This is what [Gantz](https://gantz.run) gives you - an easy way to run MCP servers.
 
 ## Where MCP doesn't fit
 
@@ -326,7 +326,7 @@ Let's trace a request through the stack:
    └─ AI gets result → formulates answer → returns to user
 ```
 
-MCP handled step 5 — the protocol layer between AI and database.
+MCP handled step 5 - the protocol layer between AI and database.
 
 ## What MCP replaces
 
@@ -358,7 +358,7 @@ Let me address some things I see people get wrong about MCP.
 
 ### "MCP replaces LangChain"
 
-No. LangChain is an orchestration framework — it handles chains, agents, memory, and routing. MCP is a protocol for tool communication. You can use MCP **with** LangChain:
+No. LangChain is an orchestration framework - it handles chains, agents, memory, and routing. MCP is a protocol for tool communication. You can use MCP **with** LangChain:
 
 ```python
 from langchain_mcp import MCPToolkit
@@ -370,7 +370,7 @@ agent = create_react_agent(llm, toolkit.get_tools())
 
 ### "MCP replaces RAG"
 
-No. RAG is for knowledge retrieval — finding relevant documents to inform AI responses. MCP is for tool execution — doing things, not finding things.
+No. RAG is for knowledge retrieval - finding relevant documents to inform AI responses. MCP is for tool execution - doing things, not finding things.
 
 You might have both:
 - MCP tool to trigger a search
@@ -394,11 +394,11 @@ The protocol doesn't care where the server lives.
 
 Not every AI application needs MCP. Consider adding it when:
 
-1. **You have tools that need to run in a specific location** — local machine, VPC, air-gapped network
-2. **You want to share tools across multiple applications** — one server, many clients
-3. **Tools change frequently** — update server, not apps
-4. **You want dynamic tool discovery** — AI learns available tools at runtime
-5. **You're building for multiple AI providers** — one tool interface for all
+1. **You have tools that need to run in a specific location** - local machine, VPC, air-gapped network
+2. **You want to share tools across multiple applications** - one server, many clients
+3. **Tools change frequently** - update server, not apps
+4. **You want dynamic tool discovery** - AI learns available tools at runtime
+5. **You're building for multiple AI providers** - one tool interface for all
 
 Skip MCP if:
 - You have 2-3 simple tools tightly integrated with your app
@@ -423,9 +423,9 @@ It's not the brain (AI model).
 It's not the decision maker (orchestration).
 It's not the data (external systems).
 
-It's the nervous system — carrying signals between brain and body.
+It's the nervous system - carrying signals between brain and body.
 
-Understanding this positioning helps you make better architectural decisions. MCP doesn't replace your other tools — it complements them by standardizing one specific part of the stack: how AI communicates with external capabilities.
+Understanding this positioning helps you make better architectural decisions. MCP doesn't replace your other tools - it complements them by standardizing one specific part of the stack: how AI communicates with external capabilities.
 
 ## Related reading
 

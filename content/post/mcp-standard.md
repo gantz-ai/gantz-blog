@@ -13,7 +13,7 @@ Anthropic released MCP (Model Context Protocol) and suddenly everyone's talking 
 
 Will it stick? Or will it become another protocol that fades into obscurity?
 
-I think MCP has a real shot at becoming *the* standard. Here's why — and what history tells us about which protocols win.
+I think MCP has a real shot at becoming *the* standard. Here's why - and what history tells us about which protocols win.
 
 ## The problem is real
 
@@ -30,7 +30,7 @@ It's fragmented. You build tools for one system, and they don't work anywhere el
 
 This is the same problem we had before HTTP, before USB, before REST. Proprietary protocols everywhere, with everyone reinventing the wheel.
 
-MCP solves this with a standard protocol. Build once, use everywhere. But "solving a real problem" isn't enough — plenty of good protocols have failed. Let's look at what actually makes standards win.
+MCP solves this with a standard protocol. Build once, use everywhere. But "solving a real problem" isn't enough - plenty of good protocols have failed. Let's look at what actually makes standards win.
 
 ## What makes standards stick
 
@@ -42,13 +42,13 @@ HTTP had CERN, then the W3C. JSON had Douglas Crockford and eventually ECMA. USB
 
 Counter-examples: XMPP had Google backing... until they didn't. Google Talk dropped it. Wave used it until Wave died. Jabber faded.
 
-MCP has Anthropic. Not the biggest player in AI (that's OpenAI), but credible and growing. More importantly, they've open-sourced it — not keeping it proprietary. This is crucial. Proprietary protocols face an uphill battle because competitors won't adopt them.
+MCP has Anthropic. Not the biggest player in AI (that's OpenAI), but credible and growing. More importantly, they've open-sourced it - not keeping it proprietary. This is crucial. Proprietary protocols face an uphill battle because competitors won't adopt them.
 
 Anthropic isn't trying to lock people in. The spec is public. Anyone can implement an MCP server. That's the right move for standardization.
 
 ### 2. Simple enough to implement
 
-REST won partly because it's simple — it's just HTTP with conventions. SOAP was more "correct" but required XML schemas, WSDL files, envelope wrapping, and specialized tooling. REST won.
+REST won partly because it's simple - it's just HTTP with conventions. SOAP was more "correct" but required XML schemas, WSDL files, envelope wrapping, and specialized tooling. REST won.
 
 GraphQL is technically superior in many ways, but it's complex. You need schema definitions, resolvers, query parsers. Adoption has been slower than REST despite GraphQL solving real problems.
 
@@ -76,7 +76,7 @@ Right now, connecting AI to tools is painful:
 
 Every time you add a new AI provider to your app, you rewrite your tool integrations. Every time you switch frameworks, you rebuild your tools.
 
-MCP eliminates this. One protocol, all AI agents. One tool definition, works everywhere. That's a real reduction in development overhead — and developers will adopt things that save them work.
+MCP eliminates this. One protocol, all AI agents. One tool definition, works everywhere. That's a real reduction in development overhead - and developers will adopt things that save them work.
 
 USB didn't win because it was technically perfect. It won because carrying six different chargers was annoying.
 
@@ -128,11 +128,11 @@ It's not mainstream yet. Most developers haven't heard of MCP. But in the AI too
 
 MCP isn't the only option. Let's look at what it's up against.
 
-**OpenAI function calling:** Already widely used — probably the most common approach today. OpenAI has massive market share and their function calling format is well-documented. But it's OpenAI-specific. You can't take your OpenAI function definitions and run them with Claude or a local model without translation. And it doesn't include the discovery mechanism MCP has.
+**OpenAI function calling:** Already widely used - probably the most common approach today. OpenAI has massive market share and their function calling format is well-documented. But it's OpenAI-specific. You can't take your OpenAI function definitions and run them with Claude or a local model without translation. And it doesn't include the discovery mechanism MCP has.
 
 **LangChain tools:** Popular in the Python ecosystem. If you're building AI apps in Python, you've probably used LangChain tools. But it's tied to the LangChain framework. If you're not using LangChain, these tools don't help you.
 
-**LlamaIndex tools:** Similar to LangChain — great within the LlamaIndex ecosystem, but framework-specific.
+**LlamaIndex tools:** Similar to LangChain - great within the LlamaIndex ecosystem, but framework-specific.
 
 **Custom protocols:** Every company rolling their own tool format. Works for internal use, but not interoperable. You end up maintaining translation layers.
 
@@ -150,7 +150,7 @@ The biggest threat. If OpenAI releases a competing protocol with better tooling,
 
 OpenAI has the market share. If they say "this is how you do AI tools," most developers will follow. And OpenAI has a history of setting de facto standards through adoption rather than formal standardization.
 
-The counter-argument: OpenAI tends to build closed ecosystems optimized for their platform. A truly open, vendor-neutral standard might win in the long run — especially as the AI market becomes more competitive and developers resist lock-in.
+The counter-argument: OpenAI tends to build closed ecosystems optimized for their platform. A truly open, vendor-neutral standard might win in the long run - especially as the AI market becomes more competitive and developers resist lock-in.
 
 ### Fragmentation
 
@@ -167,7 +167,7 @@ This is a real risk. History shows fragmentation can persist for years (see: mes
 
 ### Complexity creep
 
-Standards can die from feature bloat. Every new capability sounds reasonable in isolation, but eventually you end up with SOAP — technically capable but too complex for most use cases.
+Standards can die from feature bloat. Every new capability sounds reasonable in isolation, but eventually you end up with SOAP - technically capable but too complex for most use cases.
 
 MCP currently has tools, resources, prompts, and sampling capabilities. That's already more than tools alone. If each version adds more features, implementation burden grows. New developers look at the spec and think "this is too much."
 
@@ -189,7 +189,7 @@ Here's how I see it playing out:
 
 **2025:** MCP adoption grows among Claude users. More tools, more integrations. OpenAI announces some form of compatibility or competing standard.
 
-**2026:** Major APIs ship MCP servers alongside REST. GitHub, Stripe, Slack — the big ones. Framework support matures.
+**2026:** Major APIs ship MCP servers alongside REST. GitHub, Stripe, Slack - the big ones. Framework support matures.
 
 **2027:** MCP is assumed. If your service doesn't have MCP support, it's like not having a REST API today.
 
@@ -223,7 +223,7 @@ Start now:
 - Build a few MCP tools
 - Wrap your existing APIs
 
-Tools like [Gantz](https://gantz.run) make this easy — spin up an MCP server in minutes, not days.
+Tools like [Gantz](https://gantz.run) make this easy - spin up an MCP server in minutes, not days.
 
 The cost of experimenting is low. The cost of being late is high.
 

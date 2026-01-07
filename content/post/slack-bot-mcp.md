@@ -28,7 +28,7 @@ text = "Add the bot to a Slack channel and test commands to verify the integrati
 +++
 
 
-I wanted a Slack bot that could run scripts on my machine. Not some cloud function — actual local tools. Query my dev database, check server logs, run deployment scripts.
+I wanted a Slack bot that could run scripts on my machine. Not some cloud function - actual local tools. Query my dev database, check server logs, run deployment scripts.
 
 The problem with typical Slack bots: they run in the cloud. You need to deploy code, set up infrastructure, handle secrets. For quick internal tools, that's massive overhead.
 
@@ -164,7 +164,7 @@ Connecting to relay server...
 Press Ctrl+C to stop
 ```
 
-**Save both values** — you'll need the URL and auth token for the bot code. Keep the auth token secret; anyone with it can call your tools.
+**Save both values** - you'll need the URL and auth token for the bot code. Keep the auth token secret; anyone with it can call your tools.
 
 ## Step 2: Create a Slack app
 
@@ -188,7 +188,7 @@ Navigate to **OAuth & Permissions** in the left sidebar. Under **Scopes**, add t
 
 5. Scroll up and click **Install to Workspace**
 6. Authorize the app
-7. Copy the **Bot User OAuth Token** (starts with `xoxb-...`) — you'll need this
+7. Copy the **Bot User OAuth Token** (starts with `xoxb-...`) - you'll need this
 
 ## Step 3: Enable Socket Mode
 
@@ -200,14 +200,14 @@ Navigate to **Socket Mode** in the left sidebar:
 3. Name it something like "socket-token"
 4. Add the `connections:write` scope
 5. Click **Generate**
-6. Copy this token (starts with `xapp-...`) — you'll need this too
+6. Copy this token (starts with `xapp-...`) - you'll need this too
 
 ### Subscribe to events
 
 Navigate to **Event Subscriptions**:
 1. Toggle **Enable Events** to ON
 2. Under **Subscribe to bot events**, click **Add Bot User Event**
-3. Add `app_mention` — this triggers when someone @mentions your bot
+3. Add `app_mention` - this triggers when someone @mentions your bot
 4. Click **Save Changes**
 
 You might need to reinstall the app after changing event subscriptions. Slack will prompt you if needed.
@@ -381,7 +381,7 @@ Claude will pick the right tool and execute it on your machine.
 6. Your laptop runs the command
 7. Result goes back through Claude → Bot → Slack
 
-The cool part: your tools run locally. You can access files, databases, scripts — anything on your machine.
+The cool part: your tools run locally. You can access files, databases, scripts - anything on your machine.
 
 ## Making it useful
 
@@ -428,7 +428,7 @@ Your Slack tokens are wrong. Double-check:
 
 1. Check the MCP URL is correct (including the `/sse` path)
 2. Verify the auth token matches what Gantz displayed
-3. Look at the Gantz terminal — you should see incoming requests
+3. Look at the Gantz terminal - you should see incoming requests
 
 ### Claude returns errors
 
@@ -442,11 +442,11 @@ This setup gives your Slack channel access to local tools. Think carefully about
 
 ### What to do
 
-- **Use `--auth` flag** — Always run Gantz with authentication so only your bot can call tools
-- **Read-only by default** — Start with tools that only read data, not modify it
-- **Limit scope** — Only expose tools your team actually needs
-- **Keep tokens secret** — Don't commit tokens to git or share them in Slack
-- **Monitor usage** — Watch the Gantz terminal to see what's being called
+- **Use `--auth` flag** - Always run Gantz with authentication so only your bot can call tools
+- **Read-only by default** - Start with tools that only read data, not modify it
+- **Limit scope** - Only expose tools your team actually needs
+- **Keep tokens secret** - Don't commit tokens to git or share them in Slack
+- **Monitor usage** - Watch the Gantz terminal to see what's being called
 
 ### What NOT to do
 

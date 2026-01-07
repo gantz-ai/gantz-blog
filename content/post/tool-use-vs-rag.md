@@ -155,7 +155,7 @@ User: "How much would 15% discount save on my cart?"
 
 ### External systems
 
-Data lives in databases, APIs, or services — not documents.
+Data lives in databases, APIs, or services - not documents.
 
 ```
 User: "Show me orders from last week"
@@ -185,7 +185,7 @@ Step 3 - Tool Use:
 → Return process started
 
 AI: "Your item qualifies for return (purchased 12 days ago).
-I've initiated the return — you'll receive a shipping label via email."
+I've initiated the return - you'll receive a shipping label via email."
 ```
 
 RAG provided the policy knowledge. Tools took the action.

@@ -37,7 +37,7 @@ Let me explain.
 
 Right now, when you want AI to do something useful, you copy-paste. Context into ChatGPT. Output back to your app. Rinse, repeat.
 
-It works. But it's manual. And AI can't actually *do* anything — it can only talk.
+It works. But it's manual. And AI can't actually *do* anything - it can only talk.
 
 MCP changes that. It gives AI hands.
 
@@ -127,7 +127,7 @@ Here's what I think will happen:
 
 **Phase 1 (now):** Early adopters build MCP servers for specific use cases. Local databases, internal tools, dev workflows.
 
-**Phase 2 (soon):** Standard tools emerge. MCP servers for Postgres, Redis, GitHub, Slack — plug and play.
+**Phase 2 (soon):** Standard tools emerge. MCP servers for Postgres, Redis, GitHub, Slack - plug and play.
 
 **Phase 3 (inevitable):** Every developer has an MCP server running. It's part of the dev environment, like Docker or a local server.
 
@@ -275,7 +275,7 @@ gantz run
 
 That's it. Now Claude can search your code, check git status, run tests, and query your database.
 
-Tools like [Gantz](https://gantz.run) let you spin up an MCP server in one command — define tools in YAML, run `gantz run`, and you're live.
+Tools like [Gantz](https://gantz.run) let you spin up an MCP server in one command - define tools in YAML, run `gantz run`, and you're live.
 
 Once you have AI that can actually see your world, you won't go back to copy-paste.
 

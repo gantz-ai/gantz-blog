@@ -28,11 +28,11 @@ text = "Use natural language commands like 'dim the lights' through Claude."
 +++
 
 
-Last weekend I got Claude to turn off my lights. Not through some official integration — just MCP and a few shell scripts.
+Last weekend I got Claude to turn off my lights. Not through some official integration - just MCP and a few shell scripts.
 
 No Alexa. No Google Home. No proprietary app. Just Claude understanding natural language and executing commands on my local network.
 
-The cool part? It actually understands context. "Make it cozy" dims the lights and maybe turns on a scene. "I'm leaving" turns everything off. It's not just mapping keywords to commands — it's reasoning about what you want.
+The cool part? It actually understands context. "Make it cozy" dims the lights and maybe turns on a scene. "I'm leaving" turns everything off. It's not just mapping keywords to commands - it's reasoning about what you want.
 
 Here's the complete setup.
 
@@ -346,7 +346,7 @@ And because it's Claude, you can ask things naturally:
 - "I'm leaving in 10 minutes, start warming up the car"
 - "Something feels wrong, check all the sensors"
 
-It's not just on/off commands — it's reasoning about your home.
+It's not just on/off commands - it's reasoning about your home.
 
 ## Troubleshooting
 
@@ -439,11 +439,11 @@ CMD ["gantz", "run", "--auth"]
 Smart home control requires extra care. You're exposing physical device control.
 
 ### Do this:
-- **Always use `--auth` flag** — Don't let random people control your home
-- **Keep your tunnel URL private** — Don't share it publicly
-- **Start with read-only tools** — Get states before controlling
-- **Limit destructive actions** — Maybe don't expose "unlock front door"
-- **Run on isolated network** — Consider a separate VLAN for IoT devices
+- **Always use `--auth` flag** - Don't let random people control your home
+- **Keep your tunnel URL private** - Don't share it publicly
+- **Start with read-only tools** - Get states before controlling
+- **Limit destructive actions** - Maybe don't expose "unlock front door"
+- **Run on isolated network** - Consider a separate VLAN for IoT devices
 
 ### Don't do this:
 - Don't expose garage door or lock controls without careful thought

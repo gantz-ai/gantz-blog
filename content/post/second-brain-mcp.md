@@ -30,7 +30,7 @@ text = "Ask Claude questions like 'what did I write about pricing strategies?'"
 
 I have notes everywhere. Markdown files, random text docs, bookmarks, highlights, ideas scattered across folders. Finding anything is a nightmare.
 
-So I built a "second brain" — an AI that knows all my notes and can actually answer questions about them.
+So I built a "second brain" - an AI that knows all my notes and can actually answer questions about them.
 
 Not some cloud service. Everything stays local. Here's how.
 
@@ -523,11 +523,11 @@ Stuff you forgot you even wrote.
 
 ## Extend it
 
-- **Add tags** — Extract #tags and search by them
-- **Daily notes** — Auto-create today's note
-- **Backlinks** — Find notes that link to each other
-- **Capture** — Quick tool to add a new note
-- **Templates** — Generate meeting notes, book reviews, etc.
+- **Add tags** - Extract #tags and search by them
+- **Daily notes** - Auto-create today's note
+- **Backlinks** - Find notes that link to each other
+- **Capture** - Quick tool to add a new note
+- **Templates** - Generate meeting notes, book reviews, etc.
 
 ## Why local?
 

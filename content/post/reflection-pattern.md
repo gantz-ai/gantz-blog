@@ -482,7 +482,7 @@ Task → Act → Output → Reflect → Fix → Verified Output
 
 For anything that matters, reflection is worth it.
 
-Start with simple output verification. Add more sophisticated checks as you understand your failure modes. The goal isn't perfect — it's catching the obvious mistakes before users do.
+Start with simple output verification. Add more sophisticated checks as you understand your failure modes. The goal isn't perfect - it's catching the obvious mistakes before users do.
 
 The pattern scales well: simple reflection for simple tasks, multi-step verification for critical operations. Either way, you're building an agent that catches its mistakes.
 

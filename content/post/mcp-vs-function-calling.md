@@ -1,5 +1,5 @@
 +++
-title = "MCP vs Function Calling — What's the difference?"
+title = "MCP vs Function Calling - What's the difference?"
 date = 2025-12-12
 description = "MCP vs Function Calling explained. MCP servers execute tools remotely, function calling returns tool calls for your code to handle. When to use each approach."
 image = "images/warrior-rain-city-03.webp"
@@ -26,7 +26,7 @@ answer = "MCP requires running a server, but tools like Gantz make setup simple 
 +++
 
 
-If you've been building with AI, you've probably seen both "function calling" and "MCP" thrown around. They sound similar — both let AI models use tools. But they're actually solving different problems.
+If you've been building with AI, you've probably seen both "function calling" and "MCP" thrown around. They sound similar - both let AI models use tools. But they're actually solving different problems.
 
 This confusion is understandable. Both involve defining tools, both let AI decide when to use them, and both return results. But the architecture is fundamentally different, and choosing the wrong one for your use case creates unnecessary friction.
 
@@ -72,7 +72,7 @@ This has implications:
 - You need to maintain the tool implementation code
 - Adding new tools requires code changes and redeployment
 
-Function calling is essentially the AI saying "I want to use the `get_weather` tool with these parameters" — and your code has to actually do the work.
+Function calling is essentially the AI saying "I want to use the `get_weather` tool with these parameters" - and your code has to actually do the work.
 
 ## MCP (Model Context Protocol)
 
@@ -107,7 +107,7 @@ This changes everything:
 - Adding tools means updating the server config, not your app
 - The same tools can be shared across multiple applications
 
-The AI doesn't just ask for something — it actually gets it done through the MCP server.
+The AI doesn't just ask for something - it actually gets it done through the MCP server.
 
 ## The architecture difference
 
@@ -140,19 +140,19 @@ With function calling, your application is both the client AND the tool executor
 ## Why does this matter?
 
 ### Function calling is good when:
-- **Tools are simple and few** — You have 2-5 straightforward tools that don't need complex setup
-- **You want full control over execution** — You need to validate, transform, or intercept tool calls before execution
-- **Tools need access to your app's state** — The tool needs to read from your database connection, session data, or in-memory state
-- **You're building a single application** — One app, one set of tools, no sharing needed
-- **You need tight integration** — The tool is core to your application logic, not separable
+- **Tools are simple and few** - You have 2-5 straightforward tools that don't need complex setup
+- **You want full control over execution** - You need to validate, transform, or intercept tool calls before execution
+- **Tools need access to your app's state** - The tool needs to read from your database connection, session data, or in-memory state
+- **You're building a single application** - One app, one set of tools, no sharing needed
+- **You need tight integration** - The tool is core to your application logic, not separable
 
 ### MCP is good when:
-- **Tools are complex or numerous** — You have many tools or tools with complex dependencies
-- **You want to share tools across multiple apps** — Same tools used by your web app, Slack bot, and CLI
-- **Tools need to run in a specific environment** — Your laptop, inside a VPC, or on a machine with special software
-- **You want AI to discover tools dynamically** — Tools change frequently, and you don't want to redeploy
-- **Tools are independent of your app** — They operate on external systems, not your app's state
-- **You want separation of concerns** — App development separate from tool development
+- **Tools are complex or numerous** - You have many tools or tools with complex dependencies
+- **You want to share tools across multiple apps** - Same tools used by your web app, Slack bot, and CLI
+- **Tools need to run in a specific environment** - Your laptop, inside a VPC, or on a machine with special software
+- **You want AI to discover tools dynamically** - Tools change frequently, and you don't want to redeploy
+- **Tools are independent of your app** - They operate on external systems, not your app's state
+- **You want separation of concerns** - App development separate from tool development
 
 ## The real difference
 
@@ -246,7 +246,7 @@ tools:
 
 MCP servers need to be accessible. If it's running on your laptop, Claude can't reach it unless you expose it somehow.
 
-That's actually why I built [Gantz](https://gantz.run) — it creates a tunnel so your local MCP server gets a public URL. No port forwarding, no ngrok setup.
+That's actually why I built [Gantz](https://gantz.run) - it creates a tunnel so your local MCP server gets a public URL. No port forwarding, no ngrok setup.
 
 ## Can you use both?
 
@@ -311,7 +311,7 @@ Ask yourself these questions:
 | Environment | Your app's environment | Server's environment |
 | Best for | Simple, integrated tools | Complex, shareable, remote tools |
 
-Both have their place. Function calling isn't going away — it's still the simplest approach for basic integrations. But MCP makes certain things way easier — especially when you want AI to use tools that live somewhere specific, or when you want to share tools across applications.
+Both have their place. Function calling isn't going away - it's still the simplest approach for basic integrations. But MCP makes certain things way easier - especially when you want AI to use tools that live somewhere specific, or when you want to share tools across applications.
 
 ## Related reading
 
