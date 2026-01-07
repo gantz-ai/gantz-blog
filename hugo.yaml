@@ -149,11 +149,11 @@ menu:
       url: https://github.com/gantz-ai
       params:
         icon: brand-github
-    - identifier: twitter
-      name: Twitter
-      url: https://twitter.com/AiGantz
+    - identifier: discord
+      name: Discord
+      url: https://discord.com/invite/Wtmn8Yat4R
       params:
-        icon: brand-twitter
+        icon: brand-discord
 
 related:
   includeNewer: true
