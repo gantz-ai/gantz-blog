@@ -101,8 +101,6 @@ params:
     toggle: false
     default: light
 
-  customCSS:
-    - css/custom.css
 
 menu:
   main:
