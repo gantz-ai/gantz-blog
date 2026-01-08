@@ -10,7 +10,7 @@
                 {{ with .Params.image }}
                     {{ $img := resources.Get . }}
                     {{ if $img }}
-                        {{ $mobile := $img.Resize "320x webp q65" }}
+                        {{ $mobile := $img.Resize "320x webp q60" }}
                         <link rel="preload" as="image" href="{{ $mobile.RelPermalink }}" media="(max-width: 600px)">
                     {{ end }}
                 {{ end }}
