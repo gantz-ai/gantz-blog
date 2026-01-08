@@ -99,17 +99,21 @@
         !(function(){if(window.chatnode && window.chatnode('getState') === 'initialized')return;window.chatnode=(...args)=>{if(!window.chatnode.q)window.chatnode.q=[];window.chatnode.q.push(args);};window.chatnode=new Proxy(window.chatnode,{get(target,prop){if(prop==='q')return target.q;return(...args)=>target(prop,...args);},});function onLoad(){const script=document.createElement('script');script.src='https://embed.chatnode.ai/3bfdc4d8-c09e-42c0-98e1-4e05c27024c8/popup.js';document.body.appendChild(script);}if(document.readyState==='complete'){onLoad();}else{window.addEventListener('load',onLoad);}})();
         </script>
 
-        {{/* Load view counts for all posts on page */}}
+        {{/* Load view counts after page fully loaded */}}
         <script>
-        requestIdleCallback(function() {
-            var els = document.querySelectorAll('.view-count[data-path]');
-            els.forEach(function(el) {
-                var path = el.getAttribute('data-path');
-                fetch('https://gantz.ai/gc/counter' + path + '.json')
-                    .then(function(r) { return r.json(); })
-                    .then(function(data) { el.textContent = data.count || '0'; })
-                    .catch(function() { el.textContent = '0'; });
-            });
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                var els = document.querySelectorAll('.view-count[data-path]');
+                els.forEach(function(el, i) {
+                    setTimeout(function() {
+                        var path = el.getAttribute('data-path');
+                        fetch('https://gantz.ai/gc/counter' + path + '.json')
+                            .then(function(r) { return r.json(); })
+                            .then(function(data) { el.textContent = data.count || '0'; })
+                            .catch(function() { el.textContent = '0'; });
+                    }, i * 50);
+                });
+            }, 2000);
         });
         </script>
     </body>
