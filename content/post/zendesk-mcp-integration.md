@@ -3,6 +3,7 @@ title = "Zendesk MCP Integration: Build Enterprise Support AI Agents"
 image = "images/zendesk-mcp-integration.webp"
 date = 2025-05-19
 description = "Create AI-powered support agents with Zendesk and MCP. Learn ticket automation, knowledge base integration, and analytics with Gantz."
+summary = "Zendesk handles support at scale, but routing and first responses still eat agent time. Build AI that auto-routes tickets to the right team, suggests solutions from your knowledge base, drafts initial responses for human review, and identifies trends across thousands of tickets. Enterprise-grade support automation that integrates with your existing workflow."
 draft = false
 tags = ['zendesk', 'support', 'ticketing', 'mcp', 'enterprise', 'gantz']
 voice = false

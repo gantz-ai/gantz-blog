@@ -3,6 +3,7 @@ title = "Building AI Agents for EdTech with MCP: Learning Automation Solutions"
 image = "images/edtech-ai-agents.webp"
 date = 2025-06-01
 description = "Build intelligent EdTech AI agents with MCP and Gantz. Learn personalized learning, automated grading, and student engagement automation."
+summary = "Every student learns differently, but one teacher can't personalize for 30 kids. Build AI agents that adapt learning paths based on student performance, automate grading with consistent rubrics, provide 24/7 tutoring that meets students where they are, and surface insights about which concepts need more class time. Scale personalized education."
 draft = false
 tags = ['edtech', 'ai', 'mcp', 'education', 'learning', 'gantz']
 voice = false

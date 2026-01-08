@@ -3,6 +3,7 @@ title = "Research Assistant AI: Automate Literature Reviews"
 image = "images/research-assistant.webp"
 date = 2025-11-10
 description = "Build an AI research assistant that searches papers, summarizes findings, and compiles literature reviews automatically using MCP tools."
+summary = "Literature reviews take weeks manually. Build an AI assistant that searches academic databases, filters relevant papers, extracts key findings and methodologies, identifies research gaps, and compiles everything into coherent reviews with proper citations. Includes PDF parsing tools and prompts for accurate summarization."
 draft = false
 tags = ['mcp', 'tutorial', 'research']
 voice = false

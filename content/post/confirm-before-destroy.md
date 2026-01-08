@@ -6,6 +6,7 @@ image = "images/soldier-battlefield-fire.webp"
 draft = false
 tags = ['patterns', 'security', 'best-practices']
 voice = false
+summary = "Learn to implement the confirm-before-destroy pattern that prevents AI agents from accidentally deleting files, dropping databases, or running destructive commands. This guide covers tool-level guards, prompt-level safeguards, and a dedicated confirmation tool approach with complete code examples for building user-controlled safety checks."
 +++
 
 

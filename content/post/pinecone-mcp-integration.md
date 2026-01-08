@@ -3,6 +3,7 @@ title = "Pinecone MCP Integration: Vector Search for AI Agents"
 image = "images/pinecone-mcp-integration.webp"
 date = 2025-12-13
 description = "Build MCP tools for Pinecone vector database. Semantic search, RAG pipelines, and embedding management for AI applications."
+summary = "Build MCP tools for Pinecone that give AI agents semantic search capabilities with embedding generation, similarity queries, and metadata filtering. This guide covers implementing full RAG pipelines with context retrieval and source citation, hybrid dense-sparse search, batch vector upserts with auto-embedding, and index management for production deployments."
 draft = false
 tags = ['mcp', 'pinecone', 'vectors', 'search']
 voice = false

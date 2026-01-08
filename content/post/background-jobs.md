@@ -2,6 +2,7 @@
 title = "Background Jobs for Long-Running Tasks"
 date = 2025-12-30
 description = "Handle long-running AI agent tasks without HTTP timeouts. Implement background jobs, job queues, and status polling for reliable execution."
+summary = "Handle long-running AI tasks that exceed HTTP timeouts. Implement job queues, background workers, status polling, and webhooks for reliable task completion."
 image = "images/city-drones-crowd.webp"
 draft = false
 tags = ['architecture', 'scaling', 'patterns']

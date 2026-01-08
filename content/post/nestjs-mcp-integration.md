@@ -6,6 +6,7 @@ description = "Integrate MCP tools with NestJS applications. Build enterprise AI
 draft = false
 tags = ['mcp', 'nestjs', 'typescript', 'enterprise']
 voice = false
+summary = "Integrate MCP tools into NestJS applications using dependency injection, modules, and TypeScript decorators for enterprise-grade AI APIs. This guide covers creating injectable MCP services, building REST controllers with validation DTOs, implementing SSE and WebSocket streaming for real-time responses, and adding authentication guards with logging interceptors."
 
 [howto]
 name = "Integrate MCP with NestJS"

@@ -3,6 +3,7 @@ title = "AI Agent Use Cases: Real-World Applications"
 image = "images/ai-agent-use-cases.webp"
 date = 2025-11-06
 description = "Explore real-world AI agent use cases. Customer support, DevOps, sales, HR, and more. Practical applications with MCP and Claude."
+summary = "Real AI agent use cases that work: customer support (ticket triage), DevOps (incident response), sales (lead qualification), HR (screening), and data analysis with MCP tools."
 draft = false
 tags = ['mcp', 'use-cases', 'applications']
 voice = false

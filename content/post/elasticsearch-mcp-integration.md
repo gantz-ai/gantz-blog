@@ -6,6 +6,7 @@ description = "Build MCP tools for Elasticsearch. Full-text search, aggregations
 draft = false
 tags = ['mcp', 'elasticsearch', 'search', 'analytics']
 voice = false
+summary = "Elasticsearch handles billions of documents, but users still need to learn query syntax. Build MCP tools that let AI agents write complex queries from natural language, perform vector similarity search for semantic matching, run aggregations for analytics, and combine filters that would take humans minutes to construct. Make your search infrastructure conversational."
 
 [howto]
 name = "Integrate Elasticsearch with MCP"

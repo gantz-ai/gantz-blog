@@ -3,6 +3,7 @@ title = "Building an AI Churn Prevention Agent with MCP: Automated Customer Rete
 image = "images/churn-prevention-agent.webp"
 date = 2025-06-19
 description = "Build intelligent churn prevention agents with MCP and Gantz. Learn risk prediction, intervention automation, and AI-driven customer retention."
+summary = "Build AI agents for churn prevention. Predict at-risk customers, automate retention interventions, and personalize engagement to reduce customer churn."
 draft = false
 tags = ['churn-prevention', 'agent', 'ai', 'mcp', 'retention', 'gantz']
 voice = false

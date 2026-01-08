@@ -3,6 +3,7 @@ title = "Dynamic MCP Tool Generation: Create Tools at Runtime"
 image = "images/dynamic-tool-generation.webp"
 date = 2025-11-12
 description = "Generate MCP tools dynamically at runtime. Use AI to create new tools, generate tool schemas, and adapt toolsets to user needs automatically."
+summary = "Learn to generate MCP tools dynamically at runtime using templates for shell commands, API calls, and Python code. This guide covers AI-powered tool generation from natural language descriptions, automatic schema generation from functions, OpenAPI specs, and database schemas, plus validation and sandbox testing to ensure generated tools are safe before deployment."
 draft = false
 tags = ['mcp', 'tools', 'dynamic']
 voice = false

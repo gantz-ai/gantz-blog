@@ -6,6 +6,7 @@ image = "images/agent-asian-street.webp"
 draft = false
 tags = ['patterns', 'security', 'architecture']
 voice = false
+summary = "Autonomous agents are powerful, but autonomous agents with no guardrails are dangerous. Design agents that know when to stop and ask: require approval for destructive actions (deletes, sends, payments), expensive operations (large API calls, bulk processing), and high-stakes decisions. The best agents understand their own limitations and escalate appropriately."
 +++
 
 

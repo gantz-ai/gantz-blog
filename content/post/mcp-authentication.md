@@ -6,6 +6,7 @@ description = "Implement authentication for MCP servers. Learn token-based auth,
 draft = false
 tags = ['mcp', 'security', 'best-practices']
 voice = false
+summary = "Secure your MCP server with token-based authentication or OAuth 2.0, covering secure token generation with cryptographic randomness, request validation middleware, token storage and rotation, scope-based permissions, and JWT validation. This guide includes code examples for rate limiting, authentication logging, and testing auth flows, plus quick setup with Gantz CLI."
 
 [howto]
 name = "Secure Your MCP Server with Authentication"

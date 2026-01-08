@@ -3,6 +3,7 @@ title = "AI Agent Workflow Patterns with MCP: Complex Process Automation"
 image = "images/workflow-patterns.webp"
 date = 2025-06-05
 description = "Master AI agent workflow patterns with MCP and Gantz. Learn process orchestration, state machines, and complex business workflow automation."
+summary = "Real business processes aren't linear - they branch, loop back, wait for approvals, and handle exceptions. This guide covers workflow patterns that model these complexities: state machines that track where you are, conditional transitions that pick the right path, parallel execution for independent steps, and human-in-the-loop gates for decisions that need oversight. Build workflows that match how your business actually operates."
 draft = false
 tags = ['workflow', 'patterns', 'ai', 'mcp', 'automation', 'gantz']
 voice = false

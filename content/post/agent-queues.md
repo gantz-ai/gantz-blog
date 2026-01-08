@@ -3,6 +3,7 @@ title = "Agent Job Queues: Scale AI Workloads"
 image = "images/agent-queues.webp"
 date = 2025-11-17
 description = "Build job queues for AI agents. Handle high-volume workloads, manage priorities, and scale agent processing using MCP tools."
+summary = "Scale AI workloads with job queues. Handle 10,000+ requests with background processing, priority queues, worker pools, retry logic, and dead letter handling for failed jobs."
 draft = false
 tags = ['mcp', 'architecture', 'scaling']
 voice = false

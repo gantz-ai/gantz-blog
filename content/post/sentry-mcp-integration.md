@@ -3,6 +3,7 @@ title = "Sentry MCP Integration: AI-Powered Error Tracking and Analysis"
 image = "images/sentry-mcp-integration.webp"
 date = 2025-05-25
 description = "Build intelligent error tracking agents with Sentry and MCP. Learn issue management, release tracking, and AI-driven debugging with Gantz."
+summary = "Let AI analyze your Sentry errors - auto-triage by severity, identify root causes from stack traces, suggest code fixes, detect regression patterns, and group similar issues. Includes handlers for issue management, event analysis, and release tracking integration."
 draft = false
 tags = ['sentry', 'error-tracking', 'debugging', 'mcp', 'devops', 'gantz']
 voice = false

@@ -3,6 +3,7 @@ title = "Firebase MCP Integration: Google Cloud for AI Agents"
 image = "images/firebase-mcp-integration.webp"
 date = 2025-12-17
 description = "Build MCP tools for Firebase. Firestore, Authentication, Cloud Storage, and real-time database tools for AI applications."
+summary = "Firebase powers millions of apps - now give your AI agents the same access. Build MCP tools for Firestore document operations with security rules, Firebase Auth for user management, Cloud Storage for file handling, and real-time database listeners that let agents react to data changes instantly. Perfect for mobile app backends with AI features."
 draft = false
 tags = ['mcp', 'firebase', 'google', 'baas']
 voice = false

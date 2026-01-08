@@ -6,6 +6,7 @@ description = "Build MCP tools for Amazon DynamoDB. Key-value operations, querie
 draft = false
 tags = ['mcp', 'dynamodb', 'aws', 'nosql']
 voice = false
+summary = "DynamoDB scales infinitely and responds in milliseconds - perfect for AI agents that need fast, reliable state. Build MCP tools for key-value operations, GSI queries, batch reads and writes, and stream processing. Design partition keys for agent workloads and handle the eventually consistent read model correctly."
 
 [howto]
 name = "Integrate DynamoDB with MCP"

@@ -2,6 +2,7 @@
 title = "The Art of Tool Descriptions"
 date = 2025-11-21
 description = "Write tool descriptions that AI agents understand. Best practices for clear, actionable descriptions that improve tool selection accuracy."
+summary = "Your tool descriptions are prompts that determine whether AI picks the right tool. Vague descriptions like 'sends messages' lead to wrong tool selection. Clear descriptions like 'send email to specific recipient with subject and body' dramatically improve accuracy. Learn the patterns that make AI choose correctly."
 image = "images/robot-billboard-09.webp"
 draft = false
 tags = ['tool-use', 'prompting', 'best-practices']

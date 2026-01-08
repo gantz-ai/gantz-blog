@@ -3,6 +3,7 @@ title = "MCP Timeout Configuration: Prevent Hanging Operations"
 image = "images/mcp-timeout-configuration.webp"
 date = 2025-10-31
 description = "Configure timeouts for MCP tools and AI agents. Connection, read, and operation timeouts for responsive and reliable systems."
+summary = "Prevent indefinite hangs in your MCP tools by configuring connection, read, write, and total operation timeouts appropriately. This guide covers HTTP client and database timeout configuration, cascading timeout budgets for nested operations, timeout-aware MCP tool execution, and monitoring timeout metrics to optimize values over time."
 draft = false
 tags = ['mcp', 'reliability', 'timeouts']
 voice = false

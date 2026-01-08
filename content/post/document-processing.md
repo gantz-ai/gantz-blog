@@ -6,6 +6,7 @@ description = "Build an AI agent that extracts structured data from PDFs, invoic
 draft = false
 tags = ['mcp', 'tutorial', 'document-processing']
 voice = false
+summary = "Build an AI document processing system that extracts structured JSON from PDFs, invoices, contracts, receipts, resumes, and bank statements. This guide covers MCP tool definitions for PDF parsing and OCR, specialized extractors for different document types, automatic document classification, batch processing pipelines, and a complete CLI tool for production use."
 
 [howto]
 name = "Build Document Processor"

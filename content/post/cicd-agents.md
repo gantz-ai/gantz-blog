@@ -6,6 +6,7 @@ description = "Use AI agents in CI/CD pipelines for automated code review, test 
 draft = false
 tags = ['mcp', 'tutorial', 'devops']
 voice = false
+summary = "Your CI pipeline runs tests and deploys code, but it doesn't think. Add AI agents to analyze test failures and suggest fixes, review PRs for security issues, assess deployment risk based on change scope, and auto-triage incidents. Integrate with GitHub Actions, GitLab CI, or Jenkins to make your pipeline intelligent."
 
 [howto]
 name = "Add AI Agents to CI/CD"

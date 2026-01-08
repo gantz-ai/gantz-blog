@@ -3,6 +3,7 @@ title = "New Relic MCP Integration: AI-Powered Application Intelligence"
 image = "images/newrelic-mcp-integration.webp"
 date = 2025-05-24
 description = "Build intelligent observability agents with New Relic and MCP. Learn NRQL queries, AIOps, and performance optimization with Gantz."
+summary = "Build AI-powered observability agents that query New Relic using natural language, automatically generating NRQL queries and interpreting results. Learn to implement service health analysis with APM metrics, anomaly detection from historical data, alert threshold optimization, and incident intelligence for root cause analysis."
 draft = false
 tags = ['newrelic', 'apm', 'observability', 'mcp', 'aiops', 'gantz']
 voice = false

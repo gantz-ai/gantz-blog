@@ -3,6 +3,7 @@ title = "MCP Server Discovery: Auto-Detect Available Tools"
 image = "images/mcp-discovery.webp"
 date = 2025-11-09
 description = "Implement tool discovery for MCP servers. Let AI agents automatically find and use available tools without hardcoding configurations."
+summary = "Enable AI agents to automatically discover available MCP tools through the standard tools/list endpoint and dynamic registries. Learn how to write rich tool descriptions with examples, implement capability-based grouping, add conditional tool exposure based on context, and cache discovery responses for optimal performance."
 draft = false
 tags = ['mcp', 'architecture', 'patterns']
 voice = false

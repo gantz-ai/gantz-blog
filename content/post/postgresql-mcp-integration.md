@@ -3,6 +3,7 @@ title = "PostgreSQL MCP Integration: Database Tools for AI Agents"
 image = "images/postgresql-mcp-integration.webp"
 date = 2025-12-05
 description = "Build MCP tools for PostgreSQL operations. Query execution, schema introspection, and AI-powered database interactions."
+summary = "Let AI agents query your PostgreSQL database safely. Build MCP tools for schema introspection so the agent understands your tables, parameterized queries to prevent SQL injection, read-only modes for safety, and natural language to SQL translation. The agent can explore your data structure and write queries without you specifying every table relationship."
 draft = false
 tags = ['mcp', 'postgresql', 'database', 'sql']
 voice = false

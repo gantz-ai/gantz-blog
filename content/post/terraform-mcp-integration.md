@@ -3,6 +3,7 @@ title = "Terraform MCP Integration: AI-Powered Infrastructure as Code"
 image = "images/terraform-mcp-integration.webp"
 date = 2025-05-27
 description = "Build intelligent infrastructure automation with Terraform and MCP. Learn IaC generation, drift detection, and cost optimization with Gantz."
+summary = "Generate Terraform configs from natural language, detect infrastructure drift automatically, get AI-powered cost optimization recommendations, and run security compliance scans. Includes handlers for plan, apply, state management, and change impact analysis."
 draft = false
 tags = ['terraform', 'infrastructure', 'iac', 'mcp', 'devops', 'gantz']
 voice = false

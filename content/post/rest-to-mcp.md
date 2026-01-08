@@ -2,6 +2,7 @@
 title = "From REST to MCP: what's changing"
 date = 2025-11-28
 description = "REST was built for apps, MCP for AI. Compare API paradigms and understand why AI agents need tool protocols instead of traditional endpoints."
+summary = "Understand why AI agents need MCP's tool-based interface instead of traditional REST endpoints. While REST exposes resources and HTTP verbs that require hardcoded knowledge, MCP provides self-describing tools that AI can discover and understand at runtime. Learn how to wrap existing REST APIs as MCP tools, when to use each approach, and the migration pattern for supporting both apps and AI agents."
 image = "images/robot-billboard-06.webp"
 draft = false
 tags = ['mcp', 'architecture', 'comparison']

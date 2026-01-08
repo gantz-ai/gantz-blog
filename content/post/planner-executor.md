@@ -2,6 +2,7 @@
 title = "The Planner-Executor pattern explained"
 date = 2025-12-04
 description = "Master the Planner-Executor pattern for complex AI tasks. Separate planning from execution for better reliability and easier debugging."
+summary = "ReAct agents think and act in tight loops, but that's risky for high-stakes tasks. The Planner-Executor pattern separates concerns: first create a complete plan with all steps visible, get human approval, then execute step by step with checkpoints. Easier to debug, safer to run, and users can see what's coming before anything happens."
 image = "images/agent-train-03.webp"
 draft = false
 featured = true

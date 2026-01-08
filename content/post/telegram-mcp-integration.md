@@ -3,6 +3,7 @@ title = "Telegram MCP Integration: Build Intelligent Telegram Bots"
 image = "images/telegram-mcp-integration.webp"
 date = 2025-05-13
 description = "Create AI-powered Telegram bots with MCP tools. Learn inline mode, keyboards, payments, and group management with Gantz."
+summary = "Build Telegram bots that actually understand context. This integration covers inline mode for instant responses, custom keyboards for structured input, payment processing for commerce bots, and intelligent group management that can moderate, answer questions, and coordinate discussions. Deploy an AI assistant your users can message directly."
 draft = false
 tags = ['telegram', 'bot', 'messaging', 'mcp', 'chat', 'gantz']
 voice = false

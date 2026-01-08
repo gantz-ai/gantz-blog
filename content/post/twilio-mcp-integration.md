@@ -3,6 +3,7 @@ title = "Twilio MCP Integration: Build AI-Powered SMS and Voice Agents"
 image = "images/twilio-mcp-integration.webp"
 date = 2025-05-15
 description = "Create intelligent SMS and voice agents with Twilio and MCP. Learn programmable messaging, voice IVR, and conversation handling with Gantz."
+summary = "Build AI-powered communication agents with Twilio. Send smart SMS, handle inbound calls with context-aware IVR, manage multi-channel conversations, and scale to 180+ countries. Includes handlers for programmable messaging, voice flows, and conversation management."
 draft = false
 tags = ['twilio', 'sms', 'voice', 'mcp', 'telephony', 'gantz']
 voice = false

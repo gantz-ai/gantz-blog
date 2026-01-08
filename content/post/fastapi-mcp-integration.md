@@ -6,6 +6,7 @@ description = "Integrate MCP tools with FastAPI applications. Build AI-powered R
 draft = false
 tags = ['mcp', 'fastapi', 'python', 'api']
 voice = false
+summary = "Build AI-powered REST APIs by integrating MCP tools with FastAPI, leveraging async handlers, dependency injection for service management, and streaming responses via Server-Sent Events and WebSockets. This guide includes a complete MCP tool service implementation, rate limiting, API key authentication, background task execution, and global error handling middleware."
 
 [howto]
 name = "Integrate MCP with FastAPI"

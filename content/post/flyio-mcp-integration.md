@@ -3,6 +3,7 @@ title = "Fly.io MCP Integration: Deploy AI Agents Globally in Seconds"
 image = "images/flyio-mcp-integration.webp"
 date = 2025-05-06
 description = "Deploy MCP-powered AI agents on Fly.io. Learn multi-region deployment, persistent volumes, and container orchestration with Gantz."
+summary = "Deploy AI agents to 30+ regions worldwide with a single command. Fly.io runs your containers close to users, handles automatic failover, and provides persistent volumes for agent state. This guide covers multi-region deployment, volume configuration for conversation history, and scaling strategies that keep latency low for global users."
 draft = false
 tags = ['flyio', 'containers', 'deployment', 'mcp', 'global', 'gantz']
 voice = false

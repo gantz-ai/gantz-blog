@@ -3,6 +3,7 @@ title = "AI Content Writer: Blog Posts on Autopilot"
 image = "images/content-writer-agent.webp"
 date = 2025-11-11
 description = "Build an AI content writer agent that researches topics, creates outlines, and writes SEO-optimized blog posts using MCP tools."
+summary = "Stop context-switching between research tabs, outline docs, and your CMS. Build an agent that handles the entire content pipeline: researches topics across multiple sources, creates structured outlines, writes SEO-optimized drafts with proper keyword density, and publishes directly to WordPress, Ghost, or your custom CMS."
 draft = false
 tags = ['mcp', 'tutorial', 'content']
 voice = false

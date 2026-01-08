@@ -2,6 +2,7 @@
 title = "MCP vs Function Calling - What's the difference?"
 date = 2025-12-12
 description = "MCP vs Function Calling explained. MCP servers execute tools remotely, function calling returns tool calls for your code to handle. When to use each approach."
+summary = "Understand the fundamental architectural difference between MCP and function calling: with function calling, your code handles tool execution; with MCP, a separate server executes tools directly. Learn when to use each approach based on whether tools need app state access, will be shared across applications, or require specific runtime environments."
 image = "images/warrior-rain-city-03.webp"
 draft = false
 featured = true

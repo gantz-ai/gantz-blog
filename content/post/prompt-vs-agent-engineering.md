@@ -2,6 +2,7 @@
 title = "Prompt Engineering vs Agent Engineering"
 date = 2025-12-02
 description = "Prompt engineering crafts inputs. Agent engineering builds systems. Learn how these disciplines differ and where they overlap in AI development."
+summary = "Understand the fundamental difference between prompt engineering (crafting single-turn inputs for better outputs) and agent engineering (building multi-step systems with tools, memory, and orchestration). Learn which skills matter for each discipline, when to use prompts alone versus full agent systems, common mistakes like over-engineering prompts when you need agents, and how these disciplines complement each other in production AI applications."
 image = "images/agent-neon-04.webp"
 draft = false
 tags = ['prompting', 'architecture', 'comparison']

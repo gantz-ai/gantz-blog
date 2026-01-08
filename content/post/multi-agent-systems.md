@@ -3,6 +3,7 @@ title = "Multi-Agent Systems: Coordinate AI Workers"
 image = "images/multi-agent-systems.webp"
 date = 2025-11-18
 description = "Build multi-agent systems where specialized AI agents collaborate. Orchestration patterns, communication, and task delegation using MCP."
+summary = "Build sophisticated multi-agent systems where specialized AI workers collaborate to solve complex problems that single agents cannot handle alone. This guide covers five orchestration patterns including orchestrator-delegate, sequential pipeline, parallel swarm, adversarial debate, and hierarchical teams, with complete code examples for each approach."
 draft = false
 tags = ['mcp', 'architecture', 'multi-agent']
 voice = false

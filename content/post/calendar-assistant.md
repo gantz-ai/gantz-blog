@@ -3,6 +3,7 @@ title = "AI Calendar Assistant: Schedule Meetings Automatically"
 image = "images/calendar-assistant.webp"
 date = 2025-11-14
 description = "Build an AI calendar assistant that schedules meetings, finds optimal times, manages conflicts, and handles rescheduling using MCP tools."
+summary = "Build an AI calendar assistant with MCP. Schedule meetings automatically, find optimal times, resolve conflicts, and handle rescheduling through natural language."
 draft = false
 tags = ['mcp', 'tutorial', 'calendar']
 voice = false

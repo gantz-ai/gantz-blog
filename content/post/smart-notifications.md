@@ -3,6 +3,7 @@ title = "Smart Notifications: AI That Knows When to Alert You"
 image = "images/smart-notifications.webp"
 date = 2025-11-15
 description = "Build an AI notification system that filters noise, prioritizes alerts, and knows when to interrupt. Stop notification overload with MCP tools."
+summary = "Getting hundreds of notifications a day? Most are noise. Build an AI notification layer that learns what matters to you, filters low-priority alerts, batches related messages together, escalates urgent issues immediately, and knows not to interrupt you in meetings. Stop context-switching for every ping while never missing what's actually important."
 draft = false
 tags = ['mcp', 'tutorial', 'notifications']
 voice = false

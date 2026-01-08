@@ -3,6 +3,7 @@ title = "Building AI Agents for Fintech with MCP: Financial Automation Solutions
 image = "images/fintech-ai-agents.webp"
 date = 2025-06-03
 description = "Build intelligent fintech AI agents with MCP and Gantz. Learn fraud detection, risk assessment, and automated financial operations."
+summary = "Build compliant AI agents for fintech that detect fraud, assess risk, process transactions, and ensure regulatory compliance in financial operations."
 draft = false
 tags = ['fintech', 'ai', 'mcp', 'finance', 'automation', 'gantz']
 voice = false

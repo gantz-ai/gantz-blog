@@ -3,6 +3,7 @@ title = "AI Agent Sandboxing: Isolate Agents for Security"
 image = "images/agent-sandboxing.webp"
 date = 2025-11-17
 description = "Sandbox AI agents for security. Use containers, VMs, and restricted environments to isolate agent execution and limit blast radius with MCP."
+summary = "Isolate AI agents with containers, network restrictions, resource limits, and runtime security (seccomp, AppArmor). Limit blast radius when agents execute untrusted code."
 draft = false
 tags = ['mcp', 'security', 'sandboxing']
 voice = false

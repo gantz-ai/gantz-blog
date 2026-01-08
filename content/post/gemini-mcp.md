@@ -6,6 +6,7 @@ description = "Connect Google Gemini to MCP servers. Use function calling with y
 draft = false
 tags = ['mcp', 'tutorial', 'gemini']
 voice = false
+summary = "Google Gemini uses function calling, MCP uses tools - this guide bridges the gap. Learn to convert MCP tool definitions into Gemini function declarations, handle Gemini's function call responses, route them back to your MCP server, and return results. Works with Gemini Pro and Ultra models through the google-generativeai SDK."
 
 [howto]
 name = "Connect Gemini to MCP"

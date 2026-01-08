@@ -6,6 +6,7 @@ description = "Build intelligent issue tracking agents with Jira and MCP. Learn 
 draft = false
 tags = ['jira', 'issue-tracking', 'agile', 'mcp', 'automation', 'gantz']
 voice = false
+summary = "Build AI-powered Jira automation that auto-triages issues with priority and component classification, estimates story points using machine learning, optimizes sprint planning based on team capacity, detects blocked issues, and predicts release completion dates. Includes handlers for JQL search, sprint analysis, and AI-generated release notes."
 
 [howto]
 name = "How To Build AI Issue Tracking with Jira and MCP"

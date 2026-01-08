@@ -6,6 +6,7 @@ description = "Optimize MCP server performance with connection pooling, async ex
 draft = false
 tags = ['mcp', 'performance', 'best-practices']
 voice = false
+summary = "Achieve sub-100ms tool call latency by implementing async I/O, connection pooling for databases and HTTP clients, and smart caching strategies. This guide covers profiling bottlenecks, parallel tool execution, response streaming for large outputs, and benchmarking techniques to measure your optimization gains."
 
 [howto]
 name = "Optimize MCP Server Performance"

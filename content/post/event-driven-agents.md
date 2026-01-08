@@ -6,6 +6,7 @@ description = "Build event-driven AI agents that react to events in real-time. A
 draft = false
 tags = ['mcp', 'architecture', 'events']
 voice = false
+summary = "Request-response agents wait for users. Event-driven agents react to what happens in your system - new signups, failed payments, support tickets, deployment events. Build async, non-blocking architectures where agents subscribe to event streams, process autonomously, and handle failures with dead letter queues. Scale to thousands of events per second."
 
 [howto]
 name = "Build Event-Driven Agents"

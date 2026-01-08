@@ -3,6 +3,7 @@ title = "Building AI Agents for Gaming with MCP: Game Intelligence Solutions"
 image = "images/gaming-ai-agents.webp"
 date = 2025-05-26
 description = "Build intelligent gaming AI agents with MCP and Gantz. Learn NPC behavior, player analytics, and game economy automation."
+summary = "Games need smarter NPCs than scripted behavior trees can provide. Build AI agents that control believable NPC behavior, analyze player patterns to adjust difficulty dynamically, balance in-game economies in real-time, and generate procedural quests and content. Create game AI that responds to emergent gameplay instead of following rigid scripts."
 draft = false
 tags = ['gaming', 'ai', 'mcp', 'gamedev', 'automation', 'gantz']
 voice = false

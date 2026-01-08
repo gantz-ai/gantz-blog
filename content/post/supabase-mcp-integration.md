@@ -3,6 +3,7 @@ title = "Supabase MCP Integration: Backend as a Service for AI"
 image = "images/supabase-mcp-integration.webp"
 date = 2025-12-15
 description = "Build MCP tools for Supabase. Database queries, authentication, storage, and real-time subscriptions for AI agents."
+summary = "Supabase gives you Postgres, auth, storage, and realtime in one package - now give it to your AI agents. Build MCP tools for database queries with row-level security, user authentication flows, file uploads to storage buckets, and real-time subscriptions that let agents react to database changes as they happen."
 draft = false
 tags = ['mcp', 'supabase', 'baas', 'database']
 voice = false

@@ -3,6 +3,7 @@ title = "AI Agent Audit Logging: Track Every Action"
 image = "images/agent-audit-logging.webp"
 date = 2025-11-15
 description = "Implement comprehensive audit logging for AI agents. Track tool calls, decisions, and outcomes for compliance, debugging, and security monitoring."
+summary = "Track every AI agent action with structured audit logs. Implement event classification, integrity verification via hash chains, and real-time anomaly detection. Essential for compliance, security, and debugging agent behavior."
 draft = false
 tags = ['mcp', 'security', 'logging']
 voice = false

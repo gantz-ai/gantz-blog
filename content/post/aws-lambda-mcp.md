@@ -3,6 +3,7 @@ title = "AWS Lambda MCP Integration: Build Serverless AI Agents"
 image = "images/aws-lambda-mcp.webp"
 date = 2025-05-01
 description = "Deploy MCP-powered AI agents on AWS Lambda. Learn serverless architecture, cold start optimization, and event-driven AI workflows with Gantz."
+summary = "Serverless AI agents that scale to zero and handle millions of requests. Deploy MCP agents on AWS Lambda with API Gateway for HTTP triggers or SQS for async processing. Learn cold start optimization techniques, connection pooling for database tools, and provisioned concurrency for latency-sensitive use cases. Pay only for compute you actually use."
 draft = false
 tags = ['aws', 'lambda', 'serverless', 'mcp', 'cloud', 'gantz']
 voice = false

@@ -2,6 +2,7 @@
 title = "The Sliding Window vs Summarization Trade-off"
 date = 2025-11-24
 description = "Compare sliding window and summarization approaches for managing AI agent context. Learn the trade-offs in accuracy, cost, and latency for each method."
+summary = "Your context window fills up. What do you drop? Sliding window is fast but loses early context like 'My name is Alice.' Summarization preserves key info but costs extra API calls and can lose details. Learn the trade-offs and when to use each approach."
 image = "images/warrior-rain-city-07.webp"
 draft = false
 tags = ['memory', 'patterns', 'comparison']

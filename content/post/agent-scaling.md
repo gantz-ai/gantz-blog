@@ -3,6 +3,7 @@ title = "Scale AI Agents: From Prototype to Production"
 image = "images/agent-scaling.webp"
 date = 2025-11-22
 description = "Scale AI agents from prototype to production traffic. Handle rate limits, optimize costs, implement caching, and manage concurrent requests with MCP."
+summary = "Scale AI agents from 10 to 10,000 requests. Handle rate limits with backoff, add response caching, optimize costs with model routing, and scale horizontally."
 draft = false
 tags = ['mcp', 'architecture', 'scaling']
 voice = false

@@ -3,6 +3,7 @@ title = "Deploy AI Agents to Production: Complete Guide"
 image = "images/agent-deployment.webp"
 date = 2025-11-21
 description = "Deploy AI agents to production safely. Docker, Kubernetes, serverless options, environment configuration, and rollout strategies using MCP."
+summary = "Deploy AI agents with Docker containers, Kubernetes orchestration, and CI/CD pipelines. Implement health checks, horizontal scaling, canary deployments, and proper secret management. Works with serverless too."
 draft = false
 tags = ['mcp', 'devops', 'deployment']
 voice = false

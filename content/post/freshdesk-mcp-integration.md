@@ -3,6 +3,7 @@ title = "Freshdesk MCP Integration: AI-Powered Help Desk Automation"
 image = "images/freshdesk-mcp-integration.webp"
 date = 2025-05-20
 description = "Build intelligent help desk agents with Freshdesk and MCP. Learn ticket automation, canned responses, and analytics integration with Gantz."
+summary = "Build intelligent Freshdesk help desk automation that uses AI for ticket categorization, sentiment analysis, priority assessment, and smart agent routing. This guide covers webhook handlers for real-time ticket processing, AI-generated response suggestions based on knowledge base articles and canned responses, and SLA breach prediction with automatic escalation."
 draft = false
 tags = ['freshdesk', 'helpdesk', 'support', 'mcp', 'automation', 'gantz']
 voice = false

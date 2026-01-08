@@ -2,6 +2,7 @@
 title = "Memory Patterns for AI Agents"
 date = 2025-12-10
 description = "Give AI agents persistent memory across conversations. Patterns for short-term, long-term, and episodic memory with implementation examples."
+summary = "Give your AI agents persistent memory with three complementary systems: short-term memory using sliding windows and token-aware buffers, long-term memory with key-value stores and vector search, and episodic memory for conversation logs and event timelines. Learn practical patterns for auto-extracting user preferences, session summarization, and memory decay."
 image = "images/robot-billboard-03.webp"
 draft = false
 tags = ['memory', 'patterns', 'architecture']

@@ -6,6 +6,7 @@ description = "Build intelligent Helm automation with MCP. Learn chart managemen
 draft = false
 tags = ['helm', 'kubernetes', 'package-management', 'mcp', 'devops', 'gantz']
 voice = false
+summary = "Build AI-powered Helm automation that generates charts from natural language descriptions, performs risk-analyzed smart upgrades, optimizes release values based on resource metrics, and makes intelligent rollback decisions. This guide includes handlers for all Helm operations, chart security analysis, umbrella chart generation, and raw manifest conversion to parameterized Helm templates."
 
 [howto]
 name = "How To Build AI Helm Automation with MCP"

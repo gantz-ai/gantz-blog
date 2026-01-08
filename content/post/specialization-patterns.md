@@ -3,6 +3,7 @@ title = "AI Agent Specialization Patterns with MCP: Expert Agent Systems"
 image = "images/specialization-patterns.webp"
 date = 2025-06-09
 description = "Master AI agent specialization patterns with MCP and Gantz. Learn domain expertise, skill composition, and specialized agent architectures."
+summary = "Generalist agents are jacks of all trades, masters of none. Build specialized agents with deep domain expertise - a code reviewer that knows security, a support agent that understands your product, a data analyst fluent in your metrics. Learn skill composition, domain prompting, and when specialization beats generalization."
 draft = false
 tags = ['specialization', 'patterns', 'ai', 'mcp', 'multi-agent', 'gantz']
 voice = false

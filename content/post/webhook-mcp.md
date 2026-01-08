@@ -3,6 +3,7 @@ title = "Trigger AI Agents from Webhooks with MCP"
 image = "images/webhook-mcp.webp"
 date = 2025-11-03
 description = "Connect webhooks to AI agents using MCP. Trigger automated workflows from GitHub, Stripe, Slack, and other services."
+summary = "Turn incoming webhooks into AI actions. GitHub push triggers code review, Stripe payment triggers fulfillment, Slack mention triggers context-aware responses. Build a webhook receiver that routes events to MCP tools and lets AI decide what to do next."
 draft = false
 tags = ['mcp', 'tutorial', 'automation']
 voice = false

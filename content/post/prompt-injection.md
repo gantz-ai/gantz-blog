@@ -2,6 +2,7 @@
 title = "Prompt Injection: Your Agent's Biggest Vulnerability"
 date = 2025-12-03
 description = "What is prompt injection and how to prevent it. Defense strategies for AI agents including input sanitization, sandboxing, and tool allowlisting."
+summary = "Understand how prompt injection attacks hijack AI agents through malicious file contents, poisoned URLs, database data, and tool output chaining. Learn defense-in-depth strategies including marking untrusted content, system prompt warnings, tool allowlisting, separating data from commands, output filtering for injection patterns, confirmation gates for destructive operations, and sandboxed execution environments."
 image = "images/warrior-rain-city-05.webp"
 draft = false
 featured = true

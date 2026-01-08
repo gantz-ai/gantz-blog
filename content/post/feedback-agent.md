@@ -3,6 +3,7 @@ title = "Building an AI Feedback Agent with MCP: Automated User Insights"
 image = "images/feedback-agent.webp"
 date = 2025-06-16
 description = "Build intelligent feedback agents with MCP and Gantz. Learn sentiment analysis, feedback routing, and AI-driven product insights."
+summary = "User feedback is scattered across support tickets, app reviews, surveys, and social media - too much for humans to synthesize. Build an agent that aggregates feedback from all sources, analyzes sentiment and themes, identifies urgent issues, and routes actionable insights to the right product teams. Turn noise into signal automatically."
 draft = false
 tags = ['feedback', 'agent', 'ai', 'mcp', 'product', 'gantz']
 voice = false

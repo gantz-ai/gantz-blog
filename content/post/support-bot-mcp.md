@@ -3,6 +3,7 @@ title = "Build a Customer Support Bot with MCP Tools"
 image = "images/support-bot-mcp.webp"
 date = 2025-11-09
 description = "Create an AI-powered customer support bot that can access your knowledge base, check orders, and resolve issues using MCP tools."
+summary = "Most support bots can only parrot FAQ answers. Build one that actually does things: search your knowledge base for relevant articles, look up customer orders and subscription status, process simple refunds automatically, create tickets when needed, and escalate to humans with full context. Handle 80% of tickets without human intervention."
 draft = false
 tags = ['mcp', 'tutorial', 'customer-support']
 voice = false

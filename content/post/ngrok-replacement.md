@@ -6,6 +6,7 @@ image = "images/agent-city-02.webp"
 draft = false
 tags = ['mcp', 'deployment', 'tutorial']
 voice = true
+summary = "Expose local MCP servers to Claude and other AI agents without ngrok, port forwarding, or infrastructure setup using Gantz CLI's built-in tunneling. Define your tools in YAML with shell scripts or HTTP endpoints, run one command, and get a secure public URL instantly that implements the full MCP protocol."
 
 [howto]
 name = "Expose Local MCP Servers Without ngrok"

@@ -3,6 +3,7 @@ title = "MCP Batching: Process Multiple Requests Efficiently"
 image = "images/mcp-batching.webp"
 date = 2025-11-05
 description = "Implement request batching for MCP tools. Reduce API calls, optimize throughput, and handle bulk operations in AI agent systems."
+summary = "Implement request batching for MCP tools to reduce API calls by up to 66x, covering async and sync batch collectors with configurable size and wait times, database bulk insert/update/delete operations, API request batching for embeddings and external services, partial failure handling with resilient batchers, and Prometheus-based monitoring for batch performance tracking."
 draft = false
 tags = ['mcp', 'performance', 'batching']
 voice = false

@@ -2,6 +2,7 @@
 title = "Where does MCP fit in your stack?"
 date = 2025-12-14
 description = "Understand where Model Context Protocol fits in your AI architecture. Visual guide to MCP's role between LLMs, tools, and your application layer."
+summary = "Learn exactly where MCP fits in the modern AI application stack, from user interface down to external systems. This visual guide clarifies what MCP does and does not replace, showing how it serves as the communication protocol layer between your AI orchestration and the databases, APIs, and services your agents need to access."
 image = "images/agent-platform-logo.webp"
 draft = false
 tags = ['mcp', 'architecture', 'deep-dive']

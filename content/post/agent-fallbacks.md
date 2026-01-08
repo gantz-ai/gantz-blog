@@ -3,6 +3,7 @@ title = "AI Agent Fallback Strategies: Ensure Service Continuity"
 image = "images/agent-fallbacks.webp"
 date = 2025-11-18
 description = "Implement fallback strategies for AI agents. Model fallbacks, tool alternatives, cached responses, and graceful degradation patterns with MCP."
+summary = "Keep AI agents running when services fail. Implement model fallbacks (switch providers), tool alternatives, cached responses, and graceful degradation. Plan your fallback hierarchy before production."
 draft = false
 tags = ['mcp', 'reliability', 'fallbacks']
 voice = false

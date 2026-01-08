@@ -3,6 +3,7 @@ title = "AI Agent Evaluation: Measure Quality Systematically"
 image = "images/agent-evaluation.webp"
 date = 2025-11-09
 description = "Evaluate AI agents systematically. Build evaluation frameworks, define metrics, create benchmarks, and continuously measure agent quality with MCP."
+summary = "Measure agent quality systematically with evaluation frameworks. Define criteria (correctness, completeness, safety), create test datasets, implement LLM-as-judge scoring, build benchmarks, and set up continuous monitoring."
 draft = false
 tags = ['mcp', 'testing', 'evaluation']
 voice = false

@@ -2,6 +2,7 @@
 title = "The Voice-First Agent: No Typing Required"
 date = 2025-11-19
 description = "Build voice-controlled AI agents with speech-to-text and text-to-speech. Tutorial for hands-free interaction with MCP tools and local commands."
+summary = "Build an AI agent you can talk to while your hands are busy - cooking, driving, or building. Uses Whisper for speech recognition, ElevenLabs or pyttsx3 for voice output, and wake word detection so it only responds when addressed. Connect to your existing MCP tools for voice-controlled actions."
 image = "images/robot-billboard-10.webp"
 draft = false
 tags = ['tutorial', 'architecture', 'deep-dive']

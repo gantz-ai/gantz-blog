@@ -3,6 +3,7 @@ title = "Grafana MCP Integration: AI-Powered Dashboard and Visualization"
 image = "images/grafana-mcp-integration.webp"
 date = 2025-05-22
 description = "Build intelligent visualization agents with Grafana and MCP. Learn dashboard automation, alert management, and AI insights with Gantz."
+summary = "Creating Grafana dashboards means clicking through UI panels one by one. Let AI agents do it instead - describe what you want to visualize and the agent creates the dashboard, configures alert thresholds based on historical baselines, analyzes metric trends to spot anomalies, and explains what your observability data actually means."
 draft = false
 tags = ['grafana', 'visualization', 'dashboards', 'mcp', 'observability', 'gantz']
 voice = false

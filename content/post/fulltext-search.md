@@ -2,6 +2,7 @@
 title = "Full-Text Search: The RAG Alternative Nobody Tries"
 date = 2025-12-20
 description = "Skip vector databases and try full-text search first. Compare PostgreSQL, SQLite FTS, and Elasticsearch as simpler RAG alternatives."
+summary = "Before spinning up Pinecone and embedding pipelines, try the search technology that's been battle-tested for decades. PostgreSQL full-text search, SQLite FTS5, and Elasticsearch handle most retrieval needs without the complexity of vectors. They're faster to implement, easier to debug, and often produce better results for keyword-heavy queries."
 image = "images/agent-city-01.webp"
 draft = false
 tags = ['rag', 'architecture', 'comparison']

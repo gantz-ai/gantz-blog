@@ -2,6 +2,7 @@
 title = "How to Handle Tools That Return Too Much Data"
 date = 2025-11-22
 description = "Manage AI agent tools that return massive outputs. Strategies for truncation, pagination, summarization, and streaming large tool results."
+summary = "Your agent calls a tool and gets 50,000 lines back - now what? That won't fit in context. Learn strategies for handling massive tool outputs: smart truncation that keeps relevant parts, pagination for iterative exploration, summarization for high-level views, and streaming for progressive processing. Keep agents responsive regardless of data size."
 image = "images/warrior-rain-city-08.webp"
 draft = false
 tags = ['tool-use', 'patterns', 'best-practices']

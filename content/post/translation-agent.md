@@ -3,6 +3,7 @@ title = "Build a Translation Agent for Any Language"
 image = "images/translation-agent.webp"
 date = 2025-11-12
 description = "Create an AI translation agent that handles documents, websites, and apps. Support any language pair with context-aware translations using MCP tools."
+summary = "Go beyond word-by-word machine translation. Build an AI agent that understands full context, adapts to domain-specific terminology, maintains your brand voice, and handles cultural nuances. Covers batch processing for documents and websites, quality validation, and human review workflows."
 draft = false
 tags = ['mcp', 'tutorial', 'translation']
 voice = false

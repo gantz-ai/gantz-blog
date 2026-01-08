@@ -3,6 +3,7 @@ title = "PagerDuty MCP Integration: AI-Powered Incident Response"
 image = "images/pagerduty-mcp-integration.webp"
 date = 2025-05-26
 description = "Build intelligent incident management agents with PagerDuty and MCP. Learn automated escalation, incident analysis, and on-call management with Gantz."
+summary = "Build AI-powered incident response agents that integrate with PagerDuty to auto-triage incidents by severity and category, make intelligent escalation decisions based on expertise needed, and correlate related alerts. Learn to implement runbook suggestions, post-mortem generation with timeline and root cause analysis, and on-call fatigue prediction."
 draft = false
 tags = ['pagerduty', 'incident-management', 'on-call', 'mcp', 'devops', 'gantz']
 voice = false

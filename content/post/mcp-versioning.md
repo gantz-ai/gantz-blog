@@ -3,6 +3,7 @@ title = "MCP Versioning: Update Tools Without Breaking Agents"
 image = "images/mcp-versioning.webp"
 date = 2025-11-10
 description = "Version your MCP tools safely. Learn semantic versioning, backward compatibility, and migration strategies for AI agent tool updates."
+summary = "Update MCP tools safely without breaking existing agents by implementing URL, header, or parameter versioning strategies. This guide covers identifying breaking vs non-breaking changes, building version registries with backward-compatible handlers, gradual rollout with feature flags, deprecation warnings, and testing across multiple versions."
 draft = false
 tags = ['mcp', 'architecture', 'best-practices']
 voice = false

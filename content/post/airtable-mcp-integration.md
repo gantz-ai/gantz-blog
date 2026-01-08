@@ -3,6 +3,7 @@ title = "Airtable MCP Integration: AI-Powered Database Automation"
 image = "images/airtable-mcp-integration.webp"
 date = 2025-06-04
 description = "Build intelligent database agents with Airtable and MCP. Learn record management, automation, and AI-driven data operations with Gantz."
+summary = "Build AI database agents with Airtable and MCP. Automate record management, data analysis, and business workflows through natural language using Gantz tools."
 draft = false
 tags = ['airtable', 'database', 'automation', 'mcp', 'productivity', 'gantz']
 voice = false

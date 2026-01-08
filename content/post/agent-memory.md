@@ -3,6 +3,7 @@ title = "Agent Memory Patterns: Context That Persists"
 image = "images/agent-memory.webp"
 date = 2025-11-19
 description = "Build AI agents with persistent memory. Store conversation history, learned facts, and user preferences across sessions using MCP tools."
+summary = "Build AI agents that remember across sessions. Implement short-term, episodic, semantic, and procedural memory types with vector databases for semantic retrieval. Context that persists."
 draft = false
 tags = ['mcp', 'architecture', 'memory']
 voice = false

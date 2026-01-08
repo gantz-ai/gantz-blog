@@ -2,6 +2,7 @@
 title = "Agents as State Machines"
 date = 2026-01-03
 description = "Model AI agents as state machines for clearer design. Learn states, transitions, and events to build predictable, debuggable agent architectures."
+summary = "Model AI agents as state machines for predictable design. Define states (thinking, acting, waiting), transitions, and events. Makes debugging and flow control much clearer."
 image = "images/cyborg-bridge-drones.webp"
 draft = false
 tags = ['architecture', 'patterns', 'deep-dive']

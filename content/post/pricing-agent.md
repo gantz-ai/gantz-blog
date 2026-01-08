@@ -3,6 +3,7 @@ title = "Building an AI Pricing Agent with MCP: Dynamic Price Optimization"
 image = "images/pricing-agent.webp"
 date = 2025-06-13
 description = "Build intelligent pricing agents with MCP and Gantz. Learn dynamic pricing, competitor analysis, and AI-driven revenue optimization."
+summary = "Static pricing leaves money on the table. Build an agent that monitors competitor prices in real-time, calculates demand elasticity from sales data, adjusts prices based on inventory levels and market conditions, and runs A/B tests to find optimal price points. Dynamic pricing that responds to market changes automatically instead of quarterly manual reviews."
 draft = false
 tags = ['pricing', 'agent', 'ai', 'mcp', 'revenue', 'gantz']
 voice = false

@@ -3,6 +3,7 @@ title = "Discord MCP Integration: Build AI-Powered Discord Bots"
 image = "images/discord-mcp-integration.webp"
 date = 2025-05-11
 description = "Create intelligent Discord bots with MCP tools. Learn slash commands, message handling, voice integration, and moderation automation with Gantz."
+summary = "Build intelligent Discord bots using MCP tools that handle slash commands, provide AI-powered question answering, automatically moderate content for toxicity and spam, and create support ticket workflows. This guide includes complete Python code for message handlers, embed templates, sentiment analysis, and deployment with Gantz CLI."
 draft = false
 tags = ['discord', 'bot', 'chat', 'mcp', 'community', 'gantz']
 voice = false

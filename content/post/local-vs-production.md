@@ -2,6 +2,7 @@
 title = "Why Your Agent Works Locally But Fails in Production"
 date = 2025-12-15
 description = "Debug common AI agent deployment issues: environment variables, file paths, network topology, rate limits, timeouts, and memory limits. Includes fixes and best practices."
+summary = "Debug the 12 most common reasons AI agents fail in production: missing environment variables, wrong file paths, different network topology, restricted permissions, missing tool binaries, rate limits, short timeouts, memory limits, concurrent request issues, model behavior changes, cold starts, and log verbosity. Includes fixes and a pre-deployment checklist."
 image = "images/warrior-rain-city-02.webp"
 draft = false
 tags = ['deployment', 'debugging', 'best-practices']

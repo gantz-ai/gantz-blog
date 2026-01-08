@@ -6,6 +6,7 @@ description = "Automate Git workflows with AI agents. Auto-generate commit messa
 draft = false
 tags = ['mcp', 'tutorial', 'automation']
 voice = false
+summary = "Automate tedious Git workflows with AI agents that generate conventional commit messages from diffs, create semantic branch names from task descriptions, write comprehensive PR descriptions, and assist with merge conflict resolution by analyzing both sides and proposing solutions. Includes a complete CLI tool and Git hooks integration examples."
 
 [howto]
 name = "Automate Git with AI"

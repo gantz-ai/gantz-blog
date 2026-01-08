@@ -3,6 +3,7 @@ title = "Building an AI Lead Scoring Agent with MCP: Automated Sales Qualificati
 image = "images/lead-scoring-agent.webp"
 date = 2025-06-18
 description = "Build intelligent lead scoring agents with MCP and Gantz. Learn automated qualification, predictive scoring, and AI-driven sales prioritization."
+summary = "Build an AI lead scoring agent that enriches lead data from external sources, scores prospects based on demographic fit, behavioral engagement, company fit, and intent signals, predicts conversion probability and deal size, and recommends optimal next actions. Includes handlers for batch scoring, buying signal analysis, and pipeline prioritization workflows."
 draft = false
 tags = ['lead-scoring', 'agent', 'ai', 'mcp', 'sales', 'gantz']
 voice = false

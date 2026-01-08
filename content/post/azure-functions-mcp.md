@@ -3,6 +3,7 @@ title = "Azure Functions MCP Integration: Build AI Agents on Microsoft Cloud"
 image = "images/azure-functions-mcp.webp"
 date = 2025-05-03
 description = "Deploy MCP-powered AI agents on Azure Functions. Learn durable functions, event hubs integration, and Azure AI services with Gantz."
+summary = "Deploy MCP AI agents on Azure Functions. Build durable function orchestrations for complex workflows, integrate with Event Hubs, and leverage Azure AI services."
 draft = false
 tags = ['azure', 'azure-functions', 'serverless', 'mcp', 'microsoft', 'gantz']
 voice = false

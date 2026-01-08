@@ -3,6 +3,7 @@ title = "Next.js MCP Integration: Full-Stack AI Apps"
 image = "images/nextjs-mcp-integration.webp"
 date = 2025-11-21
 description = "Integrate MCP tools with Next.js applications. Build AI-powered full-stack apps with API routes, server components, and streaming UI patterns."
+summary = "Create full-stack AI applications with Next.js App Router and MCP tools using server components, API routes, and server actions. This guide covers implementing streaming endpoints with ReadableStream for real-time AI responses, building interactive chat components with SSE consumption, and creating custom React hooks for AI state management."
 draft = false
 tags = ['mcp', 'nextjs', 'react', 'typescript']
 voice = false

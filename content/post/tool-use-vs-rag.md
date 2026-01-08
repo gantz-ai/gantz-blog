@@ -2,6 +2,7 @@
 title = "Tool Use vs RAG: picking the right approach"
 date = 2025-11-20
 description = "When to use RAG vs Tool Use in AI applications. RAG retrieves knowledge, Tool Use executes actions. Decision framework with practical examples."
+summary = "RAG is for knowing - retrieving documents, searching knowledge bases, finding information. Tool Use is for doing - querying databases, calling APIs, running commands. Most real agents need both: RAG to understand context, tools to take action. Learn the decision framework for when to use each and how to combine them effectively."
 image = "images/warrior-rain-city-09.webp"
 draft = false
 tags = ['tool-use', 'rag', 'comparison']

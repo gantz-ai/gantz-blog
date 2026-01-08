@@ -6,6 +6,7 @@ description = "Deploy MCP-powered AI agents on Railway. Learn instant deployment
 draft = false
 tags = ['railway', 'deployment', 'paas', 'mcp', 'devops', 'gantz']
 voice = false
+summary = "Railway auto-detects your framework, provisions PostgreSQL/Redis/MongoDB in seconds, and gives every PR its own preview environment. No Dockerfiles, no YAML configs - just push code and get a running MCP agent with SSL. This guide covers the full deployment workflow using Gantz CLI."
 
 [howto]
 name = "How To Deploy AI Agents on Railway with MCP"

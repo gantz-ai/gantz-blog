@@ -3,6 +3,7 @@ title = "Intercom MCP Integration: Build AI-Powered Customer Support"
 image = "images/intercom-mcp-integration.webp"
 date = 2025-05-18
 description = "Create intelligent customer support agents with Intercom and MCP. Learn conversation handling, bot automation, and customer insights with Gantz."
+summary = "Create intelligent Intercom customer support agents that handle conversation routing, AI-powered response generation with knowledge base integration, sentiment-based escalation to human agents, and proactive engagement for at-risk users. This guide covers webhook handlers, user segmentation, and complete AISupport class implementation with category-based team routing."
 draft = false
 tags = ['intercom', 'support', 'customer-service', 'mcp', 'chat', 'gantz']
 voice = false

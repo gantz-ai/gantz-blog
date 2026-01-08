@@ -6,6 +6,7 @@ image = "images/agent-jungle-green.webp"
 draft = false
 tags = ['debugging', 'patterns', 'best-practices']
 voice = false
+summary = "Master AI agent debugging by implementing comprehensive thought logging that captures LLM inputs, outputs, tool calls, and results. This guide shows you how to identify common failure patterns like wrong tool selection, missing context, hallucinated parameters, and infinite loops, plus build replay systems and visual debugging tools to step through agent decisions."
 +++
 
 

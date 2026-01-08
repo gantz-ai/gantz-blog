@@ -6,6 +6,7 @@ description = "Create an automated code review agent using MCP tools. Analyze PR
 draft = false
 tags = ['mcp', 'tutorial', 'code-review']
 voice = false
+summary = "Human reviewers miss things and get inconsistent when tired. Build an AI reviewer that catches real bugs (not just formatting), applies your team's standards uniformly, and reviews every PR within seconds of opening. Integrate with GitHub to post comments directly on diffs, flag security issues, and suggest specific fixes with code snippets."
 
 [howto]
 name = "Build AI Code Reviewer"

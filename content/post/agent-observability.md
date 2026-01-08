@@ -3,6 +3,7 @@ title = "Agent Observability: Debug AI in Production"
 image = "images/agent-observability.webp"
 date = 2025-11-20
 description = "Monitor and debug AI agents in production. Implement logging, tracing, metrics, and alerting for agent systems using MCP tools."
+summary = "Debug AI agents in production with structured logging, distributed tracing across LLM calls and tools, metrics (latency, cost, success rate), dashboards, and alerting on failures."
 draft = false
 tags = ['mcp', 'architecture', 'observability']
 voice = false

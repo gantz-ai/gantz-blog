@@ -3,6 +3,7 @@ title = "Building an AI Onboarding Agent with MCP: Automated User Activation"
 image = "images/onboarding-agent.webp"
 date = 2025-06-15
 description = "Build intelligent onboarding agents with MCP and Gantz. Learn personalized onboarding flows, progress tracking, and AI-driven user activation."
+summary = "Build an AI onboarding agent that creates personalized user journeys based on role, company size, and experience level, then tracks progress and health scores in real-time. Learn to implement proactive interventions when users are at risk, cohort analysis to identify dropoff patterns, flow optimization based on completion data, and dynamic content generation for each onboarding step."
 draft = false
 tags = ['onboarding', 'agent', 'ai', 'mcp', 'customer-success', 'gantz']
 voice = false

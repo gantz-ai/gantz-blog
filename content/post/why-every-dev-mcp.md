@@ -2,6 +2,7 @@
 title = "Why every dev will run an MCP server"
 date = 2025-11-17
 description = "Prediction: MCP servers will be as common as local dev servers. Learn why Model Context Protocol is becoming essential for AI-powered development workflows."
+summary = "MCP servers will become as common as local dev servers. Instead of copy-pasting data into ChatGPT, you'll run a local MCP server that gives AI direct access to your database, codebase, and internal tools - all while keeping sensitive data on your machine. The killer feature isn't raw capability, it's keeping your data private while getting AI's help."
 image = "images/agent-misc-01.webp"
 draft = false
 tags = ['mcp', 'architecture', 'deep-dive']

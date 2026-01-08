@@ -3,6 +3,7 @@ title = "SQLite MCP Tools: Embedded Database for AI Agents"
 image = "images/sqlite-mcp-tools.webp"
 date = 2025-12-21
 description = "Build MCP tools for SQLite. Local database operations, in-memory caching, and portable data storage for AI applications."
+summary = "SQLite runs everywhere - no server required. Build MCP tools for local database queries, in-memory caching that persists across agent calls, full-text search with FTS5, and natural language to SQL translation. Perfect for desktop apps, CLI tools, and anywhere you need persistent data without managing infrastructure."
 draft = false
 tags = ['mcp', 'sqlite', 'database', 'local']
 voice = false

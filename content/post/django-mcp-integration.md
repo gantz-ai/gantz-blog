@@ -6,6 +6,7 @@ description = "Integrate MCP tools with Django applications. Build AI-powered we
 draft = false
 tags = ['mcp', 'django', 'python', 'web']
 voice = false
+summary = "Integrate MCP tools into Django applications with a complete production-ready setup including database models for tracking tool executions, a service layer with caching, Celery tasks for async processing, and Django REST Framework APIs. This guide covers everything from project configuration to admin interface customization for managing AI-powered tools."
 
 [howto]
 name = "Integrate MCP with Django"

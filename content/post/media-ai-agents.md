@@ -3,6 +3,7 @@ title = "Building AI Agents for Media with MCP: Content Automation Solutions"
 image = "images/media-ai-agents.webp"
 date = 2025-05-27
 description = "Build intelligent media AI agents with MCP and Gantz. Learn content personalization, automated production, and audience engagement."
+summary = "Build intelligent AI agents that transform media operations by automating content personalization, production workflows, and audience analytics. This tutorial covers implementing recommendation systems, AI-assisted content creation, audience behavior analysis, distribution optimization, content moderation, and ad monetization using MCP tools and Gantz deployment."
 draft = false
 tags = ['media', 'ai', 'mcp', 'content', 'automation', 'gantz']
 voice = false

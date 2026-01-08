@@ -3,6 +3,7 @@ title = "AI Data Analyst: Query Databases in Plain English"
 image = "images/data-analyst-agent.webp"
 date = 2025-11-08
 description = "Build an AI data analyst agent that translates natural language to SQL queries. Chat with your database using plain English."
+summary = "Non-technical stakeholders asking for data? Build an agent that translates 'show me last month's top customers' into the right SQL query. The agent inspects your schema, understands table relationships, generates safe parameterized queries, and can even visualize results. Turn your database into a conversational interface anyone can use."
 draft = false
 tags = ['mcp', 'tutorial', 'data-analysis']
 voice = false

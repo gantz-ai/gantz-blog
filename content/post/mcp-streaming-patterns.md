@@ -3,6 +3,7 @@ title = "MCP Streaming Patterns: Real-Time AI Agent Responses"
 image = "images/mcp-streaming-patterns.webp"
 date = 2025-11-04
 description = "Implement streaming patterns for MCP tools. Server-sent events, chunked responses, and real-time updates for responsive AI agent experiences."
+summary = "Build responsive AI agent experiences with real-time streaming using SSE, WebSocket, or chunked HTTP transports. This guide covers LLM response streaming with tool execution updates, backpressure handling with adaptive rate limiting, error recovery with automatic reconnection and checkpointing, and client-side stream consumption patterns."
 draft = false
 tags = ['mcp', 'streaming', 'real-time']
 voice = false

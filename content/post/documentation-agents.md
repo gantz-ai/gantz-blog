@@ -3,6 +3,7 @@ title = "Auto-Generate Documentation with AI Agents"
 image = "images/documentation-agents.webp"
 date = 2025-11-07
 description = "Build AI agents that automatically generate and maintain documentation from your codebase. API docs, README files, and more."
+summary = "Documentation gets stale the moment code changes. Build agents that watch your codebase, detect changes, and update docs automatically. Generate API references from function signatures, keep READMEs in sync with actual behavior, and add inline comments explaining complex logic. Documentation that maintains itself."
 draft = false
 tags = ['mcp', 'tutorial', 'documentation']
 voice = false

@@ -3,6 +3,7 @@ title = "MongoDB MCP Integration: NoSQL Tools for AI Agents"
 image = "images/mongodb-mcp-integration.webp"
 date = 2025-12-07
 description = "Build MCP tools for MongoDB operations. Document queries, aggregation pipelines, and AI-powered NoSQL interactions."
+summary = "Build MCP tools that let AI agents interact with MongoDB using CRUD operations, aggregation pipelines for complex data analysis, and Atlas Vector Search for semantic queries. This guide covers schema introspection to help AI understand document structure, natural language to MongoDB query generation, and time series aggregations."
 draft = false
 tags = ['mcp', 'mongodb', 'nosql', 'database']
 voice = false

@@ -3,6 +3,7 @@ title = "HubSpot MCP Integration: AI-Powered Marketing and Sales Automation"
 image = "images/hubspot-mcp-integration.webp"
 date = 2025-06-01
 description = "Build intelligent marketing agents with HubSpot and MCP. Learn contact management, campaign automation, and AI-driven engagement with Gantz."
+summary = "Connect AI agents to HubSpot for inbound marketing automation. Auto-segment audiences using ML, generate personalized email content, run automated A/B tests, trigger intelligent workflow based on lead behavior, and predict engagement rates. Includes handlers for contacts, deals, campaigns, and analytics."
 draft = false
 tags = ['hubspot', 'marketing', 'crm', 'mcp', 'automation', 'gantz']
 voice = false

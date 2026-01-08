@@ -6,6 +6,7 @@ description = "Build intelligent e-commerce AI agents with MCP and Gantz. Learn 
 draft = false
 tags = ['ecommerce', 'ai', 'mcp', 'retail', 'automation', 'gantz']
 voice = false
+summary = "Build AI agents for e-commerce that deliver personalized product recommendations, optimize inventory levels with demand forecasting, handle customer inquiries with intent classification, recover abandoned carts with tailored incentives, and implement dynamic pricing based on competitor analysis and demand elasticity. Includes complete handler implementations and deployment instructions."
 
 [howto]
 name = "How To Build AI Agents for E-commerce with MCP"

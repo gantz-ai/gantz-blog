@@ -2,6 +2,7 @@
 title = "    # The Reranker: RAG's Secret Weapon"
 date = 2025-11-29
 description = "Boost RAG accuracy with rerankers. Learn how reranking improves retrieval quality by reordering vector search results before LLM generation."
+summary = "Your RAG retrieves 10 documents but the right answer is in position 7 - and the LLM only looks at the top 3. Rerankers fix this by scoring each document against the actual query and reordering results before the LLM sees them. A simple second-stage filter that dramatically improves accuracy without changing your embedding model."
 image = "images/agent-neon-05.webp"
 draft = false
 tags = ['rag', 'patterns', 'deep-dive']

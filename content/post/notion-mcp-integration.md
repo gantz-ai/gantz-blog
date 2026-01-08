@@ -3,6 +3,7 @@ title = "Notion MCP Integration: AI-Powered Workspace Automation"
 image = "images/notion-mcp-integration.webp"
 date = 2025-06-03
 description = "Build intelligent workspace agents with Notion and MCP. Learn database automation, content generation, and AI-driven knowledge management with Gantz."
+summary = "Build AI agents that automate Notion workspace operations including page creation, database queries with filters, and content block management. Learn to implement AI-powered content generation for documents, automatic page summarization with key point extraction, knowledge base question answering, and intelligent workspace organization suggestions."
 draft = false
 tags = ['notion', 'productivity', 'workspace', 'mcp', 'automation', 'gantz']
 voice = false

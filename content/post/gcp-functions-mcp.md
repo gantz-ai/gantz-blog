@@ -3,6 +3,7 @@ title = "Google Cloud Functions MCP Integration: Serverless AI Agents on GCP"
 image = "images/gcp-functions-mcp.webp"
 date = 2025-05-02
 description = "Build and deploy MCP-powered AI agents on Google Cloud Functions. Learn event-driven architecture, Cloud Run integration, and GCP best practices with Gantz."
+summary = "Deploy serverless MCP-powered AI agents on Google Cloud Functions with HTTP, Pub/Sub, and Cloud Storage triggers for event-driven architectures. This guide covers handler implementations for function invocation and deployment, Vertex AI integration with Gemini models, Cloud Run compatibility for Gen 2 functions, custom metrics with Cloud Monitoring, and Cloud Scheduler for periodic tasks."
 draft = false
 tags = ['gcp', 'cloud-functions', 'serverless', 'mcp', 'google-cloud', 'gantz']
 voice = false

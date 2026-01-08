@@ -2,6 +2,7 @@
 title = "Why Your 50-Tool Agent is Worse Than a 5-Tool One"
 date = 2026-01-06
 description = "More tools don't mean better AI agents. Learn why 5 well-designed tools outperform 50 mediocre ones in accuracy, speed, and cost."
+summary = "More tools make AI agents worse, not better. 50 tools cause decision paralysis, waste tokens on definitions, and confuse models with similar options. Tests show 5-tool agents are faster, cheaper, and 94% accurate vs 76% for 50-tool agents. Start with 4 core tools: read, write, search, run."
 image = "images/agent-drones-hud.webp"
 draft = false
 tags = ['tool-use', 'best-practices', 'architecture']

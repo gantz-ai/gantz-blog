@@ -2,6 +2,7 @@
 title = "I Over-Engineered My Agent (Here's What I Learned)"
 date = 2025-12-05
 description = "Lessons from over-engineering an AI agent. Why simpler architectures beat complex memory systems, planners, and multi-agent coordination."
+summary = "Complex agent architectures with multi-tier memory and planners often perform worse than simple designs. Start basic and add complexity only when needed."
 image = "images/robot-billboard-05.webp"
 draft = false
 tags = ['best-practices', 'architecture', 'patterns']

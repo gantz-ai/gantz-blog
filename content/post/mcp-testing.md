@@ -3,6 +3,7 @@ title = "How to Test MCP Tools Before Production"
 image = "images/mcp-testing.webp"
 date = 2025-11-11
 description = "Test MCP tools effectively with unit tests, integration tests, and mock servers. Catch bugs before your AI agents hit production."
+summary = "Discover how to thoroughly test MCP tools before deploying them to production where AI agents will use them with unexpected inputs. This guide covers unit testing individual tool functions, integration testing with real dependencies, building mock MCP servers for agent testing, and property-based testing to catch edge cases you never imagined."
 draft = false
 tags = ['mcp', 'testing', 'best-practices']
 voice = false

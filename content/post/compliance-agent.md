@@ -6,6 +6,7 @@ description = "Build intelligent compliance agents with MCP and Gantz. Learn aut
 draft = false
 tags = ['compliance', 'agent', 'ai', 'mcp', 'regulation', 'gantz']
 voice = false
+summary = "Compliance teams can't manually track every regulatory change. Build an agent that monitors regulations 24/7, automatically checks your policies against new requirements, scores risk across departments, generates gap analysis reports, and prepares audit documentation. Stay compliant without dedicating a team to reading regulatory updates."
 
 [howto]
 name = "How To Build an AI Compliance Agent with MCP"

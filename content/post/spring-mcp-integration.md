@@ -3,6 +3,7 @@ title = "Spring Boot MCP Integration: Java AI Applications"
 image = "images/spring-mcp-integration.webp"
 date = 2025-11-29
 description = "Integrate MCP tools with Spring Boot. Build enterprise Java AI applications with dependency injection, WebFlux streaming, and microservices patterns."
+summary = "Integrate MCP tools into enterprise Java applications with Spring Boot. Use dependency injection for tool services, WebFlux for reactive streaming responses, @Async for background processing, and microservices patterns for scalable AI deployments."
 draft = false
 tags = ['mcp', 'spring', 'java', 'enterprise']
 voice = false

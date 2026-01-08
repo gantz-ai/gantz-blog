@@ -3,6 +3,7 @@ title = "Flask MCP Integration: Lightweight AI APIs"
 image = "images/flask-mcp-integration.webp"
 date = 2025-11-23
 description = "Integrate MCP tools with Flask applications. Build lightweight AI-powered APIs with blueprints, async support, and extension patterns."
+summary = "Flask is minimal by design - add only what you need. Integrate MCP tools using blueprints for clean route organization, async execution patterns that don't block the request thread, Server-Sent Events for streaming agent responses, and extensions for caching, rate limiting, and request validation. Lightweight AI APIs without framework bloat."
 draft = false
 tags = ['mcp', 'flask', 'python', 'api']
 voice = false

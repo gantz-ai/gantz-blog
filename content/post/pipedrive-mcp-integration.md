@@ -3,6 +3,7 @@ title = "Pipedrive MCP Integration: AI-Powered Sales Pipeline Automation"
 image = "images/pipedrive-mcp-integration.webp"
 date = 2025-06-02
 description = "Build intelligent sales agents with Pipedrive and MCP. Learn deal management, activity automation, and AI-driven pipeline optimization with Gantz."
+summary = "Build AI sales agents that integrate with Pipedrive to manage deals, predict win probability with risk factors, and prioritize your pipeline by value and urgency. Learn to implement automatic activity scheduling, pipeline velocity analysis with bottleneck detection, next-best-action suggestions for each deal, and AI-powered sales coaching with objection handling tips."
 draft = false
 tags = ['pipedrive', 'sales', 'pipeline', 'mcp', 'crm', 'gantz']
 voice = false

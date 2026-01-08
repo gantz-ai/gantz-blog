@@ -3,6 +3,7 @@ title = "Testing AI Agents: Strategies That Work"
 image = "images/agent-testing.webp"
 date = 2025-11-23
 description = "Test AI agents effectively with unit tests, integration tests, and evaluation frameworks. Handle non-determinism and validate agent behavior using MCP."
+summary = "Test non-deterministic AI agents with unit tests for tools, integration tests for workflows, LLM-based evaluation for quality, and CI automation. Handle unpredictability with fuzzy matching."
 draft = false
 tags = ['mcp', 'testing', 'quality']
 voice = false

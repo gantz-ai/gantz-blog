@@ -6,6 +6,7 @@ image = "images/warrior-rain-city-01.webp"
 draft = false
 tags = ['patterns', 'architecture', 'best-practices']
 voice = false
+summary = "AI agents fail - tools break, APIs timeout, models hallucinate. The difference between a toy and production agent is how it handles failure. Learn retry strategies with exponential backoff, fallback chains when primary tools are down, graceful degradation that keeps working with reduced functionality, and error boundaries that prevent cascading failures."
 +++
 
 

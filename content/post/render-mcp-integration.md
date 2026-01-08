@@ -3,6 +3,7 @@ title = "Render MCP Integration: Deploy AI Agents with Managed Infrastructure"
 image = "images/render-mcp-integration.webp"
 date = 2025-05-08
 description = "Deploy MCP-powered AI agents on Render. Learn web services, background workers, cron jobs, and managed databases with Gantz."
+summary = "Render makes deployment simple - push to GitHub and your agent deploys automatically. This guide covers web services for API endpoints, background workers for long-running agent tasks, cron jobs for scheduled processing, and managed Postgres databases. Zero DevOps required, with automatic SSL and custom domains included."
 draft = false
 tags = ['render', 'deployment', 'paas', 'mcp', 'infrastructure', 'gantz']
 voice = false

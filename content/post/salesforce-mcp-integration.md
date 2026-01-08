@@ -3,6 +3,7 @@ title = "Salesforce MCP Integration: AI-Powered CRM Automation"
 image = "images/salesforce-mcp-integration.webp"
 date = 2025-05-31
 description = "Build intelligent CRM agents with Salesforce and MCP. Learn lead management, opportunity tracking, and AI-driven sales automation with Gantz."
+summary = "Build AI agents that work directly in Salesforce - scoring leads with ML, predicting deal outcomes, auto-enriching contact data, and coaching reps with personalized recommendations. Includes OAuth setup, SOQL query tools, and pipeline forecasting handlers."
 draft = false
 tags = ['salesforce', 'crm', 'sales', 'mcp', 'automation', 'gantz']
 voice = false

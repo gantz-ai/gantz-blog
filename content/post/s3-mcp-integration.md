@@ -3,6 +3,7 @@ title = "S3 MCP Integration: Cloud Storage for AI Agents"
 image = "images/s3-mcp-integration.webp"
 date = 2025-12-23
 description = "Build MCP tools for Amazon S3. Object storage, file management, and cloud data operations for AI applications."
+summary = "Give AI agents access to S3 cloud storage. Build MCP tools for uploading files, downloading objects, listing buckets, generating presigned URLs for secure temporary access, and batch operations for processing thousands of files. Enable agents to manage documents, process data pipelines, and handle file-heavy workflows at scale."
 draft = false
 tags = ['mcp', 's3', 'aws', 'storage']
 voice = false

@@ -3,6 +3,7 @@ title = "Building an AI Competitive Intelligence Agent with MCP: Automated Marke
 image = "images/competitive-intel-agent.webp"
 date = 2025-06-17
 description = "Build intelligent competitive intelligence agents with MCP and Gantz. Learn competitor monitoring, market analysis, and AI-driven strategic insights."
+summary = "Build AI agents for competitive intelligence. Monitor competitors, analyze market data, track news and social mentions, generate strategic insights automatically."
 draft = false
 tags = ['competitive-intelligence', 'agent', 'ai', 'mcp', 'strategy', 'gantz']
 voice = false

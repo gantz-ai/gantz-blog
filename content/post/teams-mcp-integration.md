@@ -3,6 +3,7 @@ title = "Microsoft Teams MCP Integration: Build Enterprise AI Assistants"
 image = "images/teams-mcp-integration.webp"
 date = 2025-05-12
 description = "Create intelligent Microsoft Teams bots with MCP tools. Learn adaptive cards, proactive messaging, and enterprise integration with Gantz."
+summary = "Build AI bots that live in Microsoft Teams channels - answering questions, automating workflows, summarizing meetings, and sending proactive alerts. Covers Azure Bot Service registration, adaptive cards for rich interactions, Azure AD authentication, and connecting to corporate systems through MCP tools."
 draft = false
 tags = ['teams', 'microsoft', 'enterprise', 'mcp', 'bot', 'gantz']
 voice = false

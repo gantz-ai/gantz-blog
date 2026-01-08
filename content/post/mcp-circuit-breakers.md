@@ -6,6 +6,7 @@ description = "Implement circuit breakers for MCP tools. Prevent cascading failu
 draft = false
 tags = ['mcp', 'reliability', 'resilience']
 voice = false
+summary = "Implement the circuit breaker pattern to protect your MCP tools from cascading failures using closed, open, and half-open states. This guide covers building circuit breaker registries, applying decorators for easy integration, and monitoring circuit health to ensure graceful degradation when services fail."
 
 [howto]
 name = "Implement Circuit Breakers"

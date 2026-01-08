@@ -3,6 +3,7 @@ title = "Redis MCP Tools: Caching and State for AI Agents"
 image = "images/redis-mcp-tools.webp"
 date = 2025-12-09
 description = "Build MCP tools for Redis operations. Caching, session management, pub/sub, and real-time state for AI agent systems."
+summary = "AI agents need speed, and Redis delivers microsecond latency. Build MCP tools for key-value caching, session state, pub/sub messaging between agents, and real-time data structures. Perfect for agent memory, conversation history, rate limiting, and coordinating multi-agent systems that need to share state instantly."
 draft = false
 tags = ['mcp', 'redis', 'caching', 'state']
 voice = false

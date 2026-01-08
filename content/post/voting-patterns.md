@@ -3,6 +3,7 @@ title = "AI Agent Voting Patterns with MCP: Collective Decision Systems"
 image = "images/voting-patterns.webp"
 date = 2025-06-10
 description = "Master AI agent voting patterns with MCP and Gantz. Learn ranked choice, weighted voting, and collective intelligence decision-making."
+summary = "When multiple agents disagree, how do you decide? Majority vote is simple but ignores confidence. Ranked choice captures preferences. Weighted voting gives experts more influence. Learn collective decision patterns that produce better outcomes than any single agent, with implementations using MCP."
 draft = false
 tags = ['voting', 'patterns', 'ai', 'mcp', 'multi-agent', 'gantz']
 voice = false

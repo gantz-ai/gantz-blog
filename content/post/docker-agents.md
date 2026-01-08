@@ -2,6 +2,7 @@
 title = "The Minimal Docker Setup for Agents"
 date = 2025-12-24
 description = "Deploy AI agents with Docker in 5 files. Minimal Dockerfile, docker-compose setup, and best practices for containerizing Python-based agents."
+summary = "Deploy AI agents anywhere with a minimal 5-file Docker setup that includes a Dockerfile, docker-compose configuration, environment management, and secrets handling. This guide walks through adding Redis for state storage, wrapping agents in FastAPI endpoints, production hardening with health checks and resource limits, and common troubleshooting tips for containerized deployments."
 image = "images/robot-billboard.webp"
 draft = false
 tags = ['docker', 'deployment', 'tutorial']

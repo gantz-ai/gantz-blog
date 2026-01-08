@@ -2,6 +2,7 @@
 title = "Monolith vs Microservices for Agents"
 date = 2025-12-08
 description = "One agent or many? Compare monolithic vs multi-agent architectures. When to use specialized agents and how to coordinate them effectively."
+summary = "Multi-agent systems are trendy, but most apps don't need them. Start with one monolithic agent that handles everything - it's simpler to debug, easier to maintain, and cheaper to run. Only split into specialized agents when you hit real scaling limits or need truly different capabilities. Premature distribution is the root of all evil in agent architecture."
 image = "images/robot-billboard-04.webp"
 draft = false
 tags = ['architecture', 'scaling', 'comparison']

@@ -7,6 +7,7 @@ draft = false
 featured = true
 tags = ['rag', 'mcp', 'tutorial']
 voice = false
+summary = "Build a local RAG system in 30 minutes that lets Claude search your documents without cloud services, vector databases, or embeddings APIs. This guide covers grep-style text search for smaller document sets, vector search with sentence-transformers and FAISS for semantic queries, and MCP tool configuration for integrating both approaches with Claude."
 
 [howto]
 name = "Build Local RAG with MCP"

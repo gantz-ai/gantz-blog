@@ -2,6 +2,7 @@
 title = "The Reflection pattern: AI that checks its own work"
 date = 2025-11-30
 description = "Build self-correcting AI agents with the Reflection pattern. Implement output verification, error detection, and iterative improvement loops."
+summary = "Implement the Reflection pattern where AI agents review their own work before returning results, catching errors like missing edge cases, logic bugs, and incomplete solutions. Learn reflection strategies including self-critique prompts, verification tools, multi-perspective checks, and constitutional AI rules, with examples for code generation and tool use validation."
 image = "images/agent-train-04.webp"
 draft = false
 tags = ['patterns', 'architecture', 'deep-dive']

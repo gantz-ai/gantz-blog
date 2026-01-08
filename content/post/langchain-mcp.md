@@ -3,6 +3,7 @@ title = "LangChain MCP Integration: Use Any Tool"
 image = "images/langchain-mcp.webp"
 date = 2025-11-04
 description = "Connect LangChain to MCP servers. Use your custom tools with any LLM through the LangChain agent framework."
+summary = "LangChain gives you the agent framework. MCP gives you standardized tools. This integration bridges both - wrap MCP tools as LangChain tools, fetch tool definitions dynamically at runtime, and use your custom MCP servers with any LLM that LangChain supports. Switch models without rewriting tool code."
 draft = false
 tags = ['mcp', 'tutorial', 'langchain']
 voice = false

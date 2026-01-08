@@ -2,6 +2,7 @@
 title = "Your First Agent: From Zero to Working in 30 Minutes"
 date = 2025-12-21
 description = "Build your first AI agent in 30 minutes with Python. Step-by-step tutorial covering tool use, the agent loop, and practical examples."
+summary = "Build a working AI agent in 30 minutes with just 50 lines of Python. You'll learn the core agent loop pattern: send a request to the LLM, check if it wants to call a tool, execute the tool, and repeat until done. No ML expertise needed - just an API key and basic Python."
 image = "images/hero-cyberpunk-city.webp"
 draft = false
 featured = true

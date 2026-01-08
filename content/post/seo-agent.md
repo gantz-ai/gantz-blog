@@ -3,6 +3,7 @@ title = "Building an AI SEO Agent with MCP: Automated Search Optimization"
 image = "images/seo-agent.webp"
 date = 2025-06-10
 description = "Build intelligent SEO agents with MCP and Gantz. Learn keyword research, content optimization, and automated search rankings improvement."
+summary = "SEO is tedious but predictable - perfect for automation. Build an agent that researches keywords with search volume and difficulty, analyzes competitor content to find gaps, optimizes your pages for target terms, monitors ranking changes, and generates improvement recommendations. Let AI handle the repetitive analysis while you focus on creating content."
 draft = false
 tags = ['seo', 'agent', 'ai', 'mcp', 'marketing', 'gantz']
 voice = false

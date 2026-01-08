@@ -3,6 +3,7 @@ title = "MCP Pagination: Handle Large Result Sets"
 image = "images/mcp-pagination.webp"
 date = 2025-11-09
 description = "Implement pagination for MCP tools and AI agents. Cursor-based, offset-based, and keyset pagination patterns for large datasets."
+summary = "Implement pagination strategies for MCP tools including offset-based for simple random access, cursor-based for efficient large datasets, and keyset pagination for sorted queries. Learn how to build paginated MCP tools with proper metadata, create auto-pagination iterators, and cache paginated results effectively."
 draft = false
 tags = ['mcp', 'performance', 'pagination']
 voice = false

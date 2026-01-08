@@ -6,6 +6,7 @@ description = "Build intelligent productivity agents with ClickUp and MCP. Learn
 draft = false
 tags = ['clickup', 'productivity', 'tasks', 'mcp', 'automation', 'gantz']
 voice = false
+summary = "ClickUp tracks your work, but someone still has to organize it. Build AI agents that create tasks from Slack messages, auto-prioritize based on deadlines and dependencies, estimate time from historical data, and optimize sprint planning. Turn your project management tool into a proactive assistant that keeps work flowing."
 
 [howto]
 name = "How To Build AI Productivity with ClickUp and MCP"

@@ -3,6 +3,7 @@ title = "Vercel MCP Integration: Deploy AI Agents at the Edge"
 image = "images/vercel-mcp-integration.webp"
 date = 2025-05-04
 description = "Build and deploy MCP-powered AI agents on Vercel Edge Functions. Learn serverless deployment, edge computing, and AI SDK integration with Gantz."
+summary = "Deploy AI agents to Vercel Edge Functions for global distribution and sub-100ms latency. Zero-config git deployments, built-in AI SDK for streaming, and preview environments for every PR. Includes edge-optimized handlers and Next.js integration patterns."
 draft = false
 tags = ['vercel', 'edge-functions', 'serverless', 'mcp', 'nextjs', 'gantz']
 voice = false

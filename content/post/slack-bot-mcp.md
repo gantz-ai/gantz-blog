@@ -2,6 +2,7 @@
 title = "Build a Slack bot that uses your local tools"
 date = 2025-11-25
 description = "Create a Slack bot connected to local MCP tools. Run scripts, query databases, and execute commands from Slack using Claude and Gantz."
+summary = "Build a Slack bot that executes commands on your local machine - query databases, run deployment scripts, check server logs - all through natural language in Slack. Uses Gantz tunnels so no cloud deployment needed. The bot stays local, you stay in control."
 image = "images/robot-billboard-07.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']

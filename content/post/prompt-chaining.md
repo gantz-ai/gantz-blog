@@ -3,6 +3,7 @@ title = "Prompt Chaining: Build Complex AI Workflows"
 image = "images/prompt-chaining.webp"
 date = 2025-11-14
 description = "Chain prompts to build sophisticated AI workflows. Break complex tasks into steps, pass context between stages, and compose reliable agent pipelines."
+summary = "Master prompt chaining patterns to break complex AI tasks into manageable sequential steps where each output feeds into the next. Learn to implement basic sequential chains, conditional branching based on intermediate results, parallel execution for independent steps, chains integrated with MCP tools, error handling with retries, and performance optimization through caching and model selection."
 draft = false
 tags = ['mcp', 'prompts', 'workflows']
 voice = false

@@ -3,6 +3,7 @@ title = "Prometheus MCP Integration: AI-Powered Metrics and Alerting"
 image = "images/prometheus-mcp-integration.webp"
 date = 2025-05-21
 description = "Build intelligent monitoring agents with Prometheus and MCP. Learn metrics querying, alert analysis, and anomaly detection with Gantz."
+summary = "Build AI-powered monitoring agents that query Prometheus using natural language instead of raw PromQL, detect anomalies with ML-based analysis, and provide intelligent alert correlation. Learn to implement capacity forecasting, automated root cause analysis, runbook suggestions for alerts, and natural language interfaces for metrics exploration."
 draft = false
 tags = ['prometheus', 'monitoring', 'metrics', 'mcp', 'observability', 'gantz']
 voice = false

@@ -6,6 +6,7 @@ description = "Implement comprehensive logging for MCP servers. Track tool calls
 draft = false
 tags = ['mcp', 'debugging', 'observability']
 voice = false
+summary = "Set up comprehensive logging for MCP servers to track tool calls, parameters, execution times, and failures with structured JSON output. This guide covers context propagation with request IDs, sensitive data sanitization, performance logging, log aggregation patterns, and setting up alerts for errors and anomalies."
 
 [howto]
 name = "Set Up MCP Server Logging"

@@ -3,6 +3,7 @@ title = "Building AI Agents for LegalTech with MCP: Legal Automation Solutions"
 image = "images/legaltech-ai-agents.webp"
 date = 2025-05-31
 description = "Build intelligent LegalTech AI agents with MCP and Gantz. Learn contract analysis, legal research automation, and compliance monitoring."
+summary = "Legal work involves reading thousands of pages of documents - perfect for AI. Build agents that analyze contracts for risky clauses, research case law and regulations, review documents for discovery, and monitor compliance requirements. Reduce paralegal hours while improving thoroughness. Handle the volume that humans can't scale to."
 draft = false
 tags = ['legaltech', 'ai', 'mcp', 'legal', 'automation', 'gantz']
 voice = false

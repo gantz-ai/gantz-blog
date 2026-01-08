@@ -2,6 +2,7 @@
 title = "RAG Is Overrated for Most Use Cases"
 date = 2025-12-01
 description = "RAG is overkill for most AI apps. Learn when simpler alternatives like context stuffing or full-text search work better than vector databases."
+summary = "Everyone's building RAG with vector databases and embeddings, but it's overkill for most apps. If your docs fit in context, just stuff them in - no retrieval needed. If you need search, try full-text search with BM25 before adding embedding complexity. RAG shines for massive document sets, but most apps don't have massive document sets."
 image = "images/agent-city-03.webp"
 draft = false
 tags = ['rag', 'architecture', 'comparison']

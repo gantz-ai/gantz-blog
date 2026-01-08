@@ -6,6 +6,7 @@ description = "Build intelligent issue tracking agents with Linear and MCP. Lear
 draft = false
 tags = ['linear', 'issue-tracking', 'productivity', 'mcp', 'automation', 'gantz']
 voice = false
+summary = "Build AI agents for Linear that auto-triage issues with priority and estimate suggestions, plan cycles based on team capacity, analyze sprint health with completion forecasts, prioritize backlogs by impact and effort, and detect duplicate or related issues for auto-linking. Includes GraphQL handlers and roadmap forecasting for modern development teams."
 
 [howto]
 name = "How To Build AI Issue Tracking with Linear and MCP"

@@ -3,6 +3,7 @@ title = "Kubernetes MCP Integration: AI-Powered Container Orchestration"
 image = "images/kubernetes-mcp-integration.webp"
 date = 2025-05-29
 description = "Build intelligent Kubernetes automation with MCP. Learn deployment management, scaling, troubleshooting, and AI-driven cluster operations with Gantz."
+summary = "Give AI agents control over Kubernetes clusters with MCP tools for managing pods and deployments, scaling workloads, reading logs, and applying manifests. This guide covers AI-powered troubleshooting that diagnoses failing pods and suggests fixes, resource optimization based on actual usage metrics, security scanning, and natural language kubectl operations."
 draft = false
 tags = ['kubernetes', 'containers', 'orchestration', 'mcp', 'devops', 'gantz']
 voice = false

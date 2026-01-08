@@ -6,6 +6,7 @@ description = "Deploy MCP-powered AI agents on DigitalOcean App Platform. Learn 
 draft = false
 tags = ['digitalocean', 'app-platform', 'kubernetes', 'mcp', 'cloud', 'gantz']
 voice = false
+summary = "DigitalOcean keeps things simple - deploy AI agents without cloud certification. Use App Platform for automatic scaling from GitHub pushes, or DOKS (managed Kubernetes) for complex multi-container workloads. Managed Postgres and Redis are one click away, pricing is predictable, and you won't get a surprise bill at month end."
 
 [howto]
 name = "How To Deploy AI Agents on DigitalOcean with MCP"

@@ -3,6 +3,7 @@ title = "Rails MCP Integration: Ruby AI Applications"
 image = "images/rails-mcp-integration.webp"
 date = 2025-11-27
 description = "Integrate MCP tools with Ruby on Rails. Build AI-powered web applications with Active Job, Action Cable, and Rails conventions."
+summary = "Rails developers: add AI to your Ruby apps following conventions you already know. Wrap MCP tools in service objects, process agent tasks asynchronously with Active Job and Sidekiq, stream real-time responses through Action Cable, and integrate with Active Record models. Includes concern patterns and generator examples for scaffolding AI features."
 draft = false
 tags = ['mcp', 'rails', 'ruby', 'web']
 voice = false

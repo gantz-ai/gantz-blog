@@ -3,6 +3,7 @@ title = "MCP Tool Composition: Combine Tools for Power"
 image = "images/tool-composition.webp"
 date = 2025-11-13
 description = "Compose MCP tools to create powerful capabilities. Build composite tools, tool pipelines, and orchestration patterns for AI agents."
+summary = "A search tool and a summarize tool aren't that useful alone. Compose them into a research tool that searches, reads, and summarizes in one call. Learn pipe patterns that chain tool outputs to inputs, combine patterns that run tools in parallel and merge results, and orchestration patterns for complex multi-step workflows. Build powerful compound capabilities from simple primitives."
 draft = false
 tags = ['mcp', 'tools', 'composition']
 voice = false

@@ -6,6 +6,7 @@ image = "images/agent-train-jump.webp"
 draft = false
 tags = ['prompting', 'patterns', 'architecture']
 voice = false
+summary = "Your system prompt is set at the start, then never changes - but your agent learns things during conversation. The user prefers TypeScript, the codebase uses tabs, tests are in Jest. Update your system prompt dynamically as you discover context. Stop giving generic instructions when you know specific preferences."
 +++
 
 

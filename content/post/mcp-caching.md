@@ -3,6 +3,7 @@ title = "Speed Up AI Agents with MCP Response Caching"
 image = "images/mcp-caching.webp"
 date = 2025-11-13
 description = "Implement caching for MCP tool responses. Reduce latency, cut API costs, and make your AI agents faster with smart caching strategies."
+summary = "Learn how to implement caching for MCP tool responses using in-memory, Redis, or file-based storage solutions. This guide covers cache key generation, TTL configuration, invalidation strategies, and metrics monitoring to reduce latency by up to 90% and significantly cut API costs."
 draft = false
 tags = ['mcp', 'performance', 'architecture']
 voice = false

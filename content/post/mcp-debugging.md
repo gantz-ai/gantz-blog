@@ -6,6 +6,7 @@ description = "Debug MCP tools and AI agent issues. Logging, tracing, error anal
 draft = false
 tags = ['mcp', 'debugging', 'observability']
 voice = false
+summary = "Master MCP tool debugging with structured JSON logging, distributed tracing across tool calls, and comprehensive error context capture. This guide shows you how to implement debug mode, request replay for reproducing issues, and build a debugging dashboard that aggregates insights for rapid troubleshooting."
 
 [howto]
 name = "Debug MCP Tools"

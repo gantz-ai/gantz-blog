@@ -3,6 +3,7 @@ title = "AI Agent Reflection: Build Self-Improving Agents"
 image = "images/agent-reflection.webp"
 date = 2025-11-11
 description = "Implement reflection patterns for AI agents. Enable self-critique, error correction, and continuous improvement in agent behavior and outputs."
+summary = "Build self-improving AI agents with reflection patterns. Enable self-critique of outputs, analyze errors to prevent recurrence, and store learned insights for continuous improvement."
 draft = false
 tags = ['mcp', 'agents', 'reflection']
 voice = false

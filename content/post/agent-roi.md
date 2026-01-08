@@ -3,6 +3,7 @@ title = "AI Agent ROI: Calculate the Business Value"
 image = "images/agent-roi.webp"
 date = 2025-11-08
 description = "Calculate ROI for AI agents. Measure cost savings, productivity gains, and business impact. Build a business case for AI agent investments."
+summary = "Calculate AI agent ROI: (Benefits - Costs) / Costs. Track development costs, API spend, time saved, error reduction, and productivity gains to build a business case."
 draft = false
 tags = ['mcp', 'business', 'roi']
 voice = false

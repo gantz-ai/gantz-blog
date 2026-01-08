@@ -3,6 +3,7 @@ title = "AI Agent Hierarchy Patterns with MCP: Organizational Agent Structures"
 image = "images/hierarchy-patterns.webp"
 date = 2025-06-08
 description = "Master AI agent hierarchy patterns with MCP and Gantz. Learn management layers, reporting structures, and organizational agent architectures."
+summary = "Design multi-agent systems with organizational hierarchies featuring management layers, reporting chains, delegated authority, and cascading directives. This guide covers flat, divisional, and matrix hierarchy patterns with implementations for manager assignment, authority delegation with scope limits, issue escalation with severity analysis, status reporting that aggregates up the chain, and circular reference prevention."
 draft = false
 tags = ['hierarchy', 'patterns', 'ai', 'mcp', 'multi-agent', 'gantz']
 voice = false

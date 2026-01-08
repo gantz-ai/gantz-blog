@@ -3,6 +3,7 @@ title = "Building AI Agents for Logistics with MCP: Supply Chain Automation Solu
 image = "images/logistics-ai-agents.webp"
 date = 2025-05-29
 description = "Build intelligent logistics AI agents with MCP and Gantz. Learn route optimization, shipment tracking, and warehouse automation."
+summary = "Build AI logistics agents that optimize delivery routes considering traffic, weather, and vehicle constraints, track shipments with AI-enhanced ETA predictions and delay risk assessment, forecast demand using historical sales and market trends, optimize warehouse slot assignment and pick paths, and handle logistics exceptions with root cause analysis and automated resolution."
 draft = false
 tags = ['logistics', 'ai', 'mcp', 'supply-chain', 'automation', 'gantz']
 voice = false

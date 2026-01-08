@@ -6,6 +6,7 @@ description = "Implement retry strategies for MCP tools. Exponential backoff, ji
 draft = false
 tags = ['mcp', 'reliability', 'retries']
 voice = false
+summary = "Build robust retry logic for MCP tools using exponential backoff, decorrelated jitter, and adaptive strategies that adjust based on error types. This guide covers implementing retry budgets to limit system-wide retry load, async retry patterns, and integrating retries into your MCP tool registry for reliable AI agent operations."
 
 [howto]
 name = "Implement Retry Strategies"

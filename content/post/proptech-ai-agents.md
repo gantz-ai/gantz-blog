@@ -6,6 +6,7 @@ description = "Build intelligent PropTech AI agents with MCP and Gantz. Learn pr
 draft = false
 tags = ['proptech', 'ai', 'mcp', 'real-estate', 'automation', 'gantz']
 voice = false
+summary = "Automate real estate operations with AI agents that value properties using comparable sales data, screen tenant applications against credit and rental history, optimize listing descriptions for maximum visibility, and predict maintenance needs before equipment fails. Includes complete MCP tool definitions and Python handlers."
 
 [howto]
 name = "How To Build AI Agents for PropTech with MCP"

@@ -6,6 +6,7 @@ description = "Build intelligent inventory agents with MCP and Gantz. Learn auto
 draft = false
 tags = ['inventory', 'agent', 'ai', 'mcp', 'supply-chain', 'gantz']
 voice = false
+summary = "Build an AI inventory agent that forecasts product demand using historical sales data, calculates optimal reorder points and economic order quantities, analyzes supplier performance for procurement decisions, and generates purchase orders with quantity discounts. This guide includes complete handler implementations for stock monitoring, demand planning, and daily inventory orchestration workflows."
 
 [howto]
 name = "How To Build an AI Inventory Agent with MCP"

@@ -3,6 +3,7 @@ title = "MCP Rate Limiting: Prevent API Overload in AI Agents"
 image = "images/mcp-rate-limiting.webp"
 date = 2025-11-14
 description = "Implement rate limiting for MCP servers. Protect your APIs from overload, manage costs, and ensure fair usage across AI agent clients."
+summary = "Implement rate limiting to protect your MCP server from infinite agent loops, retry storms, and cost explosions using fixed window, sliding window, or token bucket algorithms. This guide covers per-tool and per-client limits, Redis-based distributed limiting, proper response headers, and cost-based limiting for expensive operations."
 draft = false
 tags = ['mcp', 'architecture', 'best-practices']
 voice = false

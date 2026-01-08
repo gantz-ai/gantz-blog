@@ -6,6 +6,7 @@ description = "Build intelligent marketing campaigns with Mailchimp and MCP. Lea
 draft = false
 tags = ['mailchimp', 'marketing', 'email', 'mcp', 'automation', 'gantz']
 voice = false
+summary = "Build AI-powered Mailchimp marketing automation that generates personalized campaign content with multiple subject line variations, creates audience segments from natural language descriptions, predicts optimal send times based on engagement history, and orchestrates multi-step customer journeys with conditional branching. Includes webhook handlers and complete journey implementations for welcome and cart abandonment flows."
 
 [howto]
 name = "How To Build Marketing Automation with Mailchimp and MCP"

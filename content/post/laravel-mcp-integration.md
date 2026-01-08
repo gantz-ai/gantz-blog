@@ -3,6 +3,7 @@ title = "Laravel MCP Integration: PHP AI Applications"
 image = "images/laravel-mcp-integration.webp"
 date = 2025-12-01
 description = "Integrate MCP tools with Laravel. Build AI-powered PHP applications with queues, broadcasting, and elegant syntax."
+summary = "Laravel developers: add AI capabilities to your PHP apps without leaving the framework you know. Wrap MCP tools in service classes, use Laravel queues for async agent processing that won't block requests, and broadcast real-time updates via WebSockets as agents complete work. Includes Eloquent integration patterns and facade examples."
 draft = false
 tags = ['mcp', 'laravel', 'php', 'web']
 voice = false

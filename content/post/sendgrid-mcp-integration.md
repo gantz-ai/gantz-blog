@@ -3,6 +3,7 @@ title = "SendGrid MCP Integration: Build AI-Powered Email Automation"
 image = "images/sendgrid-mcp-integration.webp"
 date = 2025-05-16
 description = "Create intelligent email agents with SendGrid and MCP. Learn email automation, dynamic templates, and analytics integration with Gantz."
+summary = "Connect AI agents to SendGrid for intelligent email automation. Generate personalized content per recipient, optimize send times based on engagement patterns, A/B test subject lines automatically, and trigger email workflows based on user behavior. Complete with API handlers and template management."
 draft = false
 tags = ['sendgrid', 'email', 'automation', 'mcp', 'marketing', 'gantz']
 voice = false

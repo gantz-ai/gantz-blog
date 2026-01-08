@@ -3,6 +3,7 @@ title = "MCP Connection Pooling: Optimize Resource Usage"
 image = "images/mcp-connection-pooling.webp"
 date = 2025-11-03
 description = "Implement connection pooling for MCP tools. Manage database connections, API clients, and resources efficiently for high-throughput AI agents."
+summary = "Build efficient connection pools for databases, HTTP clients, and Redis to eliminate the overhead of creating new connections for every request. Learn to configure pool sizes, implement health checks, handle pool exhaustion gracefully, and centralize pool management with comprehensive monitoring for high-throughput AI agents."
 draft = false
 tags = ['mcp', 'performance', 'connections']
 voice = false

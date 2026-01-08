@@ -3,6 +3,7 @@ title = "AI Agent Pipeline Patterns with MCP: Sequential Processing Systems"
 image = "images/pipeline-patterns.webp"
 date = 2025-06-06
 description = "Master AI agent pipeline patterns with MCP and Gantz. Learn sequential processing, stage orchestration, and data transformation pipelines."
+summary = "Master sequential processing pipelines where data flows through specialized AI stages including extract, transform, validate, enrich, and load. Learn to build composable pipeline stages with retry policies, create conditional branches for dynamic routing, merge parallel pipelines, monitor execution progress in real-time, and implement common templates for ETL, data processing, and ML workflows."
 draft = false
 tags = ['pipeline', 'patterns', 'ai', 'mcp', 'multi-agent', 'gantz']
 voice = false

@@ -6,6 +6,7 @@ description = "Build intelligent manufacturing AI agents with MCP and Gantz. Lea
 draft = false
 tags = ['manufacturing', 'ai', 'mcp', 'industrial', 'automation', 'gantz']
 voice = false
+summary = "Transform factory operations with AI agents that predict equipment failures before they happen, run AI-powered quality inspections, optimize production schedules for maximum throughput, and reduce energy consumption. Covers sensor data integration, maintenance scheduling, defect detection, and supply chain coordination."
 
 [howto]
 name = "How To Build AI Agents for Manufacturing with MCP"

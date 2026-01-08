@@ -2,6 +2,7 @@
 title = "Let Claude control your smart home"
 date = 2025-12-28
 description = "Control smart home devices with Claude and MCP. Tutorial for lights, thermostats, and sensors using natural language through local shell scripts."
+summary = "Control Hue lights, thermostats, and sensors with Claude via MCP. Create shell scripts for device APIs, define tools in Gantz, run on a Raspberry Pi."
 image = "images/diner-exterior.webp"
 draft = false
 tags = ['tutorial', 'mcp', 'automation']

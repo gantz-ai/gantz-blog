@@ -3,6 +3,7 @@ title = "Cloudflare Workers MCP Integration: Global AI Agents at the Edge"
 image = "images/cloudflare-workers-mcp.webp"
 date = 2025-05-05
 description = "Deploy MCP-powered AI agents on Cloudflare Workers. Learn edge computing, Durable Objects, Workers AI, and KV storage integration with Gantz."
+summary = "Run AI agents at the edge with sub-50ms latency worldwide. Cloudflare Workers deploy to 300+ locations automatically. Use Durable Objects for conversation state that follows users globally, Workers AI for inference without leaving the network, and KV for fast key-value storage. True edge AI without managing infrastructure."
 draft = false
 tags = ['cloudflare', 'workers', 'edge', 'mcp', 'serverless', 'gantz']
 voice = false

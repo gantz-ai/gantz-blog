@@ -3,6 +3,7 @@ title = "AI Agent Cost Optimization: Cut LLM Costs by 90%"
 image = "images/agent-cost-optimization.webp"
 date = 2025-06-01
 description = "Reduce AI agent costs dramatically with smart caching, model routing, prompt optimization, and efficient tool use patterns."
+summary = "Cut AI agent costs by 90% with response caching (40-70% savings), smart model routing (use cheaper models for simple tasks), prompt optimization, and batch operations. Track costs and set budget limits."
 draft = false
 tags = ['mcp', 'cost-optimization', 'performance', 'production', 'gantz']
 voice = false

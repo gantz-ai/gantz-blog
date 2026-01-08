@@ -3,6 +3,7 @@ title = "Heroku MCP Integration: Deploy AI Agents with Git Push"
 image = "images/heroku-mcp-integration.webp"
 date = 2025-05-10
 description = "Deploy MCP-powered AI agents on Heroku. Learn dyno management, add-ons integration, pipeline deployments, and review apps with Gantz."
+summary = "Deploy MCP-powered AI agents to Heroku with simple git push deployments, provisioning add-ons like Postgres with pgvector for AI embeddings and Redis for job queues. This guide covers Flask/Gunicorn application setup, background workers with Redis queues, pipeline configuration for staging and production, review apps for PR testing, and scheduled tasks with Heroku Scheduler."
 draft = false
 tags = ['heroku', 'paas', 'deployment', 'mcp', 'git', 'gantz']
 voice = false

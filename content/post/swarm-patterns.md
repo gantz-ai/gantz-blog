@@ -3,6 +3,7 @@ title = "AI Agent Swarm Patterns with MCP: Emergent Collective Intelligence"
 image = "images/swarm-patterns.webp"
 date = 2025-06-07
 description = "Master AI agent swarm patterns with MCP and Gantz. Learn emergent behavior, collective intelligence, and decentralized agent coordination."
+summary = "Like ants finding the shortest path without central planning, AI swarms use simple local rules to produce intelligent collective behavior. Build decentralized agent systems where individual agents follow basic patterns - communication, coordination, adaptation - and complex problem-solving emerges from their interactions."
 draft = false
 tags = ['swarm', 'patterns', 'ai', 'mcp', 'multi-agent', 'gantz']
 voice = false

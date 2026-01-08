@@ -3,6 +3,7 @@ title = "Building an AI Social Media Agent with MCP: Automated Content and Engag
 image = "images/social-media-agent.webp"
 date = 2025-06-11
 description = "Build intelligent social media agents with MCP and Gantz. Learn automated posting, engagement analysis, and AI-driven social strategy."
+summary = "Managing social media across platforms is exhausting. Build an agent that schedules posts at optimal times, analyzes which content types drive engagement, monitors mentions and sentiment, responds to common questions automatically, and suggests content ideas based on trending topics. Maintain presence on Twitter, LinkedIn, and Instagram without living in each app."
 draft = false
 tags = ['social-media', 'agent', 'ai', 'mcp', 'marketing', 'gantz']
 voice = false

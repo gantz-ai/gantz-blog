@@ -3,6 +3,7 @@ title = "Asana MCP Integration: AI-Powered Project Management"
 image = "images/asana-mcp-integration.webp"
 date = 2025-06-05
 description = "Build intelligent project management agents with Asana and MCP. Learn task automation, resource planning, and AI-driven workflows with Gantz."
+summary = "Project managers spend hours updating Asana instead of managing projects. Build agents that create tasks from meeting notes, estimate durations from similar past tasks, flag overdue work, identify resource conflicts, and generate status reports automatically. Talk to your project management tool in natural language instead of clicking through menus."
 draft = false
 tags = ['asana', 'project-management', 'tasks', 'mcp', 'automation', 'gantz']
 voice = false

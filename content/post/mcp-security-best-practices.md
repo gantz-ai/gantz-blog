@@ -6,6 +6,7 @@ description = "Secure your MCP tools with authentication, authorization, input v
 draft = false
 tags = ['mcp', 'security', 'best-practices']
 voice = false
+summary = "Protect your MCP deployments with comprehensive security including token-based authentication, role-based authorization, and input validation to prevent injection attacks. This guide covers secrets management with environment variables and vault integration, output sanitization to prevent data leakage, rate limiting for abuse prevention, and a complete security checklist."
 
 [howto]
 name = "Secure MCP Tools"

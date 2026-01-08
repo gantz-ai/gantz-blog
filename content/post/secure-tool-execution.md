@@ -3,6 +3,7 @@ title = "Secure MCP Tool Execution: Prevent Command Injection"
 image = "images/secure-tool-execution.webp"
 date = 2025-11-16
 description = "Execute MCP tools securely. Prevent command injection, validate inputs, use parameterized execution, and audit all tool calls for AI agent safety."
+summary = "Your MCP tools execute real commands. One injection vulnerability and attackers run arbitrary code. Learn input validation patterns, parameterized execution to prevent shell injection, command allowlisting, and audit logging to catch malicious tool calls before they cause damage."
 draft = false
 tags = ['mcp', 'security', 'tools']
 voice = false

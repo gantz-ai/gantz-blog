@@ -3,6 +3,7 @@ title = "MCP Concurrency: Parallel Tool Execution"
 image = "images/mcp-concurrency.webp"
 date = 2025-11-11
 description = "Implement concurrent tool execution for MCP. Parallel processing, thread pools, async patterns, and rate limiting for high-throughput AI agents."
+summary = "Execute multiple MCP tool calls in parallel using thread pools, asyncio, and rate-limited executors to achieve up to 5x throughput improvements. This guide covers concurrent tool execution with dependency ordering, parallel database operations, and monitoring patterns to track concurrent operation metrics."
 draft = false
 tags = ['mcp', 'performance', 'concurrency']
 voice = false

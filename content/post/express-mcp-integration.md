@@ -3,6 +3,7 @@ title = "Express.js MCP Integration: Node.js AI APIs"
 image = "images/express-mcp-integration.webp"
 date = 2025-11-19
 description = "Integrate MCP tools with Express.js applications. Build AI-powered Node.js APIs with middleware, streaming, and TypeScript patterns."
+summary = "Integrate MCP with Express.js for AI-powered Node.js APIs. Build middleware for tool execution, add streaming responses, and use TypeScript patterns."
 draft = false
 tags = ['mcp', 'express', 'nodejs', 'typescript']
 voice = false

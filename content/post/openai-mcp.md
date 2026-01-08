@@ -3,6 +3,7 @@ title = "Connect OpenAI GPT to MCP Tools (Step-by-Step)"
 image = "images/openai-mcp.webp"
 date = 2025-11-06
 description = "Integrate OpenAI GPT models with MCP servers. Use function calling with your custom tools through the Model Context Protocol."
+summary = "OpenAI's function calling and MCP's tool protocol speak different languages. This guide shows you how to convert MCP tool schemas to OpenAI's function format, handle GPT's function call responses, route them to your MCP server, and return results. Works with GPT-4, GPT-4o, and future models that support function calling."
 draft = false
 tags = ['mcp', 'tutorial', 'openai']
 voice = false

@@ -3,6 +3,7 @@ title = "AI Agent Orchestration Patterns with MCP: Coordinating Multi-Agent Syst
 image = "images/orchestration-patterns.webp"
 date = 2025-06-14
 description = "Master AI agent orchestration patterns with MCP and Gantz. Learn coordination strategies, task distribution, and multi-agent system architecture."
+summary = "Master multi-agent orchestration patterns including master-worker for parallel task distribution, pipeline for sequential processing, and fan-out/fan-in for result aggregation. Learn to build orchestrators that decompose complex tasks with AI, match subtasks to specialized agents, handle failures with intelligent recovery strategies, and dynamically scale agent pools."
 draft = false
 tags = ['orchestration', 'patterns', 'ai', 'mcp', 'multi-agent', 'gantz']
 voice = false

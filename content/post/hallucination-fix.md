@@ -2,6 +2,7 @@
 title = "One Prompt Change That Stopped My Agent Hallucinating"
 date = 2025-12-19
 description = "Stop AI agents from making up information. One prompt technique forces tool use instead of hallucination when agents lack knowledge."
+summary = "My agent was confident, articulate, and completely wrong. The fix was simple: add one line to the system prompt telling the agent 'when you don't know something, use your tools to find out instead of guessing.' This forces tool use over hallucination - the agent will search, query, or ask rather than make things up."
 image = "images/agent-electric-sparks.webp"
 draft = false
 tags = ['prompting', 'best-practices', 'debugging']

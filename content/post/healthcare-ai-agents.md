@@ -3,6 +3,7 @@ title = "Building AI Agents for Healthcare with MCP: Clinical Automation Solutio
 image = "images/healthcare-ai-agents.webp"
 date = 2025-06-04
 description = "Build intelligent healthcare AI agents with MCP and Gantz. Learn clinical workflow automation, patient engagement, and healthcare compliance."
+summary = "Healthcare generates massive paperwork that takes time from patient care. Build HIPAA-compliant agents that automate clinical documentation, schedule appointments intelligently, send personalized patient reminders, provide clinical decision support, and handle insurance pre-authorization. Reduce administrative burden while maintaining strict compliance and audit trails."
 draft = false
 tags = ['healthcare', 'ai', 'mcp', 'clinical', 'automation', 'gantz']
 voice = false
