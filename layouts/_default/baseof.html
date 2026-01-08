@@ -3,6 +3,19 @@
     <head>
         {{- partial "head/head.html" . -}}
         {{- block "head" . -}}{{ end }}
+        {{/* Preload LCP image for mobile */}}
+        {{ if .IsHome }}
+            {{ $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+            {{ with index $posts 0 }}
+                {{ with .Params.image }}
+                    {{ $img := resources.Get . }}
+                    {{ if $img }}
+                        {{ $mobile := $img.Resize "400x webp q75" }}
+                        <link rel="preload" as="image" href="{{ $mobile.RelPermalink }}" media="(max-width: 600px)">
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
     </head>
     <body class="{{ block `body-class` . }}{{ end }} has-header">
         {{- partial "head/colorScheme" . -}}
