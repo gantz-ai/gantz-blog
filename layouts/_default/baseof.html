@@ -101,8 +101,9 @@
 
         {{/* Load view counts for all posts on page */}}
         <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll('.view-count[data-path]').forEach(function(el) {
+        requestIdleCallback(function() {
+            var els = document.querySelectorAll('.view-count[data-path]');
+            els.forEach(function(el) {
                 var path = el.getAttribute('data-path');
                 fetch('https://gantz.ai/gc/counter' + path + '.json')
                     .then(function(r) { return r.json(); })
