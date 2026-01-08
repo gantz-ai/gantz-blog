@@ -2,7 +2,7 @@
 title = "Atomic vs Compound Tools: Design Trade-offs"
 date = 2025-12-31
 description = "Should AI tools do one thing or many? Compare atomic vs compound tool design patterns with trade-offs for flexibility, reliability, and token cost."
-summary = "Atomic tools do one thing (read_file), compound tools do many (manage_project). Trade-off: atomic gives flexibility and easier debugging, compound reduces tokens but adds complexity."
+summary = "Should read_file and write_file be separate tools, or one file_operations tool? Atomic tools do one thing and compose flexibly - easier to debug, test, and reuse. Compound tools do many things in one call - fewer tokens but more complex failure modes. The trade-off depends on how your agent uses them. Learn when each pattern wins."
 image = "images/logo-metal-armor.webp"
 draft = false
 tags = ['tool-use', 'architecture', 'patterns']

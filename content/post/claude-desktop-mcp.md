@@ -6,7 +6,7 @@ description = "Connect Claude Desktop to MCP servers step-by-step. Configure loc
 draft = false
 tags = ['mcp', 'tutorial', 'claude']
 voice = false
-summary = "Connect Claude Desktop to MCP servers by editing claude_desktop_config.json with server URLs and auth. Enables file access, shell commands, and custom tools."
+summary = "Give Claude Desktop superpowers by connecting it to MCP servers. Edit claude_desktop_config.json to add local tools like file access and shell commands, connect to remote MCP servers for APIs and databases, and set up authentication. Turn the Claude Desktop app into a full-featured AI assistant that can actually do things on your computer."
 
 [howto]
 name = "Set Up MCP in Claude Desktop"

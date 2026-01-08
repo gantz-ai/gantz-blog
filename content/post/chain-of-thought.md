@@ -2,7 +2,7 @@
 title = "Chain of Thought: When It Helps, When It Hurts"
 date = 2025-12-29
 description = "Chain of thought prompting improves reasoning but adds latency and cost. Learn when to use CoT and when simpler prompts work better."
-summary = "Chain of thought helps complex reasoning but adds latency and cost. Use CoT for math, logic, and multi-step problems. Skip it for simple lookups and fast responses."
+summary = "'Think step by step' - four words that supposedly make AI smarter. Chain of thought does improve complex reasoning, but it adds latency and costs more tokens. Use CoT for math, logic puzzles, and multi-step analysis. Skip it for simple lookups, fast responses, and tasks where the answer is obvious. Not every prompt needs reasoning traces."
 image = "images/agent-arctic-aurora.webp"
 draft = false
 tags = ['prompting', 'patterns', 'best-practices']

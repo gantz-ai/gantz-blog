@@ -2,7 +2,7 @@
 title = "Why Agents Get Stuck in Loops (And How to Prevent It)"
 date = 2026-01-04
 description = "AI agents stuck in infinite loops? Learn detection strategies and prevention patterns including failure memory, diversity forcing, and escalation."
-summary = "AI agents get stuck repeating failed actions because they don't remember failures. Prevent loops with failure memory, action diversity forcing, attempt limits, and escalation to users when stuck."
+summary = "You've seen it: agent tries something, fails, tries the exact same thing, fails again, repeats forever. Loops happen because agents don't remember recent failures. Fix it with failure memory that tracks what didn't work, diversity forcing that requires different approaches, hard attempt limits, and escalation paths when the agent is genuinely stuck."
 image = "images/agent-neon-standing.webp"
 draft = false
 tags = ['patterns', 'debugging', 'architecture']

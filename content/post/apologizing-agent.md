@@ -2,7 +2,7 @@
 title = "Why My Agent Kept Apologizing Instead of Acting"
 date = 2026-01-01
 description = "Fix AI agents that refuse to use tools. Debug over-cautious behavior caused by system prompts, tool descriptions, and model training patterns."
-summary = "Fix AI agents that apologize instead of acting. Debug over-cautious behavior caused by vague tool descriptions, restrictive prompts, and model safety training. Use explicit permissions."
+summary = "'I apologize, but I cannot modify files directly.' My agent had a write_file tool - and refused to use it. Overly cautious agents are trained to be safe, so they err toward inaction. Fix it with explicit permissions in system prompts, clear tool descriptions that say 'you should use this', and removing hedging language that triggers refusal patterns."
 image = "images/agent-tokyo-neon.webp"
 draft = false
 tags = ['prompting', 'debugging', 'best-practices']

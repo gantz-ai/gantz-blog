@@ -2,7 +2,7 @@
 title = "Let AI agents read and respond to your emails"
 date = 2026-01-02
 description = "Build an AI email assistant with MCP. Connect Claude to Gmail or Outlook to read, draft, and send emails through natural conversation."
-summary = "Build an AI email assistant with MCP. Connect Claude to Gmail via Gantz tools to read inbox, search messages, draft replies, and send emails through natural conversation."
+summary = "Stop context-switching to your inbox every 10 minutes. Build an AI email assistant that connects Claude to Gmail through MCP tools. Read and search your inbox, summarize unread messages, draft replies in your writing style, and send emails through natural conversation. 'Reply to Sarah and say I'm available Thursday' - done without opening Gmail."
 image = "images/cafe-interior.webp"
 draft = false
 tags = ['tutorial', 'automation', 'mcp']
