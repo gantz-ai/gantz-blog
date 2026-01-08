@@ -22,13 +22,13 @@
 
                     {{- if (default true $page.Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{/* Output WebP at 3 sizes optimized for common displays:
-                             - 400w: mobile 1x (400px) or small mobile 2x (200px)
+                             - 320w: mobile 1x (320px)
                              - 800w: mobile 2x (400px) or tablet 1x (800px)
                              - 1200w: tablet 2x (600px) or desktop (1200px) */}}
-                        {{- $small := $image.resource.Resize "400x webp q75" -}}
-                        {{- $medium := $image.resource.Resize "800x webp q75" -}}
-                        {{- $large := $image.resource.Resize "1200x webp q75" -}}
-                        {{- $Srcset = printf "%s 400w, %s 800w, %s 1200w" $small.RelPermalink $medium.RelPermalink $large.RelPermalink -}}
+                        {{- $small := $image.resource.Resize "320x webp q65" -}}
+                        {{- $medium := $image.resource.Resize "800x webp q70" -}}
+                        {{- $large := $image.resource.Resize "1200x webp q70" -}}
+                        {{- $Srcset = printf "%s 320w, %s 800w, %s 1200w" $small.RelPermalink $medium.RelPermalink $large.RelPermalink -}}
                         {{- $Permalink = $medium.RelPermalink -}}
                         {{- $Width = $medium.Width -}}
                         {{- $Height = $medium.Height -}}
