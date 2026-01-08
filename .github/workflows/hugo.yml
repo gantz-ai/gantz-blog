@@ -59,6 +59,13 @@ jobs:
           TZ: UTC
         run: hugo --minify --baseURL "https://gantz.ai/blog/"
 
+      - name: Generate posts sitemap
+        run: |
+          echo '<?xml version="1.0" encoding="utf-8" standalone="yes"?>' > public/posts-sitemap.xml
+          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> public/posts-sitemap.xml
+          grep -o 'https://gantz.ai/blog/post/[^<]*/</loc>' public/sitemap.xml | sed 's|</loc>|</loc></url>|;s|^|  <url><loc>|' >> public/posts-sitemap.xml
+          echo '</urlset>' >> public/posts-sitemap.xml
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

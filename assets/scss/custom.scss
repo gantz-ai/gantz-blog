@@ -219,6 +219,33 @@
   background: #CC0033 !important;
 }
 
+/* 404 page */
+.not-found .title {
+  color: #FF3366 !important;
+}
+
+.not-found .btn-home {
+  background: #FF3366 !important;
+}
+
+.not-found .btn-home:hover {
+  background: #E6194B !important;
+}
+
+.not-found .btn-search {
+  border-color: #FF3366 !important;
+  color: #FF3366 !important;
+}
+
+.not-found .btn-search:hover {
+  background: #FF3366 !important;
+  color: #fff !important;
+}
+
+.not-found .popular-posts a {
+  color: #FF3366 !important;
+}
+
 /* ==================== TOC ==================== */
 .has-header .right-sidebar .widget,
 .has-header .right-sidebar .widget:first-child {
