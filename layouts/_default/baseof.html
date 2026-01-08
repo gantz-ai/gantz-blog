@@ -109,8 +109,8 @@
                         var path = el.getAttribute('data-path');
                         fetch('https://gantz.ai/gc/counter' + path + '.json')
                             .then(function(r) { return r.json(); })
-                            .then(function(data) { el.textContent = data.count || '0'; })
-                            .catch(function() { el.textContent = '0'; });
+                            .then(function(data) { el.textContent = data.count || '0'; el.classList.remove('loading'); })
+                            .catch(function() { el.textContent = '0'; el.classList.remove('loading'); });
                     }, i * 50);
                 });
             }, 2000);
