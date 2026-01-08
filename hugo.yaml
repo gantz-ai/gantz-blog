@@ -14,7 +14,7 @@ keywords:
   - GPT
   - agent development
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 
 outputs:
   home:

@@ -1,9 +1,4 @@
-# Gantz Blog robots.txt
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://gantz.ai/blog/sitemap.xml
-
-# Crawl-delay for polite bots
-Crawl-delay: 1
