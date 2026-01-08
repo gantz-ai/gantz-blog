@@ -94,6 +94,11 @@
         {{/* Goatcounter analytics (proxied to avoid ad blockers) */}}
         <script data-goatcounter="https://gantz.ai/gc/count" async src="https://gantz.ai/gc/count.js"></script>
 
+        {{/* Chatnode AI widget */}}
+        <script>
+        !(function(){if(window.chatnode && window.chatnode('getState') === 'initialized')return;window.chatnode=(...args)=>{if(!window.chatnode.q)window.chatnode.q=[];window.chatnode.q.push(args);};window.chatnode=new Proxy(window.chatnode,{get(target,prop){if(prop==='q')return target.q;return(...args)=>target(prop,...args);},});function onLoad(){const script=document.createElement('script');script.src='https://embed.chatnode.ai/3bfdc4d8-c09e-42c0-98e1-4e05c27024c8/popup.js';document.body.appendChild(script);}if(document.readyState==='complete'){onLoad();}else{window.addEventListener('load',onLoad);}})();
+        </script>
+
         {{/* Load view counts for all posts on page */}}
         <script>
         document.addEventListener('DOMContentLoaded', function() {
