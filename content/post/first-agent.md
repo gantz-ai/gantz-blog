@@ -214,7 +214,7 @@ python agent.py
 
 Try these:
 
-```
+```text
 > Read my package.json and tell me what dependencies I have
 
 🔧 read_file({'path': 'package.json'})
@@ -225,7 +225,7 @@ You have the following dependencies:
 ...
 ```
 
-```
+```text
 > What files are in the current directory?
 
 🔧 run_command({'command': 'ls -la'})
@@ -237,7 +237,7 @@ Here are the files in your directory:
 ...
 ```
 
-```
+```text
 > Find all TODO comments in my code
 
 🔧 run_command({'command': 'grep -r "TODO" . --include="*.py"'})
@@ -362,7 +362,7 @@ if __name__ == "__main__":
 
 Now it remembers the conversation:
 
-```
+```text
 > Read my config.py file
 
 🔧 read_file({'path': 'config.py'})

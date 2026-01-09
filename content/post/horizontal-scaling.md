@@ -38,7 +38,7 @@ class Agent:
 
 Add a second server:
 
-```
+```text
 Request 1 → Server A → conversation stored in A's memory
 Request 2 → Server B → "What conversation?"
 ```
@@ -121,7 +121,7 @@ class ScalableAgent:
 
 Now any server can handle any request:
 
-```
+```text
 Request 1 → Server A → saves to Redis
 Request 2 → Server B → loads from Redis → continues conversation
 ```
@@ -378,7 +378,7 @@ Best of both worlds:
 
 Same user sends two messages at once. Race condition.
 
-```
+```text
 Request 1: Load conversation [A, B]
 Request 2: Load conversation [A, B]
 Request 1: Append C, save [A, B, C]
@@ -509,7 +509,7 @@ else:
 ## Load balancing strategies
 
 ### Round robin (default)
-```
+```text
 Request 1 → Server A
 Request 2 → Server B
 Request 3 → Server A
@@ -570,7 +570,7 @@ async def chat(message: str):
 
 ## Architecture diagram
 
-```
+```text
                          ┌─────────────────┐
                          │  Load Balancer  │
                          │  (Round Robin)  │

@@ -48,7 +48,7 @@ Without evaluation, you're guessing.
 
 ## Evaluation dimensions
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │            Agent Quality                │
 ├─────────────────────────────────────────┤

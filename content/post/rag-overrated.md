@@ -20,7 +20,7 @@ For most use cases, it's overkill. I say this as someone who's built RAG systems
 
 Every AI tutorial:
 
-```
+```text
 Step 1: Set up a vector database
 Step 2: Chunk your documents
 Step 3: Generate embeddings
@@ -35,7 +35,7 @@ By step 3, you've spent a week and $200 on infrastructure.
 
 RAG solves one problem: **your data doesn't fit in the context window**.
 
-```
+```text
 You have: 10,000 documents (50M tokens)
 Context window: 128K tokens
 Solution: Retrieve relevant chunks, fit in context
@@ -47,7 +47,7 @@ That's it. That's the problem RAG solves.
 
 ### Your data fits in context
 
-```
+```text
 Documents: 50 pages of company policies
 Tokens: ~40,000
 
@@ -99,7 +99,7 @@ SQL beats embeddings when your data has structure.
 
 RAG is semantic search. It finds "similar" content.
 
-```
+```text
 Query: "What's the refund policy for order #12345?"
 
 RAG returns: "Our refund policy allows returns within 30 days..."
@@ -121,7 +121,7 @@ def answer_order_question(order_id, question):
 
 RAG indexes are snapshots. They go stale.
 
-```
+```text
 User: "What's my account balance?"
 RAG: Returns balance from 3 days ago when index was built
 User: "That's wrong!"
@@ -139,7 +139,7 @@ def get_balance(user_id):
 
 You're building a FAQ bot for 50 questions.
 
-```
+```text
 RAG approach:
 - Embed 50 questions
 - Set up vector DB
@@ -159,7 +159,7 @@ Same result. 100x less effort.
 
 ### Infrastructure
 
-```
+```text
 Without RAG:
 - Your app
 - LLM API
@@ -204,7 +204,7 @@ response = llm.create(messages=[
 
 RAG introduces new ways to fail:
 
-```
+```text
 - Chunking splits important info across chunks
 - Embedding model misses semantic nuance
 - Wrong chunks retrieved
@@ -290,7 +290,7 @@ RAG is the right choice when:
 
 ### Large unstructured corpus
 
-```
+```text
 - 100,000+ documents
 - Can't fit in context
 - Need semantic search
@@ -299,7 +299,7 @@ RAG is the right choice when:
 
 ### Semantic similarity matters
 
-```
+```text
 Query: "How do I handle angry customers?"
 Should find: "Dealing with upset clients", "De-escalation techniques"
 (Different words, same meaning)
@@ -307,7 +307,7 @@ Should find: "Dealing with upset clients", "De-escalation techniques"
 
 ### You've already tried simpler approaches
 
-```
+```text
 1. ✓ Tried: stuffing in context (didn't fit)
 2. ✓ Tried: simple search (missed semantic matches)
 3. ✓ Tried: tool-based retrieval (too slow)
@@ -316,7 +316,7 @@ Should find: "Dealing with upset clients", "De-escalation techniques"
 
 ## The decision flowchart
 
-```
+```text
                     Start
                       │
                       ▼
@@ -355,7 +355,7 @@ Should find: "Dealing with upset clients", "De-escalation techniques"
 ### FAQ Bot
 
 **Over-engineered:**
-```
+```text
 Pinecone + LangChain + Custom embeddings + Chunking pipeline
 Development: 2 weeks
 Cost: $100/month
@@ -378,7 +378,7 @@ response = llm.create(
     ]
 )
 ```
-```
+```text
 Development: 1 hour
 Cost: $0/month (just LLM calls)
 ```
@@ -386,7 +386,7 @@ Cost: $0/month (just LLM calls)
 ### Documentation search
 
 **Over-engineered:**
-```
+```text
 Embed all docs → Vector DB → Retrieval pipeline → Re-ranking
 ```
 
@@ -415,7 +415,7 @@ Let the AI search and read. No embeddings.
 ### Customer support
 
 **Over-engineered:**
-```
+```text
 Embed support history + product docs + user data
 Build multi-index RAG system
 ```

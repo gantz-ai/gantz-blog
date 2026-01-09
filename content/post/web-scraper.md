@@ -39,7 +39,7 @@ Let's build it.
 
 A scraper where you describe what you want, and AI finds it.
 
-```
+```text
 User: "Get all product names and prices from this page"
 
 Agent:
@@ -55,7 +55,7 @@ No more inspecting elements. No more broken selectors.
 
 ## The architecture
 
-```
+```text
 ┌─────────────────┐
 │  "Get product   │
 │    prices"      │
@@ -415,7 +415,7 @@ Always:
 
 ### Example 1: E-commerce products
 
-```
+```text
 User: "Scrape product names and prices from https://example-shop.com/products"
 
 Agent:
@@ -454,7 +454,7 @@ Found 24 products. Save to file?
 
 ### Example 2: News articles
 
-```
+```text
 User: "Get headlines and links from news.site.com"
 
 Agent:
@@ -490,7 +490,7 @@ Found 15 articles.
 
 ### Example 3: Table data
 
-```
+```text
 User: "Extract the comparison table from review-site.com/phones"
 
 Agent:
@@ -524,7 +524,7 @@ Extracted 8 phones from comparison table.
 
 ### Example 4: Pagination
 
-```
+```text
 User: "Scrape all job listings from jobs.example.com, handle pagination"
 
 Agent:
@@ -619,7 +619,7 @@ AI can analyze HTML snippets to find patterns:
 
 Usage:
 
-```
+```text
 User: "I want to scrape prices, one of them is '$29.99'"
 
 Agent:
@@ -728,7 +728,7 @@ This selector works. Use it for extraction?
 
 ## Full workflow example
 
-```
+```text
 User: "I need to scrape competitor pricing from shop.competitor.com/products"
 
 Agent: I'll analyze the page and find the right selectors.

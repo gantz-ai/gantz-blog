@@ -161,7 +161,7 @@ class PreferenceLearner:
 
 Conversation:
 
-```
+```text
 User: "Write a function to fetch users"
 Agent: *writes callback-based code*
 
@@ -243,7 +243,7 @@ class ModalAgent:
 
 Usage:
 
-```
+```text
 User: "There's a bug in the login flow"
 # Mode switches to "debugging"
 
@@ -345,7 +345,7 @@ class ContextInjector:
 
 The prompt now includes:
 
-```
+```text
 You are a coding assistant.
 
 Currently working on: src/auth/login.ts
@@ -461,7 +461,7 @@ class CodebaseMapper:
 
 Result:
 
-```
+```text
 You are a coding assistant.
 
 Project structure:

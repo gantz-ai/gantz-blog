@@ -54,14 +54,14 @@ The goal: AI handles the mechanical checks, humans focus on architecture and des
 ## What good AI review looks like
 
 **Bad AI review:**
-```
+```text
 Line 45: Consider using const instead of let.
 Line 67: Missing semicolon.
 Line 89: Function could be shorter.
 ```
 
 **Good AI review:**
-```
+```text
 ## Security Issue
 Line 45-52: The user input is passed directly to the SQL query
 without sanitization. This creates a SQL injection vulnerability.
@@ -69,7 +69,7 @@ without sanitization. This creates a SQL injection vulnerability.
 **Suggestion:** Use parameterized queries:
 ```sql
 db.query('SELECT * FROM users WHERE id = ?', [userId])
-```
+```text
 
 ## Logic Bug
 Line 89: The loop condition `i <= arr.length` will cause an
@@ -640,13 +640,13 @@ Use ast.literal_eval() for safe evaluation of literals, or json.loads() for JSON
 Current code:
 ```python
 query = f"SELECT * FROM users WHERE id = {user_id}"
-```
+```text
 
 Fixed:
 ```python
 query = "SELECT * FROM users WHERE id = %s"
 cursor.execute(query, (user_id,))
-```
+```text
 """
 ```
 
@@ -684,7 +684,7 @@ cursor.execute(f"SELECT * FROM users WHERE email = '{email}'")
 
 # Fixed
 cursor.execute("SELECT * FROM users WHERE email = %s", (email,))
-```
+```text
 
 ### 🟠 High Priority
 

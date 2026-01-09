@@ -54,7 +54,7 @@ Most smart home devices have APIs or CLI tools. Philips Hue has a local REST API
 
 The key insight: **if you can control it from terminal, Claude can control it through MCP.**
 
-```
+```text
 You → Claude → MCP Server (your machine) → Smart home API → Device
          │                 │                      │
     Natural language   Gantz tunnel      curl/API calls
@@ -298,7 +298,7 @@ for block in response.content:
 
 Once it's running, Claude understands context:
 
-```
+```text
 "Turn off the living room lights"
 → Claude lists lights, finds living room ones, turns them off
 

@@ -39,7 +39,7 @@ Let's build it.
 
 A tool that converts plain English to SQL queries, runs them, and returns results.
 
-```
+```text
 User: "Find the top 5 products by revenue"
 
 Agent:
@@ -56,7 +56,7 @@ No more googling SQL syntax. No more JOIN confusion.
 
 ## The architecture
 
-```
+```text
 ┌─────────────────┐
 │  Natural Lang   │
 │    Question     │
@@ -233,7 +233,7 @@ CREATE TABLE orders (
 
 ### Example 1: Simple query
 
-```
+```text
 User: "How many customers do we have?"
 
 Agent:
@@ -250,7 +250,7 @@ Result: You have 1,247 customers.
 
 ### Example 2: Aggregation
 
-```
+```text
 User: "What's the total revenue by category?"
 
 Agent:
@@ -281,7 +281,7 @@ Results:
 
 ### Example 3: Complex analysis
 
-```
+```text
 User: "Show me customers who ordered more than 3 times but haven't ordered in the last 30 days"
 
 Agent:
@@ -487,7 +487,7 @@ Explain:
 Use simple language, avoid jargon."""
 ```
 
-```
+```text
 User: "What does this query do?"
 
 Agent: This query:
@@ -550,7 +550,7 @@ QUERY_PATTERNS = {
 
 ## Full example session
 
-```
+```text
 User: "I want to analyze customer behavior"
 
 Agent: I'll help you analyze customer behavior. Let me first understand your database.

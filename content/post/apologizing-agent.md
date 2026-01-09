@@ -28,7 +28,7 @@ I spent two weeks debugging this. Here's what I learned.
 
 My agent would:
 
-```
+```text
 User: "Fix the typo in config.py"
 
 Agent: "I can see there's a typo on line 12 where 'recieve'
@@ -130,7 +130,7 @@ def execute_tool(name, args):
 
 The model saw "Operation failed" and "could not complete" and went into apology mode:
 
-```
+```text
 Agent: "I apologize, but I wasn't able to modify the file.
 The operation failed. Let me suggest some alternatives..."
 ```
@@ -192,7 +192,7 @@ Now the model knows exactly what it can do.
 
 ## Cause 5: Asking for permission it didn't need
 
-```
+```text
 User: "Update the README with the new API endpoint"
 
 Agent: "I can help update the README. Before I make changes:
@@ -224,7 +224,7 @@ Don't ask for confirmation on routine tasks.
 
 And in practice:
 
-```
+```text
 User: "Update the README with the new API endpoint"
 
 Agent: 🔧 read_file({"path": "README.md"})
@@ -235,7 +235,7 @@ Agent: 🔧 write_file({"path": "README.md", "content": "..."})
 ```diff
 + ### POST /api/v2/users
 + Creates a new user account.
-```
+```text
 
 Anything else to add?"
 ```
@@ -246,7 +246,7 @@ Action first. Questions only when necessary.
 
 LLMs are trained to be helpful *and* harmless. Sometimes the "harmless" training wins:
 
-```
+```text
 User: "Delete all .log files"
 
 Agent: "I understand you want to delete log files. However,
@@ -274,7 +274,7 @@ Your job is execution, not protection.
 
 Or be explicit in your request:
 
-```
+```text
 User: "Delete all .log files. I know they're gone forever. Do it."
 ```
 
@@ -282,7 +282,7 @@ The confirmation in the request short-circuits the caution.
 
 ## Cause 7: Ambiguity avoidance
 
-```
+```text
 User: "Fix the bug"
 
 Agent: "I'd be happy to help fix the bug! However, I need
@@ -297,7 +297,7 @@ Please provide these details so I can assist you better."
 
 The request was vague. But the agent could have *tried* something:
 
-```
+```text
 Agent: 🔧 run_command({"command": "git diff HEAD~1"})
 Agent: 🔧 search({"query": "error|bug|fix|TODO"})
 Agent: 🔧 run_command({"command": "npm test 2>&1 | tail -50"})
@@ -331,7 +331,7 @@ Only ask for clarification if investigation doesn't reveal the answer.
 
 ## The apologizing vs acting spectrum
 
-```
+```text
 Over-cautious (useless):
 ├── "I can't modify files directly"
 ├── "You would need to manually..."
@@ -401,7 +401,7 @@ tools = [
 
 Try these prompts. If your agent apologizes or explains instead of acting, you have a problem:
 
-```
+```text
 "Add a comment to the top of main.py"
 Expected: Agent writes the comment
 Bad: "To add a comment, you would..."

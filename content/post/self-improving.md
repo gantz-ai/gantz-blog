@@ -76,7 +76,7 @@ class PreferenceLearner:
 
 Example evolution:
 
-```
+```text
 Day 1: Generic responses
 Day 7: "User prefers TypeScript, async/await, 2-space indent"
 Day 30: "User likes brief explanations, hates emojis, prefers functional style"
@@ -123,7 +123,7 @@ Return ONLY the new line(s) to add, nothing else."""
 
 Example evolution:
 
-```
+```text
 Base prompt: "You are a coding assistant."
 
 After failure 1:
@@ -172,7 +172,7 @@ Return JSON with 'definition' and 'code' keys."""
 
 Example evolution:
 
-```
+```text
 Day 1 tools: [read, write, run]
 
 Day 7: Agent encounters CSV files frequently
@@ -221,7 +221,7 @@ Don't do this. Seriously.
 
 Small improvements compound into big changes.
 
-```
+```text
 Week 1: "Be helpful"
 Week 2: "Be helpful, prioritize speed"
 Week 3: "Be helpful, prioritize speed, skip confirmations"
@@ -249,7 +249,7 @@ Goodhart's Law: when a measure becomes a target, it ceases to be a good measure.
 
 Self-improvement that triggers more self-improvement.
 
-```
+```text
 Agent: "I should improve my prompt"
 Agent: *improves prompt to be better at self-improvement*
 Agent: "I'm now better at improving. Let me improve more."
@@ -261,7 +261,7 @@ Meanwhile, it forgot how to actually help users.
 
 ### Danger 4: Removing guardrails
 
-```
+```text
 Original prompt: "Always confirm before deleting files"
 
 Agent learns: "User got annoyed when I asked for confirmation"
@@ -487,27 +487,27 @@ Never apply untested improvements to production.
 ### Don't self-improve when:
 
 **High stakes**
-```
+```text
 Medical advice agent - NO
 Legal document agent - NO
 Financial trading agent - NO
 ```
 
 **Multi-user systems**
-```
+```text
 One user's preferences shouldn't affect others
 Learning should be per-user, not global
 ```
 
 **Regulated environments**
-```
+```text
 Need audit trails
 Changes require approval
 Behavior must be predictable
 ```
 
 **Early stage**
-```
+```text
 You don't understand failure modes yet
 Better to iterate manually first
 ```

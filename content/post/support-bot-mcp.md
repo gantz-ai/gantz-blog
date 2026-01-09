@@ -835,7 +835,7 @@ Suggest:
 
 ## Example conversation
 
-```
+```text
 Customer: Where's my order? I ordered 3 days ago
 
 Bot: I'd be happy to help you track your order! Let me look that up for you.

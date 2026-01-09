@@ -38,20 +38,20 @@ Here's how to protect your MCP tools.
 ## The problem
 
 Without circuit breakers:
-```
+```text
 Tool A fails → Retries pile up → Resources exhausted →
 Other tools slow down → System overload → Everything fails
 ```
 
 With circuit breakers:
-```
+```text
 Tool A fails → Circuit opens → Fast fail →
 Other tools unaffected → System stable → Recovery when ready
 ```
 
 ## Circuit breaker states
 
-```
+```text
          ┌─────────────────────────────────────┐
          │                                     │
          ▼                                     │

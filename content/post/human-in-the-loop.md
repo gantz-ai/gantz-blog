@@ -16,7 +16,7 @@ The best agents know when to stop and ask.
 
 ## The problem with full autonomy
 
-```
+```text
 User: "Clean up my inbox"
 
 Fully autonomous agent:
@@ -37,7 +37,7 @@ Not every action needs approval. But some definitely do.
 
 Anything that can't be undone.
 
-```
+```text
 ALWAYS ASK:
 - Delete files/data
 - Overwrite content
@@ -56,7 +56,7 @@ DON'T NEED TO ASK:
 
 Money or resources at stake.
 
-```
+```text
 ALWAYS ASK:
 - Purchases over $X
 - API calls with costs
@@ -75,7 +75,7 @@ DON'T NEED TO ASK:
 
 Messages leaving your system.
 
-```
+```text
 ALWAYS ASK:
 - Sending emails
 - Posting to social media
@@ -93,7 +93,7 @@ DON'T NEED TO ASK:
 
 When the agent isn't sure what you mean.
 
-```
+```text
 User: "Send the report"
 
 Agent should ask:
@@ -106,7 +106,7 @@ Agent should ask:
 
 New patterns the agent hasn't done before.
 
-```
+```text
 First time connecting to a service → Ask
 First time using a destructive tool → Ask
 First time with high-value operation → Ask
@@ -120,7 +120,7 @@ After user approves pattern → Maybe don't ask next time
 
 Ask before doing anything risky.
 
-```
+```text
 Agent: "I'm about to delete 150 old log files. Proceed?"
 User: "Yes"
 Agent: [deletes files]
@@ -145,7 +145,7 @@ def execute_with_confirmation(action, risk_level):
 
 Show the full plan, then execute.
 
-```
+```text
 Agent: "Here's my plan to reorganize your files:
 1. Create folders: Projects, Archive, Personal
 2. Move 45 work files to Projects
@@ -183,7 +183,7 @@ def execute_plan_with_review(task):
 
 Check in during long-running tasks.
 
-```
+```text
 Agent: "Starting migration. I'll check in every 100 records."
 
 [processes 100 records]
@@ -220,7 +220,7 @@ def execute_with_checkpoints(items, checkpoint_interval=100):
 
 Show what would happen without doing it.
 
-```
+```text
 Agent: "Dry run complete. Here's what would happen:
 - 5 files would be renamed
 - 2 files would be moved
@@ -248,7 +248,7 @@ def execute_with_dry_run(action):
 
 Start cautious, become more autonomous over time.
 
-```
+```text
 Week 1:
 Agent asks before every email send
 
@@ -449,7 +449,7 @@ class HumanInTheLoopAgent:
 
 ### Good confirmation dialogs
 
-```
+```text
 ✓ Clear action description
 ✓ Scope/impact stated
 ✓ Reversibility mentioned
@@ -471,7 +471,7 @@ Example:
 
 ### Bad confirmation dialogs
 
-```
+```text
 ✗ Vague description
 ✗ No scope information
 ✗ Technical jargon
@@ -510,7 +510,7 @@ def smart_confirmation(action, user_history):
 
 ## Balancing autonomy and safety
 
-```
+```text
 Too cautious:                    Too autonomous:
 "Delete file?"                   [deletes everything]
 "Delete another file?"           [no questions asked]
@@ -524,7 +524,7 @@ Sweet spot:
 
 ### The autonomy dial
 
-```
+```text
 Full manual ◄─────────────────────────► Full auto
      │                                       │
      │  ┌─────────────────────────────────┐  │

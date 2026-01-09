@@ -22,7 +22,7 @@ Now I add confirmation for anything destructive. Here's the pattern.
 
 Agents do what you ask. Sometimes too well.
 
-```
+```text
 User: "Remove the old API"
 
 Agent: 🔧 run_command({"command": "rm -rf src/api/"})
@@ -38,7 +38,7 @@ The agent wasn't wrong. The request was ambiguous. But the damage is done.
 
 Before destructive operations, show what will happen. Wait for confirmation.
 
-```
+```text
 User: "Remove the old API"
 
 Agent: "I'll delete these files:
@@ -232,7 +232,7 @@ tools = [
 
 Agent usage:
 
-```
+```text
 Agent: 🔧 request_confirmation({
     "action": "Delete test fixture files",
     "affected": ["fixtures/user.json", "fixtures/order.json", "fixtures/product.json"],
@@ -254,14 +254,14 @@ Good confirmation messages include:
 
 ### 1. What will happen
 
-```
+```text
 Bad:  "Delete files?"
 Good: "Delete 3 test fixture files from fixtures/"
 ```
 
 ### 2. Specific items affected
 
-```
+```text
 Bad:  "Some files will be removed"
 Good: "Will delete:
        - fixtures/user.json
@@ -271,21 +271,21 @@ Good: "Will delete:
 
 ### 3. Scope/impact
 
-```
+```text
 Bad:  "This will delete code"
 Good: "3 files, 245 lines of code"
 ```
 
 ### 4. Reversibility
 
-```
+```text
 Good: "This can be recovered from git"
 Good: "⚠️  This cannot be undone (files not in git)"
 ```
 
 ### Complete example
 
-```
+```text
 I'll delete outdated migration files:
 
   Files to delete:
@@ -331,7 +331,7 @@ This lets users say:
 
 ### Multiple destructive operations
 
-```
+```text
 User: "Clean up the repo - delete node_modules, dist, and coverage"
 
 Agent: "I'll delete these directories:
@@ -351,7 +351,7 @@ Batch them into one confirmation, not three.
 
 ### Nested destructive operations
 
-```
+```text
 User: "Set up the project from scratch"
 
 # This might involve:
@@ -391,7 +391,7 @@ skip confirmations for this session. Still show what you did after.
 """
 ```
 
-```
+```text
 User: "Delete all .log files, no confirmation needed"
 
 Agent: 🔧 run_command({"command": "find . -name '*.log' -delete"})
@@ -405,7 +405,7 @@ Trust the user, but log what happened.
 
 Don't be annoying:
 
-```
+```text
 # Don't do this
 Agent: "I'm about to read config.json. Confirm?"
 Agent: "I'll run 'npm test'. Proceed?"
@@ -467,7 +467,7 @@ The agent learns to call `confirm` before `delete`.
 
 ## The pattern in one diagram
 
-```
+```text
          User Request
               │
               ▼

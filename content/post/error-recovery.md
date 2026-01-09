@@ -18,7 +18,7 @@ The difference between a toy and production agent? How it handles failure.
 
 Agents fail in ways traditional software doesn't:
 
-```
+```text
 Traditional software:
 Input → Function → Output (or Error)
 

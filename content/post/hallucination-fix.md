@@ -12,7 +12,7 @@ voice = false
 
 My agent was confident. Articulate. Completely wrong.
 
-```
+```text
 User: "What's in config.json?"
 
 Agent: "Based on your config.json, you have:
@@ -31,7 +31,7 @@ One prompt change fixed it.
 
 My agent would hallucinate when it should have used tools.
 
-```
+```text
 User: "How many lines in main.py?"
 
 Agent: "main.py has approximately 150 lines of code."
@@ -39,7 +39,7 @@ Agent: "main.py has approximately 150 lines of code."
 # Reality: main.py has 47 lines. Agent never read it.
 ```
 
-```
+```text
 User: "What tests are failing?"
 
 Agent: "Looking at your test suite, it appears the
@@ -88,14 +88,14 @@ That's it. One rule: **verify before stating**.
 
 Before:
 
-```
+```text
 User: "What's in config.json?"
 Agent: "Based on your config.json..." (hallucinated)
 ```
 
 After:
 
-```
+```text
 User: "What's in config.json?"
 Agent: 🔧 read_file({"path": "config.json"})
 "config.json contains:
@@ -108,14 +108,14 @@ That's all - just debug mode and port settings."
 
 Before:
 
-```
+```text
 User: "How many lines in main.py?"
 Agent: "main.py has approximately 150 lines." (wrong)
 ```
 
 After:
 
-```
+```text
 User: "How many lines in main.py?"
 Agent: 🔧 run_command({"command": "wc -l main.py"})
 "main.py has 47 lines."
@@ -123,14 +123,14 @@ Agent: 🔧 run_command({"command": "wc -l main.py"})
 
 Before:
 
-```
+```text
 User: "Are the tests passing?"
 Agent: "The authentication tests appear to be failing..." (made up)
 ```
 
 After:
 
-```
+```text
 User: "Are the tests passing?"
 Agent: 🔧 run_command({"command": "npm test"})
 "All 23 tests pass. No failures."
@@ -140,7 +140,7 @@ Agent: 🔧 run_command({"command": "npm test"})
 
 The prompt creates a mental checkpoint:
 
-```
+```text
 Without the rule:
   Question → Pattern match → Answer (often wrong)
 
@@ -211,7 +211,7 @@ Watch out for these - they tempt the model to guess:
 
 ### "What's in...?"
 
-```
+```text
 User: "What's in the .env file?"
 
 Bad:  "Typically, .env contains DATABASE_URL, API_KEY..."
@@ -220,7 +220,7 @@ Good: 🔧 read_file({".env"}) → actual contents
 
 ### "How many...?"
 
-```
+```text
 User: "How many tests do we have?"
 
 Bad:  "Based on the test structure, approximately 50 tests..."
@@ -229,7 +229,7 @@ Good: 🔧 run_command({"find . -name '*.test.js' | wc -l"}) → actual count
 
 ### "Is/Are...?"
 
-```
+```text
 User: "Is the server running?"
 
 Bad:  "The server should be running on port 3000..."
@@ -238,7 +238,7 @@ Good: 🔧 run_command({"curl localhost:3000/health"}) → actual status
 
 ### "Why is...?"
 
-```
+```text
 User: "Why is the build failing?"
 
 Bad:  "Build failures are often caused by syntax errors or..."
@@ -247,7 +247,7 @@ Good: 🔧 run_command({"npm run build 2>&1 | tail -50"}) → actual error
 
 ### "What version...?"
 
-```
+```text
 User: "What version of React are we using?"
 
 Bad:  "Based on modern practices, probably React 18..."
@@ -258,7 +258,7 @@ Good: 🔧 read_file({"package.json"}) → actual version
 
 Train yourself to recognize the pattern:
 
-```
+```text
 ❌ Hallucination pattern:
    User asks → Agent answers from knowledge → Wrong
 
@@ -272,7 +272,7 @@ Every answer about the current codebase should follow the tool first.
 
 The rule applies to **facts about the current codebase/system**. General knowledge is fine:
 
-```
+```text
 # This is fine - general knowledge
 User: "What's the difference between let and const?"
 Agent: "let allows reassignment, const doesn't..." (no tool needed)
@@ -287,7 +287,7 @@ Agent: 🔧 search({"query": "\\blet\\b|\\bconst\\b"})
 
 Sometimes the tool reveals the answer doesn't exist:
 
-```
+```text
 User: "What's in config.json?"
 
 Agent: 🔧 read_file({"path": "config.json"})
@@ -354,7 +354,7 @@ The descriptions reinforce when to use each tool.
 
 Try these prompts to test if your agent hallucinates:
 
-```
+```text
 # Should trigger tool use, not guessing
 "What's in package.json?"
 "How many files are in src/?"

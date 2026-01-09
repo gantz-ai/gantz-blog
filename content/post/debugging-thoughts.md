@@ -20,7 +20,7 @@ Here's how to figure out what it was thinking.
 
 Agent debugging is hard because:
 
-```
+```text
 Input: "Update the config file"
 
 Agent: *thinks something*
@@ -160,7 +160,7 @@ def print_thoughts(thought_log):
 
 Output:
 
-```
+```text
 [14:32:01] 🧠 THINKING
   Context length: 2847 chars
   Available tools: ['read_file', 'write_file', 'search']
@@ -192,7 +192,7 @@ Now you can see exactly what happened.
 
 ### Pattern 1: Wrong tool selection
 
-```
+```text
 🧠 THINKING
   Available tools: ['read_file', 'write_file', 'search', 'query_database']
   Last message: "Find customers who ordered last week"
@@ -218,7 +218,7 @@ Now you can see exactly what happened.
 
 ### Pattern 2: Missing context
 
-```
+```text
 🧠 THINKING
   Context length: 847 chars      ← Suspiciously short
   Last message: "Update the config"
@@ -234,7 +234,7 @@ Now you can see exactly what happened.
 
 ### Pattern 3: Hallucinated parameters
 
-```
+```text
 🧠 THINKING
   Available tools: ['send_email']
   Last message: "Email John about the meeting"
@@ -259,7 +259,7 @@ def validate_tool_call(tool_call, context):
 
 ### Pattern 4: Infinite loop setup
 
-```
+```text
 [14:32:01] 💭 DECIDED: Call search {'query': 'config'}
 [14:32:02] ✅ RESULT: No results
 [14:32:03] 💭 DECIDED: Call search {'query': 'config'}    ← Same thing
@@ -273,7 +273,7 @@ def validate_tool_call(tool_call, context):
 
 ### Pattern 5: Context overflow
 
-```
+```text
 🧠 THINKING
   Context length: 127843 chars   ← Way too big
   [context truncated]
@@ -304,7 +304,7 @@ Then proceed with the action.
 
 Now you get:
 
-```
+```text
 💭 RESPONSE:
 "The user wants to update the config file to use port 8080.
 

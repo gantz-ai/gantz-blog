@@ -41,7 +41,7 @@ Docker is the answer. Here's the simplest setup that works.
 
 ## The goal
 
-```
+```text
 your-agent/
 ├── Dockerfile
 ├── docker-compose.yml
@@ -478,7 +478,7 @@ openai_key = get_secret("openai_key")
 
 ## The complete setup
 
-```
+```text
 your-agent/
 ├── Dockerfile
 ├── docker-compose.yml

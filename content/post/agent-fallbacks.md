@@ -49,7 +49,7 @@ Any of these can fail. Fallbacks keep your system running.
 
 Plan your fallback order:
 
-```
+```text
 Primary Model → Backup Model → Cached Response → Default Response → Error Message
      ↓              ↓              ↓                 ↓                  ↓
    Best           Good          Stale            Generic           Informative

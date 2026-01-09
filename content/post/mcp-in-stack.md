@@ -22,7 +22,7 @@ Let me draw you a map.
 
 Here's a typical AI application stack, top to bottom:
 
-```
+```text
 ┌─────────────────────────────────────┐
 │           User Interface            │  ← What users see
 ├─────────────────────────────────────┤
@@ -110,7 +110,7 @@ Some models (like Claude) have native MCP support. Others need an adapter.
 
 **MCP sits here.** Between AI and external systems.
 
-```
+```text
 AI wants to do something
         ↓
     MCP Client
@@ -145,7 +145,7 @@ MCP doesn't care what's here. It just provides the interface.
 
 MCP has two sides:
 
-```
+```text
 ┌─────────────────┐         ┌─────────────────┐
 │   MCP Client    │ ←─────→ │   MCP Server    │
 │                 │   MCP   │                 │
@@ -184,7 +184,7 @@ MCP is NOT:
 
 MCP doesn't do AI. It connects AI to tools.
 
-```
+```text
 Wrong: "MCP will answer my questions"
 Right: "MCP lets AI access my database to answer questions"
 ```
@@ -193,7 +193,7 @@ Right: "MCP lets AI access my database to answer questions"
 
 MCP doesn't decide what to do. That's your agent/orchestration layer.
 
-```
+```text
 Wrong: "MCP will figure out which tools to use"
 Right: "AI decides which tools to use, MCP handles the call"
 ```
@@ -202,7 +202,7 @@ Right: "AI decides which tools to use, MCP handles the call"
 
 MCP is for actions. RAG is for knowledge retrieval.
 
-```
+```text
 Wrong: "MCP will search my documents"
 Right: "MCP calls a search tool, which might use RAG"
 ```
@@ -211,7 +211,7 @@ Right: "MCP calls a search tool, which might use RAG"
 
 MCP just connects. Your app logic lives elsewhere.
 
-```
+```text
 Wrong: "MCP handles user authentication"
 Right: "MCP calls a tool that checks authentication"
 ```
@@ -222,7 +222,7 @@ Right: "MCP calls a tool that checks authentication"
 
 AI model with native MCP support.
 
-```
+```text
 ┌──────────┐      ┌──────────────┐
 │  Claude  │─────→│  MCP Server  │
 │  (MCP    │ MCP  │  (Gantz)     │
@@ -246,7 +246,7 @@ response = claude.messages.create(
 
 Agent framework manages MCP.
 
-```
+```text
 ┌──────────┐      ┌──────────────┐      ┌──────────────┐
 │  Claude  │─────→│  LangChain   │─────→│  MCP Server  │
 │          │      │  (MCP Client)│ MCP  │              │
@@ -264,7 +264,7 @@ agent = create_agent(llm=claude, tools=toolkit.get_tools())
 
 Different servers for different domains.
 
-```
+```text
                   ┌──────────────────┐
                   │   MCP Server 1   │
              ┌───→│   (Database)     │
@@ -285,7 +285,7 @@ Different servers for different domains.
 
 Single entry point to multiple backends.
 
-```
+```text
 ┌──────────┐      ┌──────────────┐      ┌─────────────┐
 │   AI     │─────→│  MCP Gateway │─────→│ Service A   │
 │  Agent   │ MCP  │              │      ├─────────────┤
@@ -301,7 +301,7 @@ Let's trace a request through the stack:
 
 **User:** "What's my top customer's email?"
 
-```
+```text
 1. User Interface
    └─ User types question in chat
 
@@ -410,7 +410,7 @@ Skip MCP if:
 
 **MCP sits between AI and external systems.**
 
-```
+```text
 Your AI app
     ↓
 AI orchestration (decides what to do)

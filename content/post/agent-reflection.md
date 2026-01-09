@@ -47,7 +47,7 @@ Reflection enables self-improvement.
 
 ## Reflection patterns
 
-```
+```text
 Output → Critique → Revision → Better Output
      ↑                              ↓
      └──────── Learn ←──────────────┘

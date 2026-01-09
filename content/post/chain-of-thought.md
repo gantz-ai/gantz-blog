@@ -22,7 +22,7 @@ Here's when to use chain of thought, and when to skip it.
 
 Chain of thought (CoT) prompts the model to show its reasoning before answering.
 
-```
+```text
 Without CoT:
 Q: If a train travels 120 miles in 2 hours, what's its speed?
 A: 60 mph
@@ -44,7 +44,7 @@ Same answer. But the model "thought" about it first.
 
 ### Complex multi-step reasoning
 
-```
+```text
 Task: "Is this code vulnerable to SQL injection?"
 
 Without CoT:
@@ -67,7 +67,7 @@ CoT forces the model to actually trace through the logic.
 
 ### Math and calculations
 
-```
+```text
 Task: "Calculate the total cost with tax and discount"
 
 Without CoT:
@@ -86,7 +86,7 @@ With CoT:
 
 ### Ambiguous problems
 
-```
+```text
 Task: "Should I use Redis or PostgreSQL for this?"
 
 Without CoT:
@@ -108,7 +108,7 @@ Shows reasoning. User can evaluate the logic.
 
 ### Debugging and analysis
 
-```
+```text
 Task: "Why is this test failing?"
 
 Without CoT:
@@ -130,7 +130,7 @@ The test fails because createUser doesn't return the id field."
 
 ### Simple factual questions
 
-```
+```text
 Task: "What's the capital of France?"
 
 Without CoT:
@@ -147,7 +147,7 @@ CoT adds cost with no benefit for simple lookups.
 
 ### Clear-cut decisions
 
-```
+```text
 Task: "Is 'hello world' a valid Python string?"
 
 Without CoT:
@@ -167,7 +167,7 @@ Result: Overthinking a trivial question.
 
 ### Speed-critical tasks
 
-```
+```text
 Without CoT:
 Response time: 200ms
 
@@ -179,7 +179,7 @@ If you're building autocomplete or real-time features, CoT kills your latency.
 
 ### When it causes overthinking
 
-```
+```text
 Task: "Read the config file and tell me the port number"
 
 Without CoT:
@@ -205,7 +205,7 @@ Analysis paralysis.
 
 Sometimes CoT makes the model talk itself into wrong answers:
 
-```
+```text
 Task: "Is 0.1 + 0.2 == 0.3 in JavaScript?"
 
 Without CoT:
@@ -227,7 +227,7 @@ The model's "reasoning" followed common sense instead of technical accuracy.
 
 ### Token cost
 
-```
+```text
 Simple question without CoT: ~50 tokens response
 Simple question with CoT: ~200 tokens response
 
@@ -236,7 +236,7 @@ Simple question with CoT: ~200 tokens response
 
 ### Latency cost
 
-```
+```text
 Without CoT:
 - Tokens generated: 20
 - Time: 200ms
@@ -252,7 +252,7 @@ With CoT:
 
 Users have to read through reasoning they don't need:
 
-```
+```text
 User: "What's 2 + 2?"
 
 Agent: "Let me work through this carefully. We have the number 2, and we need to add another 2 to it. Addition is the process of combining quantities. When we add 2 + 2, we get 4. Therefore, the answer is 4."
@@ -262,7 +262,7 @@ User: "I just wanted to know it's 4."
 
 ## The decision framework
 
-```
+```text
 ┌─────────────────────────────────────────────────────┐
 │                  Use CoT when:                       │
 ├─────────────────────────────────────────────────────┤
@@ -403,7 +403,7 @@ Then use the appropriate tool.
 
 Example:
 
-```
+```text
 User: "Fix the bug in auth.py"
 
 Agent thinking:
@@ -434,7 +434,7 @@ Don't explain basic concepts or obvious steps.
 
 Result:
 
-```
+```text
 User: "Calculate compound interest: $1000, 5%, 10 years"
 
 Agent: "Using A = P(1 + r)^t: $1000 × (1.05)^10 = $1,628.89"

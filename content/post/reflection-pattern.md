@@ -20,7 +20,7 @@ That's the Reflection pattern.
 
 Standard AI agents act and move on. They don't look back.
 
-```
+```text
 User: "Write a function to calculate factorial"
 
 AI: [writes code]
@@ -37,7 +37,7 @@ The AI completed the task but didn't verify its work. No human would submit code
 
 Reflection adds a verification step. After acting, AI reviews its own output.
 
-```
+```text
 User: "Write a function to calculate factorial"
 
 AI: [writes code]
@@ -62,7 +62,7 @@ Same AI, better result. Just by thinking twice.
 
 ## How it works
 
-```
+```text
 ┌─────────┐     ┌─────────┐     ┌─────────┐
 │  Task   │────→│  Actor  │────→│ Output  │
 └─────────┘     └─────────┘     └────┬────┘
@@ -179,7 +179,7 @@ def execute_with_reflection(task, mcp_client):
 
 **Without reflection:**
 
-```
+```text
 AI: Here's the function:
 
 def second_largest(nums):
@@ -194,7 +194,7 @@ def second_largest(nums):
 
 **With reflection:**
 
-```
+```text
 AI [ACT]: Here's the function:
 
 def second_largest(nums):
@@ -231,7 +231,7 @@ AI [REFLECT]: Checking again...
 
 **Without reflection:**
 
-```
+```text
 AI: [calls get_users tool]
 AI: [calls send_email tool for each user]
 AI: "Done! Sent emails to 150 users."
@@ -242,7 +242,7 @@ AI: "Done! Sent emails to 150 users."
 
 **With reflection:**
 
-```
+```text
 AI [ACT]:
 [calls get_users(filter="signup_date > 2024-11-01")]
 Got 150 users
@@ -354,7 +354,7 @@ for rule in RULES:
 
 Reflection means more LLM calls.
 
-```
+```text
 Without: 1 call
 With: 2-3 calls (act + reflect + maybe fix)
 ```
@@ -363,14 +363,14 @@ With: 2-3 calls (act + reflect + maybe fix)
 
 Extra round trips take time.
 
-```
+```text
 Without: 500ms
 With: 1000-1500ms
 ```
 
 ### When it's worth it
 
-```
+```text
 Cost of reflection: ~2x tokens/latency
 Cost of wrong output: Much higher
 
@@ -426,7 +426,7 @@ Run these with [Gantz](https://gantz.run) to give your reflector verification ca
 
 Reflect on the plan before executing.
 
-```
+```text
 Plan → Reflect on plan → Execute → Done
 ```
 
@@ -434,7 +434,7 @@ Plan → Reflect on plan → Execute → Done
 
 Reflect on the result after executing.
 
-```
+```text
 Execute → Reflect on result → Fix if needed → Done
 ```
 
@@ -442,7 +442,7 @@ Execute → Reflect on result → Fix if needed → Done
 
 Reflect at every step.
 
-```
+```text
 Act → Reflect → Act → Reflect → Act → Reflect → Done
 ```
 
@@ -450,7 +450,7 @@ Act → Reflect → Act → Reflect → Act → Reflect → Done
 
 Multiple reflectors vote.
 
-```
+```text
 Output → Reflector A → Good
        → Reflector B → Good
        → Reflector C → Needs fix
@@ -462,7 +462,7 @@ Majority: Good (2/3)
 
 Reflection makes AI check its work.
 
-```
+```text
 Without reflection:
 Task → Act → Output (might be wrong)
 

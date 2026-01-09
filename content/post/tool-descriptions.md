@@ -42,7 +42,7 @@ Same tool. Different descriptions. Completely different AI behavior.
 
 A good tool description has four parts:
 
-```
+```text
 ┌─────────────────────────────────────────────────────┐
 │                 TOOL DESCRIPTION                     │
 ├─────────────────────────────────────────────────────┤
@@ -358,7 +358,7 @@ Tailor descriptions to your use case.
 
 Give AI a task and see if it picks the right tool.
 
-```
+```text
 Task: "Find all JavaScript files in the src folder"
 
 If AI picks wrong tool → Description needs work
@@ -369,7 +369,7 @@ If AI picks right tool → Description is clear
 
 Does AI provide correct parameters?
 
-```
+```text
 Task: "Search for files containing 'TODO'"
 
 Good: AI uses search_files with query="TODO"
@@ -380,7 +380,7 @@ Bad: AI uses search_files with query="files with TODO"
 
 Does AI know when NOT to use the tool?
 
-```
+```text
 Task: "Delete all log files"
 
 If tool is read-only and AI still tries to use it →

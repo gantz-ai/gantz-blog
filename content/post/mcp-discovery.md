@@ -39,7 +39,7 @@ Auto-discovery is the answer.
 
 AI agents work best when they understand their tools:
 
-```
+```text
 Agent: "I need to read a file, but what tools do I have?"
 
 Without discovery:
@@ -59,7 +59,7 @@ Discovery makes agents self-sufficient.
 
 MCP defines a standard discovery protocol:
 
-```
+```text
 Client → Server: tools/list
 Server → Client: [list of all available tools with schemas]
 ```

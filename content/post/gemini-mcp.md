@@ -35,7 +35,7 @@ Let's connect them.
 
 ## The architecture
 
-```
+```text
 User → Gemini (Google) → Your Code → MCP Server → Tools
             ↓                ↑
      Function calls     Tool results

@@ -23,7 +23,7 @@ A state machine is:
 - A set of **transitions** (how you move between states)
 - **Events** that trigger transitions
 
-```
+```text
 ┌─────────┐   button_press   ┌─────────┐
 │   OFF   │ ───────────────→ │   ON    │
 └─────────┘                  └─────────┘
@@ -41,7 +41,7 @@ Every agent has:
 - **Transitions**: How it moves between states
 - **Events**: User input, tool results, errors
 
-```
+```text
 ┌──────────┐   user_input   ┌──────────┐   needs_tool   ┌──────────┐
 │  IDLE    │ ─────────────→ │ THINKING │ ────────────→  │ ACTING   │
 └──────────┘                └──────────┘                └──────────┘
@@ -108,7 +108,7 @@ Something went wrong.
 
 ## Full state diagram
 
-```
+```text
                               ┌─────────────────────────────────────┐
                               │                                     │
                               ▼                                     │
@@ -289,7 +289,7 @@ def debug_agent(agent):
     print(f"Valid transitions: {agent.transitions[agent.state].keys()}")
 ```
 
-```
+```text
 Current state: ACTING
 Context: {"pending_tool": {"name": "search", "params": {...}}}
 Valid transitions: ["tool_success", "tool_failure"]
@@ -394,7 +394,7 @@ def load_state(agent, saved):
 
 States within states.
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │              ACTING                      │
 │  ┌──────────┐  ┌──────────┐  ┌───────┐  │
@@ -432,7 +432,7 @@ def handle_acting(self):
 
 Multiple things happening at once.
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │              ACTING                      │
 │                                          │
@@ -601,7 +601,7 @@ def validate_state_machine(transitions):
 
 Agents are state machines:
 
-```
+```text
 IDLE → THINKING → ACTING → OBSERVING → RESPONDING → IDLE
            ↑         │           │
            └─────────┴───────────┘

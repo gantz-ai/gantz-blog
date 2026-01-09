@@ -22,7 +22,7 @@ Here's the technique.
 
 Meta-prompting uses an LLM to generate, improve, or customize prompts.
 
-```
+```text
 Traditional:
 Human writes prompt → LLM uses prompt → Output
 
@@ -59,7 +59,7 @@ The LLM knows what structure helps it produce better output.
 
 ### Reason 2: Personalization at scale
 
-```
+```text
 User 1 is a senior developer → Technical, terse prompts
 User 2 is a beginner → Explanatory, step-by-step prompts
 User 3 prefers Python → Python-focused examples

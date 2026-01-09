@@ -51,7 +51,7 @@ Job queues work for:
 
 ## The architecture
 
-```
+```text
 ┌───────────┐    ┌───────────┐    ┌───────────┐
 │  Clients  │───▶│   Queue   │───▶│  Workers  │
 │ (APIs,    │    │ (Redis,   │    │ (Agents)  │

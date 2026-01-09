@@ -46,13 +46,13 @@ MCP changes that. It gives AI hands.
 
 MCP (Model Context Protocol) is a standard way for AI to call tools. Instead of:
 
-```
+```text
 You → ChatGPT → Copy answer → Do the thing yourself
 ```
 
 It's:
 
-```
+```text
 You → AI → MCP Server → Thing gets done
 ```
 
@@ -150,25 +150,25 @@ MCP lets AI access all of this without uploading anything. The AI connects to yo
 ## What this looks like day-to-day
 
 Morning standup:
-```
+```text
 "What did I work on yesterday?"
 → AI checks git commits, time tracker, notes
 ```
 
 Debugging:
-```
+```text
 "Why is this endpoint slow?"
 → AI queries logs, checks DB performance, profiles code
 ```
 
 Code review:
-```
+```text
 "Anything concerning in this PR?"
 → AI reads diff, checks for patterns, runs tests
 ```
 
 Writing:
-```
+```text
 "Draft a doc for this feature based on my notes"
 → AI searches notes, reads code, generates doc
 ```

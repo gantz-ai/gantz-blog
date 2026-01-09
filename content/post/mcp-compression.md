@@ -38,13 +38,13 @@ Compression shrinks data. Compression is fast.
 ## Why compression matters
 
 Without compression:
-```
+```text
 Tool result: 1MB JSON → Network transfer (500ms) → Parse
 Total: 500ms+ latency
 ```
 
 With compression:
-```
+```text
 Tool result: 1MB JSON → Compress (50KB) → Transfer (25ms) → Decompress
 Total: 50ms latency (10x faster)
 ```

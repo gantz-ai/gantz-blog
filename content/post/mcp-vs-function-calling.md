@@ -115,7 +115,7 @@ The AI doesn't just ask for something - it actually gets it done through the MCP
 Let me visualize this more clearly:
 
 **Function Calling Architecture:**
-```
+```text
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │   Your App  │────▶│  Claude API │────▶│  Your App   │
 │  (defines   │     │  (returns   │     │  (executes  │
@@ -126,7 +126,7 @@ Let me visualize this more clearly:
 ```
 
 **MCP Architecture:**
-```
+```text
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │   Your App  │────▶│  Claude API │────▶│ MCP Server  │
 │  (just UI)  │     │  (connects  │     │ (executes   │

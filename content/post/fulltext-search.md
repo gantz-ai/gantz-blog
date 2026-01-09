@@ -22,7 +22,7 @@ And nobody tries it first.
 
 Developer needs search:
 
-```
+```text
 "I need to search documents"
 
 Brain: Embeddings → Vector DB → RAG pipeline
@@ -43,7 +43,7 @@ Sometimes that's all you need.
 
 Full-text search indexes words, not vectors.
 
-```
+```text
 Document: "The quick brown fox jumps over the lazy dog"
 
 Full-text index:
@@ -77,7 +77,7 @@ Full-text search isn't just LIKE queries. It handles:
 
 ### Exact terminology matters
 
-```
+```text
 User: "What's the MAX_CONNECTIONS setting?"
 
 RAG returns: "Connection pooling improves performance..."
@@ -91,7 +91,7 @@ Technical docs, config references, API docs - exact terms matter.
 
 ### Keywords are specific
 
-```
+```text
 User: "Error code E_AUTH_FAILED"
 
 RAG returns: "Authentication errors can occur when..."
@@ -105,7 +105,7 @@ Error codes, product IDs, specific terminology.
 
 ### Small corpus
 
-```
+```text
 Your data: 500 documents
 
 RAG:
@@ -124,7 +124,7 @@ For small corpora, full-text is dramatically simpler.
 
 ### Real-time updates
 
-```
+```text
 RAG:
 - New doc → generate embedding → update index → hope cache invalidates
 
@@ -136,7 +136,7 @@ Full-text indexes update in real-time. Vector indexes often don't.
 
 ### Zero hallucination tolerance
 
-```
+```text
 User: "What's the exact wording of section 3.2?"
 
 RAG might paraphrase or combine chunks.
@@ -420,7 +420,7 @@ combined = reciprocal_rank_fusion([fulltext_results, vector_results])
 
 ## Decision flowchart
 
-```
+```text
                      Start
                        │
                        ▼

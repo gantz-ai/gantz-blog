@@ -37,7 +37,7 @@ Here's how to connect them.
 
 ## The architecture
 
-```
+```text
 User → GPT (OpenAI) → Your Code → MCP Server → Tools
          ↓                ↑
     Function calls    Tool results

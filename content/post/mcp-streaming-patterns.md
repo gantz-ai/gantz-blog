@@ -38,7 +38,7 @@ Here's how to stream with MCP.
 ## Why streaming matters
 
 Without streaming:
-```
+```text
 User: "Analyze this document"
 [3 seconds of nothing]
 [2 more seconds]
@@ -46,7 +46,7 @@ Response appears all at once
 ```
 
 With streaming:
-```
+```text
 User: "Analyze this document"
 "Analyzing structure..."
 "Found 5 sections..."

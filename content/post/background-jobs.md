@@ -26,7 +26,7 @@ Long-running tasks need background jobs. Here's how to build them.
 
 HTTP requests have timeouts:
 
-```
+```text
 Browser default: 30-60 seconds
 Load balancer: 60 seconds
 API gateway: 29 seconds (AWS)
@@ -35,7 +35,7 @@ User patience: 10 seconds
 
 Some agent tasks take longer:
 
-```
+```text
 Run full test suite: 2-10 minutes
 Build project: 1-5 minutes
 Run migrations: 30 seconds - 5 minutes
@@ -48,7 +48,7 @@ Synchronous doesn't work.
 
 ## The solution: Background jobs
 
-```
+```text
 Synchronous (broken):
 User → Agent → Long task → ... → Timeout 💥
 
@@ -66,7 +66,7 @@ The request returns immediately. Work happens in the background.
 
 ## Architecture
 
-```
+```text
 ┌─────────┐     ┌─────────┐     ┌─────────────┐
 │  User   │────▶│  Agent  │────▶│    Queue    │
 └─────────┘     └─────────┘     └──────┬──────┘
@@ -290,7 +290,7 @@ class AgentWithBackgroundJobs:
 
 ## Conversation flow
 
-```
+```text
 User: "Run the full test suite"
 
 Agent: 🔧 run_tests_background({"command": "npm test"})
@@ -352,7 +352,7 @@ def run_tests(self, params: dict) -> str:
 
 Agent can report progress:
 
-```
+```text
 Agent: "Tests are 50% complete. 23 of 47 tests done."
 ```
 

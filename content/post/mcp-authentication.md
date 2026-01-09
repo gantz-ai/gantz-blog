@@ -58,7 +58,7 @@ Authentication isn't optional. It's essential.
 
 The simplest approach. Client sends a token with each request.
 
-```
+```text
 Client → MCP Server
 Authorization: Bearer gtz_abc123...
 ```
@@ -79,7 +79,7 @@ If the token matches, request proceeds. If not, rejected.
 
 Industry standard for delegated authorization.
 
-```
+```text
 Client → Auth Server → Get Token
 Client → MCP Server (with token)
 MCP Server → Auth Server → Validate Token
@@ -100,7 +100,7 @@ MCP Server → Auth Server → Validate Token
 
 Similar to tokens, but typically longer-lived and tied to accounts.
 
-```
+```text
 Client → MCP Server
 X-API-Key: your-api-key-here
 ```
@@ -242,7 +242,7 @@ For production systems with multiple users, OAuth is better.
 
 ### OAuth flow
 
-```
+```text
 1. Client requests authorization
 2. User authenticates with auth provider
 3. Auth provider returns authorization code

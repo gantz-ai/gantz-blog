@@ -45,7 +45,7 @@ Here's how I built a local RAG in about 30 minutes using MCP. Everything runs on
 
 ## The idea
 
-```
+```text
 You → Claude → MCP Server → Search local files → Return relevant chunks → Claude answers
 ```
 
@@ -422,7 +422,7 @@ Add to your gantz.yaml:
 
 ## What you can ask
 
-```
+```text
 "How do I set up authentication?"
 → Searches docs, finds auth-related sections, answers with citations
 

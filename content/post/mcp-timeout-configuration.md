@@ -38,13 +38,13 @@ Timeouts prevent indefinite hangs.
 ## Why timeouts matter
 
 Without timeouts:
-```
+```text
 User request → Tool call → API hangs forever →
 Thread blocked → Resources exhausted → System unresponsive
 ```
 
 With timeouts:
-```
+```text
 User request → Tool call → API hangs →
 Timeout triggers (5s) → Error returned → User informed →
 Resources freed → System continues

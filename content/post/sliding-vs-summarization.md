@@ -18,7 +18,7 @@ Both have costs. Here's how to choose.
 
 ## The problem
 
-```
+```text
 Turn 1:   "My name is Alice, I work on the payments team"
 Turn 2:   "Can you help me debug the checkout flow?"
 Turn 3:   [tool call: read checkout.js]
@@ -34,7 +34,7 @@ What do you drop?
 
 Keep the last N messages. Drop everything older.
 
-```
+```text
 Before (30 messages):
 [1] [2] [3] [4] [5] ... [26] [27] [28] [29] [30]
 
@@ -85,7 +85,7 @@ assert len(context.messages) <= 20
 
 **Early context**: First messages disappear.
 
-```
+```text
 Turn 1: "My name is Alice"        ← GONE
 Turn 2: "I'm on the payments team" ← GONE
 ...
@@ -95,7 +95,7 @@ Agent: "I don't know your name"   ← Oops
 
 **Important setup**: Key instructions vanish.
 
-```
+```text
 Turn 1: "Always respond in French" ← GONE
 ...
 Turn 25: [Agent responds in English]
@@ -103,7 +103,7 @@ Turn 25: [Agent responds in English]
 
 **Accumulated knowledge**: Facts learned early are lost.
 
-```
+```text
 Turn 3: [Reads config file]        ← GONE
 Turn 5: [User explains architecture] ← GONE
 ...
@@ -114,7 +114,7 @@ Turn 25: Agent asks same questions again
 
 Compress old messages into a summary. Keep recent messages verbatim.
 
-```
+```text
 Before:
 [msg1] [msg2] [msg3] ... [msg28] [msg29] [msg30]
 
@@ -191,7 +191,7 @@ Summary:"""
 
 **Preserved knowledge**: Key facts survive.
 
-```
+```text
 Summary: "User is Alice from payments team. Debugging checkout flow.
          Found validation issue in checkout.js line 47."
 
@@ -201,7 +201,7 @@ Agent: "You're on the payments team"  ← Remembered!
 
 **Accumulated context**: Learning compounds.
 
-```
+```text
 Summary includes:
 - User preferences discovered
 - Decisions made
@@ -222,14 +222,14 @@ summary = llm.create(...)
 
 **Cost**: Tokens to generate summary.
 
-```
+```text
 Summarizing 10 messages: ~500 input tokens + ~200 output tokens
 At $0.01/1K tokens: ~$0.007 per summarization
 ```
 
 **Accuracy**: Summarizer might miss things.
 
-```
+```text
 # Important detail in message 5
 "Make sure to use UTC timestamps, not local time"
 
@@ -435,7 +435,7 @@ class ExtractAndSlide:
 
 ## Decision flowchart
 
-```
+```text
                     Start
                       │
                       ▼

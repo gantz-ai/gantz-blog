@@ -38,13 +38,13 @@ Pagination breaks data into manageable chunks.
 ## Why pagination matters
 
 Without pagination:
-```
+```text
 Query all records → Load 10,000 items → Memory spike →
 Timeout or crash → User sees nothing
 ```
 
 With pagination:
-```
+```text
 Query page 1 (100 items) → Return fast →
 User requests page 2 → Return fast → ...
 Smooth experience

@@ -27,7 +27,7 @@ export DATABASE_URL="postgres://localhost/dev"
 ```
 
 Production:
-```
+```text
 Error: OPENAI_API_KEY not found
 ```
 
@@ -58,7 +58,7 @@ config = open("./config.yaml")  # Works from project root
 ```
 
 Production:
-```
+```text
 FileNotFoundError: ./config.yaml
 ```
 
@@ -77,14 +77,14 @@ config = open(CONFIG_PATH)
 ### 3. Network is different
 
 Local:
-```
+```text
 localhost:5432 → PostgreSQL ✓
 localhost:6379 → Redis ✓
 api.example.com → Internet ✓
 ```
 
 Production:
-```
+```text
 localhost:5432 → Nothing (database is on different host)
 db.internal:5432 → PostgreSQL (but you're still using localhost)
 ```
@@ -133,7 +133,7 @@ Local:
 ```
 
 Production:
-```
+```text
 Command not found: rg
 ```
 
@@ -152,14 +152,14 @@ Or use [Gantz](https://gantz.run) which handles tool dependencies.
 ### 6. Rate limits hit differently
 
 Local:
-```
+```text
 You: Test one query
 API: 200 OK
 You: Works!
 ```
 
 Production:
-```
+```text
 Users: 1000 queries/minute
 API: 429 Too Many Requests
 Agent: Crashes
@@ -195,14 +195,14 @@ def call_api(query):
 ### 7. Timeouts are too short
 
 Local:
-```
+```text
 Tool execution: 2 seconds (fast local disk)
 Timeout: 30 seconds
 Result: Success
 ```
 
 Production:
-```
+```text
 Tool execution: 45 seconds (slow network storage)
 Timeout: 30 seconds
 Result: Timeout error
@@ -228,13 +228,13 @@ def get_timeout(operation):
 ### 8. Memory limits
 
 Local:
-```
+```text
 RAM: 32GB
 Load entire codebase: Works
 ```
 
 Production:
-```
+```text
 Container RAM: 512MB
 Load entire codebase: OOM Killed
 ```
@@ -256,13 +256,13 @@ def search_files(pattern):
 ### 9. Concurrent requests
 
 Local:
-```
+```text
 You: One request at a time
 Agent: Handles it fine
 ```
 
 Production:
-```
+```text
 Users: 50 concurrent requests
 Agent: Race conditions, shared state corruption
 ```
@@ -291,13 +291,13 @@ class SharedResource:
 ### 10. Different model behavior
 
 Local:
-```
+```text
 Model: gpt-4-turbo-preview (latest)
 Response: Perfect
 ```
 
 Production:
-```
+```text
 Model: gpt-4-turbo-preview (but it's a different version now!)
 Response: Slightly different, breaks your parsing
 ```
@@ -323,13 +323,13 @@ def parse_response(response):
 ### 11. Cold starts
 
 Local:
-```
+```text
 Agent: Already running, warm
 First request: 100ms
 ```
 
 Production (serverless):
-```
+```text
 Agent: Cold, needs to initialize
 First request: 5000ms (timeout!)
 ```

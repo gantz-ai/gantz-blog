@@ -62,7 +62,7 @@ Minimum usefulness.
 
 The LLM sees 50 tools. It has to pick one.
 
-```
+```text
 User: "Read the config file"
 
 Agent thinking:
@@ -80,7 +80,7 @@ Error.
 
 With 5 tools:
 
-```
+```text
 User: "Read the config file"
 
 Agent thinking:
@@ -127,7 +127,7 @@ Every tool costs tokens:
 
 Do the math:
 
-```
+```text
 5 tools × 100 tokens = 500 tokens (fixed cost per request)
 50 tools × 150 tokens = 7,500 tokens (fixed cost per request)
 ```
@@ -228,7 +228,7 @@ The specificity doesn't help. It just adds another tool to confuse things.
 
 I ran an experiment. Same tasks, different tool counts:
 
-```
+```text
 Task: "Find all TODO comments and list them"
 
 50-tool agent:

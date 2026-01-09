@@ -57,17 +57,17 @@ All through natural conversation.
 Claude Desktop looks for config in specific locations:
 
 **macOS:**
-```
+```text
 ~/Library/Application Support/Claude/claude_desktop_config.json
 ```
 
 **Windows:**
-```
+```text
 %APPDATA%\Claude\claude_desktop_config.json
 ```
 
 **Linux:**
-```
+```text
 ~/.config/Claude/claude_desktop_config.json
 ```
 
@@ -165,7 +165,7 @@ tail -f ~/Library/Logs/Claude/mcp*.log
 
 Ask Claude to list available tools:
 
-```
+```text
 You: What tools do you have access to?
 
 Claude: I have access to the following tools:
@@ -177,7 +177,7 @@ Claude: I have access to the following tools:
 
 Test a tool:
 
-```
+```text
 You: Read the contents of package.json
 
 Claude: [uses read_file tool]
@@ -463,7 +463,7 @@ gantz run --auth
 4. Restart Claude Desktop
 
 5. Use:
-```
+```text
 You: List all Python files in the current directory
 
 Claude: [uses list_files tool]

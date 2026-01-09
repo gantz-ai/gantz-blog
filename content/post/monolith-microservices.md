@@ -114,7 +114,7 @@ class Orchestrator:
 
 ### Small scope
 
-```
+```text
 Total tools: 5-10
 Use cases: Focused (just coding, just support, etc.)
 Team size: 1-3 developers
@@ -124,7 +124,7 @@ One agent handles it fine. Don't over-engineer.
 
 ### Highly connected tasks
 
-```
+```text
 User: "Read the config, update the database URL, then run migrations"
 
 Monolith: One agent, full context, executes sequentially
@@ -136,7 +136,7 @@ When tasks need shared context, monolith is simpler.
 
 ### Speed matters
 
-```
+```text
 Monolith:
 User → Agent → Response
 Latency: ~2s
@@ -150,7 +150,7 @@ If you need fast responses, avoid the routing overhead.
 
 ### Early stage
 
-```
+```text
 Week 1: Build monolith
 Week 2: Ship to users
 Week 3: Learn what's actually needed
@@ -232,7 +232,7 @@ Microservices let you optimize cost per task type.
 
 ### Independent scaling
 
-```
+```text
 Coding requests: 1000/day → needs fast responses
 Deploy requests: 10/day → can be slower, more careful
 
@@ -242,7 +242,7 @@ Microservices: Scale coding agent, keep deploy agent minimal
 
 ### Independent deployment
 
-```
+```text
 # Coding agent updated → deploy coding agent only
 # Deploy agent unchanged → no risk to deployments
 
@@ -381,7 +381,7 @@ The hardest part of microservices: passing context between agents.
 
 ### Bad: No context
 
-```
+```text
 User: "Check if the users table has an email column"
 Database Agent: "Yes, it has an email column."
 
@@ -449,7 +449,7 @@ class Agent:
 
 Start simple, split when needed:
 
-```
+```text
 Stage 1: Monolith
 - One agent, all tools
 - Ship fast, learn

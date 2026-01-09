@@ -45,7 +45,7 @@ Individual tools are limited. Composition enables:
 
 ## Composition patterns
 
-```
+```text
 Pipe:        A | B | C        (output → input)
 Combine:     [A, B, C] → D    (parallel → merge)
 Orchestrate: D(A, B, C)       (coordinator)

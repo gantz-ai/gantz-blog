@@ -38,7 +38,7 @@ Pooling reuses connections. Pooling is fast.
 ## Why connection pooling?
 
 Without pooling:
-```
+```text
 Request 1: Create connection (100ms) → Execute (50ms) → Close
 Request 2: Create connection (100ms) → Execute (50ms) → Close
 Request 3: Create connection (100ms) → Execute (50ms) → Close
@@ -46,7 +46,7 @@ Total: 450ms
 ```
 
 With pooling:
-```
+```text
 Request 1: Get from pool (1ms) → Execute (50ms) → Return to pool
 Request 2: Get from pool (1ms) → Execute (50ms) → Return to pool
 Request 3: Get from pool (1ms) → Execute (50ms) → Return to pool

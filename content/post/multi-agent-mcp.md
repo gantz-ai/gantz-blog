@@ -43,7 +43,7 @@ Single agents hit limits:
 
 Multi-agent systems solve this by specialization.
 
-```
+```text
 Single agent:
 "I need to research, write, edit, format, and publish this article"
 → Mediocre at everything
@@ -55,7 +55,7 @@ Researcher → Writer → Editor → Publisher
 
 ## The architecture
 
-```
+```text
                     ┌─────────────────┐
                     │   Coordinator   │
                     │     Agent       │
@@ -256,7 +256,7 @@ result = coordinator.execute(
 
 Each agent completes before the next starts.
 
-```
+```text
 Researcher → Writer → Editor → Publisher
      ↓          ↓        ↓         ↓
   Research   Draft    Edited   Published
@@ -278,7 +278,7 @@ def sequential_handoff(task, agents):
 
 Multiple agents work simultaneously.
 
-```
+```text
                     Coordinator
                          │
          ┌───────────────┼───────────────┐
@@ -306,7 +306,7 @@ async def parallel_research(topics):
 
 Specialists can delegate to sub-specialists.
 
-```
+```text
 Coordinator
      │
      ▼
@@ -342,7 +342,7 @@ class ResearchLead:
 
 Agents can request revisions from each other.
 
-```
+```text
 Writer → Editor
    ↑        │
    └────────┘
@@ -370,7 +370,7 @@ def write_with_feedback(task, max_revisions=3):
 
 Each agent does one thing well.
 
-```
+```text
 Bad:
 GeneralAgent → research, write, edit, publish, analyze, summarize...
 
@@ -452,7 +452,7 @@ You have access to: read_notes, write_draft, get_style_guide"""
 
 Each specialist gets its own MCP server with relevant tools.
 
-```
+```text
 ┌─────────────────┐
 │   Coordinator   │
 └────────┬────────┘
@@ -640,7 +640,7 @@ coordinator.execute("Review PR #123")
 
 Multi-agent systems = divide and conquer.
 
-```
+```text
 ┌─────────────┐
 │ Coordinator │  Breaks down, delegates, synthesizes
 └──────┬──────┘

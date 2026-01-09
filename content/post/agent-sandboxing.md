@@ -50,7 +50,7 @@ One prompt injection or bug could exploit any of these.
 
 Defense in depth:
 
-```
+```text
 ┌─────────────────────────────────────┐
 │           Host System               │
 │  ┌───────────────────────────────┐  │

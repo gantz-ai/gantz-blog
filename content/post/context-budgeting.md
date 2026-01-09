@@ -16,7 +16,7 @@ Most developers don't think about this until it's too late.
 
 ## The problem
 
-```
+```text
 Turn 1:  System prompt (2K) + User message (100) = 2,100 tokens
 Turn 2:  + Response (500) + User (100) + Response (400) = 3,100 tokens
 Turn 3:  + Tool call (200) + Tool result (2K) = 5,300 tokens
@@ -43,7 +43,7 @@ Each turn adds to the pile. It never shrinks automatically.
 
 Think of your context as a budget with categories:
 
-```
+```text
 ┌─────────────────────────────────────────────────────┐
 │              CONTEXT BUDGET: 100K tokens            │
 ├─────────────────────────────────────────────────────┤
@@ -408,7 +408,7 @@ def log_budget(context, budget):
 ```
 
 Output:
-```
+```text
 Context: [████████████████░░░░░░░░░░░░░░░░░░░░░░░░] 42.3%
          42,300 / 100,000 tokens
 ```

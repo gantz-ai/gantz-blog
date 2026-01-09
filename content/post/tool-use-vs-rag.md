@@ -34,7 +34,7 @@ I see people pick the wrong one all the time. Let's clear this up.
 
 RAG (Retrieval Augmented Generation) gives AI access to knowledge.
 
-```
+```text
 User: "What's our refund policy?"
 
 System:
@@ -52,7 +52,7 @@ RAG is about **knowing things**. You have documents, and AI needs to reference t
 
 Tool Use gives AI the ability to take actions.
 
-```
+```text
 User: "Process a refund for order #123"
 
 System:
@@ -84,7 +84,7 @@ Tool Use is about **doing things**. You have systems, and AI needs to interact w
 
 Company policies, documentation, historical data, FAQs.
 
-```
+```text
 User: "What are the system requirements?"
 → RAG retrieves from docs
 → AI summarizes requirements
@@ -94,7 +94,7 @@ User: "What are the system requirements?"
 
 The information already exists somewhere. AI just needs to find and present it.
 
-```
+```text
 User: "What did we decide in last month's meeting?"
 → RAG retrieves meeting notes
 → AI extracts the decision
@@ -104,7 +104,7 @@ User: "What did we decide in last month's meeting?"
 
 User wants information, not changes. Read-only.
 
-```
+```text
 User: "How do I configure the API?"
 → RAG retrieves setup guide
 → AI explains the steps
@@ -114,7 +114,7 @@ User: "How do I configure the API?"
 
 You have more documents than fit in context. RAG retrieves only relevant parts.
 
-```
+```text
 User: "Find the section about authentication"
 → RAG searches 1000 pages
 → Returns the 2 relevant pages
@@ -127,7 +127,7 @@ User: "Find the section about authentication"
 
 Information changes constantly. Documents would be stale.
 
-```
+```text
 User: "What's my account balance?"
 → Tool calls banking API
 → Returns current balance
@@ -137,7 +137,7 @@ User: "What's my account balance?"
 
 User wants something to happen, not just information.
 
-```
+```text
 User: "Send an email to the team"
 → Tool composes and sends email
 → Email actually goes out
@@ -147,7 +147,7 @@ User: "Send an email to the team"
 
 The answer requires calculation or processing.
 
-```
+```text
 User: "How much would 15% discount save on my cart?"
 → Tool fetches cart total
 → Tool calculates discount
@@ -158,7 +158,7 @@ User: "How much would 15% discount save on my cart?"
 
 Data lives in databases, APIs, or services - not documents.
 
-```
+```text
 User: "Show me orders from last week"
 → Tool queries database
 → Returns live results
@@ -170,7 +170,7 @@ Often, you need both. This is where it gets powerful.
 
 **Example: Customer support bot**
 
-```
+```text
 User: "I want to return this item. What's the process and can you start it?"
 
 Step 1 - RAG:
@@ -193,7 +193,7 @@ RAG provided the policy knowledge. Tools took the action.
 
 **Example: Research assistant**
 
-```
+```text
 User: "Find recent papers on transformer efficiency and summarize the key findings"
 
 Step 1 - Tool Use:
@@ -256,7 +256,7 @@ Ask yourself:
 
 ### Mistake 1: RAG for live data
 
-```
+```text
 User: "What's the stock price of Apple?"
 
 Wrong: RAG over old financial documents
@@ -267,7 +267,7 @@ RAG can't give you real-time data. It only knows what's in your documents.
 
 ### Mistake 2: Tool Use for static knowledge
 
-```
+```text
 User: "What are your business hours?"
 
 Wrong: Tool that queries a database
@@ -288,7 +288,7 @@ Most real applications need both.
 
 If your entire knowledge base fits in context, you might not need RAG.
 
-```
+```text
 # If you only have 10 pages of docs
 # Just include them in the system prompt
 # No retrieval needed
@@ -300,7 +300,7 @@ RAG adds complexity. Only use it when you have too much to fit in context.
 
 ### RAG stack
 
-```
+```text
 Documents → Chunking → Embeddings → Vector DB → Retrieval → AI
 ```
 
@@ -308,7 +308,7 @@ Tools: Pinecone, Weaviate, Chroma, pgvector
 
 ### Tool Use stack
 
-```
+```text
 AI → MCP/Function Calling → Tool Server → External Systems
 ```
 
@@ -316,7 +316,7 @@ Tools: [Gantz](https://gantz.run), LangChain, custom MCP servers
 
 ### Both together
 
-```
+```text
 ┌─────────────────────────────────────┐
 │              AI Agent               │
 ├─────────────────────────────────────┤

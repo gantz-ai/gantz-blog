@@ -50,7 +50,7 @@ Rate limiting is your safety net.
 
 ### The infinite loop
 
-```
+```text
 Agent: "I need to find the file"
 Agent: [calls search_files]
 Agent: "Not found, let me search again"
@@ -64,7 +64,7 @@ Without rate limiting, this burns through API quota and compute resources.
 
 ### The retry storm
 
-```
+```text
 Tool: [returns error]
 Agent: [retries immediately]
 Tool: [still error - server overloaded]
@@ -75,7 +75,7 @@ Tool: [error intensifies]
 
 ### The cost explosion
 
-```
+```text
 Agent using expensive API:
 - 1 call = $0.10
 - Agent decides to "be thorough"
@@ -89,7 +89,7 @@ Agent using expensive API:
 
 Count requests in fixed time windows.
 
-```
+```text
 Window: 1 minute
 Limit: 100 requests
 
@@ -129,7 +129,7 @@ class FixedWindowLimiter:
 
 Smoother limiting across window boundaries.
 
-```
+```text
 Current time: 01:30
 Window: 1 minute
 Look back 60 seconds from now
@@ -171,7 +171,7 @@ class SlidingWindowLimiter:
 
 Allows bursts while maintaining average rate.
 
-```
+```text
 Bucket capacity: 10 tokens
 Refill rate: 1 token/second
 

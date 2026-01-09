@@ -23,7 +23,7 @@ Here's how it works and when to use it.
 
 ReAct is step-by-step. AI thinks one step ahead, acts, then thinks again.
 
-```
+```text
 User: "Migrate our database to the new schema"
 
 ReAct agent:
@@ -56,7 +56,7 @@ AI creates a complete plan before doing anything.
 **Phase 2: Execute**
 AI (or a separate executor) follows the plan step by step.
 
-```
+```text
 User: "Migrate our database to the new schema"
 
 PLANNER:
@@ -84,7 +84,7 @@ The planner thinks holistically. The executor just follows instructions.
 
 Planning happens without distraction. AI focuses on the full problem, not just the next step.
 
-```
+```text
 ReAct: "What should I do next?"
 Planner: "What's the complete solution?"
 ```
@@ -93,7 +93,7 @@ Planner: "What's the complete solution?"
 
 Bad plans are caught before execution.
 
-```
+```text
 Planner: "Step 3: Delete production database"
 Human: "Wait, that's wrong"
 [Fixed before anything happens]
@@ -103,7 +103,7 @@ Human: "Wait, that's wrong"
 
 Independent steps can run simultaneously.
 
-```
+```text
 Plan:
 1. Backup database        ─┐
 2. Backup files           ─┼─→ Can run in parallel
@@ -115,7 +115,7 @@ Plan:
 
 When something fails, you know exactly where in the plan it broke.
 
-```
+```text
 Plan: [1] ✓  [2] ✓  [3] ✗  [4] -  [5] -
 "Step 3 failed: migration script syntax error"
 ```
@@ -124,7 +124,7 @@ Plan: [1] ✓  [2] ✓  [3] ✗  [4] -  [5] -
 
 Humans can review the plan before execution.
 
-```
+```text
 Planner: "Here's my plan..."
 Human: "Approved" / "Modify step 3"
 Executor: [proceeds with approved plan]
@@ -327,7 +327,7 @@ def execute_step(self, step):
 
 **Execution:**
 
-```
+```text
 [1] run_tests         ✓ (parallel with 3)
 [3] backup_database   ✓ (parallel with 1)
 [2] build_docker      ✓ (after 1)
@@ -346,7 +346,7 @@ Deployment complete!
 
 Planner breaks task into subtasks, executor solves each.
 
-```
+```text
 Plan: [Subtask A] → [Subtask B] → [Subtask C]
 Execute: Solve A, Solve B, Solve C
 ```
@@ -355,7 +355,7 @@ Execute: Solve A, Solve B, Solve C
 
 High-level plan, then detailed plans for each step.
 
-```
+```text
 High-level: [Phase 1] → [Phase 2] → [Phase 3]
 Phase 1 plan: [Step 1.1] → [Step 1.2] → [Step 1.3]
 ```
@@ -364,7 +364,7 @@ Phase 1 plan: [Step 1.1] → [Step 1.2] → [Step 1.3]
 
 Replan if execution fails or context changes.
 
-```
+```text
 Plan → Execute → Fail → Replan → Execute → Success
 ```
 
@@ -372,7 +372,7 @@ Plan → Execute → Fail → Replan → Execute → Success
 
 Separate agents for planning and execution.
 
-```
+```text
 Planner Agent → Plan → Executor Agent → Results
 ```
 
@@ -398,7 +398,7 @@ Planner Agent → Plan → Executor Agent → Results
 
 Don't plan trivial tasks.
 
-```
+```text
 Task: "What time is it?"
 Bad: Create 5-step plan
 Good: Just call the tool
@@ -408,7 +408,7 @@ Good: Just call the tool
 
 Plans should adapt. If something changes, replan.
 
-```
+```text
 Step 3 failed → Don't blindly continue
              → Assess, maybe replan
 ```
@@ -417,7 +417,7 @@ Step 3 failed → Don't blindly continue
 
 For critical operations, always plan for failure.
 
-```
+```text
 Good plan:
 - Steps 1-5: Do the thing
 - Rollback: Undo if it breaks
@@ -448,7 +448,7 @@ planner.create(
 
 **Planner-Executor separates thinking from doing.**
 
-```
+```text
 ┌────────────┐      ┌────────────┐      ┌─────────┐
 │   Task     │─────→│  Planner   │─────→│  Plan   │
 └────────────┘      └────────────┘      └────┬────┘

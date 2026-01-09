@@ -27,7 +27,7 @@ REST (Representational State Transfer) was designed for applications talking to 
 - **Responses** are structured data (usually JSON)
 - **State** is maintained by the client, not the server
 
-```
+```text
 GET /users/123           → Read user 123
 POST /orders             → Create new order
 PUT /products/456        → Update product 456
@@ -44,7 +44,7 @@ But this assumes the caller knows exactly what it wants before the request. The 
 
 When you ask Claude to "get me the user's recent orders," it doesn't naturally think:
 
-```
+```text
 "I need to call GET /api/v2/users/123/orders with query parameters
 limit=10 and sort=created_at&order=desc, using Bearer token authentication
 in the Authorization header..."
@@ -144,7 +144,7 @@ The AI discovers what's available at runtime. If you add a new tool, the AI can 
 ### Intent vs structure
 
 **REST:**
-```
+```text
 GET /api/v2/users/123/orders?status=completed&limit=10&sort=desc
 ```
 
@@ -191,7 +191,7 @@ MCP supports streaming via SSE. AI can:
 - Get progress updates
 - Handle long-running operations
 
-```
+```text
 AI: "Analyze this large dataset"
 Tool: [streaming] Processing chunk 1/10...
 Tool: [streaming] Processing chunk 2/10...
@@ -208,7 +208,7 @@ MCP can maintain context. The AI can:
 - Build on previous results
 - Handle multi-step workflows
 
-```
+```text
 User: "Find the slowest API endpoint and show me its logs"
 
 AI:
@@ -228,7 +228,7 @@ MCP doesn't replace REST. Your apps still call APIs the normal way.
 
 MCP is a layer on top - it wraps your existing stuff and exposes it to AI.
 
-```
+```text
 Your REST API → MCP Server → AI Agent
 ```
 
@@ -364,7 +364,7 @@ This isn't a binary choice. Different clients need different interfaces.
 
 Most realistic scenarios need both:
 
-```
+```text
 Mobile App    →  REST API  →  Your Backend
 AI Agent      →  MCP Server → Your Backend
 ```

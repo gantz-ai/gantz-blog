@@ -56,7 +56,7 @@ Different interface, different design.
 
 ## The architecture
 
-```
+```text
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │   Speech    │     │    Agent    │     │   Speech    │
 │   to Text   │────▶│    Loop     │────▶│   to Text   │
@@ -182,7 +182,7 @@ Then output details to a file or clipboard.
 
 Compare:
 
-```
+```text
 Text agent:
 "Here are the failing tests:
 - test_login_valid: AssertionError on line 23
@@ -437,7 +437,7 @@ class VoiceAgent:
 
 Allows follow-ups:
 
-```
+```text
 User: "Run the tests"
 Agent: "2 tests failed. The login tests."
 

@@ -38,14 +38,14 @@ Logging and tracing reveal the truth.
 ## Why debugging matters
 
 Without debugging:
-```
+```text
 Tool failed → Agent retries → Fails again →
 User confused → Developer guessing →
 Hours wasted
 ```
 
 With debugging:
-```
+```text
 Tool failed → Logs show: "Connection timeout to DB" →
 Fix: Increase timeout → Works
 Minutes to resolution

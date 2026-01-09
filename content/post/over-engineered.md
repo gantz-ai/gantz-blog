@@ -30,7 +30,7 @@ Here's what went wrong.
 
 I was building a coding assistant. My architecture looked like this:
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                    ORCHESTRATOR AGENT                        │
 ├─────────────────────────────────────────────────────────────┤
@@ -147,7 +147,7 @@ tools:
 
 ### Problem 1: It was slow
 
-```
+```text
 User: "Add a print statement to main.py"
 
 My agent:
@@ -172,7 +172,7 @@ Total: 1.5 seconds
 
 ### Problem 2: It was expensive
 
-```
+```text
 Simple request token usage:
 
 Planner: 2,000 tokens
@@ -213,7 +213,7 @@ Attempt 3: Same code
 
 ### Problem 4: It was unpredictable
 
-```
+```text
 Same request, different runs:
 
 Run 1: Planner creates 3 steps
@@ -229,7 +229,7 @@ Users couldn't trust it.
 
 ### Problem 5: It was impossible to debug
 
-```
+```text
 User: "Why did it delete my file?"
 
 Me: "Let me check..."
@@ -294,7 +294,7 @@ tools:
 
 ### The result
 
-```
+```text
 Same request: "Add a print statement to main.py"
 
 Simple agent:
@@ -337,7 +337,7 @@ orchestrator = Orchestrator(
 
 Multi-agent sounds cool. In practice:
 
-```
+```text
 Single agent:
 - One context
 - One decision maker
@@ -399,7 +399,7 @@ Fewer tools = clearer decisions.
 
 ### Lesson 6: Speed matters more than intelligence
 
-```
+```text
 User preference:
 
 Fast + slightly wrong → "I can fix that, thanks!"
@@ -410,7 +410,7 @@ Users will tolerate imperfection. They won't tolerate waiting.
 
 ## The new philosophy
 
-```
+```text
 Before:
 "How do I make my agent smarter?"
 
@@ -448,7 +448,7 @@ Four tools. Covers 95% of coding tasks.
 
 Only when I have evidence:
 
-```
+```text
 "Users are asking the same questions repeatedly"
 → Maybe add memory
 

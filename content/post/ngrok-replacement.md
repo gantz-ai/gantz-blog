@@ -90,7 +90,7 @@ The "proper" solution:
 
 ## How Gantz Run works
 
-```
+```text
 ┌─────────────┐         ┌──────────────┐         ┌─────────────┐
 │  AI Agent   │  HTTPS  │ Gantz Relay  │   WSS   │  Gantz Run  │
 │  (Claude)   │────────►│              │◄───────►│  (you)      │
@@ -141,7 +141,7 @@ gantz run
 ```
 
 Output:
-```
+```text
 Gantz Run v0.1.0
 Loaded 2 tools from gantz.yaml
 

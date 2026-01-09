@@ -519,7 +519,7 @@ def translate_markdown(content: str, target_lang: str) -> str:
 
 ```markdown
 {content}
-```
+```text
 
 Preserve:
 - Heading levels (#, ##, etc.)

@@ -18,7 +18,7 @@ Here's how to give your agents memory.
 
 Without memory, every conversation starts fresh:
 
-```
+```text
 Monday:
 User: "My name is Sarah, I work on the payments team"
 AI: "Nice to meet you, Sarah!"
@@ -38,7 +38,7 @@ Agents without memory can't:
 
 Human memory has different systems. AI agents need them too.
 
-```
+```text
 ┌─────────────────────────────────────────────────────┐
 │                   Agent Memory                       │
 ├─────────────────┬─────────────────┬─────────────────┤
@@ -405,7 +405,7 @@ gantz --config memory-tools.yaml
 
 Now the agent can manage its own memory:
 
-```
+```text
 User: "Remember that I prefer dark mode"
 AI: [calls remember tool: key="preference_theme", value="dark"]
     "Got it, I'll remember you prefer dark mode."
@@ -492,7 +492,7 @@ class AgentMemory:
 
 ## Memory architecture
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                        AI Agent                              │
 ├─────────────────────────────────────────────────────────────┤

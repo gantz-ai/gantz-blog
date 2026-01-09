@@ -51,7 +51,7 @@ This is the foundation. The future builds on it.
 
 Agents working together, not alone:
 
-```
+```text
 ┌─────────────────────────────────────────────┐
 │              Orchestrator Agent             │
 ├─────────────────────────────────────────────┤
@@ -206,7 +206,7 @@ learning:
 
 Agents across organizations:
 
-```
+```text
 ┌─────────────────────┐     ┌─────────────────────┐
 │   Company A         │     │   Company B         │
 │                     │     │                     │

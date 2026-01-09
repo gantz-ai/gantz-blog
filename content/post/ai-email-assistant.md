@@ -45,7 +45,7 @@ Your AI agent (Claude, GPT, Gemini, whatever) connects to an MCP server that has
 
 All through natural conversation.
 
-```
+```text
 You → AI Agent → MCP Server (your machine) → Email API → Gmail/Outlook
 ```
 
@@ -396,7 +396,7 @@ gantz run --auth
 
 You'll get a tunnel URL and auth token:
 
-```
+```text
 Tunnel URL: https://cool-penguin.gantz.run
 Auth Token: gtz_abc123...
 ```
@@ -434,7 +434,7 @@ Works the same with GPT, Gemini, or any MCP-compatible agent.
 
 ## What you can ask
 
-```
+```text
 "Show me my last 5 emails"
 
 "Any emails from my boss this week?"

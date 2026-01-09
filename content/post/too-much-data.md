@@ -515,7 +515,7 @@ tools:
 
 ## The decision tree
 
-```
+```text
 Tool returns data
         │
         ▼

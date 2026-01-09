@@ -41,17 +41,17 @@ Testing prevents this.
 
 AI agents are creative with tool parameters:
 
-```
+```text
 You expected: read_file({"path": "config.json"})
 Agent sends:  read_file({"path": "../../../etc/passwd"})
 ```
 
-```
+```text
 You expected: search_code({"query": "function"})
 Agent sends:  search_code({"query": ""})
 ```
 
-```
+```text
 You expected: run_command({"cmd": "ls"})
 Agent sends:  run_command({"cmd": "rm -rf /"})
 ```

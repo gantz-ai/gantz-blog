@@ -38,7 +38,7 @@ Batching combines requests. Batching is fast.
 ## Why batching matters
 
 Without batching:
-```
+```text
 Request 1 → API call (100ms) → Response
 Request 2 → API call (100ms) → Response
 Request 3 → API call (100ms) → Response
@@ -47,7 +47,7 @@ Request 3 → API call (100ms) → Response
 ```
 
 With batching:
-```
+```text
 Collect 100 requests → Single API call (150ms) → All responses
 100 requests = 150ms (66x faster)
 ```

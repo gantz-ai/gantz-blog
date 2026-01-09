@@ -117,7 +117,7 @@ def search_code(params):
 
 Version in the URL path:
 
-```
+```text
 /v1/mcp/tools/call
 /v2/mcp/tools/call
 ```
@@ -158,7 +158,7 @@ app.register_blueprint(v2)
 
 Version in request header:
 
-```
+```text
 X-MCP-Version: 2
 ```
 

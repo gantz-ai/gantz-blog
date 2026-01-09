@@ -37,7 +37,7 @@ Webhooks + AI agents = powerful automation.
 
 ## The architecture
 
-```
+```text
 External Service → Webhook → Your Server → AI Agent → MCP Tools → Actions
      (GitHub)        │           │            │           │
                   HTTP POST   Parse      Decide      Execute

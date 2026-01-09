@@ -607,7 +607,7 @@ if __name__ == "__main__":
 ## Example interactions
 
 ### Simple question
-```
+```text
 You: How many users do we have?
 
 Analyst: Let me check that for you.
@@ -623,7 +623,7 @@ Breaking it down:
 ```
 
 ### Complex analysis
-```
+```text
 You: Compare user signups this month vs last month by source
 
 Analyst: I'll analyze signup trends by acquisition source.

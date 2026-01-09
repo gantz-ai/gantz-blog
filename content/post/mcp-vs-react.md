@@ -19,12 +19,12 @@ Understanding the difference will save you a lot of confusion.
 ReAct (Reasoning + Acting) is a pattern for how AI thinks and acts in a loop.
 
 The loop:
-```
+```text
 Think → Act → Observe → Repeat
 ```
 
 Example:
-```
+```text
 User: What's the population of the capital of France?
 
 AI [Think]: I need to find the capital of France first, then look up its population.
@@ -58,7 +58,7 @@ It defines:
 - How to get results back
 - How to handle auth, errors, streaming
 
-```
+```text
 AI                          MCP Server
  |                               |
  |-- tools/list ---------------->|
@@ -91,7 +91,7 @@ You don't choose between them. You use both.
 
 Here's what actually happens when an AI agent uses tools:
 
-```
+```text
 ┌─────────────────────────────────────┐
 │         Your Application            │
 │  (LangChain, AutoGPT, custom code)  │
@@ -235,7 +235,7 @@ result = agent.run("What meetings do I have tomorrow? If any conflict, suggest r
 
 MCP alone gives you tool calling. But without orchestration, AI makes one call and stops.
 
-```
+```text
 User: "Analyze my sales data and create a report"
 AI: [calls get_sales_data]
 AI: "Here's your sales data: [raw JSON]"
@@ -268,7 +268,7 @@ Same here. ReAct (the pattern) uses MCP to call tools. Different layers.
 
 Modern AI agent stack:
 
-```
+```text
 ┌────────────────────────────┐
 │   User Interface           │  (Chat UI, API, etc.)
 ├────────────────────────────┤

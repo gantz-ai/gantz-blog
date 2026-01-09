@@ -45,7 +45,7 @@ AI agents can change that.
 
 ## Architecture
 
-```
+```text
 Code Push → CI Pipeline → AI Agent → MCP Tools → Actions
                 │              │          │
             Build/Test    Analyze    Comment/Notify/Deploy
@@ -465,7 +465,7 @@ Add `jest.useRealTimers()` in the `afterEach` hook:
 afterEach(() => {
   jest.useRealTimers();
 });
-```
+```text
 
 ### Confidence
 High - This is a common pattern issue with Jest timer mocks.

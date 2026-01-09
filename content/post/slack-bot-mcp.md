@@ -39,7 +39,7 @@ Turns out it's pretty easy with MCP. Here's how I built it.
 
 ## The architecture
 
-```
+```text
 ┌─────────┐     ┌─────────┐     ┌─────────┐     ┌─────────────┐     ┌──────────┐
 │  Slack  │────▶│   Bot   │────▶│  Claude │────▶│ MCP Server  │────▶│  Local   │
 │  User   │◀────│ (Python)│◀────│   API   │◀────│  (Gantz)    │◀────│  Tools   │
@@ -151,7 +151,7 @@ gantz run --auth
 ```
 
 You'll see output like:
-```
+```text
 Gantz Run v0.1.0
 Loaded 6 tools from gantz.yaml
 
@@ -318,7 +318,7 @@ if __name__ == "__main__":
 
 Create a `requirements.txt`:
 
-```
+```text
 slack-bolt>=1.18.0
 anthropic>=0.18.0
 ```
@@ -344,7 +344,7 @@ python bot.py
 ```
 
 You should see:
-```
+```text
 Starting Slack bot...
 MCP URL: https://cool-penguin.gantz.run
 ⚡️ Bolt app is running!
@@ -354,19 +354,19 @@ MCP URL: https://cool-penguin.gantz.run
 
 In Slack, mention your bot:
 
-```
+```text
 @DevBot check if google.com is up
 ```
 
-```
+```text
 @DevBot how much disk space do we have?
 ```
 
-```
+```text
 @DevBot show me the last 10 log lines
 ```
 
-```
+```text
 @DevBot what's the current deploy status?
 ```
 

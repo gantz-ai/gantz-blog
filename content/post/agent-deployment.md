@@ -79,7 +79,7 @@ CMD ["python", "main.py"]
 ```
 
 requirements.txt:
-```
+```text
 anthropic>=0.18.0
 flask>=3.0.0
 redis>=5.0.0

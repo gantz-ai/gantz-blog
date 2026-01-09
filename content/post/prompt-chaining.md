@@ -47,7 +47,7 @@ Chaining breaks complexity into manageable pieces.
 
 ## Chaining patterns
 
-```
+```text
 Sequential:    A → B → C → D
 Parallel:      A → [B, C] → D
 Conditional:   A → B? → C or D

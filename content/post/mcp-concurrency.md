@@ -40,14 +40,14 @@ Concurrency multiplies throughput.
 ## Why concurrency matters
 
 Sequential:
-```
+```text
 Tool 1 (200ms) → Tool 2 (200ms) → Tool 3 (200ms) →
 Tool 4 (200ms) → Tool 5 (200ms)
 Total: 1000ms
 ```
 
 Concurrent:
-```
+```text
 Tool 1 (200ms) ─┐
 Tool 2 (200ms) ─┤
 Tool 3 (200ms) ─┼→ All complete

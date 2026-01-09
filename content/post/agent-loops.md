@@ -18,7 +18,7 @@ Here's why they happen and how to stop them.
 
 ## What a loop looks like
 
-```
+```text
 User: "Find the config file"
 
 Agent:
@@ -41,7 +41,7 @@ The agent doesn't learn. It just keeps trying the same thing.
 
 Agents don't automatically remember what didn't work.
 
-```
+```text
 Agent thinks: "I should search for config"
 Agent searches: No results
 Agent thinks: "I should search for config"  ← Forgot it just failed
@@ -55,7 +55,7 @@ Each step, the agent reasons from scratch. Without explicit failure memory, it r
 
 The agent only knows one approach.
 
-```
+```text
 User: "Get the user's email"
 
 Agent knows: query_database tool
@@ -72,7 +72,7 @@ One tool. One strategy. When it fails, there's nothing else to try.
 
 The agent doesn't know when it's done.
 
-```
+```text
 User: "Improve this code"
 
 Agent:
@@ -89,7 +89,7 @@ Without clear "done" criteria, improvement is infinite.
 
 Agent bounces between two states.
 
-```
+```text
 Agent: Adds feature X
 Tests fail
 Agent: Removes feature X
@@ -106,7 +106,7 @@ The agent is trying to satisfy conflicting constraints.
 
 The tool keeps failing the same way, agent keeps retrying.
 
-```
+```text
 Agent: send_email("invalid@")
 Tool: "Invalid email format"
 Agent: send_email("invalid@")  ← Didn't fix the input

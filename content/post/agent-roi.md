@@ -37,7 +37,7 @@ Here's how to find out.
 
 ## The ROI equation
 
-```
+```text
 ROI = (Benefits - Costs) / Costs × 100%
 
 Benefits = Time Saved + Errors Avoided + Revenue Generated

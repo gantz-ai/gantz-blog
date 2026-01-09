@@ -61,44 +61,44 @@ With caching:
 ### Good candidates
 
 **File reads** - Files don't change mid-conversation
-```
+```text
 read_file("config.json") → Cache for 5 minutes
 ```
 
 **Search results** - Codebase doesn't change while agent works
-```
+```text
 search_code("function login") → Cache for 10 minutes
 ```
 
 **API responses** - External data often stable
-```
+```text
 get_weather("NYC") → Cache for 30 minutes
 ```
 
 **Database queries** - Reference data rarely changes
-```
+```text
 get_user_permissions(user_id) → Cache for 1 hour
 ```
 
 ### Bad candidates
 
 **Write operations** - Never cache mutations
-```
+```text
 write_file("config.json", data) → Never cache
 ```
 
 **Time-sensitive data** - Stale data is wrong data
-```
+```text
 get_stock_price("AAPL") → Don't cache (or very short TTL)
 ```
 
 **User-specific real-time data** - Must be fresh
-```
+```text
 get_unread_messages(user_id) → Don't cache
 ```
 
 **Random/unique operations** - Each call should differ
-```
+```text
 generate_uuid() → Never cache
 ```
 

@@ -57,7 +57,7 @@ Event-driven agents:
 
 ## The architecture
 
-```
+```text
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
 │   Events    │───▶│   Router    │───▶│   Agents    │
 │  (Webhooks, │    │  (Filter,   │    │  (Process,  │

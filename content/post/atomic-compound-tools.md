@@ -16,7 +16,7 @@ This is the most important design decision when building AI agent tools.
 
 ## The spectrum
 
-```
+```text
 Atomic                                              Compound
   │                                                      │
   ▼                                                      ▼
@@ -77,7 +77,7 @@ Four tools. Four actions. Crystal clear.
 
 AI knows exactly what each tool does. No ambiguity.
 
-```
+```text
 User: "Read the config file"
 AI: Uses read_file ← obvious choice
 ```
@@ -86,7 +86,7 @@ AI: Uses read_file ← obvious choice
 
 When something fails, you know exactly what failed.
 
-```
+```text
 Error in: delete_file
 Action: delete
 Path: /important/file.txt
@@ -97,7 +97,7 @@ Path: /important/file.txt
 
 Combine atomic tools for complex workflows.
 
-```
+```text
 read_file → transform → write_file → validate → deploy
 ```
 
@@ -128,7 +128,7 @@ Grant minimal permissions per tool.
 
 Simple tasks require multiple calls.
 
-```
+```text
 Task: "Copy file A to B"
 
 Atomic approach:
@@ -145,7 +145,7 @@ Compound approach:
 
 Each tool call costs tokens.
 
-```
+```text
 Atomic: 4 tool calls × 100 tokens = 400 tokens
 Compound: 1 tool call × 150 tokens = 150 tokens
 ```
@@ -154,7 +154,7 @@ Compound: 1 tool call × 150 tokens = 150 tokens
 
 AI must orchestrate multiple tools correctly.
 
-```
+```text
 AI needs to:
 1. Read first
 2. Remember content
@@ -217,7 +217,7 @@ One tool. Multiple actions.
 
 Complex operations in single call.
 
-```
+```text
 Task: "Copy file A to B"
 
 Compound:
@@ -258,7 +258,7 @@ Related actions stay together.
 
 AI might not know which action to pick.
 
-```
+```text
 User: "Save this to a file"
 AI: file_manager(action=???)  # write? create? append?
 ```
@@ -284,7 +284,7 @@ Different actions need different parameters.
 
 Failures are less specific.
 
-```
+```text
 Error in: file_manager
 Action: ??? (need to check params)
 ```
@@ -527,7 +527,7 @@ tools:
 
 ## Decision flowchart
 
-```
+```text
                     Start
                       │
                       ▼

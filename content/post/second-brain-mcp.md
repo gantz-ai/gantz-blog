@@ -37,7 +37,7 @@ Not some cloud service. Everything stays local. Here's how.
 
 ## The idea
 
-```
+```text
 You → AI → MCP Server → Search your notes → Find connections → Answer
 ```
 
@@ -59,7 +59,7 @@ Instead of manually searching through folders, you just ask:
 
 You don't need a perfect system. Just put your notes somewhere:
 
-```
+```text
 ~/notes/
 ├── ideas/
 ├── projects/
@@ -481,28 +481,28 @@ for block in response.content:
 ## What you can ask
 
 **Recall:**
-```
+```text
 "What did I write about that startup idea?"
 "Find my notes on habit formation"
 "What books have I taken notes on?"
 ```
 
 **Connect:**
-```
+```text
 "Find notes related to my marketing doc"
 "What ideas connect to this project?"
 "Show me everything about pricing"
 ```
 
 **Summarize:**
-```
+```text
 "Summarize my notes on leadership"
 "What are my main takeaways from the design sprint book?"
 "Give me an overview of my project ideas"
 ```
 
 **Discover:**
-```
+```text
 "What have I been working on this week?"
 "Show me notes I haven't looked at in a while"
 "What topics do I write about most?"

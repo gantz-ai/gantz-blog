@@ -22,7 +22,7 @@ Let me break down the difference and when to use each.
 
 Prompt engineering is about crafting the right input to get the right output.
 
-```
+```text
 Bad prompt:
 "Write a summary"
 
@@ -48,7 +48,7 @@ Skills involved:
 
 Agent engineering is about designing systems where AI makes decisions and takes actions over multiple steps.
 
-```
+```text
 User: "Find bugs in my codebase and fix them"
 
 Agent:
@@ -95,7 +95,7 @@ You're prompt engineering when:
 
 ### Writing system prompts
 
-```
+```text
 You are a helpful coding assistant.
 - Always explain your reasoning
 - Use Python unless specified otherwise
@@ -104,7 +104,7 @@ You are a helpful coding assistant.
 
 ### Crafting user messages
 
-```
+```text
 Review this code for security issues.
 Focus on: SQL injection, XSS, and authentication bypasses.
 Format: bullet list with severity ratings.
@@ -112,7 +112,7 @@ Format: bullet list with severity ratings.
 
 ### Few-shot examples
 
-```
+```text
 Convert to JSON:
 Input: "John, 25, NYC"
 Output: {"name": "John", "age": 25, "city": "NYC"}
@@ -126,7 +126,7 @@ Output:
 
 ### Output formatting
 
-```
+```text
 Return your response as valid JSON:
 {
   "summary": "...",
@@ -207,7 +207,7 @@ This is agent engineering. Multi-turn. Decisions and actions.
 
 Agent engineering doesn't replace prompt engineering. It includes it.
 
-```
+```text
 Agent Engineering
 ├── System design
 ├── Tool architecture
@@ -232,32 +232,32 @@ Good agents need good prompts. The prompts tell AI:
 Most people follow this path:
 
 **Stage 1: Basic prompting**
-```
+```text
 "Summarize this text"
 ```
 
 **Stage 2: Better prompting**
-```
+```text
 "You are an expert summarizer. Create a 3-point summary focusing on..."
 ```
 
 **Stage 3: Structured output**
-```
+```text
 "Return JSON with fields: summary, key_points, action_items"
 ```
 
 **Stage 4: Single tool use**
-```
+```text
 AI can call one tool to get data, then respond
 ```
 
 **Stage 5: Multi-step agents**
-```
+```text
 AI reasons through problems, uses multiple tools, handles errors
 ```
 
 **Stage 6: Complex agent systems**
-```
+```text
 Multiple agents, planning, reflection, memory, human-in-the-loop
 ```
 
@@ -305,7 +305,7 @@ Stages 1-3 are prompt engineering. Stages 4-6 are agent engineering.
 
 When you need an agent, no prompt will fix it.
 
-```
+```text
 # Won't work no matter how good the prompt
 "Check my calendar and if I'm free tomorrow at 3pm,
 schedule a meeting with John and send him an email"
@@ -317,7 +317,7 @@ schedule a meeting with John and send him an email"
 
 Agents still need good prompts.
 
-```
+```text
 # Bad agent system prompt
 "You are an assistant."
 
@@ -332,7 +332,7 @@ If something fails, try a different approach."
 
 Sometimes a good prompt is enough.
 
-```
+```text
 # Doesn't need to be an agent
 "Translate this to French"
 

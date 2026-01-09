@@ -493,7 +493,7 @@ tools:
 
 ### Step 1: Audit current workflows
 
-```
+```text
 For each department:
 1. List repetitive tasks
 2. Estimate time spent weekly
@@ -503,7 +503,7 @@ For each department:
 
 ### Step 2: Score opportunities
 
-```
+```text
 Scoring criteria (1-5):
 
 Volume:      How often does this happen?
@@ -517,7 +517,7 @@ Total score = Volume × Time × (6 - Complexity) × (6 - Risk) × Data
 
 ### Step 3: Start small
 
-```
+```text
 Week 1-2: Build MVP agent
 Week 3-4: Pilot with 10% of volume
 Week 5-6: Measure and iterate

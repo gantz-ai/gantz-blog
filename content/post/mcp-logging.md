@@ -74,7 +74,7 @@ Every log entry should include:
 
 Log each phase:
 
-```
+```text
 1. Request received
 2. Validation started
 3. Execution started
