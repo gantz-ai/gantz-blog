@@ -684,7 +684,7 @@ cursor.execute(f"SELECT * FROM users WHERE email = '{email}'")
 
 # Fixed
 cursor.execute("SELECT * FROM users WHERE email = %s", (email,))
-```text
+```
 
 ### 🟠 High Priority
 
