@@ -447,7 +447,6 @@ Build intelligent onboarding at [gantz.run](https://gantz.run).
 
 - [Churn Prevention Agent](/post/churn-prevention-agent/) - Retention automation
 - [Feedback Agent](/post/feedback-agent/) - User feedback analysis
-- [Customer Success](/post/customer-success-mcp/) - Customer automation
 
 ## Conclusion
 

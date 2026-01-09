@@ -852,7 +852,6 @@ Visibility beats guessing.
 ## Related reading
 
 - [Agent Error Handling](/post/agent-error-handling/) - Handle errors gracefully
-- [MCP Observability](/post/mcp-observability/) - Monitor tools
 - [MCP Testing](/post/mcp-testing/) - Test before production
 
 ---

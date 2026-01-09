@@ -662,7 +662,6 @@ Fail fast. Recover gracefully.
 
 - [Agent Error Handling](/post/agent-error-handling/) - Handle failures
 - [Agent Fallbacks](/post/agent-fallbacks/) - Fallback strategies
-- [MCP Retries](/post/mcp-retries/) - Retry patterns
 
 ---
 

@@ -766,7 +766,6 @@ Backend meets intelligence.
 
 - [Firebase MCP Integration](/post/firebase-mcp-integration/) - Alternative BaaS
 - [PostgreSQL MCP Integration](/post/postgresql-mcp-integration/) - Direct SQL
-- [Agent Auth Patterns](/post/agent-auth-patterns/) - Authentication
 
 ---
 

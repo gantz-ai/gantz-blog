@@ -705,7 +705,6 @@ Data meets intelligence.
 
 - [MongoDB MCP Integration](/post/mongodb-mcp-integration/) - NoSQL tools
 - [MCP Connection Pooling](/post/mcp-connection-pooling/) - Pool connections
-- [Agent Database Patterns](/post/agent-database-patterns/) - Best practices
 
 ---
 

@@ -820,7 +820,6 @@ Fast state, fast agents.
 
 - [MCP Caching](/post/mcp-caching/) - Cache strategies
 - [MCP Connection Pooling](/post/mcp-connection-pooling/) - Pool connections
-- [Agent State Management](/post/agent-state-management/) - State patterns
 
 ---
 

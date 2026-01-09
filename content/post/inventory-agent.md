@@ -467,8 +467,6 @@ Build intelligent inventory management at [gantz.run](https://gantz.run).
 ## Related Reading
 
 - [Pricing Agent](/post/pricing-agent/) - Dynamic pricing
-- [Supply Chain Optimization](/post/supply-chain-mcp/) - Logistics automation
-- [E-commerce Applications](/post/ecommerce-mcp/) - Retail automation
 
 ## Conclusion
 

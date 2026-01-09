@@ -651,7 +651,6 @@ Build intelligent databases at [gantz.run](https://gantz.run).
 ## Related Reading
 
 - [Notion MCP Integration](/post/notion-mcp-integration/) - Workspace automation
-- [Google Sheets MCP Integration](/post/google-sheets-mcp/) - Spreadsheet automation
 - [Asana MCP Integration](/post/asana-mcp-integration/) - Project management
 
 ## Conclusion

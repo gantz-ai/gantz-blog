@@ -778,7 +778,6 @@ Unlimited storage, intelligent access.
 
 - [Firebase MCP Integration](/post/firebase-mcp-integration/) - Alternative storage
 - [MCP Streaming Patterns](/post/mcp-streaming-patterns/) - Large files
-- [Agent File Patterns](/post/agent-file-patterns/) - File handling
 
 ---
 

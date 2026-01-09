@@ -736,7 +736,6 @@ Local data, anywhere.
 
 - [PostgreSQL MCP Integration](/post/postgresql-mcp-integration/) - Server database
 - [MCP Caching](/post/mcp-caching/) - Cache strategies
-- [Agent Data Patterns](/post/agent-data-patterns/) - Data access
 
 ---
 

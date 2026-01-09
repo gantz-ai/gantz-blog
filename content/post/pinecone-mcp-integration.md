@@ -737,7 +737,6 @@ Vectors unlock understanding.
 ## Related reading
 
 - [Elasticsearch MCP Integration](/post/elasticsearch-mcp-integration/) - Text search
-- [Agent RAG Patterns](/post/agent-rag-patterns/) - RAG strategies
 - [MCP Caching](/post/mcp-caching/) - Cache embeddings
 
 ---

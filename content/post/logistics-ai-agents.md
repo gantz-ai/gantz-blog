@@ -1,5 +1,5 @@
 +++
-title = "Building AI Agents for Logistics with MCP: Supply Chain Automation Solutions"
+title = "AI Agents for Logistics with MCP: Supply Chain Automation"
 image = "images/logistics-ai-agents.webp"
 date = 2025-05-29
 description = "Build intelligent logistics AI agents with MCP and Gantz. Learn route optimization, shipment tracking, and warehouse automation."

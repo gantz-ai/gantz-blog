@@ -757,7 +757,6 @@ Elegant AI applications.
 
 - [Rails MCP Integration](/post/rails-mcp-integration/) - Ruby framework
 - [MCP Caching](/post/mcp-caching/) - Cache strategies
-- [Agent Task Queues](/post/agent-task-queues/) - Queue management
 
 ---
 

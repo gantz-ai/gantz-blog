@@ -442,7 +442,6 @@ Build intelligent SEO automation at [gantz.run](https://gantz.run).
 ## Related Reading
 
 - [Social Media Agent](/post/social-media-agent/) - Social automation
-- [Content Generation](/post/mcp-content-generation/) - AI content creation
 - [Lead Scoring Agent](/post/lead-scoring-agent/) - Marketing automation
 
 ## Conclusion

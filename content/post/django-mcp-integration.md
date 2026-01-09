@@ -608,8 +608,6 @@ Production-ready AI.
 ## Related reading
 
 - [MCP Caching](/post/mcp-caching/) - Cache tool results
-- [Agent Task Queues](/post/agent-task-queues/) - Queue management
-- [MCP Observability](/post/mcp-observability/) - Monitor tools
 
 ---
 

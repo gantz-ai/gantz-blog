@@ -513,9 +513,6 @@ Start with token auth. Upgrade to OAuth when you need multiple users or finer pe
 
 ## Related reading
 
-- [MCP Security Checklist](/post/mcp-security-checklist/) - Complete security guide
-- [Input Validation for AI Agents](/post/agent-input-validation/) - Block bad requests
-- [Sandboxing MCP Tools](/post/sandboxing-mcp-tools/) - Limit tool access
 
 ---
 

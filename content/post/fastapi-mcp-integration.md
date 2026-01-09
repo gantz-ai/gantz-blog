@@ -543,7 +543,6 @@ Fast and powerful.
 
 - [MCP Streaming Patterns](/post/mcp-streaming-patterns/) - Stream responses
 - [MCP Concurrency](/post/mcp-concurrency/) - Parallel execution
-- [Agent API Design](/post/agent-api-design/) - API best practices
 
 ---
 

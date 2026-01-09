@@ -477,7 +477,6 @@ Change carefully. Version always.
 ## Related reading
 
 - [MCP Testing Best Practices](/post/mcp-testing/) - Test your versions
-- [From Prototype to Production](/post/prototype-to-production/) - Deploy safely
 - [Error Recovery Patterns](/post/error-recovery/) - Handle version mismatches
 
 ---

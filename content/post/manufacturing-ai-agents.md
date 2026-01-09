@@ -1,5 +1,5 @@
 +++
-title = "Building AI Agents for Manufacturing with MCP: Industrial Automation Solutions"
+title = "AI Agents for Manufacturing with MCP: Industrial Automation"
 image = "images/manufacturing-ai-agents.webp"
 date = 2025-05-28
 description = "Build intelligent manufacturing AI agents with MCP and Gantz. Learn predictive maintenance, quality control, and production optimization."

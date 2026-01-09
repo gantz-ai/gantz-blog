@@ -1,5 +1,5 @@
 +++
-title = "Building AI Agents for E-commerce with MCP: Retail Automation Solutions"
+title = "AI Agents for E-commerce with MCP: Retail Automation"
 image = "images/ecommerce-ai-agents.webp"
 date = 2025-06-02
 description = "Build intelligent e-commerce AI agents with MCP and Gantz. Learn product recommendations, inventory optimization, and automated customer service."

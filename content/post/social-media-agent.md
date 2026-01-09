@@ -1,5 +1,5 @@
 +++
-title = "Building an AI Social Media Agent with MCP: Automated Content and Engagement"
+title = "AI Social Media Agent with MCP: Content and Engagement"
 image = "images/social-media-agent.webp"
 date = 2025-06-11
 description = "Build intelligent social media agents with MCP and Gantz. Learn automated posting, engagement analysis, and AI-driven social strategy."
@@ -473,7 +473,6 @@ Build intelligent social media automation at [gantz.run](https://gantz.run).
 ## Related Reading
 
 - [SEO Agent](/post/seo-agent/) - Search optimization
-- [Content Generation](/post/mcp-content-generation/) - AI content creation
 - [Lead Scoring Agent](/post/lead-scoring-agent/) - Marketing automation
 
 ## Conclusion

@@ -512,9 +512,7 @@ Test before deploy. Always.
 
 ## Related reading
 
-- [MCP Security Checklist](/post/mcp-security-checklist/) - Security testing
 - [Error Recovery Patterns](/post/error-recovery/) - Handle failures
-- [Agent Input Validation](/post/agent-input-validation/) - Validate inputs
 
 ---
 

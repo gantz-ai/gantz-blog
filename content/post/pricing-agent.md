@@ -462,8 +462,6 @@ Build intelligent pricing automation at [gantz.run](https://gantz.run).
 ## Related Reading
 
 - [Inventory Agent](/post/inventory-agent/) - Stock management
-- [E-commerce Applications](/post/ecommerce-mcp/) - Retail automation
-- [Revenue Optimization](/post/revenue-mcp/) - Business intelligence
 
 ## Conclusion
 

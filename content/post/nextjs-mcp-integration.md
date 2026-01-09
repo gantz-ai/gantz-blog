@@ -688,7 +688,6 @@ Full-stack AI.
 ## Related reading
 
 - [MCP Streaming Patterns](/post/mcp-streaming-patterns/) - Stream responses
-- [React AI Patterns](/post/react-ai-patterns/) - React best practices
 - [Express MCP Integration](/post/express-mcp-integration/) - Node.js APIs
 
 ---

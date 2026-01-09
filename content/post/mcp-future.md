@@ -403,7 +403,6 @@ The foundation is laid. The future is being built.
 
 ## Related reading
 
-- [MCP Protocol Deep Dive](/post/mcp-protocol-deep-dive/) - Understand the foundation
 - [Multi-Agent Systems](/post/multi-agent-systems/) - Coordination patterns
 - [Agent Reflection](/post/agent-reflection/) - Self-improvement
 

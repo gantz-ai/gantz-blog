@@ -1,5 +1,5 @@
 +++
-title = "Building an AI Compliance Agent with MCP: Automated Regulatory Monitoring"
+title = "AI Compliance Agent with MCP: Regulatory Monitoring"
 image = "images/compliance-agent.webp"
 date = 2025-06-14
 description = "Build intelligent compliance agents with MCP and Gantz. Learn automated policy checking, risk assessment, and regulatory monitoring."
@@ -431,9 +431,6 @@ Build intelligent compliance automation at [gantz.run](https://gantz.run).
 
 ## Related Reading
 
-- [Legal Agent](/post/legaltech-mcp/) - Legal automation
-- [Financial Services](/post/fintech-mcp/) - Financial compliance
-- [Healthcare Applications](/post/healthcare-mcp/) - HIPAA compliance
 
 ## Conclusion
 

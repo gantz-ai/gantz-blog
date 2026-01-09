@@ -773,7 +773,6 @@ Google Cloud meets AI.
 
 - [Supabase MCP Integration](/post/supabase-mcp-integration/) - Alternative BaaS
 - [MCP Caching](/post/mcp-caching/) - Cache Firebase data
-- [Agent Auth Patterns](/post/agent-auth-patterns/) - Authentication
 
 ---
 

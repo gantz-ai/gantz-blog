@@ -698,7 +698,6 @@ Convention meets intelligence.
 
 - [Django MCP Integration](/post/django-mcp-integration/) - Python framework
 - [MCP Caching](/post/mcp-caching/) - Cache strategies
-- [Agent Task Queues](/post/agent-task-queues/) - Background jobs
 
 ---
 

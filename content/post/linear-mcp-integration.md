@@ -662,7 +662,6 @@ Build intelligent issue tracking at [gantz.run](https://gantz.run).
 
 - [Jira MCP Integration](/post/jira-mcp-integration/) - Enterprise issue tracking
 - [Asana MCP Integration](/post/asana-mcp-integration/) - Project management
-- [GitHub MCP Integration](/post/github-mcp-integration/) - Code and issues
 
 ## Conclusion
 

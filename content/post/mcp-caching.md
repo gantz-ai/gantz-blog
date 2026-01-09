@@ -532,7 +532,6 @@ Start simple with in-memory caching. Move to Redis when you scale. Your agents w
 ## Related reading
 
 - [MCP Performance Optimization](/post/mcp-performance/) - More speed tips
-- [Token Budgeting Strategies](/post/token-budgeting/) - Control costs
 - [Agent Cost Optimization](/post/agent-cost-optimization/) - Cut costs 80%
 
 ---
