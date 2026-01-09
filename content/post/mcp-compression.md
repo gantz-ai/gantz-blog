@@ -2,7 +2,7 @@
 title = "MCP Compression: Reduce Bandwidth and Latency"
 image = "images/mcp-compression.webp"
 date = 2025-11-07
-description = "Implement compression for MCP tools and AI agents. Reduce payload sizes, optimize bandwidth, and improve response times with gzip, brotli, and streaming compression."
+description = "Implement compression for MCP tools. Reduce payload sizes and improve response times with gzip, brotli, and streaming."
 summary = "Master compression techniques for MCP tools including gzip, brotli, deflate, and zstd algorithms to shrink payload sizes by up to 95%. Learn how to implement HTTP compression middleware, streaming compression for large files, automatic response compression, and algorithm selection based on your performance priorities."
 draft = false
 tags = ['mcp', 'performance', 'compression']

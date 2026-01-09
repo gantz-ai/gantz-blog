@@ -1,7 +1,7 @@
 +++
 title = "Horizontal Scaling for Stateful Agents"
 date = 2025-12-18
-description = "Learn how to scale AI agents horizontally while managing conversation state. Covers sticky sessions, Redis, PostgreSQL, client-side state, and hybrid approaches with code examples."
+description = "Scale AI agents horizontally while managing conversation state. Covers sticky sessions, Redis, PostgreSQL, and hybrid approaches."
 summary = "Learn to horizontally scale AI agents while preserving conversation state across multiple servers, comparing sticky sessions, Redis caching, PostgreSQL persistence, encrypted client-side state, and hybrid approaches. This guide includes implementations for optimistic locking to handle concurrent requests, distributed locks for session exclusivity, and health check patterns that verify actual processing capability."
 image = "images/robot-billboard-02.webp"
 draft = false
